@@ -1,0 +1,161 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Proceso de compra de los clientes</title>
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+    /************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* para 980px o menos */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+
+}
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* para 480px o menos */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+#pagewrap {
+	padding: 5px;
+	width: 9300px;
+	margin: 20px auto;
+}
+</style>
+
+</head>
+<body>
+
+<!--Inicia de top-nav-->
+<nav class="navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img class="nav-img"src="img/LogoSalesUp.jpg">
+      </a>
+    </div>
+    	<div>
+			<div>
+				<span class="glyphicon glyphicon-envelope"></span><i>Contáctanos</i>
+							<i>+52 998-283-1240</i>
+			</div>
+		</div>
+  </div>
+</nav>
+<!--Fin de top-nav-->
+<div id="pagewrap">
+<!--Content titulo-->
+<div class="content-title">
+<h1 class="title">E-book gratuito:</h1>
+<h1 class="title">¿Cómo compran tus clientes?</h1>
+<h1 class="subtitle">Entiende el proceso de compra de tus clientes<br><br>y las herramientas más usadas</h1>
+</div>
+<!--Content titulo fin-->
+
+<!--tabla content-->
+<table width="300">
+	<td width="200">
+	<div class="container1">
+		<p class="text-container">
+		Los consumidores pasan por diferentes momentos antes de tomar la <strong>decisión de comprar</strong> contigo.
+		</p>
+		<p class="text-container">Conoce el <strong>proceso de compra</strong> y haz que tu equipo de ventas perfile a<br> sus prospectos como los profesionales.
+		</p>
+	</div>
+		<img class="img2" src="img/1.png">
+	</td>
+	<td width="100">
+		<!--Div Formulario-->
+<div class="container">
+  <form  class="form" role="form" onsubmit="return validar()">
+    <h2 id="tt" class="title-form">Quiero descargarlo ahora</h2>
+    
+    <div class="form-group">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="correo" placeholder="Email" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="compania" placeholder="Compañia" onkeypress="despintar(this)">
+    </div>
+    <select id="puesto" class="form-control" onchange="despintar(this)">
+      <option value="">Selecciona una opcion</option>
+	  <option value="Coach/Consultor">Coach/Consultor</option>
+	  <option value="Coordinador">Coordinador/Supervisor</option>
+	  <option value="Director">Director</option>
+	  <option value="Ejecutivo de ventas">Ejecutivo de ventas</option>
+	  <option value="Estudiante">Estudiante</option>
+	</select>
+	<br>
+	<div class="form-group">
+      <input type="text" class="form-control" id="telefono" placeholder="Teléfono" onkeypress="despintar(this)">
+    </div>
+    <select id="industria" class="form-control" onchange="despintar(this)">
+    <option value="">Selecciona una opcion</option>
+	  <option value="Automotriz">Automotriz</option>
+	  <option value="Bienes de consumo">Bienes de consumo</option>
+	  <option value="Bienes industriales">Bienes industriales</option>
+	  <option value="Comercio al por menor">Comercio al por menor</option>
+	  <option value="Construcción">Construcción</option>
+	</select>
+    <div class="form-group">
+            <input type="submit" class="btn " value="Enviar">
+        </div>
+    </div>
+  </form>
+</div>
+<!--Fin del div formulario -->
+	</td>
+	
+</table>
+</div>
+</body>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/validaciones.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

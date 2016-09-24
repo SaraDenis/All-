@@ -1,0 +1,900 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="congreso de ventas, capacitacion de ventas, eventos de ventas en guadalajara, eventos de ventas en queretaro, eventos de ventas en monterrey, capacitación para vendedores, profesionales en ventas, talleres y conferencias para vender más, tecnicas de negociacion, tecnicas de cierre, estrategias comerciales, estrategias de venta, planeacion, expertos en ventas, expertos en negociacion, coaching empresarial, coach de negocios">
+    <meta name="description" content="El congreso de SalesUp! diseñado para subir tus ventas. Los líderes en ventas y coaching empresarial, comparten su experiencia durante un día de conferencias y talleres, en las cuidades más importantes de México.">
+    <link rel="icon" href="http://www.cumbreproventas.com/images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+     	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link href="http://www.cumbreproventas.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.cumbreproventas.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="http://www.cumbreproventas.com/css/master.css" rel="stylesheet">
+
+<!-- start marketizator.com code -->
+<link rel="dns-prefetch" href="//app.marketizator.com"/>
+<script type="text/javascript" src="//d2tgfbvjf3q6hn.cloudfront.net/js/mbe0ff1.js"></script>
+<!-- end marketizator.com code -->
+
+<!-- Google Analytics -->
+
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-79355305-1', 'auto');
+   ga('send', 'pageview');
+  </script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1702734779988552');
+fbq('track', "PageView");
+fbq('track', 'ViewContent');
+fbq('track', 'Search');
+fbq('track', 'AddToCart');
+fbq('track', 'AddToWishlist');
+fbq('track', 'InitiateCheckout');
+fbq('track', 'AddPaymentInfo');
+fbq('track', 'Purchase', {value: '1.00', currency: 'USD'});
+fbq('track', 'Lead');
+fbq('track', 'CompleteRegistration');
+fbq('track', 'Other');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1702734779988552&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="http://www.cumbreproventas.com/images/logoHeader.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Sedes">Las sedes</a></li>
+            <li><a href="#Razones">¿Por qué acudir?</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+<!-- Contacto -->
+    <div id="contact-box" class="text-center hidden-xs">
+      <a href="contacto.shtml" target="_blank">
+        <img src="http://www.cumbreproventas.com/images/CallCenter.png">
+        ¿Necesitas que te llamemos?
+      </a>
+    </div>
+    <div id="contact-box-mobile" class="hidden-lg hidden-md hidden-sm">
+        <a href="http://www.cumbreproventas.com/contacto.shtml" target="_blank" class="text-uppercase">
+            <img src="http://www.cumbreproventas.com/images/CallCenter.png"> ¿Necesitas que te llamemos?
+        </a>
+    </div>
+<!-- / Contacto -->
+
+   <div class="jumbotron distribuidores">
+      <div class="row no-gutter">
+        <div class="col-md-6 jumbo-photo hidden-xs hidden-sm pull-left">
+          <img class="img-responsive" style="margin:auto;" src="http://www.cumbreproventas.com/images/coverPhotoAlbertoLopez.jpg" alt="cumbre ProVentas">
+        </div>
+        <div class="col-md-6 jumbo-info">
+          <div>
+            <img class="img-responsive logo-jumbo-sedes hidden-xs mb40" src="http://www.cumbreproventas.com/images/logoJumboSedes.png" alt="cumbre ProVentas">
+<!--             <h3 class="text-uppercase text-inverse mb40">El congreso para los profesionales en ventas</h3> -->
+            <h4 class="text-uppercase text-inverse mb40" style="margin-top:20px;">Recibe el código de descuento en tu correo</h4>
+            <form method="post" action="#" id="suscribir_form" class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="email">Correo*</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputTelefono">Teléfono</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+                </div>
+              </div>
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="6143">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1167">
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-7">
+                   <button type="submit" class="btn btn-primary btn-lg">Recibir código de descuento</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="Evento">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Aprende y acelera tus ventas</h2>
+        <p class="lead text-center mb40">Este 2016 los expertos en ventas y coaching empresarial ya están preparados para vivir la experiencia de la Cumbre ProVentas. Tú, ¿ya estás listo?</p>
+        <div class="row vcenter">
+          <div class="col-md-8 col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9 mb40">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YCHDZ9vITgc?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <p>Cumbre ProVentas por SalesUp!&reg; es el congreso donde cientos de líderes similares a ti, están preparados para reinventar su negocio, profesionalizarse y optimizar sus recursos.</p>
+            <br>
+            <p>Asiste a cualquiera de las sedes (Guadalajara, Monterrey o Querétaro), aprende técnicas de negociación, haz relaciones públicas y multiplica las utilidades de tu empresa.</p>           
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="section-square" id="Conferencistas">
+  <div class="container">
+    <h2 class="text-uppercase text-center text-primary">Conferencistas</h2>
+    <p class="lead text-center mb40">Reunimos a las mentes más brillantes en negociación, cierre, planeación, marketing y aceleración comercial. ¡Conoce a los expositores!</p>
+    <div class="row">
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#LopezProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/AlbertoLopez.jpg" alt="Alberto Lopez">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lSandler.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Alberto López</p><p>Presidente</p><p><strong>Sandler Training® México</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#HernandezProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/AllenHernandez.jpg" alt="Allen Hernandez">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lSperto.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Allen Hernández</p><p>Director</p><p><strong>Sperto Training®</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#FriasProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/AngelicaFrias.jpg" alt="Angelica Frias">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lSalesUp.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Angélica Frías</p><p style="font-size:80%;">Directora de cuentas corporativas</p><p><strong>SalesUp!®</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#ZavalaProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lRelacionate.png" alt="logo"> 
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Eduardo Zavala</p><p>Autor del <i>Best Seller</i></p><p><strong>Relaciónate y Vende</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#GordilloProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/EnriqueGordillo.jpg" alt="Enrique Gordillo">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lGordillo.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Enrique Gómez-G</p><p>Experto en mercadotecnia</p><p><strong>Conferencista</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#PekerProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/PatricioPeker.jpg" alt="Patricio Peker">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lHuevos.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Patricio Peker</p><p>Autor del <i>Best Seller</i></p><p style="font-size:80%;"><strong>El Vendedor de los Huevos de Oro</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#VillacisProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/PepeVillacis.jpg" alt="Pepe Villacis">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lAction.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Pepe Villacís</p><p>Coach de negocios</p><p><strong>Action Coach®</strong></p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+        <div class="conf-image-profile">
+          <a href="#DominguezProfile" class="fancybox">
+            <img class="img-responsive conf" src="http://www.cumbreproventas.com/images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Dominguez">
+            <span class="fa fa-plus"></span>
+            <div class="conf-logo">
+              <img class="img-responsive" src="http://www.cumbreproventas.com/images/logos/lColegio.png" alt="logo">
+            </div>
+          </a>
+        </div>
+        <div class="conf-info-profile">
+          <p>Salvador Domínguez</p><p>Coach de negocios</p><p><strong>Colegio de Ventas y Negocios</strong></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div> 
+
+    <div class="section-square-inverse" id="Agenda">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Agenda</h2>
+        <p class="lead text-center mb40">Elige tu ciudad y conoce quién estará en cada sede.</p>
+          <div>
+            <ul class="nav nav-tabs nav-justified hidden-xs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#conferencias-tab-content" aria-controls="home" role="tab" data-toggle="tab" class="text-uppercase">Conferencias</a>
+              </li>
+              <li role="presentation">
+                <a href="#talleres-tab-content" aria-controls="profile" role="tab" data-toggle="tab" class="text-uppercase">Talleres</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <!-- Tab-Conferencias -->
+              <p id="conferencias-nav-responsive" class="tab-responsive-active text-uppercase hidden-lg hidden-md hidden-sm">Conferencias <i class="fa fa-minus pull-right"></i></p>
+              <div role="tabpanel" class="tab-pane active" id="conferencias-tab-content">
+                <ul class="timeline list-unstyled">
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AlbertoLopezSM.jpg" alt="Alberto Lopez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Cómo prospectar exitosamente</h4>
+                        <p>Descubre los elementos necesarios para incrementar las ventas de tu negocio en una conferencia patrocinada por Sandler Training&reg;, líder mundial en capacitación, coaching, consultoría en ventas y servicio al cliente.</p>
+                        <p class="text-muted pull-right small">- Alberto López, presidente de <strong>Sandler Training&reg; México</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AllenHernandezSM.jpg" alt="Allen Hernandez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Ventas de las grandes ligas</h4>
+                        <p>Piénsalo por un momento… ¿Por qué no haces esa llamada extra, por qué no agendas esa cita extra?, solo es cuestión de disposición. ¿Cómo mejoras las disposición?, teniendo éxito. ¿Cómo la destruyes?, fallando constantemente.</p>
+                        <p class="text-muted pull-right small">- Allen Hernández, director de <strong>Sperto Training&reg;</strong></p>
+                      </div>
+                    </div>
+                  </li> 
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/EduardoZavalaSM.jpg" alt="Eduardo Zavala">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Transformando vendedores en aliados estratégicos</h4>
+                        <p>Para entender la importancia de salir de un círculo vicioso, carente de resultados, donde en ocasiones se encuentran los vendedores, hay que revisar la esencia de la actitud mental para poder revertirlo. Enfrentar retos, dar resultados en cualquier tipo de negocio, así como transformar a los vendedores para que los clientes los perciban como sus aliados estratégicos, son algunos de los puntos que aborda la ponencia.</p>
+                        <p class="text-muted pull-right small">- Eduardo Zavala, autor del <i>Best Seller</i> <strong>Relaciónate y Vende</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/EnriqueGordilloSM.jpg" alt="Enrique Gordillo">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Cinco acciones estratégicas para acelerar tus ventas</h4>
+                        <p>En ventas, la velocidad es un resultado más que una simple actividad. Descubre cinco acciones estratégicas que al modificar el enfoque de tus actividades cotidianas, darán como resultado la aceleración positiva de tus ventas.</p>
+                        <p class="text-muted pull-right small">- Enrique Gómez-Gordillo, experto en mercadotecnia de respuesta directa y ventas</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/PatricioPekerSM.jpg" alt="Patricio Peker">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Técnicas de influencia y persuasión que duplicarán tus ventas</h4>
+                        <p>Potencializa tu fuerza de influencia positiva con procedimientos profesionales para lograr más deseo de compra, más cierres de ventas, más ventas y mejores negociaciones sin presión. Con las mejores técnicas aplicadas por las empresas, vendedores, negociadores y publicistas, nos enfocaremos en la influencia que ejercemos en otras personas.</p>
+                        <p class="text-muted pull-right small">- Patricio Peker, autor del <i>Best Seller</i> <strong>El Vendedor de los Huevos de Oro</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/PepeVillacisSM.jpg" alt="Pepe Villacis">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Cinco motores para el despegue de ventas y utilidades en tu negocio</h4>
+                        <p>Uno de los grandes desafíos de las empresas, sin importar su tamaño, es contar con una gestión profesional, productiva y medible, en toda su función comercial (mercadotecnia, ventas y servicio al cliente). Esta metodología, simple y efectiva ha sido probada a nivel mundial por miles de empresas de todos los giros, y si se utiliza con convicción y con implementación paciente y consistente.</p>
+                        <p class="text-muted pull-right small">- Pepe Villacís, coach de negocios de <strong>Action Coach&reg;</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/SalvadorDominguezSM.jpg" alt="Salvador Dominguez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Desarrollo de la inteligencia comercial en tu empresa</h4>
+                        <p>El posicionamiento de tu empresa depende de muchos factores, pero principalmente de la forma en la que se ensamblan las nuevas piezas de la inteligencia comercial. Para alcanzar el siguiente nivel de negocios se requiere una reestructuración y la adquisición de diversas habilidades.</p>
+                        <p class="text-muted pull-right small">- Salvador Domínguez, coach de negocios de <strong>Colegio de Ventas y Negocios</strong></p>
+                      </div>
+                    </div>
+                  </li>                        
+                </ul>
+              </div>
+              <!-- Tab-Talleres -->              
+              <p id="talleres-nav-responsive" class="tab-responsive text-uppercase hidden-lg hidden-md hidden-sm">Talleres <i class="fa fa-plus-square pull-right"></i></p>
+              <div role="tabpanel" class="tab-pane" id="talleres-tab-content">
+                <ul class="timeline list-unstyled">
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AlbertoLopezSM.jpg" alt="Alberto Lopez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">LinkedIn a la manera Sandler, "25 Secretos para aprovechar la red social de negocios más grande del mundo"</h4>
+                        <p>Aprende las mejores técnicas para conectarte con prospectos y clientes usando principios de Sandler Training, un programa innovador para prospectar y vender. En poco tiempo, aprenderás a implementar las mejores prácticas de la mano de LinkedIn, la red social de negocios más grande del mundo.</p>
+                        <p class="text-muted pull-right small">- Alberto López, presidente de <strong>Sandler Training&reg; México</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AliVazquezSM.jpg" alt="Ali Vazquez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Ventas sin estrés</h4>
+                        <p>Reducir el estrés en los equipos de ventas es un activo empresarial y una gran fuente de salud. El primer objetivo del taller es informarte cómo el estrés afecta las áreas de productividad, toma de decisiones, comunicación, trabajo en equipo y liderazgo. El segundo objetivo es que aprendas a dirigir tu atención de las voces mentales auto limitantes que nos generan estrés al momento presente, esto, para un cierre de venta sin esfuerzo.</p>
+                        <p class="text-muted pull-right small">- Ali Vazquez, director ejecutivo de <strong>Máximo Potencial</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AllenHernandezSM.jpg" alt="Allen Hernandez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">El código del vendedor</h4>
+                        <p>Para tener éxito se requiere disciplina y dedicación, para ser disciplinado se tienen que aprender técnicas de comportamiento ideal, y para aprenderlas, es necesario saber que tan bien o mal estamos en diferentes aspectos de la vida. Prepárate para la transformación de tus resultados y tu desempeño como vendedor.</p>
+                        <p class="text-muted pull-right small">- Allen Hernández, director de <strong>Sperto Training&reg;</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 col-xs-6 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/AngelicaFriasSM.jpg" alt="Angelica Frias">
+                      </div>
+                      <div class="col-md-3 col-sm-2 col-xs-6 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/IlianaSuarezSM.jpg" alt="Iliana Suarez">
+                      </div>
+                      <div class="col-md-6 col-sm-8">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">¿Cómo darle la vuelta exitosamente a las objeciones?</h4>
+                        <p>Ocho de cada diez personas asocian la palabra objeción a términos negativos, en este taller aprenderás tres herramientas para identificar la ganancia oculta que siempre tienen las objeciones. Si te interesa obtener consejos prácticos para implementarlas hoy mismo en tus negociaciones, este taller es para ti.</p>
+                        <p class="text-muted small">- Angélica Frías, directora de cuentas corporativas en <strong>SalesUp!&reg;</strong></p>
+                        <p class="text-muted small">- Iliana Suárez, directora de marketing y comercialización en <strong>Bauhaus Media Production</strong></p>
+                      </div>
+                    </div>
+                  </li>  
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/EduardoZavalaSM.jpg" alt="Eduardo Zavala">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">PPA, prospección en piloto automático</h4>
+                        <p>El objetivo principal es comprender la importancia de la prospección como la piedra angular de un proceso de ventas. Al finalizar el taller, tendrás una visión amplia sobre la mercadotecnia digital, uso de redes sociales y leads.</p>
+                        <p class="text-muted pull-right small">- Eduardo Zavala, autor del <i>Best Seller</i> <strong>Relaciónate y Vende</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/PepeVillacisSM.jpg" alt="Pepe Villacis">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">Plan de acciones comerciales para incrementar tus ventas </h4>
+                        <p>Juntos identificaremos las estrategias concretas para multiplicar tus ventas. También proyectaremos el impacto que tiene gestionar tu maquinaria comercial con base a los "cinco caminos” para optimizar tus ventas y utilidades.</p>
+                        <p class="text-muted pull-right small">- Pepe Villacís, coach de negocios de <strong>Action Coach&reg;</strong></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="event">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-2 text-center">
+                        <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/conferencistas/SalvadorDominguezSM.jpg" alt="Salvador Dominguez">
+                      </div>
+                      <div class="col-md-9 col-sm-10">
+                        <!-- <p><strong>11:00am</strong></p> -->
+                        <h4 class="text-uppercase">La nueva dirección comercial</h4>
+                        <p>El objetivo del taller es que descubras las habilidades necesarias para ser el próximo Director Comercial de la empresa donde laboras. La estrategia y aptitudes para el cierre de negocios, pero sobre todo, el entrenamiento de ejecutivos calificados son detalles en los que profundizaremos.</p>
+                        <p class="text-muted pull-right small">- Salvador Domínguez, coach de negocios de <strong>Colegio de Ventas y Negocios</strong></p>
+                      </div>
+                    </div>
+                  </li>                        
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="pull-right small">* Agenda sujeta a cambios</p>
+      </div>
+    </div>  
+
+   <div class="section" id="Sedes">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Elige tu ciudad</h2>
+        <p class="lead text-center mb40">Cumbre ProVentas se llevará a cabo en las siguientes ciudades. Si tienes más sucursales y otros ejecutivos que desean asistir, elige la sede más cercana a ellos.</p>
+        <div class="row vcenter mb40" id="Guadalajara">
+          <div class="col-md-8 col-sm-7 mb40">
+            <img src="http://www.cumbreproventas.com/images/ciudades/Guadalajara.jpg" alt="Guadalajara" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="http://www.cumbreproventas.com/guadalajara.shtml" class="text-secondary"><strong>Guadalajara<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Septiembre 8, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Grand Fiesta Americana Guadalajara Country Club</strong><br> Guadalajara, Jalisco</p></li>
+            </ul>
+            <a href="http://www.cumbreproventas.com/guadalajara.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Guadalajara</a>
+          </div>
+        </div>
+        <div class="row vcenter mb40" id="Monterrey">
+           <div class="col-md-8 col-md-push-4 col-sm-7 col-sm-push-5 mb40">
+            <img src="http://www.cumbreproventas.com/images/ciudades/Monterrey.jpg" alt="Monterrey" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
+            <h3 class="text-uppercase mb40"><a href="http://www.cumbreproventas.com/monterrey.shtml" class="text-secondary"><strong>Monterrey<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Octubre 26, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Crowne Plaza Monterrey</strong><br> Monterrey, Nuevo León</p></li>
+            </ul>
+            <a href="http://www.cumbreproventas.com/monterrey.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Monterrey</a>
+          </div>
+        </div>
+        <div class="row vcenter mb40" id="Queretaro">  
+          <div class="col-md-8 col-sm-7 mb40">
+            <img src="http://www.cumbreproventas.com/images/ciudades/Queretaro.jpg" alt="Queretaro" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="http://www.cumbreproventas.com/queretaro.shtml" class="text-secondary"><strong>Querétaro<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+            </ul>
+            <a href="http://www.cumbreproventas.com/queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre querétaro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="Razones">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">¿Por qué acudir?</h2>
+        <p class="lead text-center mb40">¿Buscas incrementar tus ventas? Adquiere ideas, técnicas y estrategias comerciales. Además relaciónate con expertos en ventas, empresarios, gerentes de ventas y ejecutivos comerciales; todo en la Cumbre ProVentas.</p>
+        <div class="row vcenter">
+          <div class="col-md-7 col-sm-6">
+            <img src="http://www.cumbreproventas.com/images/Razones.jpg" alt="razones" class="img-responsive mb40">
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-building text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
+                <p class="long-icon-comp">Abandona la zona de confort, cuestiona y aprende nuevas ideas.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-comments-o text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
+                <p class="long-icon-comp">Intercambia experiencias con otros ejecutivos e incrementa tus oportunidades de venta en directo.</p>
+              </li>   
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
+                <p class="long-icon-comp">Convive con los expertos y descubre el enfoque de aquello que deseas mejorar en tus negociaciones.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-line-chart text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Reinversión</strong></p>
+                <p class="long-icon-comp">Prepárate, mejora tus habilidades de venta y capacítate con tu equipo para lograr un fin común.</p>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-inverse" id="Entradas">
+      <div class="container text-center">
+        <h2 class="text-uppercase mb40">Entradas</h2>
+        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
+        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
+        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
+        <div class="row">         
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
+              <p class="text-main mb40">Septiembre 8, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
+              <p class="text-main mb40">Octubre 26, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
+              <p class="text-main mb40">Noviembre 10, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row vcenter mb40">
+          <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 mb40">
+            <img src="http://www.cumbreproventas.com/images/convenceJefe.jpg" alt="Jefe" class="img-responsive">
+          </div>
+          <div class="col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6">
+            <h3 class="mb40 text-uppercase text-secondary"><strong>¿Necesitas convencer a tu jefe?</strong></h3>
+            <p class="mb40">Si eres ejecutivo de ventas, podemos ayudarte a convencer a tu jefe. Hemos preparado esta carta para que tu director apruebe tu asistencia. ¡La idea es que venga todo el equipo de ventas!</p>
+            <a href="http://www.cumbreproventas.com/artefactos/ConvenceatujefeCumbreProVentas.pdf" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Convencer a mi jefe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div class="section-square-inverse" id="Patrocinadores">
+      <div class="container text-center">
+        <h2 class="text-uppercase text-secondary mb40">Patrocinadores</h2>
+        <div class="row mb40">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <a href="#SalesUp" class="fancybox">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/SalesUp.png" alt="SalesUp">
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <a href="#Contpaqi" class="fancybox">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/Contpaqi.png" alt="CONTPAQi">
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <a href="#FibraInn" class="fancybox">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/FibraInn.png" alt="FibraInn">
+            </a>
+          </div>
+        </div>
+
+        <div class="row mb40">
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/ActionCoach.png" alt="ActionCoach">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/Bauhaus.png" alt="Bauhaus">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/Boletia.png" alt="Boletia">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/ColegioVentas.png" alt="ColegioVentas">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/GanarOpciones.png" alt="GanarOpciones">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/Konecta.png" alt="Konecta">
+          </div>
+        </div>
+
+        <div class="row mb40">
+          <div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/MaximoPotencial.png" alt="MaximoPotencial">
+          </div> 
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/SandlerTraining.png" alt="SandlerTraining">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/SpertoTraining.png" alt="SpertoTraining">
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-4">
+              <img class="img-responsive sponsor-image" src="http://www.cumbreproventas.com/images/patrocinadores/Vendemania.png" alt="Vendemania">
+          </div>
+        </div>
+
+        <p class="text-center mb40">¿Estás interesado en ser en <strong>patrocinador oficial</strong> de la Cumbre ProVentas?</p>
+        <a href="#FormPatrocinadores" style="display:inline-block;" class="btn btn-lg btn-secondary-outline text-uppercase fancybox">¡Quiero ser patrocinador!</a>
+      </div>
+    </div>
+
+
+
+<!-- Formulario Patrocinadores -->
+
+    <div id="FormPatrocinadores" style="width:265px; display:none;">
+      <p class="mb40"><strong>Necesitamos saber un poco de ti para ponernos en contacto contigo.</strong></p>
+      <form method="post" action="#" id="patrocinio_form">
+        <div class="form-group">
+          <label for="InputEmail">E-mail *</label>
+          <input type="email" class="form-control" id="InputEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="InputName">Nombre *</label>
+          <input type="text" class="form-control" id="InputName" required>
+        </div>
+        <div class="form-group">
+          <label for="InputCompany">Empresa *</label>
+          <input type="text" class="form-control" id="InputCompany" required>
+        </div>
+        <div class="form-group">
+          <label for="InputTelefono">Teléfono (con lada)</label>
+          <input type="text" class="form-control" id="InputTelefono" required pattern="[0-9]{10}">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block btn-lg text-uppercase">Ser patrocinador</button>
+      </form>
+    </div>
+
+<!-- Patrocinadores Info -->
+
+    <div id="SalesUp" style="width:265px;display: none;">
+      <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/patrocinadores/SalesUp.png" alt="SalesUp">
+      <p style="font-size:14px;">En SalesUp!&reg; tenemos el CRM que te ayudará a estandarizar tu proceso comercial, registrar todos tus seguimientos, apoyar a la fuerza de ventas para que ahorre tiempo, mejore su velocidad de respuesta y con ello impacte positivamente a tus clientes y prospectos.</p>
+      <br>
+      <a href="http://www.salesup.com/crm-de-ventas.html?utm_medium=Referido&amp;utm_campaign=CumbreProVentas&amp;utm_source=cumbreproventas.com&amp;utm_content=LinkPatrocinio" target="_blank">Visitar SalesUp!</a>
+    </div>
+
+    <div id="MundoEjecutivo" style="width:265px;display: none;">
+      <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/patrocinadores/MundoEjecutivo.png" alt="CONTPAQi">
+      <p style="font-size:14px;"> MundoEjecutivo es un portal dirigido a líderes que cuenta con información de empresas sobre negocios, economía, finanzas y management.</p>
+      <br>
+      <a href="http://mundoejecutivo.com.mx/" target="_blank">Visitar Mundo Ejecutivo</a>
+    </div>
+
+    <div id="Contpaqi" style="width:265px;display: none;">
+      <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/patrocinadores/Contpaqi.png" alt="Mundo Ejecutivo">
+      <p style="font-size:14px;"> CONTPAQi&reg; es líder en software contable y administrativo para las empresas y profesionistas independientes en México.</p>
+      <br>
+      <a href="https://www.contpaqi.com" target="_blank">Visitar CONTPAQi</a>
+    </div>
+
+    <div id="FibraInn" style="width:265px;display: none;">
+      <img class="img-responsive mb40" src="http://www.cumbreproventas.com/images/patrocinadores/FibraInn.png" alt="FibraInn">
+      <p style="font-size:14px;"> Grupo Hotelero Fibra Inn es la compañía que opera los hoteles propiedad del Fideicomiso de Inversión y Bienes Raíces Fibra Inn. Administra 40 hoteles orientados al viajero de negocios ofreciendo atención, calidad y servicio de excelencia. Grupo Hotelero Fibra Inn mantiene un crecimiento constante y con propiedades en toda la República Mexicana a través de alianzas con los principales grupos hoteleros como: InterContinental Hotels Group, Wyndham Hotel Group, MarriottInternational, Hilton Worldwide y Starwood Hotels & Resorts Worldwide.  Asimismo, cuenta con propiedades que operan marcas nacionales como Camino Real, City Express, Casa Grande y Arriva Express. <i>Ven, Viaja y Vive.</i></p>
+      <br>
+      <a href="http://www.fibrainn.mx" target="_blank">Visitar FibraInn</a>
+    </div>  
+<!-- Conferencistas Info -->
+    <div id="LopezProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/AlbertoLopez.jpg" alt ="Alberto Lopez">
+      <h3>Alberto López</h3>
+      <p class="small mb40">Presidente de <strong>Sandler Training&reg; México</strong></p>
+      <p style="font-size:14px;">Alberto López cuenta con más de 20 años de experiencia en ventas, comercialización, capacitación, desarrollo y coaching gerencial. El experto ha sido director de ventas en compañías como Campbell’s Soup y Kraft Foods de México, en donde manejó una fuerza de ventas integrada por más de 1,000 personas. Actualmente es Presidente de Sandler Training México, compañía internacional de consultoría comercial.</p>
+    </div>
+    <div id="VillacisProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/PepeVillacis.jpg" alt="Pepe Villacis">
+      <h3>Pepe Villacís</h3>
+      <p class="small mb40">Coach de negocios de <strong>Action Coach&reg;</strong></p>
+      <p style="font-size:14px;">Pepe Villacís ha impartido más de 3,000 horas de capacitación empresarial de primer nivel en México, Latinoamérica y España. El especialista es articulista de prensa, publicaciones gremiales y conferencista en diversos foros en la República Mexicana. Pepe Villacís es coach personal, certificado por CoachVille Spain, así como coach de negocios, directivo y coach de coaches de ActionCoach México.</p>
+    </div>
+    <div id="DominguezProfile" style="width:265px;display:none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Domínguez">
+      <h3>Salvador Domínguez</h3>
+      <p class="small mb40">Coach de negocios de <strong>Colegio de Ventas y Negocios</strong></p>
+      <p style="font-size:14px;">Salvador Domínguez es consultor y entrenador comercial, especializado en Pymes. El experto, ha dado consultoría a empresas como Turicia, Centro de Negocios y Comercio de la Ciudad de México, Asociación Mexicana de Comercio Electrónico, Banamex y Transdata. Actualmente es Director del Colegio de Ventas y Negocios, líder de su Club de Cashflow y consultor especializado para México Emprende.</p>
+    </div>
+    <div id="HernandezProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/AllenHernandez.jpg" alt="Allen Hernandez">
+      <h3>Allen Hernández</h3>
+      <p class="small mb40">Director de <strong>Sperto Training&reg;</strong></p>
+      <p style="font-size:14px;">Allen Hernández es consultor y capacitador experto en manejo de objeciones y cierre. Fue director de Grant Cardone Latinoamérica, Learning Alive Center y actualmente es Director de Sperto Training. Algunas de las empresas con las que ha trabajado son: Banorte, Inbursa, INE, Cemex, Seguros Monterrey, Grupo Posadas, Soriana, Tecnológico de Monterrey, Casas Javer y UVM.</p>
+    </div>
+    <div id="FriasProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/AngelicaFrias.jpg" alt="Angelica Frias">
+      <h3>Angélica Frías</h3>
+      <p class="small mb40">Directora de cuentas corporativas de <strong>SalesUp!&reg;</strong></p>
+      <p style="font-size:14px;">Angélica Frías ha impartido más de 100 cursos y pláticas sobre habilidades comerciales enfocadas a la generación de demanda digital y proceso de ventas. La experta es especialista en el desarrollo de estrategias para la automatización y estandarización del proceso comercial, campañas de E-Mail Marketing y Prospect Nurturing. Actualmente está a cargo de la Dirección de Cuentas Corporativas en SalesUp!</p>
+    </div>
+    <div id="GordilloProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/EnriqueGordillo.jpg" alt="Enrique Gordillo">
+      <h3>Enrique Gómez-Gordillo</h3>
+      <p class="small mb40">Experto en Mercadotecnia de Respuesta Directa y Ventas</p>
+      <p style="font-size:14px;">Enrique Gordillo cuenta con más de 25 años en la formación y asesoría de empresarios de 35 giros industriales y comerciales. El experto ha colaborado como articulista en la revista Entrepreneur (Edición México) y algunas de las empresas en donde ha impartido conferencias son: Grupo Jumex, Televisa, L'Oréal, Mercedes Benz Camiones, Jafra Cosmetics, Tupperware México y ANTAD México.</p>
+    </div>
+    <div id="ZavalaProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+      <h3>Eduardo Zavala</h3>
+      <p class="small mb40">Autor del <i>Best Seller</i>: <strong>Relaciónate y Vende</strong></p>
+      <p style="font-size:14px;">Eduardo Zavala cuenta con 30 años de experiencia como expositor y entrenador en productividad y superación personal para vendedores, directivos y emprendedores líderes. Su <i>Best Seller</i> “Relaciónate y vende, el enfoque psicológico de las ventas” asesora a miles de ejecutivos para personalizar la negociación. Algunos de los clientes que ha tenido son Century 21, Coca-Cola, Chrysler, Grupo Inbursa, Telcel, Ford y Xerox.</p>
+    </div>
+    <div id="PekerProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/PatricioPeker.jpg" alt="Patricio Peker">
+      <h3>Patricio Peker</h3>
+      <p class="small mb40">Autor del <i>Best Seller</i>: <strong>El Vendedor de los Huevos de Oro</strong></p>
+      <p style="font-size:14px;">Patricio Peker es conferencista, capacitador en el área de ventas, así como experto en negociación comercial. El especialista, es creador y director de ganaropciones.com así como autor del libro "El Vendedor de los Huevos de Oro, la guía de ventas paso a paso". Algunos de sus clientes son: Mattel, BestDay Travel, Coca-Cola, Banco UNO, Quaker State, Universidad Católica de Santiago de Guayaquil y Banco Santander Río.</p>
+    </div>
+    <div id="VazquezProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/AliVazquez.jpg" alt="Ali Vazquez">
+      <h3>Ali Vázquez</h3>
+      <p class="small mb40">Director de <strong>Máximo Potencial</strong></p>
+      <p style="font-size:14px;">Ali Vázquez es conferencista y capacitador de equipos conscientes, con 9 años de práctica y refinamiento de técnicas de reducción de estrés, Vázquez es emprendedor en México y España de estos talleres así como Director de Máximo Potencial. Ha colaborado también con el SAT, CETYS Universidad, UABC Facultad de Ciencias, CMIC, Universidad tecnológica de Orizaba, UTT Tabasco, Sales Up!, entre otros.</p>
+    </div>
+    <div id="SuarezProfile" style="width:265px;display: none;">
+      <img class="img-responsive" src="http://www.cumbreproventas.com/images/conferencistas/IlianaSuarez.jpg" alt="Iliana Suarez">
+      <h3>Iliana Suárez</h3>
+      <p class="small mb40">Directora de marketing y comercialización en <strong>Bauhaus Media Production</strong></p>
+      <p style="font-size:14px;">Iliana Suárez cuenta con amplia experiencia como tallerista y consultora de distintas empresas nacionales e internacionales. Ha diseñado e implementado metodologías y estrategias enfocadas a la mercadotecnia digital y los procesos comerciales. Es especialista en la producción de mensajes y contenidos digitales para ventas. Actualmente es Directora de mercadotecnia y comercialización en Bauhaus Media Production.</p>
+    </div> 
+    <footer class="text-center">
+      <h4>Síguenos</h4>     
+      <div class="socialMedia divider mb20">
+        <a href="https://www.facebook.com/CumbreProVentas/" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a>
+        <a href="https://www.linkedin.com/groups/8275546" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a>
+        <a href="https://www.youtube.com/channel/UC22yOVk39RM4XmE1jAJuk0w" target="_blank"><span class="fa fa-youtube-square fa-3x"></span></a>
+      </div>
+      <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados. &vert; <a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.cumbreproventas.com/fancybox/jquery.fancybox.css">
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+        $('.fancybox').fancybox();
+      });
+
+      $('a[href^="#"]').on('click', function(event) {
+        var target = $( $(this).attr('href') );
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 800);
+        }
+      });
+      </script>
+
+      <script>
+        $("#conferencias-nav-responsive").click(function(){
+            $(this).toggleClass('tab-responsive tab-responsive-active');
+            $("#conferencias-tab-content").toggle(500);
+            $(this).find('i').toggleClass('fa-plus-square fa-minus');
+        });
+        $("#talleres-nav-responsive").click(function(){
+            $(this).toggleClass('tab-responsive tab-responsive-active');
+            $("#talleres-tab-content").toggle(500);
+            $(this).find('i').toggleClass('fa-plus-square fa-minus');
+        });
+
+      </script>
+
+<!-- Mouseflow -->
+      <script type="text/javascript">
+        var _mfq = _mfq || [];
+        (function() {
+            var mf = document.createElement("script");
+            mf.type = "text/javascript"; mf.async = true;
+            mf.src = "//cdn.mouseflow.com/projects/9b2c71a9-3f85-4539-bc7d-33ff04d0f1d6.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+        })();
+      </script>
+<!-- /Mouseflow -->
+
+<!-- Google Code para etiquetas de remarketing -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1062384008;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1062384008/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+    <script type="text/javascript" src="http://www.cumbreproventas.com/js/googleMaps.js"></script>
+    <script type="text/javascript" src="http://www.cumbreproventas.com/js/config.js"></script>
+    <script type="text/javascript" src="http://www.cumbreproventas.com/js/validacion.js"></script>
+    <script type="text/javascript" src="http://www.cumbreproventas.com/js/suscripcion.js"></script>
+    <script type="text/javascript" src="http://www.cumbreproventas.com/js/patrocinio.js"></script>
+ 
+  </body>
+</html>
