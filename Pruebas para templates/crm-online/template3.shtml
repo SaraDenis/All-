@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SEO -->
+    <meta name="keywords" lang="es" content="[KEYWORDS]"/>  
+    <meta name="description" content="[DESCRIPTION]"/>
+    <link rel="icon" href="http://www.salesup.com/imagenes/favicon.ico">
+    <title> TITULO DE LA PÁGINA </title>
+    <!--#include virtual="headCRMOnline.html" -->
+  </head>
+  <body class="postBody ">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="pull-left" style="margin-left:7px;"><img src="http://www.salesup.com/imagenes/SalesUp.png" height="50" alt="Logo SalesUp"></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="postTitle">
+            <!--ESCRIBE EL TITULO DEL ARTICULO -->
+            <h1> TITULO DEL ARTÍCULO </h1>
+
+            <!-- ESCRIBE LA INFORMACIÓN DEL AUTOR: NOMBRE Y ENLACE (SI TIENE PÁGINA WEB O LINKEDIN) -->
+            <p class="small divider">Por <a href=" ENLACE A LA PAGINA DEL AUTOR " target="_blank" class="text-main"> NOMBRE DEL AUTOR </a></p>
+
+            <!-- ¡¡¡¡¡¡¡NO TOCAR ESTA PARTE!!!!!!!!!!-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+          </div>
+
+            <!-- IMAGEN PRINCIPAL -->
+            <!-- RECUERDA SIEMPRE GENERAR LA IMAGEN (848 x 290 - EL ALTO PUEDE VARIAR) PRINCIPAL DEL ARTÍCULO Y PEDIR A DISEÑO WEB QUE LA SUBA AL SERVIDOR. Y LE REGRESARA UN ENLACE CON LA IMAGEN
+             -->
+          <img src="http://www.salesup.com/crm-online/imagenes/objetivos-mkt-ventas.png" class="img-responsive">
+
+          <!-- AQUI COMIENZA EL CUERPO DEL TEMPLATE, TODO LO PUEDES ACOMODAR COMO MEJOR TE PARESCA. SOLO COPIA, PEGA Y EDITA EL CODIGO QUE NECESITES.
+          RECUERDA NO MODIFICAR EL PIE DE PAGINA.
+          -->
+
+          <div class="postContent">
+            <p class="lead mb40">
+            <!-- AQUI PUEDES ESCRIBIR TODO EL TEXTO QUE NECESITES-->
+            ESCRIBE TEXTO (LEAD)
+            </p>
+            
+               <!-- DENTRO DE LAS ETIQUETAS <P> ESCIRBE EL TEXTO. 
+            	CADA <P> ES UN PARRAFO. Y UN SALTO DE LINEA ES IGUAL A UNA ETIQUETA <br>-->
+            <p>
+            CONTENIDO 
+            <!-- ESCRIBE TODO EL CONTENIDO QUE NECESITES Y UTILIZA LOS FORMATOS DE TEXTO QUE REQUIERAS. A CONTINUACIÓN ESTAN LOS FORMATOS...
+             -->
+                       
+            <br> <!-- ESTE ES UN SALTO DE LINEA -->
+
+            <!-- COPIA LA ETIQUETA DEL FORMATO QUE NECESITES AGREGAR, CADA UNO RECUERDA QUE SIEMPRE DEBE ESTAR DENTRO DE LA ETIQUETA <-> Y SOLO REMPLAZAS POR TU TEXTO 
+            -->
+            <i> TEXTO EN CURSIVA </i>
+
+            <b> TEXTO EN NEGRITA </b>
+
+            <u> TEXTO SUBRYADO </u>
+
+
+            <!-- PARA INGRESAR UNA LISTA -->
+            <!-- SI NECESITAS UNA LISTA SOLO COPIA LO QUE ESTA EN LAS ETIQUETAS <UL> Y REEMPLAZA EL TEXTO POR EL TUYO
+
+            SI NECESITAS AGREGAR MAS PUNTOS SOLO COPIA Y PEGA LAS ETIQUETAS <LI> LAS VECES QUE REQUIERAS
+            -->
+             <ul>
+              <li><p>Escribe el punto 1</p></li>
+              <li><p>Escribe el punto 2</p></li>
+              <li><p>Escribe el punto 3</p></li>
+              <li><p>Escribe el punto 4</p></li>
+            </ul>
+               <!-- PARA INGRESAR UNA LISTA CON NUMEROS, TE DEJAMOS UN EJEMPLO -->
+              <ol>
+              <li><p>CONTACTA A TU PROSPECTO</p></li>
+              <li><p>DALE UN SEGUIMIENTO</p></li>
+              <li><p>GENERA ALGUNA CITA O REALIZALE UNA COTIZACIÓN</p></li>
+              <li><p>TRANFORMALA EN VENTA</p></li>
+              <li><p>CONVIERTE A TU PROSPECTO EN CLIENTE</p></li>
+            </ol>
+            <br>
+
+            <!-- TEXTO CON IMAGEN, EN FORMA DE CUADRO -->
+            <h4 class="mb20">TITULO O REFERENCIA</h4>
+            <div class="row vcenter mb40 imageCaption">
+              <div class="col-md-6 col-sm-6">
+              <!-- EN ESTE APARTADO INGRESAS EL ENLACE A LA IMAGEN, RECUERDA SIEMPRE GENERAR LA IMAGEN (848 x 290 - El alto puede variar) PRINCIPAL DEL ARTICULO Y PEDIR A DISEÑO WEB QUE LA SUBA AL SERVIDOR. Y LE REGRESARA UN ENLACE CON LA IMAGEN.
+              ESTE APARTADO LO PUEDES UTILIZAR EN CUALQUIER PARTE DEL CUERPO QUE NECESITES -->
+              <img class="img-responsive mb20" src="http://www.salesup.com/crm-online/imagenes/Velocidad5-10min.png" alt="Velocidad">
+              </div>
+              <div class="col-md-6 col-sm-6">
+              <p>AQUI PUEDES INGRESAR UN TEXTO <strong>REFERENCIANDO LA IMAGEN </strong>  
+              </p>
+              </div>
+            </div>
+
+            <!-- PARA COMPARTIR PÁRRAFO EN TWITTER, LO PUEDES INSERTAR DONDE QUIERAS. -->
+              <a href="http://ctt.ec/82v6b" target="_blank" class="postTweet">
+              <span class="fa fa-quote-left" aria-hidden="true"></span> Escribe lo que quieras twittear <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+
+
+            <!-- ESTE APARTADO ES PARA QUE INSERTAR UNA IMAGEN CON UN TEXTO O TITULO. RECUERDA SIEMPRE GENERAR LA IMAGEN Y SOLICITAR A DISEÑO WEB QUE SUBAN LA IMAGEN AL SERVIDOR, PARA QUE PUEDAS INGRESAR LA RUTA DE LA IMAGEN
+            -->
+            <h4 class="text-center text-uppercase"> TITULO PARA LA IMAGEN </h4>
+            <br>
+            <!-- APARTADO PARA INGRESAR LA RUTA PARA LA IMAGEN -->
+            <img src="http://www.salesup.com/crm-online/imagenes/estrategia-precios-graf1.png?t=2" class="img-responsive">
+            <br>
+            <br>
+
+
+
+            <!-- ACERCA DEL AUTOR, AQUI INGRESAS LA INFO DEL AUTOR TANTO EL ENLACE DE SU PAGINA COMO SU NOMBRE Y UNA PEQUEÑA DESCRIPCION DE SER NECESARIA -->
+            <div class="aboutAutor">
+              <p>Por <a href=" ENLACE DE LA PAGINA " target="_blank" class="text-main"><strong> NOMBRE </strong></a></p>
+              <p class="aboutAutorInfo"> ACERCA DEL AUTOR </p>
+            </div>
+
+            <!-- Social sharing buttons BOTTOM
+             ¡¡¡¡¡¡¡¡¡ NO TOCAR ESTA PARTE !!!!!!!!! -->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+
+          </div> 
+        </div>
+
+        <div class="col-md-3">
+          
+            <!-- ESTA AREA ES EL CUADRO DE DESACARGA, AQUI SOLO PUEDES MODIFICAR EL TEXTO SI ES NECESARIO Y SOLICITAR EL ENLACE DE DESCARGA QUE REQUERIRA PARA INGRESARLO -->
+            <div class="postAd darkBG">
+              <div class="row">
+                <div class="col-md-12 col-sm-5 col-xs-12">
+                  <a href="descarga-plantilla.shtml"><img src="http://www.salesup.com/crm-online/imagenes/Ad-ExcelGratis.png" class="img-responsive mb20"></a>
+                </div>
+                <div class="col-md-12 col-sm-7 col-xs-12">
+                <!-- CAMBIA SOLO EL TEXTO QUE NECESITES, ASI COMO EL EJEMPLO. -->
+                  <h3 class="text-primary"><strong>¡Descarga gratis!</strong></h3>
+                  <p class="text-inverse mb40">Este texto lo puedes cambiar.... <strong>plan de Marketing y Ventas</strong>etc.
+                  </p>
+                  <!-- AQUI INGRESA EL ENLACE PARA LA DESCARGA-->
+                  <a href="descarga-plantilla.shtml" class="btn btn-primary btn-lg">Descargar ahora</a>
+                </div>
+              </div>
+            </div>
+
+        </div> 
+      </div> 
+    </div> 
+    
+    <!-- PIE DE LA PAGINA, ¡¡¡¡ NO MOVER NADA APARTIR DE AQUI !!!!-->
+    <footer class="text-center">
+      <p class="small">©2016 BFX Eficiencia Tecnol&oacute;gica S.A. de C.V. Todos los derechos reservados. <br> Conoce nuestras pol&iacute;ticas sobre el manejo y protecci&oacute;n de sus datos personales, consultando nuestro <a href="http://www.salesup.com/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a>. </p>
+    </footer>
+   
+<!--#include virtual="footerCRMOnline.html" -->
+
+
+
+<!-- Social sharing script -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5797ab1d5bf4d518"></script>
+
+  </body>
+</html>

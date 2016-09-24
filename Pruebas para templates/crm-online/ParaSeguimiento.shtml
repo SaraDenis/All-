@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="aumentar ventas, ventas, seguimiento"/>  
+    <meta name="description" content="Para cerrar una venta se requiere aproximadamente 5 contactos efectivos. Da seguimiento a tus cliente e incrementa tus ventas."/>
+    <link rel="icon" href="/imagenes/favicon.ico">
+    <title>¿Cómo aumentar las ventas? El seguimiento, tu mejor aliado.</title>
+    <!--#include virtual="headCRMOnline.html" -->
+
+  </head>
+  <body class="postBody ">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+<!--           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <a href="/" class="pull-left" style="margin-left:7px;"><img src="/images-salesup/SalesUp.png" height="50" alt="Logo SalesUp"></a>
+        </div>
+<!--       <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Sedes">Las sedes</a></li>
+            <li><a href="#Patrocinadores">Patrocinadores</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul> 
+        </div>-->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="postTitle">
+            <!-- Título -->
+            <h1>¿Cómo aumentar las ventas? El seguimiento, tu mejor aliado.</h1>
+
+            <!-- Autor -->
+            <p class="small divider">Por: Equipo SalesUp!</p>
+
+            <!-- Social sharing buttons TOP-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+          </div>
+
+            <!-- Imagen principal -->
+          <img src="imagenes/objetivos-mkt-ventas.png" class="img-responsive">
+
+          <div class="postContent">
+            <!-- Bajada -->
+            <p class="lead mb40">Es una realidad que las ventas son uno de los elementos más importantes para todas las empresas y es por ello que es indispensable adquirir todas las herramientas y habilidades necesarias para alcanzar nuestras metas.</p>
+
+            <!-- Texto -->
+            <p class="mb20">A lo largo de nuestra experiencia, hemos detectado que existen tres puntos fundamentales que todo vendedor debe incluir en su proceso comercial:</p>
+            <h4 class="mb20">1. Velocidad de respuesta</h4>
+            <div class="row vcenter mb40 imageCaption">
+              <div class="col-md-6 col-sm-6"><img class="img-responsive mb20" src="imagenes/Velocidad5-10min.png" alt="Velocidad"></div>
+              <div class="col-md-6 col-sm-6"><p>Contactar a un cliente potencial en los <strong>primeros 5 minutos</strong> de haber recibido sus datos, aumenta hasta un <strong>67%</strong> la probabilidad de cerrar la venta. Mientras que hacerlo <strong> después de los 5 minutos</strong>, disminuye la probabilidad <strong>¡hasta 10 veces!</strong></p></div>
+            </div>
+            <h4 class="mb20">2. Capacitación y actualización en las mejores prácticas de ventas</h4>
+            <div class="row vcenter mb40 imageCaption">
+              <div class="col-md-4 col-sm-4"><img class="img-responsive mb20" src="imagenes/CapacitacionSuerte.png" alt="Capacitación"></div>
+              <div class="col-md-8 col-sm-8"><p>El <strong>85% de los vendedores</strong> no tiene habilidades de ventas. Lo poco que venden lo atribuyen a la suerte o a la falta de la misma.</div>
+            </div>
+            <h4 class="mb20">3. Seguimiento oportuno</h4>
+            <div class="row vcenter mb40 imageCaption">
+              <div class="col-md-4 col-sm-4"><img class="img-responsive mb20" src="imagenes/SeguimientoOportunidadesPerdidas.png" alt="Seguimiento"></div>
+              <div class="col-md-8 col-sm-8"><p>El <strong>45% de las oportunidades de negocio</strong> se pierde porque los vendedores no contactan a sus prospectos (seguimiento deficiente).</div>
+            </div>
+
+            <p class="mb20">En esta ocasión nos enfocaremos en el seguimiento, pues implementarlo dentro de tu proceso comercial impulsará tus ventas más rápido de lo que imaginas.</p>
+
+            <p class="mb20">Si quieres conocer más información sobre el factor de velocidad <!-- consulta (link nombre de nota de velocidad) o --> descarga nuestro e-book <a href="https://www.salesup.com/crm-online/estudio-velocidad-de-respuesta.shtml" target="_blank">Velocidad es igual a ventas.</a></p>
+
+            <p class="mb20">Supón que en este momento te interesa comprar algún producto, pensemos que quieres cambiar las cortinas de tu casa, recibes la información a detalle, te parece muy atractiva y se ajusta a tu presupuesto. Se presentan todas las condiciones para que hagas la compra pero estás tan ocupado que dices “mañana las compro”. La realidad es que regularmente ese mañana no llega hasta días, semanas o incluso meses después, es decir, cuando te acuerdas que en algún momento te interesó hacer el cambio y para entonces seguramente ya no tienes el mismo interés o ya hay cosas que te resultan más atractivas.</p>
+
+            <p class="mb20">Esto significaría la pérdida de una venta para la empresa de cortinas pues aunque estabas listo para comprar, la falta de tiempo o atención en el momento generó que la venta se cayera.</p>
+
+            <p class="mb20">Ahora imagina que al día siguiente, recibieras la llamada del vendedor que te hizo llegar la información preguntándote si tienes dudas sobre las cortinas. Esto representaría para ti un recordatorio para no dejar pasar por alto ese interés que tienes.</p>
+
+            <p class="mb20">Es una realidad que en el día a día, con la cantidad de actividades que tenemos que llevar a cabo, en muchas ocasiones nos olvidamos de hacer o comprar cosas en las que incluso estamos muy interesados ¿te ha sucedido?</p>
+
+            <p class="mb20">Considera que lo mismo sucede con tus clientes, puede ser que están muy interesados en contratarte, tus precios se ajustan a su presupuesto pero la falta de tiempo y atención los alejan de la compra. Como vendedor es tu responsabilidad cerrar esa venta, prácticamente ya está hecha, solo debes tener paciencia y persistencia en tus seguimientos.</p>
+
+            <p class="mb20">Se calcula que para cerrar una venta se requiere aproximadamente 5 contactos efectivos (correo, llamada o personal) y desafortunadamente el vendedor promedio no alcanza más de 2. ¿Por qué es así? Pueden ser diversos factores, entre los más comunes:</p>
+
+            <ul>
+              <li><p>Sienten que hostigan al interesado con tantas llamadas.</p></li>
+              <li><p>No tienen un CRM que les ayude a sistematizar, automatizar y controlar los seguimientos.</p></li>
+              <li><p>Les da pena ser persistentes con el seguimiento.</p></li>
+              <li><p>No han visto el verdadero potencial que tiene darle seguimiento a las oportunidades de venta.</p></li>
+              <li><p>No forma parte de su proceso de ventas.</p></li>
+            </ul>
+
+             <p class="mb20">Si te sientes identificado con alguno de los anteriores, te tenemos una buena noticia, cualquiera que sea el motivo estás a tiempo de corregirlo. Incorpora esta práctica a tu proceso de ventas y estamos seguros que obtendrás grandes resultados.</p>
+
+             <p class="mb20">¿Quieres conocer algunos consejos prácticos para incrementar tus ventas? Descarga gratis nuestros <a href="" target="_blank">8 consejos</a> que te ayudan a mejorar u seguimiento.</p>
+
+            <!-- Acerca del autor -->
+<!--             <div class="aboutAutor">
+              <p>Por <a href="http://josepuchades.com/" target="_blank" class="text-main"><strong>José Puchades</strong></a></p>
+              <p class="aboutAutorInfo">Licenciado en Administración y Dirección de Empresas y también en Investigación y Técnicas de Mercado por la Universidad Pontificia de Comillas – Icade. Ha trabajado en varias multinacionales como Accenture, Lidl, Supersol o Intersport, ocupando puestos de responsabilidad comercial en varias de ellas. En 2007 decidió montar su propia empresa, Sinérgica, consultora especializada en organización comercial.</p>
+            </div> -->
+
+            <!-- Social sharing buttons BOTTOM-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+
+          </div> <!-- Termia .postContent -->
+        </div> <!-- Termina main col -->
+
+        <div class="col-md-3">
+
+            
+
+            <!-- Descarga -->
+            <div class="postAd darkBG">
+              <div class="row">
+                <div class="col-md-12 col-sm-5 col-xs-12">
+                  <a href="descarga-plantilla.shtml"><img src="imagenes/Ad-ExcelGratis.png" class="img-responsive mb20"></a>
+                </div>
+                <div class="col-md-12 col-sm-7 col-xs-12">
+                  <h3 class="text-primary"><strong>¡Descarga gratis!</strong></h3>
+                  <p class="text-inverse mb40">Plantilla en Excel para armar tu <strong>plan de Marketing y Ventas</strong></p>
+                  <a href="descarga-plantilla.shtml" class="btn btn-primary btn-lg">Descargar ahora</a>
+                </div>
+              </div>
+            </div>
+
+        </div> <!-- Termina aside -->
+
+
+      </div> <!-- Termina row -->
+    </div> <!-- Termina .container -->
+    
+    <footer class="text-center">
+      <p class="small">©2016 BFX Eficiencia Tecnológica S.A. de C.V. Todos los derechos reservados. <br> Conoce nuestras políticas sobre el manejo y protección de sus datos personales, consultando nuestro <a href="/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a>.</p>
+    </footer>
+    <!--#include virtual="footerCRMOnline.html" -->
+
+<!-- Social sharing script -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5797ab1d5bf4d518"></script>
+
+  </body>
+</html>

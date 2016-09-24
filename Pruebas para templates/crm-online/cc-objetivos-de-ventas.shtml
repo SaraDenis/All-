@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="objetivos de ventas, objetivo de ventas, objetivos de las ventas, ventas"/>  
+    <meta name="description" content="Objetivos de ventas. Conoce cómo puedes definir los objetivos de marketing y ventas en tu empresa."/>
+    <link rel="icon" href="/imagenes/favicon.ico">
+    <title>Cómo definir los objetivos de marketing y de ventas</title>
+    <!--#include virtual="headCRMOnline.html" -->
+
+  </head>
+  <body class="postBody ">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+<!--           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <a href="/" class="pull-left" style="margin-left:7px;"><img src="/images-salesup/SalesUp.png" height="50" alt="Logo SalesUp"></a>
+        </div>
+<!--       <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Sedes">Las sedes</a></li>
+            <li><a href="#Patrocinadores">Patrocinadores</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul> 
+        </div>-->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="postTitle">
+            <!-- Título -->
+            <h1>¿Cómo definir los objetivos de marketing y de ventas?</h1>
+
+            <!-- Autor -->
+            <p class="small divider">Por <a href="http://josepuchades.com/" target="_blank" class="text-main">José Puchades</a></p>
+
+            <!-- Social sharing buttons TOP-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+          </div>
+
+            <!-- Imagen principal -->
+          <img src="imagenes/objetivos-mkt-ventas.png" class="img-responsive">
+
+          <div class="postContent">
+            <!-- Bajada -->
+            <p class="lead mb40">Para todas las empresas es fundamental tener claros los objetivos de ventas y marketing a alcanzar, desde el inicio de año hasta el último día. Estos objetivos de ventas deben estar reflejados en el plan de marketing y ventas de la empresa y comunicado a toda la organización comercial.</p>
+
+            <!-- Texto -->
+            <p class="mb20">Está claro que el objetivo principal de cualquier empresa es ganar más dinero, y esto se consigue con más ventas y con menos gastos, ahora bien, la clave es cómo conseguir más ventas, sólo hay dos formas, o con más clientes o con más productos. </p>
+            <p class="mb20">Pues bien, es con base en estos dos ejes sobre los que habremos de marcar los objetivos de ventas dentro del plan de marketing y ventas, y por consiguiente, los incentivos a los comerciales, ya que no concibo un comercial sin parte variable en su retribución.</p>
+            <p class="mb20">Si dentro de mi plan comercial, mi estrategia comercial se basa en captar más clientes, mis objetivos de ventas y marketing deberán ser, además de aumentar la cifra global de ventas, el conseguir nuevos clientes, por lo que también deberemos definir un objetivo de clientes nuevos, o de nuevos clientes en cierto nicho de mercado o sector de actividad, o si hemos segmentado la cartera de clientes en ABC, conseguir más clientes C, por ejemplo.</p>
+            <p class="mb20">Si mi estrategia comercial se basa en aumentar mi cartera de productos, como objetivos de ventas y marketing deberé marcarme además la venta de ciertos productos en fase de introducción, o aumentar la compra media, o el mix de productos comprados por los clientes A, por ejemplo. Para conseguir estos objetivos de ventas y marketing puedo ofrecer descuentos escalonados al comprar nuevas familias de productos o packs promocionales.</p>
+            <p class="mb20">Está claro que todas las empresas queremos vender más, pero para un comercial profesional, sólo vender más es un objetivo simple, debe vender más con una cartera de clientes y de productos saneada, sin concentrar los riesgos en clientes puntuales y defendiendo el margen de la compañía.</p>
+            <p class="mb20">Estos conceptos deben estar claros, no sólo por el director comercial, sino por toda la organización comercial e implantados en el CRM de la empresa para un mejor seguimiento. Eso sí que no sean ni muchos ni complejos, que si no los comerciales se lían. </p>
+
+            <!-- Acerca del autor -->
+            <div class="aboutAutor">
+              <p>Por <a href="http://josepuchades.com/" target="_blank" class="text-main"><strong>José Puchades</strong></a></p>
+              <p class="aboutAutorInfo">Licenciado en Administración y Dirección de Empresas y también en Investigación y Técnicas de Mercado por la Universidad Pontificia de Comillas – Icade. Ha trabajado en varias multinacionales como Accenture, Lidl, Supersol o Intersport, ocupando puestos de responsabilidad comercial en varias de ellas. En 2007 decidió montar su propia empresa, Sinérgica, consultora especializada en organización comercial.</p>
+            </div>
+
+            <!-- Social sharing buttons BOTTOM-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+
+          </div> <!-- Termia .postContent -->
+        </div> <!-- Termina main col -->
+
+        <div class="col-md-3">
+
+            
+
+            <!-- Descarga -->
+            <div class="postAd darkBG">
+              <div class="row">
+                <div class="col-md-12 col-sm-5 col-xs-12">
+                  <a href="descarga-plantilla.shtml"><img src="imagenes/Ad-ExcelGratis.png" class="img-responsive mb20"></a>
+                </div>
+                <div class="col-md-12 col-sm-7 col-xs-12">
+                  <h3 class="text-primary"><strong>¡Descarga gratis!</strong></h3>
+                  <p class="text-inverse mb40">Plantilla en Excel para armar tu <strong>plan de Marketing y Ventas</strong></p>
+                  <a href="descarga-plantilla.shtml" class="btn btn-primary btn-lg">Descargar ahora</a>
+                </div>
+              </div>
+            </div>
+
+        </div> <!-- Termina aside -->
+
+
+      </div> <!-- Termina row -->
+    </div> <!-- Termina .container -->
+    
+    <footer class="text-center">
+      <p class="small">©2016 BFX Eficiencia Tecnológica S.A. de C.V. Todos los derechos reservados. <br> Conoce nuestras políticas sobre el manejo y protección de sus datos personales, consultando nuestro <a href="/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a>.</p>
+    </footer>
+    <!--#include virtual="footerCRMOnline.html" -->
+
+<!-- Social sharing script -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5797ab1d5bf4d518"></script>
+
+  </body>
+</html>

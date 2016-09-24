@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/imagenes/favicon.ico">
+    <meta name="keywords" lang="es" content="estrategia de precios, precios, precio, descuento"/>
+    <meta name="description" content="Estrategia de precios. Conoce cómo impacta un descuento en el volumen de tus ventas."/>
+    <title>Estrategia de precios. Impacto del descuento en el volumen</title>
+    <!--#include virtual="headCRMOnline.html" -->
+
+  </head>
+  <body class="postBody">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+<!--           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <a href="/" class="pull-left" style="margin-left:7px;"><img src="/images-salesup/SalesUp.png" height="50" alt="Logo SalesUp"></a>
+        </div>
+<!--       <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Sedes">Las sedes</a></li>
+            <li><a href="#Patrocinadores">Patrocinadores</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul> 
+        </div>-->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="postTitle">
+            <!-- Título -->
+            <h1>Conoce cuánto debes incrementar el volumen para justificar un descuento.</h1>
+
+            <!-- Autor -->
+            <p class="small divider">Por <a href="https://www.linkedin.com/in/anthony-mandujano-25327847" target="_blank" class="text-main">Anthony Mandujano</a></p>
+
+            <!-- Social sharing buttons TOP-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+          </div>
+
+            <!-- Imagen principal -->
+          <img src="imagenes/estrategia-precios.png" class="img-responsive">
+
+          <div class="postContent">
+            <!-- Bajada -->
+            <p class="lead">Ganar una venta o incrementar el volumen a menudo implica la petición de un descuento, al cual en ocasiones accedes porque vas a vender más, pero ¿cuánto tienes que incrementar el volumen para justificar este descuento?, ¿qué <strong>estrategia de precio</strong> debes aplicar?</p>
+            <br>
+
+            <!-- Texto -->
+            <p>Supongamos que tienes un margen del 15% y un cliente te sugiere algo parecido a esto: “si me otorgas un 3% de descuento extra te compraré un 20% más mensualmente”. <strong>¡Atención!, si otorgas este descuento estarás perdiendo dinero.</strong></p>
+            <br>
+            <p>Un estudio realizado en el 2008 a más de 1,225 ejecutivos por <i>Simon Kucher & Partners</i>, empresa líder mundial en consultoría de estrategias de precios y rentabilidad, en conjunto con la universidad <i>IE Business School</i>, concluyó que solamente 1 de cada 25 directivos entiende cuánto tiene que incrementar el volumen para compensar una reducción de precio.</p> 
+            <br>
+
+            <p>Este año 2016 seleccionamos a más de 539 empresarios, directores, gerentes y ejecutivos de toda Latinoamérica y la respuesta ha mejorado 8 años más tarde aunque sigue siendo impactante:</p>
+            <br>
+
+            <a href="http://ctt.ec/82v6b" target="_blank" class="postTweet"><span class="fa fa-quote-left" aria-hidden="true"></span> Solamente 1 de cada 10 directivos en Latinoamérica entiende cuánto debe incrementar el volumen para compensar una reducción de precio <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <br>
+
+            <p>Encontré que el principal factor por el cuál la gente desconoce la respuesta a esta pregunta, es porque visualizan el volumen y los costos como las únicas formas de incrementar sus utilidades, sin embargo, muchos no se han dado cuenta que la estrategia de precio es el mecanismo más poderoso que tienen las empresas para incrementar sus utilidades.</p>
+            <br>
+
+            <p>Veamos un ejemplo al mejorar un 3% cada una de las siguientes variables:</p>
+            <br>
+            <br>
+
+            <h4 class="text-center text-uppercase">Impacto en la mejora de un 3%</h4>
+            <br>
+            <img src="imagenes/estrategia-precios-graf1.png?t=2" class="img-responsive">
+            <br>
+            <br>
+
+            <p>En el ejemplo anterior el impacto de subir un 3% el precio, refleja un incremento en la utilidad de $300 pesos que es equivalente a un 20% más como se muestra en la siguiente gráfica:</p>
+            <br>
+            <br>
+
+            <h4 class="text-center text-uppercase">Impacto porcentual en la mejora de un 3%</h4>
+            <br>
+
+            <img src="imagenes/estrategia-precios-graf2.png?t=2" class="img-responsive">
+            <br>
+            <br>
+
+            <p>En la gráfica indica que el volumen es lo que menos impacta a tu rentabilidad, esto sin tomar en cuenta que a menudo requieres un ajuste de precio para incrementar volumen y muy probablemente la competencia va a reaccionar a tu ajuste en la estrategia de precio, por lo que el beneficio de volumen será temporal y el impacto en la reducción de precio podría ser permanente.</p>
+            <br>
+
+            <p>Por otra parte el costo variable y el fijo son los que siguen, pero hacer mejoras tan importantes son poco factibles, pues todas las mejoras y optimizaciones posibles probablemente ya han sido alcanzadas, sin embargo el precio incrementó un 20% tus utilidades.</p>
+            <br>
+
+            <p>La gráfica a continuación nos enseña desde otra perspectiva lo que sucede si teniendo un margen del 15% ajustas o incrementas un 3% el precio:</p>
+            <br>
+
+            <img src="imagenes/estrategia-precios-graf3.png" class="img-responsive">
+            <br>
+            <br>
+
+            <p>Esto debe conducirte a las siguientes preguntas:</p>
+            <br>
+
+            <ol>
+              <li><p>Si reduces el precio tienes que vender un 25% más, ¿es posible subir el volumen un 25% en tu giro o tu industria?</p></li>
+              <li><p>Si incrementas el precio 3% podrías dejar de vender un 17% del volumen y tendrías la misma utilidad, la pregunta es, ¿si incrementas un 3% el precio, vas a perder el 17% de tu volumen?</p></li>
+            </ol>
+
+            <!-- Acerca del autor -->
+            <div class="aboutAutor">
+              <p>Por <a href="https://www.linkedin.com/in/anthony-mandujano-25327847" target="_blank" class="text-main"><strong>Anthony Mandujano</strong></a></p>
+              <p class="aboutAutorInfo">Tiene un MBA con especialidad en Estrategia por el ITESM. Ofrece consultoría en Estrategia Comercial orientada a la Rentabilidad. En el 2014 desarrolló una herramienta analítica de precios que ha logrado incrementar las utilidades de diversas empresas. Su experiencia laboral incluye empresas como: Adhesivos Perdura (Grupo Lamosa), CEMEX y USG. Actualmente se desempeña como Director Comercial en SalesUp!</p>
+            </div> 
+
+            <!-- Social sharing buttons BOTTOM-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+
+          </div> <!-- Termia .postContent -->
+        </div> <!-- Termina main col -->
+
+        <div class="col-md-3">
+
+            <!-- Descarga -->
+            <div class="postAd darkBG">
+              <div class="row">
+                <div class="col-md-12 col-sm-5 col-xs-12">
+                  <a href="gestion-de-precios-a-mandujano.shtml"><img src="imagenes/Ad-Ebook-Gestion-Precios.png" class="img-responsive mb20"></a>
+                </div>
+                <div class="col-md-12 col-sm-7 col-xs-12">
+                  <h3 class="text-primary"><strong>¡eBook gratis!</strong></h3>
+                  <p class="text-inverse mb40">Una perspectiva diferente para mejorar tu <strong>rentabilidad empresarial</strong>.</p>
+                  <a href="gestion-de-precios-a-mandujano.shtml" class="btn btn-primary btn-lg">Descargar ahora</a>
+                </div>
+              </div>
+            </div>
+
+        </div> <!-- Termina aside -->
+
+
+      </div> <!-- Termina row -->
+    </div> <!-- Termina .container -->
+    
+    <footer class="text-center">
+      <p class="small">©2016 BFX Eficiencia Tecnológica S.A. de C.V. Todos los derechos reservados. <br> Conoce nuestras políticas sobre el manejo y protección de sus datos personales, consultando nuestro <a href="/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a>.</p>
+    </footer>
+    <!--#include virtual="footerCRMOnline.html" -->
+
+<!-- Social sharing script -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5797ab1d5bf4d518"></script>
+
+  </body>
+</html>

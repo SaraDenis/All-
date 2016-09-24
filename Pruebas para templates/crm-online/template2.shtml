@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="[KEYWORDS]"/>  
+    <meta name="description" content="[DESCRIPTION]"/>
+    <link rel="icon" href="/imagenes/favicon.ico">
+    <title>[TITULO DE LA PAGINA]</title>
+    <!--#include virtual="headCRMOnline.html" -->
+
+  </head>
+  <body class="postBody ">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="pull-left" style="margin-left:7px;"><img src="/images-salesup/SalesUp.png" height="50" alt="Logo SalesUp"></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="postTitle">
+            <!--Escribe el título del articulo -->
+            <h1>[TITULO DEL ARTICULO]</h1>
+
+            <!-- Escribe la info del autor: Nombre y enlace (si tiene página web o linkedin) -->
+            <p class="small divider">Por <a href="[ENLACE A LA PAGINA DEL AUTROR]" target="_blank" class="text-main">[NOMBRE DEL AUTOR]</a></p>
+
+            <!-- ¡¡¡¡¡¡¡NO TOCAR ESTA PARTE!!!!!!!!!!-->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+          </div>
+
+            <!--  -->
+          <img src="imagenes/objetivos-mkt-ventas.png" class="img-responsive">
+
+          <div class="postContent">
+            <!-- Bajada -->
+            <p class="lead mb40">
+            [Bajada]
+            <br>
+            <!-- AQUI PUEDES ESCRIBIR TODO EL TEXTO QUE NECESITES-->
+            [ESCRIBE TEXTO]
+            </p>
+
+            <!-- Texto -->
+               <!-- Dentro de las etiquetas <P> Escribe el texto 
+            	Cada <P> es un parrafo. Un salto de linea es igual a una etiqueta <br>-->
+            <p class="mb20">
+            [CONTENIDO] 
+            <!-- Escribe todo el contenido que necesites y utiliza los formatos de letras que requieras.
+            Los siguientes parrafos traen los formatos: -->
+            </p>
+            <br> <!-- Este es un salto de linea -->
+
+            <p class="mb20">
+            <!-- COPIA ESTA ETIQUETA SI NECESITAS AGREGAR TEXTO EN CURSIVA -->
+            <i>[TEXTO EN CURSIVA]</i>
+            </p>
+            <br>
+            
+            <p class="mb20">
+            <!-- COPIA ESTA ETIQUETA SI NECESITAS AGREGAR TEXTO EN NEGRITA -->
+            <b>[TEXTO EN NEGRITA]</b>
+            </p>
+            <br>
+            <p class="mb20">
+            <!-- COPIA ESTA ETIQUETA SI NECESITAS AGREGAR TEXTO SUBRAYADO-->
+            <u>[TEXTO SUBRYADO]</u>
+            </p>
+            <br>
+
+            <p class="mb20">
+            <!-- COPIA LAS ETIQUETAS <BIG> SI NECESITAS DESTACAR ALGUNA PALABRA -->
+            [TEXTO <big>TEXTO DESTACADO</big>]
+            </p>
+
+            <!-- Para ingresar una lista -->
+            <!-- SI NECESITAS UNA LISTA SOLO COPIA LO QUE ESTA EN LAS ETIQUETAS <UL> Y REEMPLAZA EL TEXTO POR EL TUYO
+
+            SI NECESITAS AGREGAR MAS PUNTOS SOLO COPIA Y PEGA LAS ETIQUETAS <LI> LAS VECES QUE REQUIERAS-->
+             <ul>
+              <li><p>LISTA 1</p></li>
+              <li><p>PUNTO 1</p></li>
+              <li><p>PUNTO 2</p></li>
+              <li><p>PUNTO 3</p></li>
+              <li><p>PUNTO 4</p></li>
+            </ul>
+            <br>
+
+            <h4 class="mb20">TITULO O REFERENCIA</h4>
+            <div class="row vcenter mb40 imageCaption">
+              <div class="col-md-6 col-sm-6">
+              <!-- En este apartado ingresas la direccion de la imagen -->
+              <img class="img-responsive mb20" src="imagenes/Velocidad5-10min.png" alt="Velocidad">
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+              <p>Aqui puedes ingresar un texto <strong>referenciando la imagen </strong> o hablando de cualquier tema en especifico
+              </p>
+              </div>
+            </div>
+
+            <!-- Para ingresar una lista con numeros -->
+            <!-- SI NECESITAS UNA LISTA SOLO COPIA LO QUE ESTA EN LAS ETIQUETAS <UL> Y REEMPLAZA EL TEXTO POR EL TUYO
+
+            SI NECESITAS AGREGAR MAS PUNTOS SOLO COPIA Y PEGA LAS ETIQUETAS <LI> LAS VECES QUE REQUIERAS-->
+            <ol>
+              <li><p>LISTA 1</p></li>
+              <li><p>PUNTO 1</p></li>
+              <li><p>PUNTO 2</p></li>
+              <li><p>PUNTO 3</p></li>
+              <li><p>PUNTO 4</p></li>
+            </ol>
+
+            <!-- Este apartado es para twitter -->
+              <a href="http://ctt.ec/82v6b" target="_blank" class="postTweet">
+              <span class="fa fa-quote-left" aria-hidden="true"></span> Escribe lo que quieras twitear <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+
+              <!-- Utiliza este apartado para lo que necesites -->
+            <p>[MAS TEXTO ...]
+            </p>
+            <br>
+            <br>
+
+            <h4 class="text-center text-uppercase">[ALGUN TITULO]</h4>
+            <br>
+            <!-- APARTADO PARA INGRESAR LA RUTA PARA -->
+            <img src="imagenes/estrategia-precios-graf1.png?t=2" class="img-responsive">
+            <br>
+            <br>
+
+
+
+            <!-- ACERCA DEL AUTOR, AQUI INGRESAS LA INFO DEL AUTOR TANTO EL LINK DE SU PAGINA COMO SU NOMBRE Y UNA PEQUEÑA DESCRIPCION DE SER NECESARIA -->
+            <div class="aboutAutor">
+              <p>Por <a href="[LINK DE LA PAGINA DEL AUTOR]" target="_blank" class="text-main"><strong>[NOMBRE DEL AUTOR]</strong></a></p>
+              <p class="aboutAutorInfo">[ACERCA DEL AUTOR]</p>
+            </div>
+
+            <!-- Social sharing buttons BOTTOM
+             ¡¡¡¡¡¡¡¡¡ NO TOCAR ESTA PARTE !!!!!!!!! -->
+            <h5 class="text-muted">Comparte este contenido</h5>
+            <div class="addthis_sharing_toolbox"></div>
+
+          </div> <!-- Termina .postContent -->
+        </div> <!-- Termina main col -->
+
+        <div class="col-md-3">
+
+            
+            <!-- ESTA AREA ES EL CUADRO DE DESACARGS, AQUI SOLO PUEDES MODIFICAR EL TEXTO SI ES NECESARIO Y SOLICITAR EL LINK DE DESCARGA QUE REQUERIRA PARA INGRESARLO -->
+            <div class="postAd darkBG">
+              <div class="row">
+                <div class="col-md-12 col-sm-5 col-xs-12">
+                  <a href="descarga-plantilla.shtml"><img src="imagenes/Ad-ExcelGratis.png" class="img-responsive mb20"></a>
+                </div>
+                <div class="col-md-12 col-sm-7 col-xs-12">
+                <!-- Cambia solo el texto que necesites -->
+                  <h3 class="text-primary"><strong>¡Descarga gratis!</strong></h3>
+                  <p class="text-inverse mb40">Este texto lo puedes cambiar.... <strong>plan de Marketing y Ventas</strong>etc.
+                  </p>
+                  <!-- Aqui se ingresa el link para la descarga-->
+                  <a href="descarga-plantilla.shtml" class="btn btn-primary btn-lg">Descargar ahora</a>
+                </div>
+              </div>
+            </div>
+
+        </div> <!-- Termina aside -->
+
+
+      </div> <!-- Termina row -->
+    </div> <!-- Termina .container -->
+    
+    <!-- PIE DE LA PAGINA, ¡¡¡¡ NO MOVER NADA APARTIR DE AQUI !!!!-->
+    <footer class="text-center">
+      <p class="small">©2016 BFX Eficiencia Tecnol&oacute;gica S.A. de C.V. Todos los derechos reservados. <br> Conoce nuestras pol&iacute;ticas sobre el manejo y protecci&oacute;n de sus datos personales, consultando nuestro <a href="/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a>. </p>
+    </footer>
+    <!--#include virtual="footerCRMOnline.html" -->
+
+<!-- Social sharing script -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5797ab1d5bf4d518"></script>
+
+  </body>
+</html>
