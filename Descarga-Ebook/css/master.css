@@ -1,0 +1,134 @@
+ .header {
+    background: #fff;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+#logoSU{
+	display: inline-block;
+}
+
+#glyphs{
+	display: inline;
+}
+
+.datos{
+	float: right;
+	padding-top: 25px;
+}
+
+.contacto li{
+	display: inline-block;
+	padding-right: 40px;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+li{
+	list-style: none;
+}
+
+.divheader{
+	background-color: #6b3d7b;
+    padding: 35px 0px 35px 0px;
+}
+
+.title{
+	padding-top: 0px;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: Franklin Gothic Book;
+	text-align: center;
+	border: none;
+	font-weight: normal;
+	letter-spacing: 0;
+	line-height: 46px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.subtitle{
+	color: rgb(243, 143, 34) !important;
+	font-size: 23px;
+	font-family: Franklin Gothic Book;
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin-top: 5px;
+}
+
+.fondo_gris {
+    background-color: #e3e3e3;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.bullets {
+    padding-left: 0px;
+  }
+  .bullets span {
+    position: absolute;
+  }
+  .bullets li {
+    position: relative;
+  }
+  .bullets p {
+    padding-left: 20px;
+  }
+
+.img2{
+	 max-width: 100%;
+     height: auto;
+     margin-top: 10px;
+}  
+
+.form{
+	background-color: rgb(187, 187, 187) !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    border-radius: 0px;
+    height: 441px;
+	/*background-color: rgb(187, 187, 187) !important;
+	margin-left: 34px;
+	margin-right: 126px;
+	margin-top: 83px;
+	padding: 24px;
+	padding-left: 19px;
+	border-radius: 6px;
+	height: 529px; */
+}
+/*Titulo del form*/
+.title-form{
+	text-align: center;
+    color: white !important;
+    font-size: 18px;
+    padding: 11px;
+	padding-top: 0px;
+}
+/*Botones del formulario*/
+.btn{
+	background: rgb(234, 133, 72) none repeat scroll 0% 0% !important;
+	border-color: rgb(234, 133, 72) !important;
+	width: 26%;
+	padding: 9px;
+	color: white;
+	margin-top: 19px;
+}
+
+.form-control{
+	height: 36px;
+	width: 290px;
+}
+
+
+
+
+

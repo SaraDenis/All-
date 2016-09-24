@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="icon" type="http://www.salesup.com/image/png" href="http://www.salesup.com/imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
+	<title>Descargable </title>
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<a href="http://www.salesup.com">
+		<span id="logoSU" class="logo">
+			<img src="http://www.salesup.com/images-salesup/SalesUp.png">
+		</span>
+		</a>
+		<div id="glyphs">
+			<span class="datos">
+			<ul class="contacto">
+				<li>
+					<a href="http://www.salesup.com/contacto.shtml">
+						<span class="glyphicon glyphicon-envelope "></span> &nbsp Contáctanos
+					</a>
+				</li>
+				<li>
+					<a href="">					<span class="glyphicon glyphicon-earphone "></span>+52 998-283-1240	
+					
+					</a>
+				</li>			
+		</div>
+	</div>
+</div>
+
+<div class="divheader">
+	<h1 class="title">E-book gratuito:</h1>
+	<h1 class="title">¿Cómo compran tus clientes?</h1>
+	<h1 class="subtitle">Entiende el proceso de compra de tus clientes y las herramientas más usadas</h1>
+</div>
+
+<div class="fondo_gris">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <br>
+          <div class="container1">
+		<p class="text-container">
+		Los consumidores pasan por diferentes momentos antes de tomar la <strong>decisión de comprar</strong> contigo.
+		</p>
+		<p class="text-container">Conoce el <strong>proceso de compra</strong> y haz que tu equipo de ventas perfile a<br> sus prospectos como los profesionales.
+		</p>
+	</div>
+          <br>
+          <h4>En este e-book, aprenderás a:</h4>
+          <p>Conocer el proceso de compra y hacer que tu equipo de ventas perfile a sus prospectos como los profesionales.</p>
+          <br>
+          <ul class="bullets">
+            <li><span class="glyphicon glyphicon-ok"></span><p>Entiende el proceso de compra</p></li>
+            <li><span class="glyphicon glyphicon-ok"></span><p>Identifica los departamentos involucrados en cada fase</p></li>
+            <li><span class="glyphicon glyphicon-ok"></span><p>Implementa las herramientas comerciales más efectivas</p></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <img class="img2" src="img/1.png">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h2 class="text-center" id="descarga">¡DESCÁRGALO AQUÍ!</h2>
+        <div class="embed-responsive form">
+            		<!--Div Formulario-->
+<div class="container">
+  <form  class="form" role="form" onsubmit="return validar()">
+    <h2 id="tt" class="title-form">Quiero descargarlo ahora</h2>
+    
+    <div class="form-group">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="correo" placeholder="Email" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="compania" placeholder="Compañia" onkeypress="despintar(this)">
+    </div>
+    <select id="puesto" class="form-control" onchange="despintar(this)">
+      <option value="">Selecciona una opcion</option>
+	  <option value="Coach/Consultor">Coach/Consultor</option>
+	  <option value="Coordinador">Coordinador/Supervisor</option>
+	  <option value="Director">Director</option>
+	  <option value="Ejecutivo de ventas">Ejecutivo de ventas</option>
+	  <option value="Estudiante">Estudiante</option>
+	</select>
+	<br>
+	<div class="form-group">
+      <input type="text" class="form-control" id="telefono" placeholder="Teléfono" onkeypress="despintar(this)">
+    </div>
+    <select id="industria" class="form-control" onchange="despintar(this)">
+    <option value="">Selecciona una opcion</option>
+	  <option value="Automotriz">Automotriz</option>
+	  <option value="Bienes de consumo">Bienes de consumo</option>
+	  <option value="Bienes industriales">Bienes industriales</option>
+	  <option value="Comercio al por menor">Comercio al por menor</option>
+	  <option value="Construcción">Construcción</option>
+	</select>
+	<input type="hidden" id="comentario" value="Excel de funciones"></input>
+    <div class="form-group">
+            <input type="submit" class="btn " value="Enviar">
+        </div>
+    </div>
+  </form>
+</div>
+<!--Fin del div formulario -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
