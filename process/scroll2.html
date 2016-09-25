@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.test {
+    background-color: yellow;
+}
+</style>
+</head>
+<body style="height:1500px">
+
+<p>Scroll down this page</p>
+
+<p id="myP" style="position:fixed">When you have scrolled 50 pixels from the top of this page, add the class "test" (yellow background color) to this paragraph. Scroll up again to remove the class.
+</p>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 50) {
+        //document.getElementById("myP").className = "test";
+        $("#myP").hide();
+    } 
+if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 100){
+	$("#myP").show();
+}
+    else {
+        document.getElementById("myP").className = "";
+    }
+}
+</script>
+
+</body>
+</html>

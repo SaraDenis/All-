@@ -1,0 +1,31 @@
+console.clear();
+var arrInputs = $('#frmDescargarFormato .esObligatorio');
+
+for(var i = 0; i < arrInputs.length; i++){
+  
+  var $input = $(arrInputs[i]);
+  console.log($input);
+  
+}
+
+
+console.clear();
+
+var validaObligatorios = function(){
+  var arrInputs = $('#frmDescargarFormato .esObligatorio');
+
+  for(var i = 0; i < arrInputs.length; i++){
+
+    var $input = $(arrInputs[i]);
+    var valor = $input.val();
+
+    if(valor==''){
+      console.log('esta vacio');
+    }
+
+  }
+  return true;
+}
+
+validaObligatorios();
+

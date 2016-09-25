@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<!--The above tags always first in the head-->
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!--asdfghjkl-->
+    <link href="landing.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
+	<!--asdfghjklñ-->
+	<title></title>
+</head>
+<body>
+
+<!--Div Formulario-->
+<div class="container">
+  <form  class="form" role="form" onsubmit="return validar()">    
+    <div class="form-group">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="correo" placeholder="Email" onkeypress="despintar(this)">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="compania" placeholder="Compañia" onkeypress="despintar(this)">
+    </div>
+    <select id="puesto" class="form-control" onchange="despintar(this)">
+      <option value="">Selecciona una opcion</option>
+	  <option value="Coach/Consultor">Coach/Consultor</option>
+	  <option value="Coordinador">Coordinador/Supervisor</option>
+	  <option value="Director">Director</option>
+	  <option value="Ejecutivo de ventas">Ejecutivo de ventas</option>
+	  <option value="Estudiante">Estudiante</option>
+	</select>
+	<br>
+	<div class="form-group">
+      <input type="text" class="form-control" id="telefono" placeholder="Teléfono" onkeypress="despintar(this)">
+    </div>
+    <select id="industria" class="form-control" onchange="despintar(this)">
+    <option value="">Selecciona una opcion</option>
+	  <option value="Automotriz">Automotriz</option>
+	  <option value="Bienes de consumo">Bienes de consumo</option>
+	  <option value="Bienes industriales">Bienes industriales</option>
+	  <option value="Comercio al por menor">Comercio al por menor</option>
+	  <option value="Construcción">Construcción</option>
+	</select>
+	<input type="hidden" id="comentario" value="Excel de funciones"></input>
+    <div class="form-group">
+            <input type="submit" class="btn " value="Enviar">
+        </div>
+    </div>
+  </form>
+</div>
+<!--Fin del div formulario -->
+
+</body>
+<script src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/validaciones.js"></script>
+</html>

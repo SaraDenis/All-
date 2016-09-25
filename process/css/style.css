@@ -1,0 +1,91 @@
+.form-control{
+	height: 39px;
+	width: 228px;
+}
+/*estilo del input.Formulario */
+.form{
+	background-color: rgb(187, 187, 187) !important;
+	margin-left: 34px;
+	margin-right: 126px;
+	margin-top: 83px;
+	padding: 24px;
+	padding-left: 19px;
+	border-radius: 6px;
+	height: 529px;
+}
+/*Titulo del form*/
+.title-form{
+	text-align: center;
+    color: white !important;
+    font-size: 18px;
+    padding: 11px;
+	padding-top: 0px;
+}
+/*Botones del formulario*/
+.btn{
+	background: rgb(234, 133, 72) none repeat scroll 0% 0% !important;
+	border-color: rgb(234, 133, 72) !important;
+	width: 100%;
+	padding: 9px;
+	color: white;
+	margin-top: 19px;
+}
+
+.title{
+	padding-top: 0px;
+	color: #65326b;
+	font-size: 44px;
+	font-family: Franklin Gothic Book;
+	text-align: center;
+	border: none;
+	font-weight: normal;
+	letter-spacing: 0;
+	line-height: 46px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.subtitle{
+	color: rgb(243, 143, 34) !important;
+	font-size: 28px;
+	font-family: Franklin Gothic Book;
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	line-height: 1.3em;
+	margin-top: 5px;
+}
+
+.container-fluid{
+	    padding-left: 60px;
+}
+.nav-header{
+	margin-top: 15px;
+}
+.nav-img{
+	margin-top: -23px;
+}
+.navbar-default{
+	padding: 6px;
+}
+.container1{
+	width: 940px;
+	margin-left: 33px;
+}
+
+.container{
+	width: 460px;
+}
+
+.img2{
+	width: 293px;
+	margin-left: 647px;
+}
+.text-container{
+	color: #444;
+	font-family: Franklin Gothic Book;
+	font-size: 22px;
+	line-height: 1.3em;
+}
+
+
