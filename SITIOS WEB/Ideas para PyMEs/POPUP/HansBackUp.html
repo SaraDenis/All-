@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<div class="estiloF popup_wrap" style="display:none;" id="oculto">
+    <div id="estilo_modal" class="layout_pop">
+        <div id="cierraModal" type="button" class="close "><i id="faAw" class="fa fa-times-circle-o"></i></div>
+
+            <div>
+                <h2 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(243, 143, 34); margin-top: 60px; margin-bottom: 10px;">Hola,</h2>
+                    <p style="color: rgb(255, 255, 255); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                        <span style="font-size: 16px;">Nos gustaría compartir contigo estrategias comerciales, tips, eBooks e invitarte a seminarios web gratuitos con expertos en ventas.</span>
+                    </p>
+                    <p style="color: rgb(255, 255, 255); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                        <span style="font-size: 16px;">
+                            <span style="font-weight: 700;">Suscríbete e incrementa tus ventas</span> 
+                            con SalesUp!® El CRM recomendado por los expertos.
+                        </span>
+                    </p>
+                    <br>
+                    <form id="enviarForm" onsubmit="return false;">
+                     	<input id="SP_VERSION" name="SP_VERSION" value="2" type="hidden">
+						<input id="idempresa" name="idempresa" value="11811" type="hidden">
+						<input id="idusuario" name="idusuario" value="33946" type="hidden">
+						<input id="idfase" name="idfase" value="1" type="hidden">
+						<input id="idorigen" name="idorigen" value="3072" type="hidden">
+
+			            <input id="idetiqueta" name="idetiqueta" rel="{{Configuracion.idEtiquetas}}" type="hidden" value="3395">
+			            <input id="sitiogracias" name="sitiogracias" rel="{{Configuracion.IdEtiquetas}}" value="https://fenix.salesup.com.mx/facebook/gracias.dbsp" type="hidden">
+			          
+			            <input required="" class="campos_form" name="Correo" id="correoV" placeholder="Correo electrónico" type="text">
+			            <button id="agregarSubmit" class="btnC btn_submit btn_kt"><span>Quiero recibir tips y estrategias</span></button>
+			            <button id="agregarSubmitoculto" style="display:none;" class="btnC btn_submit btn_kt"><span>Procesando <i class="fa fa-spinner  fa-spin"></i></span></button>
+			             <button id="agregarSubmitocultofinaliza" style="display:none;" class="btnC btn_submit btn_kt"><span>Proceso Finalizado <i style="color:green;" class="fa fa-check"></i></span></button>
+		            </form>
+            <div>
+
+        
+       
+          <a href="#" onclick="SalesUp.Variables.EnviarForma();" class="Btn Btn-rounded Btn-small Btn-flat-Aceptar Btn-Block" id="BtnEnviar">
+              <i style="display:none;" class="fa fa-spinner Spinner"></i> <i style="display:none;" class="fa fa-times FaltanDatos"></i>
+          </a>
+
+    </div>
+</div>
