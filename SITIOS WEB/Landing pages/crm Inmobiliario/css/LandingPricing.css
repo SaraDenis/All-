@@ -1,0 +1,397 @@
+/*General*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 28px;
+  color: #65326b;
+}
+a {color:#7c3d83;}
+a:hover {color:#92549a;}
+ul {list-style: none;}
+
+/*Header y Chat*/
+#header {
+  border-bottom: 1px solid #ddd;
+  width:100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+.mainLogo {
+  width:175px;
+  display:inline;
+  margin: 20px 0;
+} 
+#chatBox {
+  margin-top: 150px;
+  z-index: 1000;
+  position: fixed;
+  text-align: center;
+  display:block;
+}
+#chatBox span {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#chatBox a {
+  width: 96px;
+  display:inline-block;
+  background-color: #65326b;
+  padding: 15px;
+  color:#fff;
+  border-radius: 0 10px 10px 0;
+}
+#chatBox a:hover {
+  text-decoration: none;
+  background-color: #92549a;
+}
+#chatBoxMobile {
+  margin-top: 96px;
+  z-index: 1000;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+#chatBoxMobile a {
+  width: 100%;
+  display:inline-block;
+  background-color: #65326b;
+  padding: 15px;
+  color:#fff;
+}
+#content {padding-top:96px;}
+
+/*Pricing*/
+.pricingBox {
+  background-color: #F3F3F3;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.pricingBoxHeader {
+  text-align:center;
+  margin-bottom: 30px
+}
+.pricingBoxHeader .nav {
+  display: inline-block;
+  margin: 30px 0;
+}
+.subtitle {font-size: 18px;}
+.nav-pills a{
+  font-weight: bold;
+  height:60px;
+}
+.nav-pills p {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.nav-pills>li {cursor:pointer;}
+.plan {
+  background-color:#fff;
+  border:1px solid #e3e3e3;
+  border-radius:4px;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+  margin-bottom: 40px;
+}
+.plan h2 {
+  color:#65326b;
+  text-align: center;
+  margin:0px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.plan h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  color:#fff;
+}
+.plan h3 sup {
+  font-weight: normal;
+  font-size:14px;
+  top: -1.3em;
+}
+.plan h3 sup:first-child {
+  font-size:20px;
+  top: -0.6em;
+}
+
+.plan ul {padding:30px;}
+.plan li {padding-bottom: 15px;}
+.plan li:last-child {
+  padding-top: 15px;
+  padding-bottom: 0px;}
+.plan-cta {padding:0 30px 30px;}
+.planCaption {
+  padding:5px 30px 15px 30px;
+  text-align: center;
+  font-weight: bold;
+  color:#65326b;
+  margin:0;
+}
+.prices {
+  background-color: #7c3d83;
+  text-align: center;
+  color:#fff;
+  padding: 5px 0;
+  min-height: 130px;
+}
+.prices span {
+  color: #f48e20;
+  font-size: 18px;
+}
+.prices .small {
+  margin-bottom: 0px;
+  color:#fff;
+}
+.line-through {
+  position:relative;
+}
+.line-through:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 2px;
+  background: #FDC7A5;
+  left: 0;
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+}
+.ribbon {
+  position: absolute;
+  right: 16px; 
+  top: 1px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 25px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #ed6e1d;
+  position: absolute;
+  top: 14px; right: -24px;
+}
+.bestPlan h2{
+  background-color: #7c3d83;
+  color:#fff;
+  border-radius: 4px 4px 0 0;
+}
+.bestPlan span {color:#eee;}
+.bestPlan .planCaption {
+  color:#fff;
+  background-color: #7c3d83;
+}
+.bestPlan .prices {
+  background-color: #f48e20;
+  padding-top: 20px;
+  min-height: 160px;
+}
+.bestPlan .line-through:after {background-color: #fff;}
+.paymentOptions{
+  text-align: center;
+  margin: 30px 0;
+  padding: 0px;
+}
+.paymentOptions li {
+  display:inline-block;
+  padding: 0 10px;
+}
+.callUs span {
+  font-size: 20px;
+  margin-top: 0px;
+  display: block;
+  color: #fff;
+}
+
+.callUs:first-child {margin-top: 10px;}
+.callUs a {
+  color:#fff;
+  text-decoration: underline;
+}
+.callUs a:hover {color:#C198C5;}
+#semestre {top:-20px;}
+
+/*Secciones*/
+.sectionBar {
+  margin: 30px 0 80px 0;
+  text-align: center;
+}
+.sectionBar .container{
+  padding: 30px 5px;
+  border-top: 2px solid #65326b;
+  background-color:#92549a;
+  color:#fff;
+}
+.sectionBar p {font-size: 18px;}
+.sectionBar .btn {margin:15px;}
+.FAQS {margin-bottom: 80px;}
+.FAQS h2 {
+  text-align: center; 
+  color:#65326b;
+  padding-bottom: 30px;
+}
+.FAQS h4 {
+  margin-top: 40px;
+  font-weight: bold; 
+  font-size: 18px;
+}
+.testimonial i, .testimonialName span {color:#65326b;}
+.testimonialPhoto img{border: 6px solid #dfdfdf;}
+
+/*Footer*/
+.footer {
+  margin-top: 50px;
+  padding: 50px ;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+}
+.footer h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-top: 10px;
+  line-height:1.5em;
+  text-align: center;
+}
+.footer h2 span {
+  font-size: 1.5em;
+}
+
+/*Bootstrap Overwrite*/
+.btn {padding: 10px 50px;}
+.btn-info{
+  background-color: #fff;
+  border: 1px solid #65326b;
+  color:#65326b;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active  {
+  background-color: #eee;
+  border: 1px solid #65326b;
+  color:#65326b;
+}
+.btn-default{
+  background-color: #65326b;
+  border: 1px solid #65326b;
+  color:#fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active,  .btn-default.active {
+  background-color: #92549a;
+  color:#fff;
+  border: 1px solid #92549a;
+}
+.btn-primary {
+  background-color: #F37922;
+  border: 1px solid #F37922;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #f26304;
+  border: 1px solid #f26304;
+}
+.small {
+  text-align: center;
+}
+.well {background-color: #fff;}
+.nav-pills>li>a {
+  background-color: #fff;
+  border: 1px solid #65326b;
+  color: #65326b;
+  border-radius: 0px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #65326b;
+    cursor:default;
+}
+.nav-pills>li+li {
+    margin-left: 0px;
+}
+.nav-pills li:first-child a{border-radius: 4px 0 0 4px;}
+.nav-pills li:last-child a{border-radius: 0 4px 4px 0;}
+
+
+
+.badge {background-color: #B3B3B3;}
+.badge:hover {
+  background-color: #f48e20;
+  cursor:pointer;}
+
+
+
+/*BREAKPOINTS*/
+
+@media   (min-width: 220px) and (max-width: 451px) {
+  .form h1 {font-size: 1.5em;}
+}
+
+/*Phones*/    
+@media (min-width: 200px) and (max-width: 768px) {
+  #chatBox {display:none;}
+  #chatBoxMobile {display:block;}
+  #content {padding-top:145px;}
+  #semestre {top:-20px;}
+  .bestPlan .prices {
+    padding: 5px 0;
+    min-height: 130px;
+  }
+  .badge {display:none;}
+  .info {
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .testimonialPhoto {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .testimonialName {
+    float: none !important;
+    text-align: center;
+  }
+  .footer {
+  padding-right: 0px;
+  margin-top: 100px;
+  }
+  .footer h2 {font-size: 1.5em}
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 991px) {
+  #chatBox {display:none;}
+  #chatBoxMobile {display:block;}
+  #content {padding-top:145px;}
+  .bestPlan .prices {
+    padding: 5px 0;
+    min-height: 130px;
+  }
+  .badge {display:none;}
+  .info {
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .testimonialPhoto {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .testimonialName {
+    float: none !important;
+    text-align: center;
+  }
+  .footer h2 {font-size: 1.6em}
+}
+
+/*Desktops*/
+@media (min-width: 991px) and (max-width: 1199px){
+}
+

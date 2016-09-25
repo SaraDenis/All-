@@ -1,0 +1,221 @@
+body {
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+}
+h1, h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+header .container {
+  background-color: #000;
+  margin-top: 10px;
+}
+
+header h1 {
+  color:#fff;
+  padding-top: 30px;
+}
+.logo-SalesUp {
+  width: 199px;
+  padding-left: 5px;
+}
+#logo {padding: 30px 30px 30px 0;}
+.content {padding-top: 30px;}
+
+/* Sign Up*/
+.form {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:0px;
+}
+
+.form h2 {
+  background-color: #EAEAEA;
+  color: #e31818;
+  margin: 0;
+  padding: 20px;
+  border-radius: 4px 4px 0 0;
+  font-size: 2em;
+  text-align: center;
+}
+.form-group {vertical-align:middle;}
+.form-group span {
+    position: absolute;
+    font-size: 1em;
+    color: #d6d6d6;
+    border-right:1px solid #ddd;
+    padding: 3px 8px;
+    margin-top: 7px;
+    margin-left: 1px;
+}
+
+.form-group input {padding:1.5em;}
+.form-group label {font-size: 14px;}
+
+.form a:hover {text-decoration: none;}
+
+.field {
+  display:block;
+  padding: 20px 15px 5px 15px;
+  background-color: #EAEAEA;
+}
+
+.subhead {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+.cta {text-align: center;}
+
+.cta span {
+  position:relative;
+  border:none;
+  color:#fff;
+  padding: 10px 30px;
+}
+/* Beneficios */
+.info {padding-right: 50px;}
+.benefits {margin:10px 0 80px 0;}
+.benefits h3 {line-height: 1.5em;}
+.benefits ul {padding-left: 10px;}
+.benefits li {
+  list-style: none;
+  padding-top: 30px;
+}
+.benefits i, .testimonial i, .testimonial span {color:#e31818;}
+.testimonial {
+  border-top: 1px solid #dadada;
+  padding-top:24px;
+}
+.testimonial p {
+  text-align: justify;
+  margin-top: 30px;
+}
+.testimonialPhoto img {
+  border: 6px solid #dfdfdf;
+  margin:auto;
+  display:block;
+}
+.pricing {margin-bottom: 30px;}
+.pricing h2 {
+  margin-top: 60px;
+  border-top: 3px solid #e31818;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.highlight {
+  color: #e31818;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer_credit {
+  background-color: #000;
+  padding: 15px 0;
+}
+.copyright {color:#fff;}
+
+/*Error*/
+.DatoMal, .InfoDatoMal, .alert-error {
+    background-color: #FFEFEE;
+    border-color: #cf6a6a;
+    color: #bb1917;
+  }
+
+.alert-error {margin-bottom: 0px;}
+
+.form-group .DatoMal::-webkit-input-placeholder {
+   color: #bb1917;
+}
+
+.form-group .DatoMal:-moz-placeholder { /* Firefox 18- */
+   color: #bb1917;  
+}
+
+.form-group .DatoMal::-moz-placeholder {  /* Firefox 19+ */
+   color: #bb1917;  
+}
+
+.form-group .DatoMal:-ms-input-placeholder {  
+   color: #bb1917;  
+}
+
+
+/*Bootstrap Overwrite*/
+
+.container {
+  max-width: 1020px;
+}
+.btn-primary {
+  background-color: #E31818;
+  border:transparent;
+  padding: 10px 50px;
+}
+
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #B71212;
+}
+
+.small {
+  text-align: center;
+  margin-bottom: 30px;
+  color:#8a8a8a;
+  font-size: 70%;
+}
+
+
+/*Breakpoints*/
+
+@media   (min-width: 220px) and (max-width: 451px) {
+  .form h1 {font-size: 1.5em;}
+}
+
+/*Phones*/    
+@media (min-width: 200px) and (max-width: 768px) {
+  h2 {font-size: 1.5em}
+  .info {
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .testimonialPhoto {
+    margin-bottom: 30px;
+  }
+
+  .testimonialName {
+    float: none !important;
+    text-align: center;
+  }
+  .footer {
+  padding-right: 0px;
+  margin-top: 100px;
+  }
+
+
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 991px) {
+  h2 {font-size: 1.6em}
+  .info {
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .testimonialPhoto {
+    margin-bottom: 30px;
+  }
+  .testimonialName {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+/*Desktops*/
+@media (min-width: 991px) and (max-width: 1199px){
+}
+
+/*Extras*/

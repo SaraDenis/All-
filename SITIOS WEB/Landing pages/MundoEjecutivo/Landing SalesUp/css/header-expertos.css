@@ -1,0 +1,26 @@
+.jumbotron{background:#000 url("../images/Jumbotron.jpg") center center no-repeat;width:100%;height:600px;background-size:cover;color:#fff;margin-bottom:0;}
+.jumbotron h1{font-size:3em;font-weight:bold;text-transform:none;}
+.jumbotron p{color:#fff !important;padding-top:20px;line-height:1.5em;}
+.jumbotronBox{padding:50px 0;width:60%;}
+#btnPrueba{background-color:#F37922;border-color:transparent;padding:16px 50px;font-size:1em;font-weight:bold;}
+#btnPrueba:hover{background-color:#f26304 !important;border-color:transparent;}
+.jumboComplement{margin-top:-50px;margin-bottom:60px;text-align:center;}
+.jumboComplement h2{font-family:'Open Sans', sans-serif;font-weight:bold;font-size:16px;color:#65326b;margin-top:10px;}
+.jumboComplement img{border:6px solid #dfdfdf;margin:auto;}
+.jumboComplement p{font-size:1em;}
+.jumboComplement p.imageDescription{font-size:.8em;font-weight:bold;color:#888 !important;}
+.jumboComplement i{color:#cecece;}
+.imageDescription span{color:#65326b;}
+@media (min-width:220px) and (max-width:480px){#btnPrueba{display:none;}
+}
+@media (min-width:200px) and (max-width:768px){.jumbotron{background:#000 url("../images/JumbotronPhone.jpg") center center no-repeat;width:100%;height:533px;}
+.jumbotron h1{font-size:2em;line-height:1em;}
+.jumbotron p{font-size:1.3em;}
+.jumboComplement{margin-top:10px;}
+#btnPrueba{padding:16px;}
+.jumboComplement img{margin:40px auto 10px auto;}
+}
+@media (min-width:769px) and (max-width:991px){.jumbotron{background:#000 url("../images/JumbotronTablet.jpg") center center no-repeat;width:100%;height:533px;}
+.jumboComplement img{width:70%;}
+}
+@media (min-width:992px){}

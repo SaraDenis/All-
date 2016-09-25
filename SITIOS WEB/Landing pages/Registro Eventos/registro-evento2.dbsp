@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es" class="css3transitions">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="google-site-verification" content="YlipaweRTnAsWCIX2nbBvQ9cYsoXqcB-uU2upJo9Btw" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" hreflang="es" href="http://www.salesup.com/" />
+	<title>Registro Evento - SalesUp! CRM</title>
+	<#include doc="head.html"/>
+
+
+
+
+<link rel="icon" type="image/png" href="http://www.salesup.com/imagenes/favicon.ico" />
+<!--dabs:link rel="stylesheet" href="/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.6" type="text/css" media="all" /!-->
+<!-- Responsive Meta -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Pingback URL -->
+<!--[if lt IE 9]>  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="http://www.salesup.com/css/bootstrap.min.css">
+<link rel='stylesheet' id='font_extra-css' href='http://fonts.googleapis.com/css?family=Satisfy&amp;ver=4.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='http://www.salesup.com/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-responsive-css' href='http://www.salesup.com/css/bootstrap-responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.fancybox-css' href='http://www.salesup.com/fancybox/source/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hoverex-css' href='http://www.salesup.com/css/hoverex-all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='http://www.salesup.com/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='linecon-css' href='http://www.salesup.com/css/linecon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='steadysets-css' href='http://www.salesup.com/css/steadysets.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.easy-pie-chart-css' href='http://www.salesup.com/css/jquery.easy-pie-chart.css' type='text/css' media='all' />
+<link rel='stylesheet' id='idangerous.swiper-css' href='http://www.salesup.com/css/idangerous.swiper.css' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='http://www.salesup.com/plugins/js_composer/assets/css/js_composer1.css' type='text/css' media='all' />
+<link rel="stylesheet" href="http://www.salesup.com/css/colorbox.css" />
+<!-- Pop Up Zavala -->
+<link rel="stylesheet" type="text/css" href="http://www.salesup.com/PopUp/PopUpTipsZavala.css">
+
+
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/jquery-1.11.3.min.js'></script>
+<script type='text/javascript' src="http://www.salesup.com/js/jquery.colorbox-min.js"></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/jquery.form.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/ui/jquery.ui.core.min.js'></script>
+
+
+
+
+<script type='text/javascript' async src='http://www.salesup.com/js/jquery.easy-pie-chart.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.appear.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/modernizr.custom.66803.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/odometer.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/animations.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.mobilemenu.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/isotope.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/layout-mode.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.cycle.all-min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/customSelect.jquery.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/fancybox/source/jquery.fancybox-min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/fancybox/source/helpers/jquery.fancybox-media.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.carouFredSel-6.1.0-packed.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/tooltip.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.hoverex.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.parallax.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/main-min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.placeholder.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.livequery.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/waypoints.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/background-check.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/idangerous.swiper.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery.infinitescroll-min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/ui/jquery.ui.widget.min.js'></script>
+<script type='text/javascript' src='http://www.salesup.com/js/jquery/ui/jquery.ui.accordion.min.js'></script>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://newthemes.themeple.co/solveto/plugins/js_composer</assets/css/vc-ie8.css" media="screen"><![endif]-->
+
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/underscore-min.js"></script>
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/handlebars.js"></script>
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Sistema.js"></script>
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Validaciones.js"></script>
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Demo.js"></script>
+<script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/main.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+    <#include doc="navegacion_superior.html"/>
+
+    <#include doc="header.html"/> 
+
+	<script>
+	var campos_forma = new Array ("nombre","correoelectronico","telefono");
+	function ValidateFormX(forma) {
+	if (jQuery('[name="nombre"]').val() != "" && jQuery('[name="telefono"]').val() != "" && !isNaN(jQuery('[name="telefono"]').val()) && jQuery('[name="correoelectronico"]').val() != "")
+	{
+	  return true
+	}
+	else {
+		  if (jQuery('[name="nombre"]').val() == ""){
+		  	jQuery('[name="nombre"]').addClass("DatoMal");
+		  }
+		  if (jQuery('[name="correoelectronico"]').val() == ""){
+		  	jQuery('[name="correoelectronico"]').addClass("DatoMal");
+		  }
+		  if (jQuery('[name="telefono"]').val() == "" || isNaN(jQuery('[name="telefono"]').val())){
+		  	jQuery('[name="telefono"]').addClass("DatoMal");
+		  }
+	  return false
+		}
+	} 
+	</script>
+
+	<style>
+		label {font-size: 12px; text-transform: uppercase; font-weight: 700;}
+		label span {color:#F37922;}
+		#transparentBox {height:100px;}
+		#btn-registro {padding:10px 35px; background-color:#F37922; font-weight: bold;}
+		#btn-registro:hover {background-color:#D25807;}
+		@media (max-width: 767px) {#transparentBox {height:50px;}}
+	</style>
+
+	<div id="transparentBox"></div>
+	<div class="container">
+		<div class="col-md-6 col-md-offset-3">
+			<h1>Registro</h1>
+			<p></p>
+			<form name="calificacion" class="well" method="post" onsubmit="return ValidateFormX(this)" action="http://op2020.salesup.com.mx/evento-registro.dbsp">
+				<input type="hidden" name="idevento" value="<#idevento/>"/>
+				<input type="hidden" name="refpage" value="/"/>
+				<div class="form-group">
+					<label>Título</label>
+					<select name="titulo" class="form-control">
+						<option value="0" selected="" disabled="">Seleccionar...</option>
+						<option>Sr.</option>
+					    <option>Sra.</option>
+					    <option>Srita.</option>
+					    <option>Lic.</option>
+					    <option>Ing.</option>
+					    <option>Arq.</option>
+					    <option>Act.</option>
+					    <option>Mtro.</option>
+					    <option>Dr.</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Nombre <span>*</span></label>
+					<input type="text" class="form-control esObligatorio" name="nombre" maxlength=256/>
+				</div>
+				<div class="form-group">
+					<label>Teléfono (con lada) <span>*</span></label>
+					<input type="tel" name="telefono" maxlength=128 class="form-control esObligatorio" onkeypress="javscript:return ValidaEntero(event)"/>
+				</div>
+				<div class="form-group">
+					<label>Celular</label>
+					<input type="text" class="form-control" name="celular" maxlength=128 onkeypress="javscript:return ValidaEntero(event)"/>
+				</div>
+				<div class="form-group">
+					<label>Correo electrónico <span>*</span></label>
+					<input type="email" class="form-control" name="correoelectronico" class="esObligatorio" maxlength=128/>
+				</div>
+				<div class="form-group">
+					<label>Compañía</label>
+					<input type="text" class="form-control" name="razonsocial" maxlength=128/>
+				</div>
+				<div class="form-group">
+					<label>Giro</label>
+					<input type="text" class="form-control" name="giro" maxlength=128/>
+				</div>
+				<div class="form-group">
+					<label>Sitio web</label>
+					<input type="text" class="form-control" name="sitioweb" maxlength=1024/>
+				</div>
+				<div class="form-group">
+					<label>Número de empleados</label>
+					<input type="text" class="form-control" name="numeroempleados" maxlength=6 onkeypress="javscript:return ValidaEntero(event)"/>
+				</div>
+				<div class="form-group">
+					<label>Número de vendedores</label>
+					<input type="text" class="form-control" name="numerovendedores" maxlength=6 onkeypress="javscript:return ValidaEntero(event)"/>
+				</div>
+				<div class="form-group">
+					<label>¿Qué te gustaría haber logrado al finalizar el curso?</label>
+					<textarea name="comentarios" class="form-control" rows="4"></textarea>
+				</div>
+				<div class="form-group">
+					<button id="btn-registro" type="submit">Registrar al evento</button>
+				</div>
+			</form>
+		</div>
+	</div> 
+</body>
+</html>
+
+   
+

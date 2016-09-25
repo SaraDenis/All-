@@ -1,0 +1,391 @@
+#SalesUp h2 {
+	font-size: 1.7em;
+    line-height: 1.5em
+}
+#SalesUp h3 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+.resaltar {
+	color: #7C3D83;
+  	font-weight: bold;
+}
+.small {text-align: center;}
+
+/* Botones */
+.btn {padding: 10px 50px;}
+a#btnPrueba {
+  background-color: #F37922;
+  padding: 16px 130px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+}
+a#btnPrueba:hover, a#btnPrueba:active, a#btnPrueba:focus, a#btnPrueba:active:focus, a#btnPrueba:active:hover {
+  background-color: #DA5B07;
+  color:#fff;
+}
+.btn-info{
+  background-color: #fff;
+  border: 1px solid #65326b;
+  color:#65326b;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info:active:focus, .btn-info:active:hover {
+  background-color: #eee;
+  border: 1px solid #65326b;
+  color:#65326b;
+}
+.btn-default{
+  background-color: #65326b;
+  border: 1px solid #65326b;
+  color:#fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default:active:focus, .btn-default:active:hover {
+  background-color: #92549a;
+  color:#fff;
+  border: 1px solid #92549a;
+}
+.btn-primary {
+  background-color: #F37922;
+  border: 1px solid #F37922;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus, .btn-primary:active:hover{
+  background-color: #f26304;
+  border: 1px solid #f26304;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background: #65326b;  
+  width: 100%;
+  background-size: cover;
+  color:#fff;
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  font-size: 2.5em;
+  text-transform: none;
+}
+.jumbotron p {
+  padding-top: 20px;
+  line-height: 1.5em;
+  font-weight: normal;
+  }
+.jumbotron ul {
+	list-style: none;
+	margin-top: 35px;
+	padding: 0px;
+}
+.jumbotron li {
+	font-size: 1.2em;
+	line-height: 2.3em;
+}
+.jumbotron i {color:#F37922;}
+.jumbotronBox {
+  padding:30px 0;
+  width:100%;
+  text-align: center;
+}
+
+/* Form */
+.content {padding:30px 0px;}
+.form {
+  border:1px solid #ddd;
+  border-radius: 4px;
+  padding:0px;
+}
+.form h2 {
+  background-color: #EAEAEA;
+  color: #65326b;
+  margin: 0;
+  padding: 20px;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+.subhead {
+    background-color: #65326b;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.form-group {vertical-align:middle;}
+.form-group span {
+    position: absolute;
+    font-size: 1em;
+    color: #d6d6d6;
+    border-right:1px solid #ddd;
+    padding: 3px 8px;
+    margin-top: 7px;
+    margin-left: 1px;
+}
+.form-group input {padding-left: 2.5em;}
+.field {
+  display:block;
+  padding: 20px 15px 5px 15px;
+  background-color: #EAEAEA;
+}
+.cta {text-align: center;}
+.cta span {
+  position:relative;
+  border: 1px solid #f26304;
+  color:#fff;
+  padding: 10px 30px;
+}
+
+/*Error*/
+.DatoMal, .InfoDatoMal, .alert-error {
+    background-color: #FFEFEE;
+    border-color: #cf6a6a;
+    color: #bb1917;
+  }
+.alert-error {margin-bottom: 0px;}
+.form-group .DatoMal::-webkit-input-placeholder {color: #bb1917;}
+.form-group .DatoMal:-moz-placeholder { /* Firefox 18- */ color: #bb1917;}
+.form-group .DatoMal::-moz-placeholder {  /* Firefox 19+ */ color: #bb1917;}
+.form-group .DatoMal:-ms-input-placeholder {color: #bb1917;  }
+
+/* From complement */
+.info {padding-right: 50px;}
+.benefits {margin:10px 0 80px 0;}
+.benefits ul {padding-left: 10px;}
+.benefits li {
+  list-style: none;
+  padding-top: 30px;
+}
+.benefits i, .testimonial i {color:#65326b;}
+
+/*Pricing*/
+.nav-pills>li+li {
+    margin-left: 30px;
+}
+.pricingBox {
+  background-color: #F3F3F3;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.pricingBoxHeader {
+  text-align:center;
+  margin-bottom: 30px
+}
+.pricingBoxHeader .nav {
+  display: inline-block;
+  margin: 30px 0;
+}
+.subtitle {font-size: 18px;}
+.nav-pills a{
+  font-weight: bold;
+  height:60px;
+}
+.nav-pills p {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.nav-pills>li {cursor:pointer;}
+.plan {
+  background-color:#fff;
+  border:1px solid #e3e3e3;
+  border-radius:4px;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+  margin-bottom: 40px;
+}
+.plan h2 {
+  color:#65326b;
+  text-align: center;
+  margin:0px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+#SalesUp .plan h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  color:#fff;
+}
+.VerTabla {color:#92549a;}
+.VerTabla:hover {color:#65326b;}
+.plan h3 sup {
+  font-weight: normal;
+  font-size:14px;
+  top: -1.3em;
+}
+.plan h3 sup:first-child {
+  font-size:20px;
+  top: -0.6em;
+}
+.plan ul {padding:30px;}
+.plan li {padding-bottom: 15px; list-style: none;}
+.plan li:last-child {
+  padding-top: 15px;
+  padding-bottom: 0px;}
+.plan-cta {padding:0 30px 30px;}
+.planCaption {
+  padding:5px 30px 15px 30px;
+  text-align: center;
+  font-weight: bold;
+  color:#65326b;
+  margin:0;
+}
+.prices {
+  background-color: #7c3d83;
+  text-align: center;
+  color:#fff;
+  padding: 5px 0;
+  min-height: 130px;
+}
+.prices span {
+  color: #f48e20;
+  font-size: 18px;
+}
+.prices .small {
+  margin-bottom: 0px;
+  color:#fff;
+}
+.line-through {
+  position:relative;
+}
+.line-through:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 2px;
+  background: #FDC7A5;
+  left: 0;
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+}
+.ribbon {
+  position: absolute;
+  right: 16px; 
+  top: 1px;
+  z-index: 1;
+  overflow: hidden;
+  width: 100px; 
+  height: 100px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 25px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 140px;
+  display: block;
+  background: #ed6e1d;
+  position: absolute;
+  top: 28px; 
+  right: -30px;
+}
+.bestPlan h2{
+  background-color: #7c3d83;
+  color:#fff;
+  border-radius: 4px 4px 0 0;
+}
+.bestPlan span {color:#eee;}
+.bestPlan .planCaption {
+  color:#fff;
+  background-color: #7c3d83;
+}
+.bestPlan .prices {
+  background-color: #f48e20;
+  padding-top: 20px;
+  min-height: 160px;
+}
+.bestPlan .line-through:after {background-color: #fff;}
+.paymentOptions{
+  text-align: center;
+  margin: 30px 0;
+  padding: 0px;
+}
+.paymentOptions li {
+  display:inline-block;
+  padding: 0 10px;
+}
+.callUs span {
+  font-size: 20px;
+  margin-top: 0px;
+  display: block;
+  color: #fff;
+}
+.callUs:first-child {margin-top: 10px;}
+.callUs a {
+  color:#fff;
+  text-decoration: underline;
+}
+.callUs a:hover {color:#C198C5;}
+#semestre {top:-20px;}
+.badge {background-color: #B3B3B3;}
+.badge:hover {
+  background-color: #f48e20;
+  cursor:pointer;}
+
+/*Secciones*/
+.sectionBar {
+  margin: 30px 0 80px 0;
+  text-align: center;
+}
+.sectionBar .container{
+  padding: 30px 5px;
+  border-top: 2px solid #65326b;
+  background-color:#92549a;
+  color:#fff;
+}
+.sectionBar p {font-size: 18px;}
+.sectionBar .btn {margin:15px;}
+
+#SalesUp .footer h3 {text-align: center;}
+
+
+
+/*Breakpoints*/
+
+@media   (min-width: 220px) and (max-width: 480px) {
+  #btnPrueba{display:none;}
+  .jumbotronBox {text-align: left;}
+}
+
+
+/*Phones*/    
+@media (min-width: 200px) and (max-width: 768px) {
+	#btnPrueba{display:none;}
+	.jumbotronBox {text-align: left;}
+	.jumbotron h1 {
+		font-size: 2em;
+		line-height: 1em;
+ 	}
+	.jumbotron p {font-size: 1.2em;}
+	.testimonialPhoto {
+    text-align: center;
+    margin-bottom: 30px;
+  	}
+  	.testimonialName {
+    float: none !important;
+    text-align: center;
+   }
+   .info {padding-right: 0px;}
+   .badge {display:none;}
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 991px) {
+    .jumbotronBox {text-align: left;}
+    .testimonialPhoto {
+    text-align: center;
+    margin-bottom: 30px;
+  	}
+  	.testimonialName {
+    float: none !important;
+    text-align: center;
+  	}
+   .info {padding-right: 0px;}
+   .badge {display:none;}
+
+}

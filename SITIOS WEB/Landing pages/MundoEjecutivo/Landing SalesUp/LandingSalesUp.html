@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CRM | Mundo Ejecutivo</title>
+    <link rel="shortcut icon" href="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png" type="image/png">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/LandingSignUp.css">
+
+    <script type='text/javascript' src='http://salesup.com/js/jquery/jquery-1.11.3.min.js'></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/underscore-min.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/handlebars.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Sistema.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Validaciones.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Demo.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/main.js"></script>   
+    <script type='text/javascript' src='js/configuracion.js'></script> 
+    <script type="text/javascript">
+         $(document).ready(function() {
+         $('#btnPrueba,#Prueba').click(function(){ 
+         $('html, body').animate({scrollTop: $("#frmFormularioSignUp").offset().top}, 800);
+         return false;
+         });
+       });
+    </script>
+  </head>
+
+  <body>
+
+      <header>
+        <div class="container">
+          <div class="col-md-4">
+            <div id="logo"><a href="http://mundoejecutivo.com.mx/" title="Inicio"><img class="img-responsive" src="http://mundoejecutivo.com.mx/~mundoejecutivoco/sites/all/themes/responsive_green/images/logo_mundo_ejecutivo_01.png"></a>
+            </div>
+          </div>
+          <div class="col-md-8">          
+            <h1>Recomienda <img class="logo-SalesUp" src="images/Logo-SalesUp.png"> CRM</h1>
+          </div>
+      </header>
+
+    <div class="content">
+      <div class="container">
+
+    <!-- Forma -->
+
+        <div class="col-md-5 col-md-push-7 form" >
+          <form id="frmFormularioSignUp">
+            <h2>Pruébalo un mes gratis</h2>
+            <p class="subhead">¡Sin descargas!<br> Sin necesidad de instalar ningún software.</p>
+ 
+            <div class="field">
+              <div class="row">
+                <div class="form-group col-md-12">
+                  <label>Nombre</label>
+                  <input type="text" class="form-control esObligatorio" id="Nombre_SingUp" name="NOMBRE">
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Apellido</label>
+                  <input type="text" class="form-control esObligatorio" id="Apellidos_SingUp" name="APELLIDOS">
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Correo electrónico</label>
+                  <input type="text" class="form-control esObligatorio" id="Correo_SingUp" name="EMAIL">
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Teléfono</label>
+                  <input type="text" class="form-control esObligatorio" id="Telefono_SingUp" name="TELEFONO">
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Empresa</label>
+                  <input type="text" class="form-control esObligatorio" id="Empresa_SingUp" name="EMPRESA">
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Puesto</label>
+                  <input type="text" class="form-control esObligatorio" id="Puesto_SignUp" name="PUESTO">
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="form-group">
+                <label>Crear contraseña</label>
+                <input type="password" class="form-control esObligatorio" id="Contrasena_SingUp" name="CONTRASENIA">
+              </div>
+              <div class="form-group">
+                <label>Confirmar contraseña</label>
+                <input type="password" class="form-control esObligatorio" id="RepContrasena_SingUp" name="CONTRASENA2">
+              </div>
+            </div>
+
+            <div class="field">
+                <div class="form-group cta">
+                  <span id="btnPruebaloGratis" class="btn btn-primary btn-block" onclick="SalesUp.Demo.crearCuentaDemo({t:this});">
+                  Probar ahora
+                  </span>
+                </div>
+              <p class="small">SalesUp! no comparte, vende o renta tu información personal con terceros para fines promocionales. Al dar clic en "Comenzar", indicas que has leído y estás de acuerdo con nuestro <a href="http://www.salesup.com/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a> y los <a href="http://www.salesup.com/licencia.txt" target="_blank">Términos y condiciones</a> de uso</p>
+            </div>
+			
+         </form>
+        </div>
+
+
+        <div class="col-md-7 col-md-pull-5 info">
+            <div class="benefits">
+                <h3>SalesUp!<sup>®</sup> es el software en la nube que potencializa las habilidades de <span class="highlight">gerentes</span> y <span class="highlight">vendedores</span>. Al crear tu cuenta podrás:</h3>
+                <ul>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png"> Gestionar y segmentar <strong>fácilmente</strong> la base de datos de tus clientes.</li>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png"> Conocer el estatus de las <strong>oportunidades de negocio</strong> de tus vendedores.</li>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png"> Asegurar que tus ejecutivos brinden <strong>seguimiento adecuado</strong> a sus contactos.</li>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png">  <strong>Personalizar</strong> tu cuenta de acuerdo al proceso de ventas de tu empresa.</li>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png"> Generar <strong>reportes</strong> y <strong>pronósticos</strong> de ventas en segundos.</li>
+                    <li><img src="http://mundoejecutivo.com.mx/sites/default/files/me_ico_0.png"> Acceder de manera <strong>segura </strong> desde cualquier lugar o dispositivo.</li>
+                </ul>
+            </div>
+            <div class="testimonial">
+              <div class="row">
+                <div class="col-md-12 testimonialPhoto">
+                    <img class="img-circle" src="images/Villacis.jpg">
+                </div>
+                <div class="col-md-12">
+                    <p><i class="fa fa-quote-left"></i> Con SalesUp! mi organización (que funciona con oficinas independientes), ha logrado un gran nivel de personalización en cuanto a imagen, puntos de comunicación, acción y contactos con los prospectos. Mantenemos consistencia en nuestro proceso facilitando el análisis, la medición y la toma de decisiones. Lo considero el CRM más exitoso de Latinoamérica <i class="fa fa-quote-right"></i></p>
+                    <p class="pull-right testimonialName"><strong>Experto en ventas </strong>- Pepe Villacís, <span>Action Coach<sup>®</sup></span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-12 pricing">
+          <h2>¡Desde <span class="highlight">$199 MXN*</span> por usuario al mes!</h2>
+          <p class="small">* Adquiriendo la versión PRO de manera anual</p>
+        </div>
+        
+        <div class="col-md-12">
+            <h3 class="TitleDesktop">Únete a más de 3,000 empresas que han incrementado sus ventas con SalesUp!<sup>®</sup></h3>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/FibraInn.png"></div>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Contpaqi.png"></div>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/ActionCoach.png"></div>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Sandler.png"></div>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Koomkin.png"></div>
+                <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Pasa.png"></div>
+             <p class="small">Todas las marcas aquí mencionadas y símbolos están registrados por sus legítimos propietarios. Solamente se emplean en referencia a las mismas.</p>
+          </div>      
+      </div>
+    </div>
+
+    <div class="footer_credit">
+      <div class="copyright">
+        <center>
+          <p>Copyright © 1997/2015, Grupo Internacional Editorial SA de CV </p> 
+        </center>
+      </div>
+      <center>
+        <img src="http://mundoejecutivo.com.mx/sites/all/themes/responsive_green/images/com-score.png" alt="Logo de ComScore">
+      </center>   
+    </div>
+
+  </body>
+</html>

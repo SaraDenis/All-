@@ -1,0 +1,138 @@
+.jumbotron {
+  background: #65326b;  
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  color:#fff;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: none;
+}
+.jumbotron p {
+  color:#fff !important;
+  padding-top: 20px;
+  line-height: 1.5em;
+  font-weight: normal;
+  }
+
+.jumbotronBox {
+  padding:50px 0;
+  width:100%;
+  text-align: center;
+}
+#btnPrueba {
+  background-color: #F37922;
+  border-color: transparent;
+  padding: 16px 130px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  -webkit-transition: all 15s linear;
+  -moz-transition:all 15s linear;
+  transition: all 15s linear; 
+}
+
+#btnPrueba:hover {
+  background-color: #f26304 !important;
+  border-color: transparent;
+}
+
+.banner {
+  display:inline-block;
+  padding-top: 40px;
+}
+.bannerElement {
+  float:left;
+}
+.bannerElement i {
+  font-size: 42px;
+  border: 2px solid #fff;
+  border-radius:500px; 
+  padding: 20px;
+}
+.bannerElement i.fa-user-plus {padding:20px 18px;}
+.bannerElement i.fa-graduation-cap {padding:20px 15px;}
+.bullet {
+  float:left;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #f38e22;
+  margin: 40px 20px;
+}
+.jumboComplement {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.jumboComplement h2 {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #65326b;
+  margin-top: 10px;
+}
+
+.jumboComplement img {
+  border: 6px solid #dfdfdf;
+  margin:auto;
+}
+
+.jumboComplement p{
+  font-size: 1em;
+  }
+
+.jumboComplement p.imageDescription {
+  font-size: .8em;
+  font-weight: bold;
+  color:#888 !important;
+  }
+.jumboComplement i {color:#cecece;}
+.imageDescription span {color:#65326b;}
+
+
+/*Breakpoints*/
+
+@media   (min-width: 220px) and (max-width: 480px) {
+  #btnPrueba{display:none;}
+  .banner {padding-top: 0;}
+}
+
+
+/*Phones*/    
+@media (min-width: 200px) and (max-width: 768px) {
+ .jumbotron {height: 455px}
+ .jumbotron h1 {
+   font-size: 2em;
+   line-height: 1em;
+ }
+ .jumbotron p {font-size: 1.2em;}
+ .jumboComplement {margin-top:10px;}
+ .jumboComplement img {margin:40px auto 10px auto;}
+ .bannerElement i {
+   font-size: 22px;
+   padding: 10px;
+ }
+ .bannerElement p {font-size:0.8em;}
+ .bannerElement i.fa-user-plus {padding:10px 9px;}
+ .bannerElement i.fa-graduation-cap {padding:10px 8px;}
+ .bullet {margin:40px 10px;}
+}
+
+/*Tablets*/
+@media (min-width: 769px) and (max-width: 991px) {
+  .jumbotron {height: 533px;}
+  .jumbotronBox {padding-top:20px;}
+  .jumboComplement {margin-top:40px;}
+  .jumboComplement img {width:70%;}
+}
+
+/*Desktops*/
+@media (min-width: 992px) {}

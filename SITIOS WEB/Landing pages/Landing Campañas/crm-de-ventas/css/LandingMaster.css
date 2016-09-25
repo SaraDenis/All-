@@ -1,0 +1,107 @@
+header {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+header .navbar {
+  margin-bottom: 0px;
+  padding: 10px 0px;
+}
+header .navbar-brand {padding:0px}
+.section h2 {
+  font-weight: 700;
+  padding-bottom: 40px;
+  line-height:36px;
+  font-size: 28px;
+}
+.section_inverse h2, .section_inverse_light h2, .section_square h2{
+  font-weight: 700;
+  color:#fff;
+  padding-bottom: 55px;
+  line-height:36px;
+  font-size: 28px;
+}
+.section h3, .section_inverse h3, .section_inverse_light h3, .section_square h3 {padding: 20px 0px;}
+.section ul, .section_inverse ul, .section_inverse_light ul, .section_square ul{list-style: none; padding-left:0px;}
+.section li, .section_inverse li, .section_inverse_light li, .section_square li {padding: 6px 0;}
+.section li .fa, .section_inverse li .fa, .section_inverse_light li .fa, .section_square li .fa {position:absolute; padding-top: 6px;}
+.section li p, .section_inverse li p, .section_inverse_light li p, .section_square li p {padding-left: 25px; line-height: 1.8em;} 
+.section {padding:60px 0px;}
+.section.zebra {background-color:#F6F6F6;}
+.section_inverse {
+  padding:60px 0px; 
+  background-color:#65326B;
+  color:#fff;
+}
+.section_inverse_light {
+  padding: 60px 0px;
+  background-color: #92549a;
+  color:#fff;
+}
+.section_square {
+  padding:60px 0px;
+/*  background-image: url(../images/pw_maze_black.png);*/
+  background-image: url(http://www.salesup.com/images/pw_maze_black.png);
+  color:#fff;
+}
+.section_inverse p, .section_inverse_light p, .section_square p {color:#fff;}
+.section .fa {color:#65326b;}
+.section_inverse .fa, .section_inverse_light .fa {color:#F37922;}
+.section.zebra .well {background-color: rgba(0, 0, 0, 0.05)}
+.testimonial {    
+  background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.testimonialName {
+  line-height: 1.5;
+    margin-top: 30px;
+    display: block;
+}
+.inner-tab .nav-tabs li {padding-bottom: 0px;}
+.inner-tab .nav-tabs a {color:#444;}
+.inner-tab .tab-pane {
+  padding:0px 30px 30px;
+  border:1px solid #ddd;
+  border-top: 0px;
+} 
+.footer {
+  background-color:#272727;
+  color:#999;
+}
+.footer a{color:#DCDCDC;}
+
+/* General */
+.left-divider {border-left: 1px solid #e5e5e5; padding:0px 5px;}
+.right-divider {border-right: 1px solid #e5e5e5; padding:0px 5px;}
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+.mb40 {margin-bottom: 40px;}
+
+
+/*Breakpoints*/
+
+/*Phones*/
+@media (max-width: 767px) {
+  header .navbar-brand {padding:0px 15px;}
+  header .navbar-collapse {background-color: #444444;}
+  header .navbar-nav>li { border-bottom:1px solid #585858;}
+  .vcenter {display: block;}
+  .nav-tabs > li {
+        float:none;
+    }
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .vcenter {display: block;}
+    .nav-tabs > li {
+        float:none;
+    }
+
+}
+
+/*Desktops*/
+@media (min-width: 992px) {
+}
