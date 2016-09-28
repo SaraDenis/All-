@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contacto</title>
+    
+</head>
+<body>
+	<form action="enviar_llamada.php" method="post">
+	  <label>
+		  <div align="center"><strong>Nombre:</strong>
+		    <input type="text" name="nombre" placeholder="Nombre" value="" required>
+		  </div>
+	  </label>
+    <label>
+      <div align="center"><strong><br>Telefono:</strong>
+        <input type="text" name="telefono" placeholder="Telefono" value=""required>
+      </div>
+    </label>
+    <select name="tipo">
+    	<option value="movil">Móvil</option>
+    	<option value="fijo">Fijo</option>
+    </select>
+    <div align="center">
+      <input type="submit" value="Enviar" id="boton">
+		</div>
+	</form> 
+</body>
+</html>

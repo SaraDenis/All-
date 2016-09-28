@@ -1,0 +1,456 @@
+backup :)
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/descarga/css/style.css">
+  
+    <link rel="icon" type="image/png" href="http://www.salesup.com/imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
+
+
+	<title>Proceso de compra de los clientes</title>
+	
+</head>
+<body>
+<!--Inicia de top-nav-->
+<nav class="navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img class="nav-img"src="img/LogoSalesUp.jpg">
+      </a>
+    </div>
+    	<div>
+			<div>
+				<span class="glyphicon glyphicon-envelope"></span><i>Contáctanos</i>
+							<i>+52 998-283-1240</i>
+			</div>
+		</div>
+  </div>
+</nav>
+<!--Fin de top-nav-->
+
+<!--Content titulo-->
+<div class="content-title">
+<h1 class="title">E-book gratuito:</h1>
+<h1 class="title">¿Cómo compran tus clientes?</h1>
+<h1 class="subtitle">Entiende el proceso de compra de tus clientes<br><br>y las herramientas más usadas</h1>
+</div>
+<!--Content titulo fin-->
+
+<!--tabla content-->
+<table width="300">
+	<td width="200">
+	<div class="container1">
+		<p class="text-container">
+		Los consumidores pasan por diferentes momentos antes de tomar la <strong>decisión de comprar</strong> contigo.
+		</p>
+		<p class="text-container">Conoce el <strong>proceso de compra</strong> y haz que tu equipo de ventas perfile a<br> sus prospectos como los profesionales.
+		</p>
+	</div>
+		<img class="img2" src="img/1.png">
+	</td>
+	<td width="100">
+		<!--Div Formulario-->
+		<form method="post" action="#" id="frmDescargarFormato" class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="compania" name="compania" placeholder="Compañia">
+                </div>
+              </div>
+              <div class="form-group">
+              	<div class="col-sm-7">
+              		<select id="puesto" class="form-control">
+					  <option value="">Puesto</option>
+					  <option value="Coach/Consultor">Coach/Consultor</option>
+					  <option value="Coordinador">Coordinador/Supervisor</option>
+					  <option value="Director">Director</option>
+					  <option value="Ejecutivo de ventas">Ejecutivo de ventas</option>
+					  <option value="Estudiante">Estudiante</option>
+					  <option value="Estudiante">Gerente</option>
+					  <option value="Estudiante">IT Sistemas</option>
+					  <option value="Estudiante">Marketing</option>
+					  <option value="Estudiante">Socio/Dueño</option>
+					  <option value="Estudiante">Otro</option>
+					</select>
+              	</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+                </div>
+              </div>
+              <div class="form-group">
+				<div class="col-sm-7">
+					<select id="industria" class="form-control">
+					  <option value="">Industria</option>
+					  <option value="Automotriz">Automotriz</option>
+					  <option value="Bienes de consumo">Bienes de consumo</option>
+					  <option value="Bienes industriales">Bienes industriales</option>
+					  <option value="Comercio al por menor">Comercio al por menor</option>
+					  <option value="Construcción">Construcción</option>
+					  <option value="Construcción">Cuidado de la salud</option>
+					  <option value="Construcción">Educación</option>
+					  <option value="Construcción">Energía</option>
+					  <option value="Construcción">Hospitalidad</option>
+					  <option value="Construcción">Inmobiliario</option>
+					  <option value="Construcción">Manufactura</option>
+					  <option value="Construcción">Publicidad y medios</option>
+					  <option value="Construcción">Servicios empresariales/ desarrollo de negocios</option>
+					  <option value="Construcción">Servicios financieros</option>
+					  <option value="Construcción">Tecnología</option>
+					  <option value="Construcción">Telecomunicaciones</option>
+					  <option value="Construcción">Transporte y logística</option>
+					  <option value="Construcción">Construcción</option>
+					  <option value="Construcción">Viajes y ocio</option>
+					  <option value="Construcción">Otro</option>
+					</select>
+				</div>              	
+              </div>
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="3172">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="3632">
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-7">
+                   <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                </div>
+              </div>
+            </form>
+<!--Fin del div formulario -->
+	</td>
+</table>
+
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+	<script type="text/javascript" src="js/descarga/configForm.js"></script>
+	<script type="text/javascript" src="js/descarga/validacion.js"></script>
+	<script type="text/javascript" src="js/descarga/config.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
+
+backup configForm.js
+:)
+
+$(document).ready(function()
+{
+    $("#frmDescargarFormato").submit(validaEnvio);
+});
+
+function validaEnvio(e)
+{
+    e.preventDefault();
+    var email =document.getElementById("email");
+    var nombre =document.getElementById("nombre");
+    var telefono =document.getElementById("telefono");
+    var puesto =document.getElementById("puesto");
+    var compania =document.getElementById("compania");
+    var industria =document.getElementById("industria");
+    var origen =document.getElementById("origen");
+    var etiqueta =document.getElementById("etiqueta");
+    var error_email = document.getElementById("error_email");
+    var error_nombre = document.getElementById("error_nombre");
+
+    error_email.style.display = "none";
+    email.style.backgroundColor = "#ffffff";
+    email.style.color = "#000000";
+    error_nombre.style.display = "none";
+    nombre.style.backgroundColor = "#ffffff";
+    nombre.style.color = "#000000";
+    if(email.value.length != 0 && /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(email.value) && nombre.value.length!=0 )
+    {
+        var form={
+            puesto:puesto.value,
+            compania:compania.value,
+            industria:industria.value,
+            email:email.value,
+            nombre:nombre.value,
+            telefono:telefono.value,
+            origen:origen.value,
+            etiqueta:etiqueta.value
+        };
+        suscribir(form);
+    }
+    else
+    {
+        if(email.value.length == 0||!(/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(email.value)))
+        {
+            error_email.style.display = "block";
+            email.style.backgroundColor="#eadcdc";
+            email.style.borderColor="#a94442";
+        }
+        if (nombre.value.length == 0||/^\s+$/.test(nombre.value))
+        {
+            nombre.style.borderColor="#a94442";
+            nombre.style.backgroundColor="#eadcdc";
+            error_nombre.style.display = "block";
+        }
+    }
+}
+
+function decolorar(elemento){elemento.style.backgroundColor = "#ffffff";elemento.style.borderColor="#ccc";elemento.style.backgroundColor="#fff";}
+
+function suscribir(form)
+{
+    var email=form.email;
+    var nombre=form.nombre;
+    var telefono=form.telefono;
+    var puesto=form.puesto;
+    var compania=form.compania;
+    var industria=form.industria;
+    var origen=form.origen;
+    var etiqueta=form.etiqueta;
+    var form=
+    {
+        IDEMPRESA:config.id_empresa,
+        NOMBRE:nombre,
+        TELEFONO:telefono,
+        CORREO:email,
+        PUESTO:puesto,
+        INDUSTRIA:industria,
+        COMPANIA:compania,
+        IDORIGEN:origen,
+        IDETIQUETA:etiqueta,
+        IDUSUARIO:config.id_usuario,
+        COMENTARIOS:"Registro Evento Online ",
+        SP_VERSION:2
+    };
+    
+    //console.log(form);//para ver que estoy enviando
+    
+    var request= $.ajax(
+    {
+      method: "POST",
+      url: config.ingresa_registro,
+      data: form,
+      
+    });
+
+    request.done(function(res)//funcion en caso de exito
+    {
+        //console.log(res);//para ver que recibo en caso de exito
+        //alert("Correo Enviado");
+        if(origen==3172){window.location.href = 'descarga-exitosa.shtml';}
+        
+    });
+
+    request.fail(function(jqXHR, textStatus)//funcion en caso de fallo
+    {
+        console.log("____________");
+        console.log(jqXHR);//para ver que recibes en caso de error
+        console.log("____________");
+        console.log(textStatus);//estatus de la respuesta "error" esto lo puedes omitir
+        console.log("____________");
+        alert("Error de envio!");
+        //alert( "error -" + jqXHR +"-" + textStatus);
+    });
+}
+
+backup :) validacion.js
+
+var nombre_llamada = document.getElementById("nombre_llamada");
+var telefono_llamada = document.getElementById("telefono_llamada");
+var error_nombre_llamada = document.getElementById("error_nombre_llamada");
+var error_telefono_llamada = document.getElementById("error_telefono_llamada");
+var m_nombre = document.getElementById("m_nombre");
+var m_email = document.getElementById("m_email");
+var m_telefono = document.getElementById("m_telefono");
+var m_mensaje = document.getElementById("m_mensaje");
+var error_m_nombre = document.getElementById("error_m_nombre");
+var error_m_email = document.getElementById("error_m_email");
+var error_m_telefono = document.getElementById("error_m_telefono");
+var error_m_mensaje = document.getElementById("error_m_mensaje");
+var error1 = document.getElementById("error1");
+var error2 = document.getElementById("error2");
+
+function validarLlamada()
+{
+    error_nombre_llamada.style.display = "none";
+    nombre_llamada.style.backgroundColor="#ffffff";
+    nombre_llamada.style.color="#000000";
+
+    error_telefono_llamada.style.display = "none";
+    telefono_llamada.style.backgroundColor="#ffffff";
+    telefono_llamada.style.color="#000000";
+
+    if (nombre_llamada.value.length == 0||/^\s+$/.test(nombre_llamada.value))
+    {
+        error_nombre_llamada.style.display="block";
+        nombre_llamada.style.borderColor="#a94442";
+        nombre_llamada.style.backgroundColor="#eadcdc";
+        if(telefono_llamada.value.length == 0||/^\s+$/.test(telefono_llamada.value)||!(/^\d{10}$/.test(telefono_llamada.value)))
+        {
+            error_telefono_llamada.style.display="block";
+            telefono_llamada.style.borderColor="#a94442";
+            telefono_llamada.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+    if(telefono_llamada.value.length == 0||/^\s+$/.test(telefono_llamada.value)||!(/^\d{10}$/.test(telefono_llamada.value)))
+    {
+        error_telefono_llamada.style.display="block";
+        telefono_llamada.style.borderColor="#a94442";
+        telefono_llamada.style.backgroundColor="#eadcdc";
+        if (nombre_llamada.length == 0||/^\s+$/.test(nombre_llamada))
+        {
+            error_telefono_llamada.style.display="block";
+            telefono_llamada.style.borderColor="#a94442";
+            telefono_llamada.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+    return true;
+}
+
+function mostrarLLamada(){error1.style.display = "block";setTimeout(ocultarLlamada, 3000);}
+
+function ocultarLlamada(){error1.style.display = "none";}
+
+function validarMensaje()
+{
+    error_m_nombre.style.display = "none";
+    m_nombre.style.backgroundColor = "#ffffff";
+    m_nombre.style.color = "#000000";
+
+    error_m_email.style.display = "none";
+    m_email.style.backgroundColor = "#ffffff";
+    m_email.style.color = "#000000";
+
+    error_m_telefono.style.display = "none";
+    m_telefono.style.backgroundColor = "#ffffff";
+    m_telefono.style.color = "#000000";
+
+    error_m_mensaje.style.display = "none";
+    m_mensaje.style.backgroundColor = "#ffffff";
+    m_mensaje.style.color = "#000000";
+
+    if (m_nombre.value.length == 0||/^\s+$/.test(m_nombre.value))
+    {
+        m_nombre.style.borderColor="#a94442";
+        m_nombre.style.backgroundColor="#eadcdc";
+        error_m_nombre.style.display = "block";
+        if(m_email.value.length == 0||/^\s+$/.test(m_email.value)||!(/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(m_email.value)))
+        {
+            error_m_email.style.display = "block";
+            m_email.style.borderColor="#a94442";
+            m_email.style.backgroundColor="#eadcdc";
+        }
+        if (m_telefono.value.length == 0||/^\s+$/.test(m_telefono.value)||!(/^\d{10}$/.test(m_telefono.value)))
+        {
+            error_m_telefono.style.display = "block";
+            m_telefono.style.borderColor="#a94442";
+            m_telefono.style.backgroundColor="#eadcdc";
+        }
+        if(m_mensaje.value.length == 0||/^\s+$/.test(m_mensaje.value))
+        {
+            error_m_mensaje.style.display = "block";
+            m_mensaje.style.borderColor="#a94442";
+            m_mensaje.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+
+    if(m_email.value.length == 0||/^\s+$/.test(m_email.value)||!(/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(m_email.value)))
+    {
+        error_m_email.style.display = "block";
+        m_email.style.borderColor="#a94442";
+        m_email.style.backgroundColor="#eadcdc";
+        if (m_nombre.value.length == 0||/^\s+$/.test(m_nombre.value))
+        {
+            m_nombre.style.borderColor="#a94442";
+            m_nombre.style.backgroundColor="#eadcdc";
+            error_m_nombre.style.display = "block";
+
+        }
+        if (m_telefono.value.length == 0||/^\s+$/.test(m_telefono.value)||!(/^\d{10}$/.test(m_telefono.value)))
+        {
+            error_m_telefono.style.display = "block";
+            m_telefono.style.borderColor="#a94442";
+            m_telefono.style.backgroundColor="#eadcdc";
+        }
+        if(m_mensaje.value.length == 0||/^\s+$/.test(m_mensaje.value))
+        {
+            error_m_mensaje.style.display = "block";
+            m_mensaje.style.borderColor="#a94442";
+            m_mensaje.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+
+    if (m_telefono.value.length == 0||/^\s+$/.test(m_telefono.value)||!(/^\d{10}$/.test(m_telefono.value)))
+    {
+        error_m_telefono.style.display = "block";
+        m_telefono.style.borderColor="#a94442";
+        m_telefono.style.backgroundColor="#eadcdc";
+        if (m_nombre.value.length == 0||/^\s+$/.test(m_nombre.value))
+        {
+            m_nombre.style.borderColor="#a94442";
+            m_nombre.style.backgroundColor="#eadcdc";
+            error_m_nombre.style.display = "block";
+        }
+        if(m_email.value.length == 0||/^\s+$/.test(m_email.value)||!(/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(m_email.value)))
+        {
+            error_m_email.style.display = "block";
+            m_email.style.borderColor="#a94442";
+            m_email.style.backgroundColor="#eadcdc";
+        }
+        if(m_mensaje.value.length == 0||/^\s+$/.test(m_mensaje.value))
+        {
+            error_m_mensaje.style.display = "block";
+            m_mensaje.style.borderColor="#a94442";
+            m_mensaje.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+
+    if(m_mensaje.value.length == 0||/^\s+$/.test(m_mensaje.value))
+    {
+        error_m_mensaje.style.display = "block";
+        m_mensaje.style.borderColor="#a94442";
+        m_mensaje.style.backgroundColor="#eadcdc";
+        if (m_nombre.value.length == 0||/^\s+$/.test(m_nombre.value))
+        {
+            m_nombre.style.borderColor="#a94442";
+            m_nombre.style.backgroundColor="#eadcdc";
+            error_m_nombre.style.display = "block";
+        }
+        if(m_email.value.length == 0||/^\s+$/.test(m_email.value)||!(/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/.test(m_email.value)))
+        {
+            error_m_email.style.display = "block";
+            m_email.style.borderColor="#a94442";
+            m_email.style.backgroundColor="#eadcdc";
+        }
+        if (m_telefono.value.length == 0||/^\s+$/.test(m_telefono.value)||!(/^\d{10}$/.test(m_telefono.value)))
+        {
+            error_m_telefono.style.display = "block";
+            m_telefono.style.borderColor="#a94442";
+            m_telefono.style.backgroundColor="#eadcdc";
+        }
+        return false;
+    }
+
+    return true;
+}
+
+function mostrarMensaje(){error2.style.display = "block";setTimeout(ocultarMensaje, 3000);}
+
+function ocultarMensaje(){error2.style.display = "none";}
+
+function despintar(elemento){elemento.style.borderColor = "#ccc";elemento.style.color = "#000000";;elemento.style.backgroundColor = "#fff";}

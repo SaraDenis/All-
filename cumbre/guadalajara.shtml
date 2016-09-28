@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="congreso de ventas, capacitacion de ventas, eventos de ventas en guadalajara, talleres guadalajara, conferencias guadalajara, capacitación para vendedores, profesionales en ventas, talleres y conferencias para vender más, tecnicas de negociacion, tecnicas de cierre, estrategias comerciales, estrategias de venta, planeacion, expertos en ventas, expertos en negociacion, coaching empresarial, coach de negocios">
+    <meta name="description" content="El congreso de SalesUp! diseñado para subir tus ventas. Los líderes en ventas y coaching empresarial, comparten su experiencia durante un día de conferencias y talleres, en la ciudad de Guadalajara, Jalisco.">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Guadalajara - Cumbre Pro Ventas</title>
+        <!--#include virtual="head.html" -->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="images/logoHeader.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Programa</a></li>
+            <li><a href="#Razones">¿Por qué acudir?</a></li>
+            <li><a href="#Sede">La sede</a></li>
+            <li><p class="navbar-btn"><a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" style="padding: 10px 60px;" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+<!-- Contacto -->
+    <div id="contact-box" class="text-center hidden-xs">
+      <a href="contacto.shtml" target="_blank">
+        <img src="images/CallCenter.png">
+        ¿Necesitas que te llamemos?
+      </a>
+    </div>
+    <div id="contact-box-mobile" class="hidden-lg hidden-md hidden-sm">
+        <a href="contacto.shtml" target="_blank" class="text-uppercase">
+            <img src="images/CallCenter.png"> ¿Necesitas que te llamemos?
+        </a>
+    </div>
+<!-- / Contacto -->
+
+    <div class="jumbotron guadalajara">
+      <div class="row no-gutter">
+        <div class="col-md-6 jumbo-photo hidden-xs hidden-sm pull-left">
+          <img class="img-responsive" style="margin:auto;" src="images/coverPhotoGDL.jpg" alt="cumbre ProVentas">
+        </div>
+        <div class="col-md-6 jumbo-info">
+          <div>
+            <img class="img-responsive logo-jumbo-sedes hidden-xs mb40" src="images/logoJumboSedes.png" alt="cumbre ProVentas">
+            <h1 class="text-uppercase text-inverse">El congreso para los profesionales en ventas</h1>
+            <p class="text-uppercase mb40 text-inverse divider"><span class="text-inverse">Guadalajara &nbsp;|&nbsp; </span><span class="text-primary">Sep 8, 2016</span></p>
+            <p class="text-inverse">Recibe información de las conferencias</p>
+            <form class="form-inline" method="post" action="#" id="suscribir_form">
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                <input type="hidden" class="form-control input-lg" id="nombre" name="nombre" value=".">
+                <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                <input type="hidden" class="form-control input-lg" id="telefono" name="telefono" value="">
+                <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5259">
+                <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1134">
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Recibir información</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" style="display:none;" >
+      <div class="container">
+        <div class="text-center">
+          <h3 class="text-uppercase text-inverse">¡Se te acaba el tiempo!<a href="">
+            <img src="images/QuedanLugares.png">
+          </a></h3>  
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="Evento">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Aprende y acelera tus ventas</h2>
+        <p class="lead text-center mb40">Este 2016 los expertos en ventas y coaching empresarial ya están preparados para vivir la experiencia de la Cumbre ProVentas. Tú, ¿ya estás listo?</p>
+        <div class="row vcenter">
+          <div class="col-md-8 col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9 mb40">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YCHDZ9vITgc?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <p>Cumbre ProVentas por SalesUp!&reg; es el congreso donde cientos de líderes similares a ti, están preparados para reinventar su negocio, profesionalizarse y optimizar sus recursos.</p>
+            <br>
+            <p>Asiste a cualquiera de las sedes (Guadalajara, Monterrey o Querétaro), aprende técnicas de negociación, haz relaciones públicas y multiplica las utilidades de tu empresa.</p>           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-square" id="Conferencistas">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-primary">Conferencistas</h2>
+        <p class="lead text-center mb40">Reunimos a las mentes más brillantes en negociación, cierre, planeación, marketing y aceleración comercial. ¡Conoce a los expositores!</p>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#LopezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AlbertoLopez.jpg" alt="Alberto Lopez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSandler.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Alberto López</p><p>Presidente</p><p><strong>Sandler Training® México</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#HernandezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AllenHernandez.jpg" alt="Allen Hernandez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSperto.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Allen Hernández</p><p>Director</p><p><strong>Sperto Training®</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#FriasProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AngelicaFrias.jpg" alt="Angelica Frias">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSalesUp.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Angélica Frías</p><p style="font-size:80%;">Directora de cuentas corporativas</p><p><strong>SalesUp!®</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#ZavalaProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lRelacionate.png" alt="logo"> 
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Eduardo Zavala</p><p>Autor del <i>Best Seller</i></p><p><strong>Relaciónate y Vende</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#GordilloProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/EnriqueGordillo.jpg" alt="Enrique Gordillo">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lGordillo.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Enrique Gómez-G</p><p>Experto en mercadotecnia</p><p><strong>Conferencista</strong></p>
+            </div>
+          </div>         
+          <div class="col-md-4 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#DominguezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Dominguez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lColegio.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Salvador Domínguez</p><p>Coach de negocios</p><p><strong>Colegio de Ventas y Negocios</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-square-inverse" id="Agenda">
+      <div class="container">
+      <h2 class="text-uppercase text-center text-secondary">Programa</h2>
+        <p class="lead text-center mb40">Conoce el contenido que los expertos han creado para ti.</p>
+        <ul class="list-unstyled timeline">
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p><span class="fa fa-clock-o"></span><strong> 7:30 - 8:30</strong></p>
+              </div>
+              <div class="col-md-10 col-sm-9">
+                <p class="text-uppercase"><strong>Registro de asistentes</strong></p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 8:30 - 9:30</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#LopezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AlbertoLopezXS.jpg" alt="Alberto Lopez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Cómo prospectar exitosamente</strong></h4>
+                <p class="small">Con <a href="#LopezProfile" class="fancybox text-main">Alberto López</a></p>
+                <p class="text-muted">Descubre los elementos necesarios para incrementar las ventas de tu negocio en una conferencia patrocinada por Sandler Training&reg;, líder mundial en capacitación, coaching, consultoría en ventas y servicio al cliente.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 9:30 - 10:30</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#DominguezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/SalvadorDominguezXS.jpg" alt="SalvadorDominguez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Desarrollo de la inteligencia comercial en tu empresa</strong></h4>
+                <p class="small">Con <a href="#DominguezProfile" class="fancybox text-main">Salvador Domínguez</a></p>
+                <p class="text-muted">El posicionamiento de tu empresa depende de muchos factores, pero principalmente de la forma en la que se ensamblan las nuevas piezas de la inteligencia comercial. Para alcanzar el siguiente nivel de negocios se requiere una reestructuración y la adquisición de diversas habilidades.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 10:30 - 11:30</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#ZavalaProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/EduardoZavalaXS.jpg" alt="Eduardo Zavala">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Transformando vendedores en aliados estratégicos</strong></h4>
+                <p class="small">Con <a href="#ZavalaProfile" class="fancybox text-main">Eduardo Zavala</a></p>
+                <p class="text-muted">Para entender la importancia de salir de un círculo vicioso, carente de resultados, donde en ocasiones se encuentran los vendedores, hay que revisar la esencia de la actitud mental para poder revertirlo. Enfrentar retos, dar resultados en cualquier tipo de negocio, así como transformar a los vendedores para que los clientes los perciban como sus aliados estratégicos, son algunos de los puntos que aborda la ponencia.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p><span class="fa fa-clock-o"></span><strong> 11:30 - 12:30</strong></p>
+              </div>
+              <div class="col-md-10 col-sm-9">
+                <p class="text-uppercase"><strong>Coffee Break</strong> - Visita a muestras comerciales</p>
+              </div>
+            </div>
+          </li>          
+          <li class="event">
+            <div class="row mb40">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 12:30 - 13:45</strong> <span class="label label-main">Taller a elección *</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#VazquezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AliVazquezXS.jpg" alt="Ali Vazquez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Ventas sin estrés</strong></h4>
+                <p class="small">Con <a href="#VazquezProfile" class="fancybox text-main">Ali Vázquez</a></p>
+                <p class="text-muted">Reducir el estrés en los equipos de ventas es un activo empresarial y una gran fuente de salud. El primer objetivo del taller es informarte cómo el estrés afecta las áreas de productividad, toma de decisiones, comunicación, trabajo en equipo y liderazgo. El segundo objetivo es que aprendas a dirigir tu atención de las voces mentales auto limitantes que nos generan estrés, esto, para un cierre de venta sin esfuerzo.</p>
+              </div>
+            </div>
+            <div class="row mb40">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#ZavalaProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/EduardoZavalaXS.jpg" alt="Eduardo Zavala">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">PPA, prospección en piloto automático</strong></h4>
+                <p class="small">Con <a href="#ZavalaProfile" class="fancybox text-main">Eduardo Zavala</a></p>
+                <p class="text-muted">El objetivo principal es comprender la importancia de la prospección como la piedra angular de un proceso de ventas. Al finalizar el taller, tendrás una visión amplia sobre la mercadotecnia digital, uso de redes sociales y leads.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#DominguezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/SalvadorDominguezXS.jpg" alt="Ali Dominguez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">La nueva dirección comercial</strong></h4>
+                <p class="small">Con <a href="#DominguezProfile" class="fancybox text-main">Salvador Domínguez</a></p>
+                <p class="text-muted">El objetivo del taller es que descubras las habilidades necesarias para ser el próximo Director Comercial de la empresa donde laboras. La estrategia y aptitudes para el cierre de negocios, pero sobre todo, el entrenamiento de ejecutivos calificados son detalles en los que profundizaremos.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row mb40">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 13:45 - 15:00</strong> <span class="label label-main">Taller a elección *</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#LopezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AlbertoLopezXS.jpg" alt="Alberto Lopez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">LinkedIn a la manera Sandler, "25 Secretos para aprovechar la red social de negocios más grande del mundo"</strong></h4>
+                <p class="small">Con <a href="#LopezProfile" class="fancybox text-main">Alberto López</a></p>
+                <p class="text-muted">Aprende las mejores técnicas para conectarte con prospectos y clientes usando principios de Sandler Training, un programa innovador para prospectar y vender. En poco tiempo, aprenderás a implementar las mejores prácticas de la mano de LinkedIn, la red social de negocios más grande del mundo.</p>
+              </div>
+            </div>
+            <div class="row mb40">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#HernandezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AllenHernandezXS.jpg" alt="Allen Hernandez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">El código del vendedor</strong></h4>
+                <p class="small">Con <a href="#HernandezProfile" class="fancybox text-main">Allen Hernández</a></p>
+                <p class="text-muted">Para tener éxito se requiere disciplina y dedicación, para ser disciplinado se tienen que aprender técnicas de comportamiento ideal, y para aprenderlas, es necesario saber que tan bien o mal estamos en diferentes aspectos de la vida. Prepárate para la transformación de tus resultados y tu desempeño como vendedor.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 hidden-xs">
+                <a href="#FriasProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AngelicaFriasXS.jpg" alt="AngelicaFrias">
+                </a>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#SuarezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/IlianaSuarezXS.jpg" alt="Iliana Suarez">
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <h4><strong class="text-uppercase">¿Cómo darle la vuelta exitosamente a las objeciones?</strong></h4>
+                <p class="small">Con <a href="#FriasProfile" class="fancybox text-main">Angélica Frías</a> e <a href="#SuarezProfile" class="fancybox text-main">Iliana Suárez</a></p>
+                <p class="text-muted">Ocho de cada diez personas asocian la palabra objeción a términos negativos, en este taller aprenderás tres herramientas para identificar la ganancia oculta que siempre tienen las objeciones. Si te interesa obtener consejos prácticos para implementarlas hoy mismo en tus negociaciones, este taller es para ti.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p><span class="fa fa-clock-o"></span><strong> 15:00 - 16:00</strong></p>
+              </div>
+              <div class="col-md-10 col-sm-9">
+                <p class="text-uppercase"><strong>Comida</strong></p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 16:00 - 17:00</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#HernandezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AllenHernandezXS.jpg" alt="Allen Hernandez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Ventas de las grandes ligas</strong></h4>
+                <p class="small">Con <a href="#HernandezProfile" class="fancybox text-main">Allen Hernández</a></p>
+                <p class="text-muted">Piénsalo por un momento… ¿Por qué no haces esa llamada extra, por qué no agendas esa cita extra?, solo es cuestión de disposición. ¿Cómo mejoras las disposición?, teniendo éxito. ¿Cómo la destruyes?, fallando constantemente.</p>
+              </div>
+            </div>
+          </li> 
+           <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 17:00 - 18:00</strong> <span class="label label-primary">Panel de expertos</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#FriasProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AngelicaFriasXS.jpg" alt="Angelica Frias">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Panel de expertos</strong></h4>
+                <p class="small">Moderadora: <a href="#FriasProfile" class="fancybox text-main">Angélica Frías</a></p>
+                <p class="text-muted text-uppercase">Participantes:</p>
+                <div class="row">
+                  <div class="col-md-3 col-sm-3">
+                    <img class="img-responsive mb20 hidden-xs" src="images/logos/IzziPanel.png" alt="Izzi">
+                    <p class="small"><strong>Jan Hentschel</strong> <br> Director - Ciclo de vida en Izzi Telecom</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <img class="img-responsive mb20 hidden-xs" src="images/logos/ContpaqiPanel.png" alt="CONTPAQi">
+                    <p class="small"><strong>René Ochoa</strong> <br> Director de ventas en CONTPAQi</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <img class="img-responsive mb20 hidden-xs" src="images/logos/FibraInnPanel.png" alt="FibraInn">
+                    <p class="small"><strong>Sergio Oseguera</strong> <br> Director Comercial en FibraInn</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <img class="img-responsive mb20 hidden-xs" src="images/logos/EndeavorPanel.png" alt="Endeavor">
+                    <p class="small"><strong>Luis Velasco</strong> <br> Especialista Comercial y mentor de Endeavor Occidente</p>
+                  </div>
+                                    
+                </div>
+              </div>
+            </div>
+          </li>          
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 18:00 - 19:00</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#GordilloProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/EnriqueGordilloXS.jpg" alt="Enrique Gordillo">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Cinco acciones estratégicas para acelerar tus ventas</strong></h4>
+                <p class="small">Con <a href="#GordilloProfile" class="fancybox text-main">Enrique Gómez Gordillo</a></p>
+                <p class="text-muted">En ventas, la velocidad es un resultado más que una simple actividad. Descubre cinco acciones estratégicas que al modificar el enfoque de tus actividades cotidianas, darán como resultado la aceleración positiva de tus ventas.</p>
+              </div>
+            </div>
+          </li> 
+        </ul>
+        <p class="pull-right small"><strong>* Después de adquirir tus entradas espera un correo electrónico para elegir tus talleres. &nbsp;&vert;&nbsp; Agenda sujeta a cambios. </strong></p>
+      </div>
+    </div> 
+
+    <div class="section" id="Razones">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">¿Por qué acudir?</h2>
+        <p class="lead text-center mb40">¿Buscas incrementar tus ventas? Adquiere ideas, técnicas y estrategias comerciales. Además relaciónate con expertos en ventas, empresarios, gerentes de ventas y ejecutivos comerciales; todo en la Cumbre ProVentas.</p>
+        <div class="row vcenter">
+          <div class="col-md-7 col-sm-6">
+            <img src="images/Razones.jpg" alt="razones" class="img-responsive mb40">
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-building text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
+                <p class="long-icon-comp">Abandona la zona de confort, cuestiona y aprende nuevas ideas.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-comments-o text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
+                <p class="long-icon-comp">Intercambia experiencias con otros ejecutivos e incrementa tus oportunidades de venta en directo.</p>
+              </li>   
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
+                <p class="long-icon-comp">Convive con los expertos y descubre el enfoque de aquello que deseas mejorar en tus negociaciones.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-line-chart text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Reinversión</strong></p>
+                <p class="long-icon-comp">Prepárate, mejora tus habilidades de venta y capacítate con tu equipo para lograr un fin común.</p>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section venue guadalajaraBG" id="Sede">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-primary">Guadalajara, Jalisco</h2>
+        <p class="lead text-center mb40">Cumbre ProVentas se llevará a cabo en Guadalajara, México, el <strong>8 de septiembre de 2016.</strong></p>
+        <div class="row vcenter">
+          <div class="col-md-6 col-sm-5">
+            <h3 class="text-uppercase"><strong>Grand Fiesta Americana Guadalajara Country Club</strong></h3>
+            <p class="divider mb40">Ubicado en el nuevo distrito financiero de la avenida de las Américas, donde tienen su sede importantes empresas y firmas bancarias, Grand Fiesta Americana Guadalajara Country Club abre sus puertas para convertirse en la primera sede de Cumbre ProVentas.</p>
+            <p class="small text-uppercase text-primary"><span class="fa fa-star"></span> <strong>Precio especial para  asistentes </strong><span class="fa fa-star"></span></p>
+            <p>Adquiere tu entrada y recibe en tu correo un descuento para el hotel. Escríbenos a <a style="text-decoration:underline;" class="text-inverse" href="mailto:info@cumbreproventas.com?Subject=Hello%20again" target="_top">info@cumbreproventas.com</a> para más información.</p>
+          </div>
+          <div class="col-md-6 col-sm-7">
+            <div class="embed-responsive embed-responsive-16by9 map" id="canvas1">
+              <iframe id="map_canvas1" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14928.705478365247!2d-103.3766041!3d20.7030615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57eed724a48e2b9a!2sGrand+Fiesta+Americana+Guadalajara+Country+Club!5e0!3m2!1sen!2smx!4v1464646296259" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Otras sedes</h2>
+        <p class="lead text-center mb40">Cumbre Pro Ventas también se llevará a cabo en las siguientes ciudades. Si tienes más sucursales y otros ejecutivos que desean asistir, elige la sede más cercana a ellos.</p>
+        <div class="row vcenter mb40">
+           <div class="col-md-8 col-sm-7 mb40">
+            <img src="images/ciudades/Monterrey.jpg" alt="Monterrey" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="monterrey.shtml" class="text-secondary"><strong>Monterrey<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Octubre 26, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Crowne Plaza Monterrey</strong><br> Monterrey, Nuevo León</p></li>
+            </ul>
+            <a href="monterrey.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Monterrey</a>
+          </div>
+        </div>
+        <div class="row vcenter mb40">  
+          <div class="col-md-8 col-md-push-4 col-sm-7 col-sm-push-5">
+            <img src="images/ciudades/Queretaro.jpg" alt="Queretaro" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
+            <h3 class="text-uppercase mb40"><a href="queretaro.shtml" class="text-secondary"><strong>Querétaro<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+            </ul>
+            <a href="queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre queretaro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-inverse" id="Entradas">
+      <div class="container-fluid text-center">
+        <h2 class="text-uppercase mb40">Entradas</h2>
+        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="well">
+              <p class="text-main"><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
+              <p class="text-main mb40">Si eres cliente SalesUp!&reg; y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank">agenda una llamada </a>con tu ejecutivo.</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row vcenter mb40">
+          <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 mb40">
+            <img src="images/convenceJefe.jpg" alt="Jefe" class="img-responsive">
+          </div>
+          <div class="col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6">
+            <h3 class="mb40 text-uppercase text-secondary"><strong>¿Necesitas convencer a tu jefe?</strong></h3>
+            <p class="mb40">Si eres ejecutivo de ventas, podemos ayudarte a convencer a tu jefe. Hemos preparado esta carta para que tu director apruebe tu asistencia. ¡La idea es que venga todo el equipo de ventas!</p>
+            <a href="artefactos/ConvenceatujefeCumbreProVentas.pdf" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Convencer a mi jefe</a>
+          </div>
+        </div>
+        <div class="row vcenter">
+          <div class="col-md-6 col-sm-6 mb40">
+            <img src="images/cuentaDemo.jpg" alt="cuenta SalesUp" class="img-responsive">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <h3 class="mb40 text-uppercase text-secondary"><span class="text-primary fa fa-star small"></span><strong> Precio especial para clientes SalesUp!<sup>®</sup> </strong></h3>
+            <p class="mb40">Los clientes de SalesUp!&reg; pueden adquirir entradas a Cumbre ProVentas con un descuento del 20%</p>
+            <a href="http://www.salesup.com/crm-de-ventas.html?utm_medium=Referido&utm_campaign=CumbreProVentas&utm_source=cumbreproventas.com&utm_content=Boton" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Prueba salesup gratis</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+<!--#include virtual="patrocinadores.html" -->   
+<!--#include virtual="conf-info.html" -->
+    <footer class="text-center">
+      <h4>Síguenos</h4>     
+      <div class="socialMedia divider mb20">
+        <a href="https://www.facebook.com/CumbreProVentas/" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a>
+        <a href="https://www.linkedin.com/groups/8275546" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a>
+        <a href="https://www.youtube.com/channel/UC22yOVk39RM4XmE1jAJuk0w" target="_blank"><span class="fa fa-youtube-square fa-3x"></span></a>
+      </div>
+      <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados. &vert; <a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+    </footer>
+<!--#include virtual="footer.html" -->
+
+
+  </body>
+</html>

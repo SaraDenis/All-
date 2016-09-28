@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contacto</title>
+    
+</head>
+<body>
+	<form action="enviar_mensaje.php" method="post">
+	  <label>
+		  <div align="center"><strong>Nombre:</strong>
+		    <input type="text" name="nombre" placeholder="Nombre" value="" required>
+		  </div>
+	  </label>
+    <label>
+      <div align="center"><strong><br>Correo:</strong>
+        <input type="text" name="correo" placeholder="Correo" value=""required>
+      </div>
+    </label>
+    <label>
+      <div align="center"><strong><br>Telefono:</strong>
+        <input type="text" name="telefono" placeholder="Telefono" value=""required>
+      </div>
+    </label>
+    <label>
+      <div align="center"><strong><br>Mensaje:</strong>
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required ></textarea>
+      </div>
+    </label>
+    <div align="center">
+      <input type="submit" value="Enviar" id="boton">
+		</div>
+	</form> 
+</body>
+</html>

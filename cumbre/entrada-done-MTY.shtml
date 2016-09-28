@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+    <!--#include virtual="head.html" -->
+  </head>
+	<body onload="setTimeout(pagina,2000)" style="background-color:#65326b;">
+		<div class="container text-center text-inverse">
+			<h1 style="font-size:50px;"><img src="images/spinner.gif" class="mb40"><br>Espera un momento por favor</h1>
+			<p>Si tu navegador no te redirecciona automáticamente, da <a href="https://cumbre-proventas-monterrey-2016.boletia.com/bookings/2e5a3ecca1/pick_tickets" class="text-primary">clic aquí</a></p>
+		</div>
+		<script type="text/javascript">
+ 			function pagina(){location.replace('https://cumbre-proventas-monterrey-2016.boletia.com/');}
+		</script>
+      <!--#include virtual="footer.html" -->
+	</body>
+</html>

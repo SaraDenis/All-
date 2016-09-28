@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+    <!--#include virtual="head.html" -->
+  </head>
+
+  <body onload="random()">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="images/logoHeader.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="guadalajara.shtml">Guadalajara</a></li>
+            <li><a href="monterrey.shtml">Monterrey</a></li>
+            <li><a href="queretaro.shtml">Querétaro</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!--Conferencias-Det-->
+    <div class="section-square-inverse" id="ConferenciasInfo">
+      <div class="container">
+        <h2 class="text-uppercase text-center mb40">Conferencias</h2>
+        <p class="lead mb40 text-center">Te presentamos el contenido de impacto que los expertos seleccionaron para ti</p>         
+          <!--conferencias-->
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/AlbertoLopez.jpg" alt="Alberto Lopez">
+                  <h4>Alberto López</h4>
+                  <p class="small mb40">Presidente de <strong>Sandler Training&reg; México</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Cómo prospectar exitosamente</strong></h3>
+                  <hr>
+                  <p class="mb40">Descubre los elementos necesarios para incrementar las ventas de tu negocio en una conferencia patrocinada por Sandler Training, líder mundial en capacitación, coaching, consultoría en ventas y servicio al cliente.</p>
+                  <p><strong>En esta conferencia aprenderás:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Por qué la actitud con la que abordamos las actividades de prospección es importante para el éxito.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Cómo nuestro comportamiento afecta las probabilidades de éxito.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Qué elementos técnicos incorporar para maximizar los resultados.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Las reglas que tienen un mayor impacto en la prospección.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-md-push-8 col-sm-3 col-sm-push-8 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/AllenHernandez.jpg" alt="Allen Hernandez">
+                  <h4>Allen Hernández</h4>
+                  <p class="small mb40">Director de <strong>Sperto Training&reg;</strong></p>
+                </div>
+                <div class="col-md-8 col-md-pull-3 col-sm-8 col-sm-pull-3 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Ventas de las grandes ligas</strong></h3>
+                  <hr>
+                  <p>A nadie le gusta que le digan que no y esa es una de las principales áreas de oportunidad para tu equipo de ventas o para ti como vendedor. El rechazo a las negativas será llamado a partir de ahora: "músculo emocional", cualidad atrofiada en la gran mayoría de los profesionales de las ventas.</p>
+                  <p>El vendedor que tiene una mala experiencia, se siente cada vez menos dispuesto y esta disposición es el factor clave que determina qué tan inclinado está para prospectar.</p>
+                  <p>Piénsalo por un momento… ¿Por qué no haces esa llamada extra, por qué no agendas esa cita extra? Solo es cuestión de disposición. </p>
+                  <p class="mb40">¿Cómo mejoras la disposición? Teniendo éxito. ¿Cómo la destruyes? Fallando constantemente.</p>
+                  <p><strong>En esta conferencia aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Controlar tu actitud y mantenerte motivado.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Salir de una mala racha de ventas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Cerrar una venta tras otra.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Volverte inmune al fracaso.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Implementar la regla más importante en las ventas que es violada por el 85% de los vendedores.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+                  <h4>Eduardo Zavala</h4>
+                  <p class="small mb40">Autor del <i>Best Seller</i> <strong>Relaciónate y Vende</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Transformando vendedores en aliados estratégicos</strong></h3>
+                  <hr>
+                  <p class="mb40">Para entender la importancia de salir de un círculo vicioso, carente de resultados, donde en ocasiones se encuentran los vendedores, hay que revisar la esencia de la actitud mental para poder revertirlo. Enfrentar retos, dar resultados en cualquier tipo de negocio, así como transformar a los vendedores para que los clientes los perciban como sus aliados estratégicos, son algunos de los puntos que aborda la ponencia.</p>
+                  <p><strong>En esta conferencia aprenderás:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>La importancia de las tres h's: hábitos, herramientas y habilidades.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Mantener un sistema de creencias únicas (<i>mind set</i>, ensamble mental).</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Contar con las herramientas adecuadas (<i>tool set</i>, ensamble de herramientas).</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Desarrollar habilidades y competencias (<i>skill set</i>, ensamble de habilidades).</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>La cuarta H para el trébol de los resultados en Internet.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-md-push-8 col-sm-3 col-sm-push-8 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/EnriqueGordillo.jpg" alt="Enrique Gordillo">
+                  <h4>Enrique Gordillo</h4>
+                  <p class="small mb40">Experto en mercadotecnia de respuesta directa y ventas</p>
+                </div>
+                <div class="col-md-8 col-md-pull-3 col-sm-8 col-sm-pull-3 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Cinco acciones estratégicas para acelerar tus ventas</strong></h3>
+                  <hr>
+                  <p class="mb40">En ventas, la velocidad es un resultado más que una simple actividad. Descubre cinco acciones estratégicas que al modificar el enfoque de tus actividades cotidianas, darán como resultado la aceleración positiva de tus ventas.</p>
+                  <p><strong>En esta conferencia aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Identificar el valor de la mercadotecnia para potenciar tus ventas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Desarrollar un sistema personal de trabajo que te permita hacer un pronóstico de ventas confiable.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Mejorar tus habilidades para filtrar y calificar prospectos.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Redefinir tus actividades personales en función de tu labor de ventas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Mantener un ritmo consistente en tus acciones comerciales.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/PepeVillacis.jpg" alt="Pepe Villacis">
+                  <h4>Pepe Villacís</h4>
+                  <p class="small mb40">Coach de negocios de</i> <strong>Action Coach&reg;</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>5 motores para el despegue de ventas y utilidades en tu negocio</strong></h3>
+                  <hr>
+                  <p>Uno de los grandes desafíos de las empresas, sin importar su tamaño, es contar con una gestión profesional, productiva y medible, en toda su función comercial (mercadotecnia, ventas y servicio al cliente).</p>
+                  <p>Se requiere generar niveles de ventas, ingresos crecientes y predecibles; para eso, se necesitan opciones estratégicas, tácticas manejables y de baja inversión, que permitan enfrentar las diversas complicaciones del mercado, económicas e internas, sin que impacten negativamente en las utilidades.</p>
+                  <p class="mb40">Esta metodología, simple y efectiva, ha sido probada a nivel mundial por miles de empresas de todos los giros. Si se utiliza con convicción, con implementación paciente y consistente, no falla y produce los resultados deseados.</p>
+                  <p><strong>En esta conferencia aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Establecer una gestión comercial efectiva y moderna.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Multiplicar las ventas y utilidades a través de los 5 caminos del éxito.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Crear un nicho de mercado en el que ya no compites por precio.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Identificar ventajas competitivas en tu negocio que pueden convertirse en mensajes publicitarios de alto impacto.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Visualizar por lo menos 10 acciones a tomar en tu negocio, con impacto inmediato.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-md-push-8 col-sm-3 col-sm-push-8 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Dominguez">
+                  <h4>Salvador Domínguez</h4>
+                  <p class="small mb40">Coach de negocios de <strong>Colegio de Ventas y Negocios</strong></p>
+                </div>
+                <div class="col-md-8 col-md-pull-3 col-sm-8 col-sm-pull-3 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Desarrollo de la inteligencia comercial en tu empresa</strong></h3>
+                  <hr>
+                  <p>El posicionamiento de tu empresa depende de muchos factores, pero principalmente de la forma en la que se ensamblan las nuevas piezas de la inteligencia comercial.</p>
+                  <p class="mb40">Para alcanzar el siguiente nivel de negocios, es decir, el conjunto de estrategias, operaciones y acciones que tienen como propósito mantener una relación cercana con el cliente, se requiere una reestructuración y la adquisición de diversas habilidades.</p>
+                  <p><strong>En esta conferencia aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Conocer una metodología comercial que incremente tus ventas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Conocer e identificar las áreas de oportunidad de tu empresa.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Escalar al siguiente nivel de negocios.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Utilizar herramientas que te ayudarán a la instalación rápida del proceso.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Implementar compromisos de acción para alcanzar tus metas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Tener ventajas sobre tu competencia al conocer las acciones de inteligencia comercial que debes ejecutar en tu empresa.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--/conferencias-->
+          <p class="text-inverse pull-right">Agenda sujeta a cambios.</p>                                          
+      </div>
+    </div><!--/Conferencias-Det-->
+
+
+              
+    <!--Talleres-Det-->
+    <div class="section-square text-main" id="TalleresInfo">
+      <div class="container">
+        <h2 class="text-uppercase text-inverse text-center mb40">Talleres</h2>
+        <p class="lead text-inverse mb40 text-center">Estos son los talleres prácticos donde profundizarás tu conocimiento guíado por los mejores. Espera actualizaciones en tu correo para inscribirte.</p>          
+          <!--Talleres-->
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/AlbertoLopez.jpg" alt="Alberto Lopez">
+                  <h4>Alberto López</h4>
+                  <p class="small mb40">Presidente de <strong>Sandler Training&reg; México</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>LinkedIn a la manera Sandler, "25 Secretos para aprovechar la red social de negocios más grande del mundo"</strong></h3>
+                  <hr>
+                  <p class="mb40">Aprende las mejores técnicas para conectarte con prospectos y clientes usando principios de Sandler Training, un programa innovador para prospectar y vender. En poco tiempo, aprenderás a implementar las mejores prácticas de la mano de LinkedIn, la red social de negocios más grande del mundo.</p>
+                  <p><strong>En este taller conocerás como:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Usar tu perfil de LinkedIn para atraer de una forma convincente la atención de tu mercado meta.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Aprovechar LinkedIn para crear y desarrollar una productiva lista de contactos.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Generar referencias de calidad y utilizar LinkedIn para establecer un eficiente plan de prospección y venta.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-md-push-8 col-sm-3 col-sm-push-8 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/AllenHernandez.jpg" alt="Allen Hernandez">
+                  <h4>Allen Hernández</h4>
+                  <p class="small mb40">Director de <strong>Sperto Training&reg;</strong></p>
+                </div>
+                <div class="col-md-8 col-md-pull-3 col-sm-8 col-sm-pull-3 conf-agenda">
+                  <h3 class="text-uppercase"><strong>El Código del vendedor</strong></h3>
+                  <hr>
+                  <p>Para tener éxito se requiere disciplina y dedicación, para ser disciplinado se tienen que aprender técnicas de comportamiento ideal, y para aprenderlas, es necesario saber que tan bien o mal estamos en diferentes aspectos de la vida.</p>
+                  <p class="mb40">Prepárate para la transformación de tus resultados y tu desempeño como vendedor.</p>
+                  <p><strong>En este taller obtendrás:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>El código del vendedor impreso con 30 puntos.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Un programa infalible de incremento en ventas.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Un póster motivacional.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>La suscripción a detonadores de ventas.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+                  <h4>Eduardo Zavala</h4>
+                  <p class="small mb40">Autor del <i>Best Seller</i> <strong>Relaciónate y Vende</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>PPA, prospección en piloto automático</strong></h3>
+                  <hr>
+                  <p class="mb40">El objetivo principal es comprender la importancia de la prospección como la piedra angular de un proceso de ventas. Al finalizar el taller, tendrás una visión amplia sobre la mercadotecnia digital, uso de redes sociales y leads.</p>
+                  <p><strong>En este taller aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Construir exitosamente una lista de prospectos.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Realizar búsquedas sistemáticas para alcanzar el éxito a largo plazo mediante la prospección activa, continua, permanente y creativa.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Identificar un lead (prospecto calificado, interesado y con capacidad de decisión).</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-md-push-8 col-sm-3 col-sm-push-8 text-center">
+                   <img class="img-responsive conf-image-agenda" src="images/conferencistas/PepeVillacis.jpg" alt="Pepe Villacis">
+                  <h4>Pepe Villacís</h4>
+                  <p class="small mb40">Coach de negocios de</i> <strong>Action Coach&reg;</strong></p>
+                </div>
+                <div class="col-md-8 col-md-pull-3 col-sm-8 col-sm-pull-3 conf-agenda">
+                  <h3 class="text-uppercase"><strong>Plan de acciones comerciales para incrementar tus ventas</strong></h3>
+                  <hr>
+                  <p class="mb40">Juntos identificaremos las estrategias concretas para multiplicar tus ventas. También proyectaremos el impacto que tiene gestionar tu maquinaria comercial con base a los "cinco caminos” para optimizar tus ventas y utilidades.</p>
+                  <p><strong>En este taller aprenderás a:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Estimar el impacto de cada una de las estrategias y tips para hacerlo correctamente.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Utilizar el potencial inexplorado que tiene tu propio negocio.</p></li>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-body">
+              <div class="row">    
+                <br>
+                <div class="col-md-3 col-sm-3 text-center">
+                  <img class="img-responsive conf-image-agenda" src="images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Dominguez">
+                  <h4>Salvador Domínguez</h4>
+                  <p class="small mb40">Coach de negocios de <strong>Colegio de Ventas y Negocios</strong></p>
+                </div>
+                <div class="col-md-8 col-sm-8 conf-agenda">
+                  <h3 class="text-uppercase"><strong>9 cierres aplicando neuroventas</strong></h3>
+                  <hr>
+                  <p class="mb40">El objetivo principal del taller es saber cómo aplicar el cierre basado en neuroventas, pinchando y negociando con el cerebro trigémino.</p>
+                  <p><strong>En este taller obtendrás:</strong></p>
+                  <ul class="list-unstyled">
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Las bases de las neuroventas y su aplicación en tu <i>speech</i>.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Los motivos dominantes al realizar una compra.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Elementos para saber qué hacer y qué no hacer en el cierre de una venta.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>El desarrollo de 9 Neuro-Cierres.</p></li>
+                    <li><span class="fa fa-check-square text-secondary small"></span><p>Un diploma electrónico del taller.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <!--/talleres--> 
+          <p class="text-inverse pull-right">Agenda sujeta a cambios.</p>                               
+      </div>
+    </div><!--/Talleres-Det-->
+
+
+    <div class="section-inverse" id="Entradas">
+      <div class="container text-center">
+        <h2 class="text-uppercase mb40">Entradas</h2>
+        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
+        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
+        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
+        <div class="row">         
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
+              <p class="text-main mb40">Septiembre 8, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-GDL.html" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
+              <p class="text-main mb40">Octubre 26, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-MTY.html" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
+              <p class="text-main mb40">Noviembre 10, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-QRO.html" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+      <footer class="text-center">
+        <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados.</p>
+        <p class="small"><a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+      </footer>
+
+
+  </body>
+</html>

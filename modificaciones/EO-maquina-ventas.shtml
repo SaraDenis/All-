@@ -62,13 +62,6 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                   <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
                 </div>
               </div>
-              <div class="form-group">
-                <label class="col-sm-2 text-inverse" for="InputPuesto">Puesto</label>
-                <div class="col-sm-7">
-                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
-                   <span style="display:none;" class="label label-danger" id="error_puesto">Ingresa tu puesto</span>
-                </div>
-              </div>
               <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="1">
               <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="3630">
               <div class="form-group">
@@ -90,7 +83,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
           Asiste a este seminario en línea gratuito para conocer porqué tienes tantos prospectos que no quieren comprar.</p>
           <div class="row vcenter">
           <div class="col-md-7 col-sm-6">
-            <img src="imagenes/razones.png" alt="razones" class="img-responsive mb40">
+            <img src="imagenes/MaquinaVentas.jpg" alt="razones" class="img-responsive mb40">
           </div>
         <div class="col-md-6 col-sm-6">
           <div>
@@ -130,11 +123,11 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
 
     <div class="section" id="Razones">
       <div class="container">
-        <h2 class="text-uppercase text-center text-secondary mb40">¿Por qué acudir?</h2>  
+        <h2 class="text-uppercase text-center text-secondary">¿Por qué acudir?</h2>
+        <p class="lead text-center mb40">Te esperamos para aprender: </p>  
         <div class="row vcenter">
-          <p class="lead text-center mb40">Te esperamos para aprender: </p>
           <div class="col-md-6 col-sm-6">
-            <img src="imagenes/RazonesT.jpg" alt="razones" class="img-responsive mb40">
+            <img src="imagenes/Acudir.jpg" alt="razones" class="img-responsive mb40">
           </div>
           <div class="col-md-6 col-sm-6">
             <ul class="list-unstyled">
@@ -151,7 +144,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
               <li class="mb40">
                 <div class="long-icon"><i class="fa fa-wrench text-secondary" ></i></div>
                 <p class="text-uppercase long-icon-comp"><strong>Dar seguimiento profesional en menos tiempo</strong></p>
-                <p class="long-icon-comp"> Descubre las herramientas que te harán vender más.</p>
+                <p class="long-icon-comp"></p>
               </li> 
               <li class="mb40">
                 <div class="long-icon"><i class="fa fa-facebook text-secondary" style="padding: 18px 25px;"></i></div>
@@ -164,17 +157,37 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
       </div>
     </div>
 
-    <div class="section-square-inverse" id="Ubicacion">
+    <div class="section-square" id="Ubicacion">
       <div class="container">
-        <h2 class="text-uppercase text-center text-secondary mb40">Copys exitosos de CRM</h2>
+        <h2 class="text-uppercase text-center mb40">SalesUP! Invita</h2>
         <div class="row vcenter mb40">
-           
-
+           <div class="col-md-6 col-sm-7 mb40">
+              <div class="embed-responsive embed-responsive-16by9 mb40xs mb40sm">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JxQQivKrgxE?rel=0&amp;showinfo=0&amp;controls=1&amp;loop=1&amp;autoplay=1&amp;playlist=JxQQivKrgxE" disallowfullscreen=""></iframe>
+              </div>
+           </div>
+           <div class="col-md-6 col-sm-5">
+              <p>
+                SalesUp! es un software CRM en español que impulsa la velocidad de respuesta y potencializa las habilidades de los gerentes y ejecutivos de ventas; permite a la dirección comercial tomar el control de cada fase del proceso para lograr más ventas.
+              </p>
+           </div>
         </div>
       </div>
     </div>
 
   </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script type="text/javascript">
+       $('a[href^="#"]').on('click', function(event) {
+        var target = $( $(this).attr('href') );
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 800);
+        }
+      });
+      </script>
     <!--#include file="master/footer.html"-->
     <!--#include file="master/scripts.html"-->
 

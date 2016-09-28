@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="">
+    <meta name="description" content="">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Landing - Taller</title>
+        <!--#include virtual="head.html" -->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #f8f8f8;
+border-color: #e7e7e7; box-shadow: 0px 0px 1px 1px #e7e7e7 !important;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="http://www.salesup.com/images-salesup/SalesUp.png.pagespeed.ce.4PxYoYJVl_.png" style="height: 50px;"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Agenda">Acerca del experto</a></li>
+            <li><a href="#Razones">¿Por qué acudir?</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron monterrey">
+      <div class="row no-gutter">
+        <div class="col-md-6 jumbo-photo hidden-xs hidden-sm pull-left">
+          <img class="img-responsive" style="margin:auto;" src="images/coverPhotoEduardoZavala.jpg" alt="cumbre ProVentas">
+        </div>
+       
+        <div class="col-md-6 jumbo-info">
+          <div>
+         <h1 class="text-uppercase text-inverse mb40">Transformando Vendedores en Aliados Estratégicos</h1>
+            <h4 class="text-uppercase text-inverse mb40" style="margin-top:20px;">Asiste a nuestro evento registrándote aquí</h4>
+            <form method="post" action="#" id="suscribir_form" class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="email">Correo*</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputTelefono">Teléfono</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+                </div>
+              </div>
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="3071">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="3091">
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-7">
+                   <button type="submit" class="btn btn-primary btn-lg"style="margin-left:0px;">Recibir más información</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section" id="Evento">
+    <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Transformando Vendedores en Aliados Estratégicos </h2>
+        <p class="lead text-center mb40">Incorporando a tu estrategia de ventas la innovación, habilidad y herramientas tecnológicas necesarias.</p>
+          <div class="row vcenter">
+          <div class="col-md-6 col-sm-6"> 
+          <img src="images/tecnologia.png" alt="razones" class="img-responsive mb40">
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div>
+            <p>En la actualidad los clientes están mejor informados y su decisión de compra es más reflexiva y razonada; por ello las empresas requieren profesionalizar a su área comercial y cambiar la manera en que la información les llega a éstos y a sus propios clientes.</p>
+            <br>
+            <p>Sesiones presenciales (webinars), redes sociales, tutoriales y  software son herramientas efectivas para comunicar las características más importantes de sus productos y dar el doble de seguimientos en menos tiempo, siendo más eficientes. </p>
+            <br>
+            <p>Esto y más te enseñaremos en esta plática especializada, donde resaltaremos la importancia de ser oportunos en cada fase de tu proceso comercial, apoyándote de herramientas tecnológicas.</p>       
+          </div>
+        </div>
+        </div>
+       </div>
+    </div>
+<!-- Aqui inicia la agenda-->
+       <div class="section-square-inverse" id="Agenda">
+      <div class="container">
+      <h2 class="text-uppercase text-center text-secondary">Acerca del expositor</h2>
+        <p class="lead text-center mb40">Conoce el contenido que los expertos han creado para ti.</p>
+        <ul class="list-unstyled timeline">
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="label label-secondary">Plática especializada</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#ZavalaProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/EduardoZavalaXS.jpg" alt="Eduardo Zavala">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">HABILIDADES Y ESTRATEGIAS TECNOLÓGICAS EN LAS VENTAS</strong></h4>
+                <p class="small">Con <a href="#ZavalaProfile" class="fancybox text-main">Eduardo Zavala.</a><br>Autor del Best Seller: <strong>Relaciónate y Vende</strong></p>
+                <p class="text-muted">Eduardo Zavala cuenta con 30 años de experiencia como expositor y entrenador en productividad y superación personal para vendedores, directivos y emprendedores líderes. Su Best Seller “Relaciónate y vende, el enfoque psicológico de las ventas” asesora a miles de ejecutivos para personalizar la negociación. Algunos de los clientes que ha tenido son Century 21, Coca-Cola, Chrysler, Grupo Inbursa, Telcel, Ford y Xerox.</p>
+              </div>
+            </div>
+          </li>
+                
+        </ul>
+        <p class="pull-right small"><strong>* Después de adquirir tus entradas espera un correo electrónico para elegir tus talleres. &nbsp;&vert;&nbsp; Agenda sujeta a cambios. </strong></p>
+      </div>
+    </div> 
+
+
+    <div class="section" id="Razones">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">¿Por qué acudir?</h2>
+        
+        <div class="row vcenter">
+          <div class="col-md-7 col-sm-6">
+            <img src="images/Razones.jpg" alt="razones" class="img-responsive mb40">
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
+                <p class="long-icon-comp"> Conoce el círculo virtuoso de las ventas y supera el miedo a relacionarte.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-comments-o text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Prospecta</strong></p>
+                <p class="long-icon-comp"> Aprende a mantener una prospección activa.</p>
+              </li>   
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-line-chart text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
+                <p class="long-icon-comp"> Descubre las herramientas que te harán vender más.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-building text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
+                <p class="long-icon-comp"> Conoce la fórmula del éxito para optimizar campañas en Facebook.</p>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <h4>Síguenos</h4>     
+      <div class="socialMedia divider mb20">
+        <a href="https://www.facebook.com/CumbreProVentas/" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a>
+        <a href="https://www.linkedin.com/groups/8275546" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a>
+        <a href="https://www.youtube.com/channel/UC22yOVk39RM4XmE1jAJuk0w" target="_blank"><span class="fa fa-youtube-square fa-3x"></span></a>
+      </div>
+      <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados. &vert; <a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+    </footer>
+<!--#include virtual="footer.html" -->
+
+
+  </body>
+
+<script type="text/javascript" src="js/taller/config.js"></script>
+    <script type="text/javascript" src="js/taller/validacion.js"></script>
+    <script type="text/javascript" src="js/taller/suscripcion.js"></script>
+</html>

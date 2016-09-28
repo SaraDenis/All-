@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="congreso de ventas, capacitacion de ventas, eventos de ventas en guadalajara, eventos de ventas en queretaro, eventos de ventas en monterrey, capacitación para vendedores, profesionales en ventas, talleres y conferencias para vender más, tecnicas de negociacion, tecnicas de cierre, estrategias comerciales, estrategias de venta, planeacion, expertos en ventas, expertos en negociacion, coaching empresarial, coach de negocios">
+    <meta name="description" content="El congreso de SalesUp! diseñado para subir tus ventas. Los líderes en ventas y coaching empresarial, comparten su experiencia durante un día de conferencias y talleres, en las cuidades más importantes de México.">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+    <!--#include virtual="head.html" -->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="images/logoHeader.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">El Evento</a></li>
+            <li><a href="#Conferencistas">Conferencistas</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Sedes">Las sedes</a></li>
+            <li><a href="#Razones">¿Por qué acudir?</a></li>
+            <li><p class="navbar-btn"><a href="#Entradas" class="btn btn-primary">Obtener entradas</a></p></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+<!-- Contacto -->
+    <div id="contact-box" class="text-center hidden-xs">
+      <a href="contacto.shtml" target="_blank">
+        <img src="images/CallCenter.png">
+        ¿Necesitas que te llamemos?
+      </a>
+    </div>
+    <div id="contact-box-mobile" class="hidden-lg hidden-md hidden-sm">
+        <a href="contacto.shtml" target="_blank" class="text-uppercase">
+            <img src="images/CallCenter.png"> ¿Necesitas que te llamemos?
+        </a>
+    </div>
+<!-- / Contacto -->
+
+   <div class="jumbotron distribuidores">
+      <div class="row no-gutter">
+        <div class="col-md-6 jumbo-photo hidden-xs hidden-sm pull-left">
+          <img class="img-responsive" style="margin:auto;" src="images/coverPhotoQRO.jpg" alt="cumbre ProVentas">
+        </div>
+        <div class="col-md-6 jumbo-info">
+          <div>
+            <img class="img-responsive logo-jumbo-sedes hidden-xs mb40" src="images/logoJumboSedes.png" alt="cumbre ProVentas">
+<!--             <h3 class="text-uppercase text-inverse mb40">El congreso para los profesionales en ventas</h3> -->
+            <h4 class="text-uppercase text-inverse mb40" style="margin-top:20px;">Recibe el código de descuento en tu correo</h4>
+            <form method="post" action="#" id="suscribir_form" class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="email">Correo*</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputTelefono">Teléfono</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+                </div>
+              </div>
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="6426">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1360">
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-7">
+                   <button type="submit" class="btn btn-primary btn-lg">Recibir código de descuento</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="Evento">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Aprende y acelera tus ventas</h2>
+        <p class="lead text-center mb40">Este 2016 los expertos en ventas y coaching empresarial ya están preparados para vivir la experiencia de la Cumbre ProVentas. Tú, ¿ya estás listo?</p>
+        <div class="row vcenter">
+          <div class="col-md-8 col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9 mb40">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YCHDZ9vITgc?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <p>Cumbre ProVentas por SalesUp!&reg; es el congreso donde cientos de líderes similares a ti, están preparados para reinventar su negocio, profesionalizarse y optimizar sus recursos.</p>
+            <br>
+            <p>Asiste a cualquiera de las sedes (Guadalajara, Monterrey o Querétaro), aprende técnicas de negociación, haz relaciones públicas y multiplica las utilidades de tu empresa.</p>           
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--#include virtual="conferencistas.html" --> 
+
+ <!--#include virtual="agenda.html" --> 
+
+   <div class="section" id="Sedes">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Elige tu ciudad</h2>
+        <p class="lead text-center mb40">Cumbre ProVentas se llevará a cabo en las siguientes ciudades. Si tienes más sucursales y otros ejecutivos que desean asistir, elige la sede más cercana a ellos.</p>
+        <div class="row vcenter mb40" id="Guadalajara">
+          <div class="col-md-8 col-sm-7 mb40">
+            <img src="images/ciudades/Guadalajara.jpg" alt="Guadalajara" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="guadalajara.shtml" class="text-secondary"><strong>Guadalajara<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Septiembre 8, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Grand Fiesta Americana Guadalajara Country Club</strong><br> Guadalajara, Jalisco</p></li>
+            </ul>
+            <a href="guadalajara.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Guadalajara</a>
+          </div>
+        </div>
+        <div class="row vcenter mb40" id="Monterrey">
+           <div class="col-md-8 col-md-push-4 col-sm-7 col-sm-push-5 mb40">
+            <img src="images/ciudades/Monterrey.jpg" alt="Monterrey" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
+            <h3 class="text-uppercase mb40"><a href="monterrey.shtml" class="text-secondary"><strong>Monterrey<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Octubre 26, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Crowne Plaza Monterrey</strong><br> Monterrey, Nuevo León</p></li>
+            </ul>
+            <a href="monterrey.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Monterrey</a>
+          </div>
+        </div>
+        <div class="row vcenter mb40" id="Queretaro">  
+          <div class="col-md-8 col-sm-7 mb40">
+            <img src="images/ciudades/Queretaro.jpg" alt="Queretaro" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="queretaro.shtml" class="text-secondary"><strong>Querétaro<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+            </ul>
+            <a href="queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre querétaro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="Razones">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">¿Por qué acudir?</h2>
+        <p class="lead text-center mb40">¿Buscas incrementar tus ventas? Adquiere ideas, técnicas y estrategias comerciales. Además relaciónate con expertos en ventas, empresarios, gerentes de ventas y ejecutivos comerciales; todo en la Cumbre ProVentas.</p>
+        <div class="row vcenter">
+          <div class="col-md-7 col-sm-6">
+            <img src="images/Razones.jpg" alt="razones" class="img-responsive mb40">
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-building text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
+                <p class="long-icon-comp">Abandona la zona de confort, cuestiona y aprende nuevas ideas.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-comments-o text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
+                <p class="long-icon-comp">Intercambia experiencias con otros ejecutivos e incrementa tus oportunidades de venta en directo.</p>
+              </li>   
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
+                <p class="long-icon-comp">Convive con los expertos y descubre el enfoque de aquello que deseas mejorar en tus negociaciones.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-line-chart text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Reinversión</strong></p>
+                <p class="long-icon-comp">Prepárate, mejora tus habilidades de venta y capacítate con tu equipo para lograr un fin común.</p>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-inverse" id="Entradas">
+      <div class="container text-center">
+        <h2 class="text-uppercase mb40">Entradas</h2>
+        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
+        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
+        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
+        <div class="row">         
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
+              <p class="text-main mb40">Septiembre 8, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
+              <p class="text-main mb40">Octubre 26, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
+              <p class="text-main mb40">Noviembre 10, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row vcenter mb40">
+          <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 mb40">
+            <img src="images/convenceJefe.jpg" alt="Jefe" class="img-responsive">
+          </div>
+          <div class="col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6">
+            <h3 class="mb40 text-uppercase text-secondary"><strong>¿Necesitas convencer a tu jefe?</strong></h3>
+            <p class="mb40">Si eres ejecutivo de ventas, podemos ayudarte a convencer a tu jefe. Hemos preparado esta carta para que tu director apruebe tu asistencia. ¡La idea es que venga todo el equipo de ventas!</p>
+            <a href="artefactos/ConvenceatujefeCumbreProVentas.pdf" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Convencer a mi jefe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--#include virtual="patrocinadores.html" -->  
+<!--#include virtual="conf-info.html" --> 
+    <footer class="text-center">
+      <h4>Síguenos</h4>     
+      <div class="socialMedia divider mb20">
+        <a href="https://www.facebook.com/CumbreProVentas/" target="_blank"><span class="fa fa-facebook-square fa-3x"></span></a>
+        <a href="https://www.linkedin.com/groups/8275546" target="_blank"><span class="fa fa-linkedin-square fa-3x"></span></a>
+        <a href="https://www.youtube.com/channel/UC22yOVk39RM4XmE1jAJuk0w" target="_blank"><span class="fa fa-youtube-square fa-3x"></span></a>
+      </div>
+      <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados. &vert; <a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+    </footer>
+<!--#include virtual="footer.html" -->
+ 
+  </body>
+</html>
