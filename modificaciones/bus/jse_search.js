@@ -12,8 +12,10 @@ var s = new Array();
 
 s[0] = "JSE^form.html^Enter JSE in the example above ...^open source, free, client side";
 s[1] = "JSE DOCUMENTATION^doc.txt^JSE is a client-side local site search engine. Written entirely in JavaScript 1.3 it works with browsers from Netscape 4.7 to Microsoft Internet Explorer 6.0 ...^ faq, docs, instructions";
-
-
+s[2] = "crm de ventas^form.html^Cotizador ventas marketing cotizacion..."
+s[3] = "maquina de ventas^form.html^ventas publicidad marketing solicitud "
+s[4] = "tips comidas^form.html^comidas hambre tips chilaquiles "
+s[5] = "estres^form.html^estres te metodos antiestres terapias musicales "
 // ---------- end of script properties and sites ----------
 
 
@@ -117,9 +119,9 @@ function out_jse() {
 			os[2] = os[2].replace(pat, br);
 		}
 		if (include_num == 1) {
-			document.write(a + 1, '. <a href="', os[1], '">', os[0], '</a><br>', os[2], '<p>');
+			document.write(a + 1, '. <a href="', os[1], '">', os[0], '</a><br>');
 		} else {
-			document.write('<a href="', os[1], '">', os[0], '</a><br>', os[2], '<p>');
+			document.write('<a href="', os[1], '">', os[0], '</a><br>');
 		}
 	}
 

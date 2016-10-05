@@ -49,10 +49,11 @@ display: none;
 </head>
 <body>
 
-<h2>My Phonebook</h2>
+<h2>Articulos</h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-
+<input type="text" id="myInput" placeholder="Search for names.." title="Type in a name">
+<button onclick="myFunction()" >buscar</button>
+<div id="list">
 <ul id="myUL">
   <li id="oculto"><a href="#" class="header">A</a></li>
   <li id="oculto"><a href="#">Adele</a></li>
@@ -68,26 +69,10 @@ display: none;
   <li id="oculto"><a href="#">Cindy</a></li>
   <li id="oculto"><a href="https://www.npmjs.com/package/bootstrap-list-filter">Marthaa</a></li>
 </ul>
+</div>
 
 
-<form role="form">
-    <div class="form-group">
-        <input id="searchinput" class="form-control" type="search" placeholder="Search..." />
-    </div>
-    <div id="searchlist" class="list-group">
-        <a class="list-group-item" href="blue.html"><span>blue</span></a>
-        <a class="list-group-item" href="blue.html"><span>green</span></a>
-        <a class="list-group-item" href="blue.html"><span>yellow</span></a>
-        <a class="list-group-item" href="blue.html"><span>black</span></a>
-        <a class="list-group-item" href="blue.html"><span>white</span></a>
-        <a class="list-group-item" href="blue.html"><span>brown</span></a>
-    </div>
-</form>
-<script>
-    $('#searchlist').btsListFilter('#searchinput', {itemChild: 'span'});
-</script> 
-
-
+</body>
 <script>
 function myFunction() {
     var input, filter, ul, li, a, i;
@@ -100,14 +85,16 @@ function myFunction() {
 
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "block";
+            $(document).ready(function(){
+            $("li").fadeOut(3000);
+    });
         } else {
             li[i].style.display = "none";            
         }
     }
-
+    
 }
 </script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.js" ></script>
 
-</body>
 </html>
-
