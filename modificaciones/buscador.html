@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <style>
 * {
   box-sizing: border-box;
@@ -45,32 +46,94 @@
 #oculto{
 display: none;
 }
+#ocultar{
+  display: none;
+}
 </style>
 </head>
 <body>
 
-<h2>Articulos</h2>
 
-<input type="text" id="myInput" placeholder="Search for names.." title="Type in a name">
-<button onclick="myFunction()" >buscar</button>
-<div id="list">
-<ul id="myUL">
-  <li id="oculto"><a href="#" class="header">A</a></li>
-  <li id="oculto"><a href="#">Adele</a></li>
-  <li id="oculto"><a href="#">Agnes</a></li>
+<header class="banner navbar navbar-default navbar-static-top" role="banner" multilinks-noscroll="true">
+  <div class="container topbar" multilinks-noscroll="true">
+       
+  </div>
+</header>
 
-  <li id="oculto"><a href="#" class="header">B</a></li>
-  <li id="oculto"><a href="#">Billy</a></li>
-  <li id="oculto"><a href="#">Bob</a></li>
 
-  <li id="oculto"><a href="#" class="header">C</a></li>
-  <li id="oculto"><a href="#">Calvin</a></li>
-  <li id="oculto"><a href="#">Christina</a></li>
-  <li id="oculto"><a href="#">Cindy</a></li>
-  <li id="oculto"><a href="https://www.npmjs.com/package/bootstrap-list-filter">Marthaa</a></li>
-</ul>
+<form autocomplete="on">
+  name: <input type="text" name="fname"/><br>
+  last name: <input type="text" name="lname"/><br>
+  email: <input type="email" name="email"/>
+  <input type="submit"/>
+</form>
+
+
+<div class="container">
+  <h2>Articulos</h2>
+  <div class="col-md-4">
+    <input type="text" id="myInput" placeholder="Search for names.." title="Type in a name">
+    <button onclick="myFunction()" >buscar</button>
+    <div id="list">
+    <ul id="myUL">
+      <li id="oculto"><a href="#" class="header">A</a></li>
+      <li id="oculto"><a href="#">Adele</a></li>
+      <li id="oculto"><a href="#">Agnes</a></li>
+
+      <li id="oculto"><a href="#" class="header">B</a></li>
+      <li id="oculto"><a href="#">Billy</a></li>
+      <li id="oculto"><a href="#">Bob</a></li>
+
+      <li id="oculto"><a href="#" class="header">C</a></li>
+      <li id="oculto"><a href="#">Calvin <span id="ocultar">comida ventas hola</span></a></li>
+      <li id="oculto"><a href="#">Christina <span id="ocultar">cotizacion ventas cotizador</span></a></li>
+      <li id="oculto"><a href="#">Cotizador <span id="ocultar">cotizacion marcas</span></a></li>
+      <li id="oculto"><a href="https://www.npmjs.com/package/bootstrap-list-filter">Marthaa <span id="ocultar">cotizacion ventas cotizador</span></a></li>
+    </ul>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-4 list-group">
+    <a class="list-group-item active">
+     marketing
+    </a>
+    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item">Morbi leo risus</a>
+    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item">Vestibulum at eros</a>
+    <a class="list-group-item active">
+     ventas
+    </a>
+    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item">Morbi leo risus</a>
+    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item">Vestibulum at eros</a>
+    <a class="list-group-item active">
+     cotizador
+    </a>
+    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item">Morbi leo risus</a>
+    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item">Vestibulum at eros</a>
+  </div>
+
+
+
+
+  <nav class="col-md-6" aria-label="...">
+  <ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+  </nav>
 </div>
-
 
 </body>
 <script>
@@ -86,7 +149,7 @@ function myFunction() {
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "block";
             $(document).ready(function(){
-            $("li").fadeOut(3000);
+            $("li").fadeOut(8000);
     });
         } else {
             li[i].style.display = "none";            
