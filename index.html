@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SalesUp! CRM</title>
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/LandingSalesUp.css">
+
+
+    <script type='text/javascript' src='http://salesup.com/js/jquery/jquery-1.11.3.min.js'></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/underscore-min.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/handlebars.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Sistema.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Validaciones.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/Demo.js"></script>
+    <script type="text/javascript" src="https://control.salesup.com.mx/webservices/js/main.js"></script>
+	 <script type='text/javascript' src='js/configuracion.js'></script> 
+    <script type="text/javascript">
+         $(document).ready(function() {
+         $('#btnPrueba,#Prueba').click(function(){ 
+         $('html, body').animate({scrollTop: $("#frmFormularioSignUp").offset().top}, 800);
+         return false;
+         });
+       });
+    </script>
+
+   <script type="text/javascript">
+     $( document ).ready(function() {
+        $('html, body').animate({scrollTop: $("#header").offset().top}, 00);
+     });
+   </script>
+
+    <link type="text/css" rel="stylesheet" href="http://salesup.com/css/tipsy.css">
+    <script type="text/javascript" src="http://salesup.com/js/jquery.tipsy.js"></script>
+    <script defer type='text/javascript' src='http://salesup.com/cookie.js'></script>  
+    <script type="text/javascript" src="https://www.salesup.com/js/pricing.js"></script>
+
+
+  </head>
+
+  <body id="SalesUp">
+    <div id="header">
+      <div class="container">
+        <a href="http://www.salesup.com/"><img src="images/LogoSalesUp.png"></a>
+        <a href="http://www.coachpepevillacis.com/" class="pull-right"><img src="images/LogoVillacis.jpg"></a>
+      </div>
+    </div>
+
+      <div class="jumbotron">
+        <div class="container">
+          <div class="jumbotronBox">
+            <h1>Toma el control y administra fácilmente a tus clientes</h1>
+            <p>El sistema CRM recomendado por los expertos en ventas</p>
+            <p><a class="btn btn-lg boton" id="btnPrueba" role="button" href="#frmFormularioSignUp">Comienza tu mes gratis</a></p>
+            <ul>
+              <li><i class="fa fa-check"></i> Envía cotizaciones en minutos.</li>
+              <li><i class="fa fa-check"></i> Brinda seguimiento automático a todos tus clientes.</li>
+              <li><i class="fa fa-check"></i> Integración inteligente con tu página de Facebook y sitio web.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="content">
+      <div class="container">
+
+    <!-- Forma -->
+
+        <div class="col-md-5 col-md-push-7 form" >
+          <form id="frmFormularioSignUp">
+            <h2>Comienza tu mes gratis</h2>
+            <p class="subhead">¡Sin descargas!<br> Sin necesidad de instalar ningún software.</p>
+
+            <div class="field">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <span class="fa fa-user"></span>
+                  <input type="text" class="form-control esObligatorio" id="Nombre_SingUp" name="NOMBRE" placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-6">
+                  <span class="fa fa-user"></span>
+                  <input type="text" class="form-control esObligatorio" id="Apellidos_SingUp" name="APELLIDOS" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <span class="fa fa-envelope"></span>
+                  <input type="text" class="form-control esObligatorio" id="Correo_SingUp" name="EMAIL" placeholder="Correo electrónico">
+                </div>
+                <div class="form-group col-md-6">
+                  <span class="fa fa-phone"></span>
+                  <input type="text" class="form-control esObligatorio" id="Telefono_SingUp" name="TELEFONO" placeholder="Teléfono">
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <span class="fa fa-industry"></span>
+                  <input type="text" class="form-control esObligatorio" id="Empresa_SingUp" name="EMPRESA" placeholder="Empresa">
+                </div>
+                <div class="form-group col-md-6">
+                  <span class="fa fa-user"></span>
+                  <input type="text" class="form-control esObligatorio" id="Puesto_SignUp" name="PUESTO" placeholder="Puesto">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <select id="INDUSTRIA" name="INDUSTRIA" class="form-control esObligatorio">
+                    <option value="0" selected="" disabled="">Industria</option>
+                    <option>Automotriz</option>
+                    <option>Bienes de consumo</option>
+                    <option>Bienes industriales</option>
+                    <option>Comercio al por menor</option>
+                    <option>Construcción</option>
+                    <option>Cuidado de la salud</option>
+                    <option>Educación</option>
+                    <option>Hospitalidad</option>
+                    <option>Inmobiliario</option>
+                    <option>Manufactura</option>
+                    <option>Publicidad/Medios</option>
+                    <option>Servicios empresariales/Desarrollo de negocios</option>
+                    <option>Servicios financieros</option>
+                    <option>Tecnología</option>
+                    <option>Telecomunicaciones</option>
+                    <option>Transporte y logística</option>
+                    <option>Viajes y ocio</option>
+                    <option>Otra</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <select id="Vendedores_SingUp" name="VENDEDORES" class="form-control esObligatorio">
+                    <option value="0" selected="" disabled="">Número de vendedores</option>
+                    <option>1 vendedor</option>
+                    <option>2-5 vendedores</option>
+                    <option>6-10 vendedores</option>
+                    <option>11-25 vendedores</option>
+                    <option>26-49 vendedores</option>
+                    <option>Más de 50 vendedores</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="form-group">
+                <span class="fa fa-lock"></span>
+                <input type="password" class="form-control esObligatorio" id="Contrasena_SingUp" name="CONTRASENIA" placeholder="Crear contraseña">
+              </div>
+              <div class="form-group">
+                <span class="fa fa-lock"></span>
+                <input type="password" class="form-control esObligatorio" id="RepContrasena_SingUp" name="CONTRASENA2" placeholder="Confirmar contraseña">
+              </div>
+            </div>
+
+            <div class="field">
+
+
+                <div class="form-group cta">
+                  <span id="btnPruebaloGratis" class="btn btn-primary btn-block" onclick="SalesUp.Demo.crearCuentaDemo({t:this});">
+                  Comenzar
+                  </span>
+                </div>
+              <p class="small">SalesUp! no comparte, vende o renta tu información personal con terceros para fines promocionales. Al dar clic en "Comenzar", indicas que has leído y estás de acuerdo con nuestro <a href="http://www.salesup.com/aviso-privacidad.shtml" target="_blank">Aviso de Privacidad</a> y los <a href="http://www.salesup.com/licencia.txt" target="_blank">Términos y condiciones</a> de uso</p>
+            </div>
+         </form>
+        </div>
+
+
+
+        <div class="col-md-7 col-md-pull-5 info">
+            <div class="benefits">
+                <h3>SalesUp! es el software en la nube que potencializa las habilidades de <span class="resaltar">gerentes</span> y <span class="resaltar">vendedores</span>. Al crear tu cuenta podrás:</h3>
+                <ul>
+                    <li><i class="fa fa-check"></i> Gestionar y segmentar <strong>fácilmente</strong> la base de datos de tus clientes.</li>
+                    <li><i class="fa fa-check"></i> Conocer el estatus de las <strong>oportunidades de negocio</strong> de tus vendedores.</li>
+                    <li><i class="fa fa-check"></i> <strong>Evitar conflictos</strong> al conocer a quién corresponde la comisión de cada venta nueva.</li>
+                    <li><i class="fa fa-check"></i> Asegurar que tus ejecutivos brinden <strong>seguimiento adecuado</strong> a sus contactos.</li>
+                    <li><i class="fa fa-check"></i>  <strong>Personalizar</strong> tu cuenta de acuerdo al proceso de ventas de tu empresa.</li>
+                    <li><i class="fa fa-check"></i>  Generar <strong>reportes</strong> y <strong>pronósticos</strong> de ventas en segundos.</li>
+                    <li><i class="fa fa-check"></i> Acceder de manera <strong>segura </strong> desde cualquier lugar o dispositivo.</li>
+                </ul>
+            </div>
+            <div class="testimonial">
+              <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-3 testimonialPhoto">
+                    <img class="img-circle" src="http://www.salesup.com/images-salesup/Francisco-N.png">
+                </div>
+                <div class="col-xs-12 col-sm-10 col-md-9">
+                    <p><i class="fa fa-quote-left"></i> Nuestros vendedores están mas comprometidos consigo mismos; tienen una herramienta - así lo ven ya-, muy útil para que puedan producir más ingresos. <i class="fa fa-quote-right"></i></p>
+                    <p class="pull-right testimonialName"><strong>Francisco Naif, <span class="resaltar">COMEBI</span></strong></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="pricingBox">
+        <div class="container">
+            <div class="pricingBoxHeader">
+                <h3>Comienza tu mes Gratis de SalesUp!</h3>
+                <p class="subtitle">Después de tu periodo de prueba podrás elegir la versión que mejor se adapte a tus necesidades</p>
+                <ul class="nav nav-pills" id="lista">
+                  <li>
+                    <label>
+                      <input type="radio" name="inlineRadioOptions" id="trimestral" value="option1" onclick="trimestral(this);" class="nav-pills"> Trimestral
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="radio" value="option2" name="inlineRadioOptions" id="semestral" onclick="semestral(this);" class="active" checked=""> Semestral <p>Ahorra el 10%</p>
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="radio" name="inlineRadioOptions" id="anual" value="option3" onclick="anual(this);" class="nav-pills"> Anual <p>Ahorra el 20%</p>
+                    </label>
+                  </li>
+                </ul>
+            </div>
+
+<!-- Semestral -->
+            <div class="row" id="trimestre">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="plan">
+                    <h2>Básico</h2>
+                    <p class="planCaption">Seguimiento de ventas y gestión de clientes básica.</p>
+                    <div class="prices">
+                        <span id="basico"><h3><sup>$ </sup>135<sup> MXN</sup></h3></span>
+                        <span id="preciobasico" ><span class="line-through">$149</span> Ahorras el <strong>10%</strong></span>
+                        <p id="tri" class="small">Por usuario al mes, facturado semestralmente*</p>
+                    </div>
+                    <ul>
+                        <li>Registros ilimitados</li>
+                        <li>5 plantillas de venta precargadas <span class="badge" data-placement="top"  title="Ahorra tiempo al enviar mensajes a tus clientes con las plantillas de correo precargadas.">?</span></li>
+                        <li>Integración con sitio web y Facebook <span class="badge" data-placement="top" data-tooltip="tooltip" title="Recibe automáticamente los datos de clientes que llenan la forma de contacto en tu Fan page o Sitio Web.">?</span></li>
+                        <li>Pronóstico de ventas y reportes</li>
+                        <li>Agenda, recordatorios y tareas</li>
+                        <li>Campañas automáticas de correo</li>
+                        <li>Asistencia vía chat y correo</li>
+                        <li><strong><a href="http://www.salesup.com/artefactos/Tabla-Comparativa.pdf" target="_blank" class="VerTabla">Ver tabla comparativa completa</a></strong></li>
+                    </ul>
+                    <div class="plan-cta">
+                        <a href="#frmFormularioSignUp" id="Prueba" class="btn btn-block btn-info">Probar</a>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-4 col-md-4" id="semestre" >
+                <div class="plan bestPlan">
+                    <div class="ribbon"><span>Recomendado</span></div>
+                    <h2>Pro</h2>
+                    <p class="planCaption">Incrementa la velocidad de respuesta y cotiza en segundos.</p>
+                    <div class="prices">
+                      <a href=""></a>
+                        <span id="pro"><h3><sup>$ </sup>225<sup> MXN</sup></h3></span>
+                        <span id="preciopro"><span class="line-through">$249</span> Ahorras el <strong>10%</strong></span>
+                        <p class="small" id="semes">Por usuario al mes, facturado semestralmente*</p>
+                    </div>
+                    <ul>
+                        <li><strong>Todas las funciones de Básico +</strong></li>
+                        <li>Bandeja de correo inteligente <span class="badge" data-placement="top" data-tooltip="tooltip" title="Gestiona múltiples cuentas de correo, guarda conversasiones como seguimiento y clasifica automáticamente tu bandeja por prospectos, clientes y contactos.">?</span></li>
+                        <li>30 plantillas de venta precargadas</li>
+                        <li>Cotizador</li>
+                        <li>Catálogo de productos</li>
+                        <li>Multimoneda</li>
+                        <li>Atención vía telefónica</li>
+                        <li><strong><a href="http://www.salesup.com/artefactos/Tabla-Comparativa.pdf" target="_blank" class="VerTabla">Ver tabla comparativa completa</a></strong></li>
+                    </ul>
+                    <div class="plan-cta">
+                        <a href="#frmFormularioSignUp" id="Prueba"  class="btn btn-block btn-default">Probar</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 col-md-4" id="anual2">
+                <div class="plan">
+                    <h2>Multicanal</h2>
+                    <p class="planCaption">Empresas con canales indirectos como distribuidores y franquicias.</p>
+                    <div class="prices">
+                        <p class="small callUs">Llámanos <br><span> +52 (442) 229 0793</span></p>
+                        <p class="small callUs">o <br><span><a href="mailto:josevillacis@actioncoach.com?Subject=Nuevo%20contacto%20SalesUp" target="_top">Contáctanos</a></span></p>
+                    </div>
+                    <ul>
+                        <li><strong>Todas las funciones de la Pro +</strong></li>
+                        <li>Canalización de prospectos <span class="badge" data-tooltip="tooltip" title="Asigna contactos de clientes potenciales a tus distribuidores o franquiciatarios.">?</span></li>
+                        <li>Estandarización de comunicación</li>
+                        <li>Distribución inteligente de contactos <span class="badge" data-tooltip="tooltip" title="SalesUp! asigna por ti los contactos potenciales a tus distribuidores y clientes de acuerdo a criterios como eficiencia o zona geográfica.">?</span></li>
+                        <li>Reporte de eficiencia de distribuidores</li>
+                        <li>Repositorio de archivos compartidos</li>
+                        <li>Atención de asesor personal</li>
+                        <li><strong><a href="http://www.salesup.com/artefactos/Tabla-Comparativa.pdf" target="_blank" class="VerTabla">Ver tabla comparativa completa</a></strong></li>
+                    </ul>
+                    <div class="plan-cta">
+                        <!-- <a href="pruebalo-signup.dbsp?tk=boton-b2b" target="_blank" class="btn btn-block btn-info">Probar</a> -->
+                        <a href="mailto:josevillacis@actioncoach.com?Subject=Nuevo%20contacto%20SalesUp" target="_top" class="btn btn-block btn-info"> Contáctanos</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <p class="small"><strong>* Las licencias solamente pueden ser adquiridas de manera trimestral, semestral y anual</strong></p>
+            <p  class="small">Los precios no incluyen Impuestos al Valor Agregado (IVA). | IVA solo aplica a empresas mexicanas. | Aceptamos también transferencias bancarias vía SPEI.</p>
+            <ul class="paymentOptions">
+                <li><img src="images/AE.png"></li>
+                <li><img src="images/PP.png"></li>
+                <li><img src="images/VISA.png"></li>
+                <li><img src="images/MC.png"></li>
+            </ul>
+
+        </div>
+      </div>  <!-- Cierra pricingBox -->
+
+      <div class="sectionBar">
+        <div class="container">
+            <p>No necesitas elegir un plan ahora. Comienza tu mes gratis hoy, sin necesidad de registrar una tarjeta de crédito</p>
+            <a href="#frmFormularioSignUp" id="Prueba" class="btn btn-primary"> Comienza tu mes gratis</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="TitleDesktop">Únete a más de 3,000 empresas que han incrementado sus ventas con SalesUp!<sup>®</sup></h3> 
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Contpaqi.png"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/ActionCoach.png"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Sandler.png"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Koomkin.png"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/Pasa.png"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><img class="img-responsive" src="images/ProfesorChiflado.png"></div>
+              <p class="small">Todas las marcas aquí mencionadas y símbolos están registrados por sus legítimos propietarios. Solamente se emplean en referencia a las mismas.</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
