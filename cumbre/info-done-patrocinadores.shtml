@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+    <!--#include virtual="head.html" -->
+  </head>
+	<body onload="setTimeout(pagina,2000)" style="background-color:#65326b;">
+		<div class="section-inverse">
+			<div class="container text-center text-inverse">
+				<h1 style="font-size:90px;"><span class="fa fa-check-circle-o text-primary"></span><br>¡Listo!</h1>
+				<h3>Gracias por tu interes en ser patrocinador. En breve un asesor se pondrá en contacto contigo.</h3><br>
+				<p>Si tu navegador no te redirecciona automáticamente, da <a href="/" class="text-primary">clic aquí</a></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function pagina(){location.replace('http://www.cumbreproventas.com');}
+		</script>
+	<!--#include virtual="footer.html" -->
+	
+	</body>
+</html>

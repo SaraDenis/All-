@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-  <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='123944605-0',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -106,6 +91,9 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
             </form>
           </div>
         </div>
+      </div>
+      <div class="scroll-to-next-section">
+        <a href="#Evento" class="fa fa-angle-down"></a>
       </div>
     </div>
 
@@ -214,37 +202,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       </div>
     </div>
 
-    <div class="section-inverse" id="Entradas">
-      <div class="container text-center">
-        <h2 class="text-uppercase mb40">Entradas</h2>
-        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
-        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
-        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
-        <div class="row">         
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
-              <p class="text-main mb40">Septiembre 8, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
-              <p class="text-main mb40">Octubre 26, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
-              <p class="text-main mb40">Noviembre 10, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>        
-        </div>
-      </div>
-    </div>
+<!--#include virtual="entradas.html" -->  
 
     <div class="section">
       <div class="container">

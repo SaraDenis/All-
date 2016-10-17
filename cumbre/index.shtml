@@ -52,11 +52,11 @@
 <!-- / Contacto -->
 
     <div class="jumbotron">
-<!--  <video class="hidden-sm hidden-xs" id="video-background" preload="true" autoplay="autoplay" loop="loop" volume="0" poster="images/coverPhoto.jpg">
-        <source src="video/coverVideoGDL.mp4" type="video/mp4">
-        <source src="video/coverVideoGDL.webm" type="video/webm">
-        <source src="video/coverVideoGDL.ogv" type="video/ogg">
-      </video>  -->
+      <video class="hidden-sm hidden-xs" id="video-background" preload="true" autoplay="autoplay" loop="loop" volume="0" poster="images/coverPhoto.jpg">
+        <source src="video/coverVideo.mp4" type="video/mp4">
+        <source src="video/coverVideo.webm" type="video/webm">
+        <source src="video/coverVideo.ogv" type="video/ogg">
+      </video>
       <div class="container">
         <div class="row vcenter">
           <div class="col-md-5 col-sm-4">
@@ -65,22 +65,22 @@
           <div class="col-md-7 col-sm-8">
             <h1 class="text-uppercase text-inverse">El congreso para los profesionales en ventas</h1>
 
-           <div class="row divider mb40" style="padding-top: 10px;">
+            <div class="row mb40" style="padding-top: 10px;">
               <div class="col-md-4 col-sm-4 col-xs-4">
-                <a href="guadalajara.shtml" class="text-inverse" style="text-decoration:none;"><p>Guadalajara</p></a>
-                <p class="text-primary">Sep 8, 2016</p>
+                <a href="#Gallery" class="text-inverse" style="text-decoration:none;"><p>Guadalajara</p></a>
+                <a href="#Gallery" class="text-primary" style="text-decoration:none;"><p><strong>Ver Galería</strong></p></a>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-4">
                 <a href="monterrey.shtml" class="text-inverse" style="text-decoration:none;"><p>Monterrey</p></a>
-                <p class="text-primary">Oct 26, 2016</p>
+                <p class="text-primary"><strong>Oct 26, 2016</strong></p>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-4">
                 <a href="queretaro.shtml" class="text-inverse" style="text-decoration:none;"><p>Querétaro</p></a>
-                <p class="text-primary">Nov 10, 2016</p>
+                <p class="text-primary"><strong>Nov 10, 2016</strong></p>
               </div>
             </div> 
- 
-            <p>Recibe información de las conferencias</p>
+         
+<!--             <p>Recibe información de las conferencias</p>
             <form class="form-inline" method="post" action="#" id="suscribir_form">
               <div class="form-group">
                 <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
@@ -92,9 +92,39 @@
                 <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1133">
               </div>
               <button type="submit" class="btn btn-primary btn-lg">Recibir información</button>
-            </form>
+            </form> -->
           </div>
         </div>
+      </div>
+<!--       <div class="scroll-to-next-section">
+        <a href="#Evento" class="fa fa-angle-down"></a>
+      </div> -->
+    </div>
+
+    <div class="jumbotron-form-inline">
+      <div class="container">
+        <!-- <h3 class="text-inverse mb20">Recibe consejos, tips de ventas y descuentos</h3> -->
+        <h4 class="text-inverse text-uppercase">Recibe consejos, tips de ventas y descuentos</h4>
+        <form class="form-inline" method="post" action="#" id="suscribir_form">
+
+          <div class="form-group">
+<!--             <label class="text-inverse" for="InputName">Nombre*</label>   -->          
+            <input type="text" class="form-control input-lg" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+            <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+          </div>
+          <div class="form-group">
+<!--             <label class="text-inverse" for="email">Correo*</label> -->
+            <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+            <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>         
+          </div>
+          <div class="form-group">
+<!--             <label class="text-inverse" for="InputTelefono">Teléfono</label> -->
+            <input type="text" class="form-control input-lg" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+          </div>
+          <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5387">
+          <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1133">          
+          <button type="submit" class="btn btn-primary btn-lg" style="margin-top:15px;">Recibir información</button>
+        </form>
       </div>
     </div>
 
@@ -105,7 +135,7 @@
         <div class="row vcenter">
           <div class="col-md-8 col-sm-6">
             <div class="embed-responsive embed-responsive-16by9 mb40">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YCHDZ9vITgc?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/alO6VX29Y4w?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -119,6 +149,35 @@
 
 <!--#include virtual="conferencistas.html" --> 
 
+    <div class="section" id="Gallery">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary">Esto fue la Cumbre ProVentas</h2>
+        <p class="lead text-center mb40">Así vivimos la Cumbre ProVentas en Guadalajara</p>
+        <div class="row mb20">
+          <div class="col-md-8 col-sm-8 col-xs-12">
+            <div class="row mb20">
+              <div class="col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="images/gallery1.jpg"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6"><img class="img-responsive" src="images/gallery3.jpg"></div>
+              <div class="col-md-6 col-sm-6 col-xs-6"><img class="img-responsive" src="images/gallery4.jpg"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 hidden-xs">
+            <img class="img-responsive" src="images/gallery2.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 hidden-xs">
+            <img class="img-responsive" src="images/gallery5.jpg">
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-12">
+            <img class="img-responsive" src="images/gallery6.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
 <!--#include virtual="agenda.html" --> 
 
 
@@ -126,7 +185,7 @@
       <div class="container">
         <h2 class="text-uppercase text-center text-secondary">Elige tu ciudad</h2>
         <p class="lead text-center mb40">Cumbre ProVentas se llevará a cabo en las siguientes ciudades. Si tienes más sucursales y otros ejecutivos que desean asistir, elige la sede más cercana a ellos.</p>
-        <div class="row vcenter mb40" id="Guadalajara">
+<!--         <div class="row vcenter mb40" id="Guadalajara">
           <div class="col-md-8 col-sm-7 mb40">
             <img src="images/ciudades/Guadalajara.jpg" alt="Guadalajara" class="img-responsive">
           </div>
@@ -138,7 +197,7 @@
             </ul>
             <a href="guadalajara.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre Guadalajara</a>
           </div>
-        </div>
+        </div> -->
         <div class="row vcenter mb40" id="Monterrey">
            <div class="col-md-8 col-md-push-4 col-sm-7 col-sm-push-5 mb40">
             <img src="images/ciudades/Monterrey.jpg" alt="Monterrey" class="img-responsive">
@@ -160,7 +219,7 @@
             <h3 class="text-uppercase mb40"><a href="queretaro.shtml" class="text-secondary"><strong>Querétaro<strong></strong></strong></a></h3>
             <ul class="list-unstyled mb40">
               <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
-              <li><i class="fa fa-map-marker"></i><p><strong>Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Grand Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
             </ul>
             <a href="queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Ir a cumbre querétaro</a>
           </div>
@@ -168,28 +227,20 @@
       </div>
     </div>
 
+
     <div class="section-inverse" id="Entradas">
       <div class="container text-center">
-        <h2 class="text-uppercase mb40">Entradas</h2>
-        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
-        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
-        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
-        <div class="row">         
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
-              <p class="text-main mb40">Septiembre 8, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>
-          <div class="col-md-4">
+        <h2 class="text-uppercase">Entradas</h2>
+        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$2,990 MXN + IVA</strong></span></h3>
+        <div class="row mb40">         
+          <div class="col-md-6 col-sm-6">
             <div class="well">
               <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
               <p class="text-main mb40">Octubre 26, 2016</p>
               <a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-sm-6">
             <div class="well">
               <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
               <p class="text-main mb40">Noviembre 10, 2016</p>
@@ -197,8 +248,10 @@
             </div>
           </div>        
         </div>
+        <p><strong>Si eres cliente SalesUp!® y quieres un descuento, ¡agenda una llamada con tu ejecutivo!</strong></p>
+        <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="btn btn-lg btn-secondary-outline-inverse">Agenda una llamada</a>
       </div>
-    </div>
+    </div> 
 
     <div class="section" id="Jefe">
       <div class="container">
@@ -218,8 +271,8 @@
           </div>
           <div class="col-md-6 col-sm-6">
             <h3 class="mb40 text-uppercase text-secondary"><span class="text-primary fa fa-star small"></span><strong> Precio especial para clientes SalesUp!<sup>®</sup> </strong></h3>
-            <p class="mb40">Los clientes de SalesUp!&reg; pueden adquirir entradas a Cumbre ProVentas con un descuento del 20%</p>
-            <a href="http://www.salesup.com/crm-de-ventas.html?utm_medium=Referido&utm_campaign=CumbreProVentas&utm_source=cumbreproventas.com&utm_content=Boton" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Prueba salesup gratis</a>
+            <p class="mb40">Conviértete en cliente SalesUp!&reg; y disfruta los descuentos y promociones que tenemos para ti.</p>
+            <a href="http://www.salesup.com/crm-de-ventas.html?utm_medium=Referido&utm_campaign=CumbreProVentas&utm_source=cumbreproventas.com&utm_content=Boton" target="_blank" class="btn btn-lg btn-secondary-outline text-uppercase">Prueba SalesUp! gratis</a>
           </div>
         </div>
       </div>

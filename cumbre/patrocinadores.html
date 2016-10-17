@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <p class="text-center mb40">¿Estás interesado en ser en <strong>patrocinador oficial</strong> de la Cumbre ProVentas?</p>
+        <h3 class="text-center mb40">¿Estás interesado en ser <strong>patrocinador oficial</strong> de la Cumbre ProVentas?</h3>
         <a href="#FormPatrocinadores" style="display:inline-block;" class="btn btn-lg btn-secondary-outline text-uppercase fancybox">¡Quiero ser patrocinador!</a>
       </div>
     </div>
@@ -65,7 +65,9 @@
 <!-- Formulario Patrocinadores -->
 
     <div id="FormPatrocinadores" style="width:265px; display:none;">
-      <p class="mb40"><strong>Necesitamos saber un poco de ti para ponernos en contacto contigo.</strong></p>
+      <p><strong>Agradecemos tu interés en ser patrocinador de este evento.</strong></p>
+      <p>Completa la siguiente información, y en breve un asesor se pondrá en contacto contigo.</p>
+      <br>
       <form method="post" action="#" id="patrocinio_form">
         <div class="form-group">
           <label for="InputEmail">E-mail *</label>
@@ -81,7 +83,12 @@
         </div>
         <div class="form-group">
           <label for="InputTelefono">Teléfono (con lada)</label>
-          <input type="text" class="form-control" id="InputTelefono" required pattern="[0-9]{10}">
+          <input type="text" class="form-control" id="InputTelefono" required>
+        </div>
+        <div class="form-group">
+          <label for="TextComment">¿Por qué quieres patrocinar a Cumbre ProVentas? *</label>
+           <textarea name="mensaje" placeholder="Escribe aquí tu mensaje" id="TextComment" class="form-control" rows="3" required></textarea>
+          
         </div>
         <button type="submit" class="btn btn-primary btn-block btn-lg text-uppercase">Ser patrocinador</button>
       </form>

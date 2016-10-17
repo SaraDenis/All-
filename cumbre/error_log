@@ -173,3 +173,10 @@
 [04-Sep-2016 04:43:48 America/Denver] PHP Notice:  Undefined variable: correo in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 17
 [05-Sep-2016 09:34:04 America/Denver] PHP Notice:  Undefined variable: correo in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 17
 [05-Sep-2016 10:07:16 America/Denver] PHP Notice:  Undefined variable: correo in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 18
+[26-Sep-2016 11:00:07 America/Denver] PHP Notice:  Undefined index: nombre in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 3
+[26-Sep-2016 11:00:07 America/Denver] PHP Notice:  Undefined index: tipo in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 4
+[26-Sep-2016 11:00:07 America/Denver] PHP Notice:  Undefined index: telefono in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_llamada.php on line 5
+[26-Sep-2016 11:00:08 America/Denver] PHP Notice:  Undefined index: nombre in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_mensaje.php on line 3
+[26-Sep-2016 11:00:08 America/Denver] PHP Notice:  Undefined index: correo in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_mensaje.php on line 4
+[26-Sep-2016 11:00:08 America/Denver] PHP Notice:  Undefined index: telefono in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_mensaje.php on line 5
+[26-Sep-2016 11:00:08 America/Denver] PHP Notice:  Undefined index: mensaje in /home6/salesupm/public_html/www.cumbreproventas.com/enviar_mensaje.php on line 6

@@ -23,7 +23,10 @@ var config={};
     config.id_origen_web_guadalajara='5259';
     config.id_origen_web_queretaro='5258';
     config.id_origen_web_referido='5388';
-
+    
+    config.id_etiqueta_envio_mensaje='2153';
+    config.id_etiqueta_llama_inmediato="2135";
+    config.id_etiqueta_Int_Patrocinio='2134';
     config.id_etiqueta_info_cumbre='1133';
     config.id_etiqueta_info_gdl='1134';
     config.id_etiqueta_info_qro='1136';

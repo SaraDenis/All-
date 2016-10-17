@@ -10,43 +10,40 @@ function validaSend(e)
     var nombre =document.getElementById("InputName").value;
     var empresa =document.getElementById("InputCompany").value;
     var telefono =document.getElementById("InputTelefono").value;
-    console.log(correo);
-    if(correo)
-    {
-        if(nombre)
-        {
-            if(empresa)
-            {
-                if(telefono)
-                {
-                    console.log(correo,nombre,empresa,telefono);
-                    suscription(correo,nombre,empresa,telefono);
-                }
-                else
-                {
-                    telefono='';
-                    suscription(correo,nombre,empresa,telefono);
-                }
-            }
-        }
+    var comentario =document.getElementById("TextComment").value;
+    var expresion = /\w+@\w+\.+[a-z]/;
+    console.log(correo,empresa,nombre,telefono,comentario);
+
+    if (nombre===""|| correo===""|| empresa===""|| telefono===""|| comentario==="") {
+        console.log("Todos los campos son obligatorios");
+        if(correo.length>100 || !expresion.test(correo)){
+        console.log("el correo no es válido");
+    }
+    }
+    else {
+        var form={
+            CORREO:correo,
+            NOMBRE:nombre,
+            EMPRESA:empresa,
+            TELEFONO:telefono,
+            COMENTARIO:comentario
+        };
+        suscription(form);
     }
 }
-function suscription(correo,nombre,empresa,telefono)
+function suscription(datos)
 {
-    var correo=correo;
-    var nombre=nombre;
-    var empresa=empresa;
-    var telefono=telefono;
     var form=
     {
-        IDEMPRESA:config.id_empresa,
-        NOMBRE:nombre,
-        CORREO:correo,
-        EMPRESA:empresa,
-        IDORIGEN:config.id_origen_patrocinio,
-        IDETIQUETA:config.id_etiqueta_patrocinio,
-        IDUSUARIO:config.id_usuario_fernando,
-        COMENTARIOS:"Prepatrocinio",
+        IDEMPRESA:config.id_empresa_cumbre,
+        NOMBRE:datos.NOMBRE,
+        TELEFONO:datos.TELEFONO,
+        CORREO:datos.CORREO,
+        EMPRESA:datos.EMPRESA,
+        IDORIGEN:config.id_origen_home_cumbre,
+        IDETIQUETA:config.id_etiqueta_Int_Patrocinio,
+        IDUSUARIO:config.id_usuario_cumbre,
+        COMENTARIOS:"Prepatrocinio: "+ datos.COMENTARIO,
         SP_VERSION:2
     };
     console.log(form);
@@ -55,18 +52,18 @@ function suscription(correo,nombre,empresa,telefono)
       method: "POST",
       url: config.ingresa_registro,
       data: form,
-    })
+    });
     request.done(function(res)
     {
-        console.log(res);
-        alert("Correo Enviado");
+        console.log("correo enviado");
+        window.location.href = 'info-done-patrocinadores.shtml';
         //alert( "success-" + res);
-    })
+    });
     request.fail(function(jqXHR, textStatus)
     {
         console.log(jqXHR);
         console.log(textStatus);
         alert("Error de envio!");
         //alert( "error -" + jqXHR +"-" + textStatus);
-    })
+    });
 }
