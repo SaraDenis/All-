@@ -22,17 +22,17 @@
       <div class="container">
       <h1 class="text-uppercase text-inverse">Nosotros te llamamos</h1> 
       <p>Envíanos tu número telefónico y uno de nuestros ejecutivos te llamará para ayudarte.</p>
-        <form action="enviar_llamada.php" method="post" class="form-inline" onsubmit="return validarLlamada()">
+        <form action="#" method="post" id="form_call" class="form-inline">
           <div class="form-group">
-            <input type="text" name="nombre" id="nombre_llamada" placeholder="Tu nombre" value="" class="form-control" onkeypress="despintar(this)">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" value="" class="form-control" onkeypress="despintar(this)">
             <span style="display:none;" class="label label-danger" id="error_nombre_llamada">Ingresa tu nombre</span>
           </div>
           <div class="form-group">
-            <input type="text" name="telefono" id="telefono_llamada" placeholder="Teléfono (10 dígitos)" value="" class="form-control" onkeypress="despintar(this)">
+            <input type="text" name="telefono" id="telefono" placeholder="Teléfono (10 dígitos)" value="" class="form-control" onkeypress="despintar(this)">
             <span style="display:none;" class="label label-danger" id="error_telefono_llamada">El número debe contener 10 dígitos</span>
           </div>
           <div class="form-group">
-            <select name="tipo" class="form-control">
+            <select id="tipo" name="tipo" class="form-control">
               <option value="movil">Móvil</option>
               <option value="fijo">Fijo</option>
             </select>
@@ -49,25 +49,25 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 mb40">
             <h3 class="text-secondary text-uppercase mb40"><strong>Escríbenos un mensaje</strong></h2>
-            <form action="enviar_mensaje.php" method="post" onsubmit="return validarMensaje()">
+            <form action="#" method="post" id="form_message">
               <div class="form-group">
                 <label>Nombre</label>
-                <input type="text" name="nombre" placeholder="Tu nombre" id="m_nombre" value="" class="form-control" onkeypress="despintar(this)">
+                <input type="text" name="nombre" placeholder="Nombre" id="nombreM" class="form-control" >
                 <span style="display:none;" class="label label-danger" id="error_m_nombre">Ingresa tu nombre</span>
               </div>
               <div class="form-group">
 				        <label>E-mail</label>
-                <input type="text" name="correo" placeholder="Tu correo" id="m_email" value="" class="form-control" onkeypress="despintar(this)">
+                <input type="text" name="correo" placeholder="Correo" id="correoM" class="form-control" >
                 <span style="display:none;" class="label label-danger" id="error_m_email">El correo electrónico no es válido</span>
               </div>
               <div class="form-group">
                 <label>Teléfono</label>
-                <input type="text" name="telefono" id="m_telefono" placeholder="Teléfono (10 dígitos)" value="" class="form-control" onkeypress="despintar(this)">
+                <input type="text" name="telefono" id="telefonoM" placeholder="Teléfono (10 dígitos)" class="form-control">
                 <span style="display:none;" class="label label-danger" id="error_m_telefono">El número debe contener 10 dígitos</span>
               </div>
               <div class="form-group mb40">
                 <label>Mensaje</label>
-                <textarea name="mensaje" placeholder="Escribe aquí tu mensaje" id="m_mensaje" class="form-control" rows="3" value="" onkeypress="despintar(this)"></textarea>
+                <textarea name="mensaje" placeholder="Escribe aquí tu mensaje" id="mensajeM" class="form-control" rows="3"></textarea>
                 <span style="display:none;" class="label label-danger" id="error_m_mensaje">Escribe tu mensaje</span>
               </div>
               <div class="form-group">
@@ -77,17 +77,26 @@
           </div>
           <div class="col-md-5 col-md-offset-1 col-sm-6">
             <h3 class="text-secondary text-uppercase"><strong>Llámanos</strong></h2>
-            <p class="mb40"><span class="fa fa-phone"></span> +52 998-283-1240</p>
+            <p><span class="fa fa-phone"></span> +52 998-283-1240</p>
+            <br>
             <h3 class="text-secondary text-uppercase"><strong>Envíanos un correo</strong></h2>
             <p>info@cumbreproventas.com</p>
+            <br>
+            <h3 class="text-secondary text-uppercase"><strong>Agenda una llamada</strong></h2>
+            <p><a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank">Agenda tu llamada </a>con un ejecutivo para obtener más información y detalles sobre los eventos.</p>
           </div>
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
+    <script type="text/javascript" src="js/contactoMensaje.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <footer class="text-center">
             <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados.</p>
             <p class="small"><a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
     </footer>
-<!--#include virtual="footer.html" -->
   </body>
 </html>

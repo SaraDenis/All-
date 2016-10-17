@@ -92,6 +92,9 @@
           </div>
         </div>
       </div>
+      <div class="scroll-to-next-section">
+        <a href="#Evento" class="fa fa-angle-down"></a>
+      </div>
     </div>
 
     <div class="section" id="Evento">
@@ -199,37 +202,7 @@
       </div>
     </div>
 
-    <div class="section-inverse" id="Entradas">
-      <div class="container text-center">
-        <h2 class="text-uppercase mb40">Entradas</h2>
-        <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$3,490 MXN </strong></span></h3>
-        <p><strong>¡Compra tu ticket de entrada y asegura tu lugar!</strong></p>
-        <p class="mb40">Si eres cliente SalesUp!® y quieres un descuento, <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="text-inverse">agenda una llamada </a>con tu ejecutivo.</p>
-        <div class="row">         
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Guadalajara</strong></h3>
-              <p class="text-main mb40">Septiembre 8, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-GDL.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
-              <p class="text-main mb40">Octubre 26, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="well">
-              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
-              <p class="text-main mb40">Noviembre 10, 2016</p>
-              <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
-            </div>
-          </div>        
-        </div>
-      </div>
-    </div>
+<!--#include virtual="entradas.html" -->  
 
     <div class="section">
       <div class="container">
