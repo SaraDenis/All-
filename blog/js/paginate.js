@@ -21,7 +21,7 @@
            itemsToPaginate = $(settings.itemsToPaginate);
            var numberOfPaginationLinks = Math.ceil((itemsToPaginate.length / itemsPerPage));
         
-           $("<ul></ul>").prependTo(paginationContainer);
+           $("<ul class='pagination'></ul>").prependTo(paginationContainer);
            
            for(var index = 0; index < numberOfPaginationLinks; index++)
            {

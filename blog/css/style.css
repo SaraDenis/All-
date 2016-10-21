@@ -1,3 +1,27 @@
+.principal-head{
+    background-color: #a5afac;
+    padding: 177px;
+}
+.suscribete{
+    background-color: #dfe8e6;
+    padding: 132px;
+    padding-top: 129px;
+    width: 0px;
+    margin: 35px 42px;
+}
+.busca{
+    background-color: #dfe8e6;
+    padding-top: 83px;
+    margin: 35px 42px;
+}
+.categorias{
+    background-color: #dfe8e6;
+    padding: 132px;
+    padding-top: 129px;
+    width: 0px;
+    margin: 35px 42px;
+}
+
 .page
 {
     width: 960px;
@@ -11,33 +35,33 @@
 
 .pagination li
 {
-    list-style:none;  
-    float:left;
-    width : 20px;
-    height:20px;
-    border: 1px solid white;
-    background-color:blue;
-    color:white;
-    text-align:center;
-    cursor:pointer;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: 14px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
 .pagination li:hover
 {
-    background-color: white;
-    border:1px solid black;
-    color: black;
+    
+ z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
 }
 
 .pagination ul
 {
-    border: 0px;
-    padding: 0px;
 }
 
 .active-class
 {
-	background-color: white !important;
-    border:1px solid black !important;
-    color: black !important;	
+	background-color: white;
+    border:1px solid black;
+    color: black;	
 }
