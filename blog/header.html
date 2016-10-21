@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>Buscador en jQuery</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).on("ready", main);
+
+		function main(){
+			$("#tfBuscar").on("keyup", buscar);
+		}
+		function buscar(){
+			var tarjetas = $(".tarjeta");
+			var texto = $("#tfBuscar").val();
+			texto = texto.toLowerCase();
+			tarjetas.show();
+			for(var i=0; i< tarjetas.size(); i++){
+				var contenido = tarjetas.eq(i).text();
+				contenido = contenido.toLowerCase();
+				var index = contenido.indexOf(texto);
+				if(index == -1){
+					tarjetas.eq(i).hide();
+				}
+				
+			}
+		}
+	</script>
+	<style type="text/css">
+		#container{
+			margin: 0 auto;
+			text-align: center;
+			width: 900px;
+		}
+		.tarjeta{
+			background: #e0dbdd;
+			color: white;
+			display: inline-block;
+			margin: 10px;
+			padding: 50px;
+			border-radius: 5px;
+			-webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			-o-transition: all 1s;
+			transition: all 1s;
+		}
+		.tarjeta:hover{
+			background: #7b7077;
+			color: white;
+			display: inline-block;
+			margin: 10px;
+			padding: 50px;
+			border-radius: 5px;
+		}
+		#buscador{
+			text-align: center;
+		}
+		#tfBuscar{
+			border: 0;
+			outline: none;
+			padding: 10px;
+			border-radius: 50px;
+			background-color: antiquewhite;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="buscador">
+			<input type="text" id="tfBuscar" placeholder="Buscar...">
+		</div>
+		<div id="tarjetas">
+			<div class="tarjeta">
+			Pedro gonzalez
+		</div>
+		<div class="tarjeta">
+			Juan
+		</div>
+		<div class="tarjeta">
+			Clara
+		</div>
+		<div class="tarjeta">
+			Matias
+		</div>
+		<div class="tarjeta">
+			Romulo
+		</div>
+		<div class="tarjeta">
+			Samuel
+		</div>
+		<div class="tarjeta">
+			Alicia
+		</div>
+		<div class="tarjeta">
+			Ana
+		</div>
+		<div class="tarjeta">
+			Lucia
+		</div>
+		<div class="tarjeta">
+			Mariana
+		</div>
+		<div class="tarjeta">
+			Carmen
+		</div>
+		<div class="tarjeta">
+			Pablo
+		</div>
+		<div class="tarjeta">
+			Luis
+		</div>
+		<div class="tarjeta">
+			German
+		</div>
+		<div class="tarjeta">
+			Cesar
+		</div>
+		<div class="tarjeta">
+			Carol
+		</div>
+		<div class="tarjeta">
+			Mar
+		</div>
+		</div>
+		
+	</div>
+</body>
+</html>
