@@ -6,96 +6,156 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--_ script y estilos para el buscador-->
+	<script type="text/javascript">
+		$(document).on("ready", main);
+
+		function main(){
+			$("#tfBuscar").on("keyup", buscar);
+		}
+		function buscar(){
+			var tarjetas = $(".post");
+			var texto = $("#tfBuscar").val();
+			texto = texto.toLowerCase();
+			tarjetas.show();
+			for(var i=0; i< tarjetas.size(); i++){
+				var contenido = tarjetas.eq(i).text();
+				contenido = contenido.toLowerCase();
+				var index = contenido.indexOf(texto);
+				if(index == -1){
+					tarjetas.eq(i).hide();
+				}
+				
+			}
+		}
+	</script>
+	<style type="text/css">
+		#container{
+			margin: 0 auto;
+			text-align: center;
+			width: 900px;
+		}
+		.post{
+			background: #e0dbdd;
+			color: white;
+			display: inline-block;
+			margin: 10px;
+			padding: 50px;
+			border-radius: 5px;
+			-webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			-o-transition: all 1s;
+			transition: all 1s;
+		}
+		.post:hover{
+			background: #7b7077;
+			color: white;
+			display: inline-block;
+			margin: 10px;
+			padding: 50px;
+			border-radius: 5px;
+		}
+		#buscador{
+			text-align: center;
+		}
+		#tfBuscar{
+			border: 0;
+			outline: none;
+			padding: 10px;
+			border-radius: 50px;
+			background-color: antiquewhite;
+		}
+	</style>
 	</head>
 
 <body>
 	<div class="principal-head">
   
   	</div>
-  	<div class="col-md-2"></div>
-	<div class="page col-md-6">
-		<div class="list-of-posts">
-			<div class="post">
-				<h3>Articulo numero 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+  	<div class="col-md-2 container"></div>
+		<div class="page col-md-6" id="tarjetas">
+			<div class="list-of-posts">
+				<div class="post">
+					<h3>Articulo numero 1</h3>
+					<p>Ventas Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 2</h3>
+					<p>Cotización Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 3</h3>
+					<p>Sales Up! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 4</h3>
+					<p>Marketing Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 5</h3>
+					<p>Digital Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 6</h3>
+					<p>Comunicacion de valor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 7</h3>
+					<p>Diseño webLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 8</h3>
+					<p>Programador Web Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 9</h3>
+					<p>Comida lo maximo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 10</h3>
+					<p> Hola que tal Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 11</h3>
+					<p>Los perritos o perros son genialesLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 12</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 13</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 14</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 15</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 16</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 17</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 18</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 19</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
+				<div class="post">
+					<h3>Articulo numero 20</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
+				</div>
 			</div>
-			<div class="post">
-				<h3>Articulo numero 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 4</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 5</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 6</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 7</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 8</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 9</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 10</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 11</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 12</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 13</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 14</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 15</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 16</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 17</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 18</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 19</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-			<div class="post">
-				<h3>Articulo numero 20</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis dui nibh, non rutrum turpis mollis et. Aliquam libero ipsum, posuere eget eros viverra, suscipit varius quam. Morbi tincidunt, arcu non tempor elementum, sem tellus auctor diam, sit amet pharetra ante metus sit amet sapien. Phasellus eros dolor, congue aliquam volutpat sed, rutrum non nunc. </p>
-			</div>
-		</div>
 
 		<nav aria-label="Page navigation">
 		  <ul class="pagination">
@@ -109,7 +169,9 @@
 		</div>
 
 		<div class="busca">
-
+			<div id="buscador">
+			<input type="text" id="tfBuscar" placeholder="Buscar...">
+			</div>
 		</div>
 
 		<div class="categorias">
