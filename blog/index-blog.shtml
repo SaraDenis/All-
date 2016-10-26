@@ -11,22 +11,22 @@
 		$(document).on("ready", main);
 
 		function main(){
-			$("#tfBuscar").on("keyup", buscar);
+			$("#buscarWord").on("keyup", buscar);
 		}
 		function buscar(){
-			var tarjetas = $(".post");
-			var texto = $("#tfBuscar").val();
+			var cajas = $(".post");
+			var texto = $("#buscarWord").val();
 			texto = texto.toLowerCase();
-			tarjetas.show();
-			for(var i=0; i< tarjetas.size(); i++){
-				var contenido = tarjetas.eq(i).text();
+			cajas.show();
+			for(var i=0; i< cajas.size(); i++){
+				var contenido = cajas.eq(i).text();
 				contenido = contenido.toLowerCase();
 				var index = contenido.indexOf(texto);
 				if(index == -1){
-					tarjetas.eq(i).hide();
+					cajas.eq(i).hide();
+					console.log('esta por aqui');	
 				}
-				
-			}
+			}document.write("<div class='post'><h3>No se han encontrado resultados...</h3></div>"+buscar()+"");
 		}
 	</script>
 	<style type="text/css">
@@ -58,12 +58,9 @@
 		#buscador{
 			text-align: center;
 		}
-		#tfBuscar{
-			border: 0;
-			outline: none;
-			padding: 10px;
-			border-radius: 50px;
-			background-color: antiquewhite;
+		#buscarWord{
+			padding: 6px;
+    border-radius: 1px;
 		}
 	</style>
 	</head>
@@ -73,7 +70,7 @@
   
   	</div>
   	<div class="col-md-2 container"></div>
-		<div class="page col-md-6" id="tarjetas">
+		<div class="page col-md-6" id="cajas">
 			<div class="list-of-posts">
 				<div class="post">
 					<h3>Articulo numero 1</h3>
@@ -170,7 +167,7 @@
 
 		<div class="busca">
 			<div id="buscador">
-			<input type="text" id="tfBuscar" placeholder="Buscar...">
+			<input type="text" id="buscarWord" placeholder="Buscar...">
 			</div>
 		</div>
 
