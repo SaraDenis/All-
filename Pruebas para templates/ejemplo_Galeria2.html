@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Galeria</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" />
+<script type="text/javascript"> 
+$(document).ready(function(){
+	$(".ejemplo").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+<style type="text/css">
+.html, body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+.inicio {
+	width:700px;
+	height:100%;
+	padding:0px;
+	margin:0px auto 0px auto;
+}
+.ejemplos {
+	float:left;
+	width:100%;
+}
+
+</style>
+</head>
+<body>
+<div class="inicio">
+	<div class="ejemplos">
+	<b>Galería de imágenes 1</b>
+	<br/><br/>
+		<a class="ejemplo" rel="galeria_1" href="img/1.jpg" title="Imagen 1 de 3"><img src="img/1.jpg" width="200" height="150" /></a>
+		
+		<a class="ejemplo" rel="galeria_1" href="img/2.jpg" title="Imagen 2 de 3"><img src="img/2.jpg" width="200" height="150" /></a>
+	
+		<a class="ejemplo" rel="galeria_1" href="img/3.jpg" title="Imagen 3 de 3"><img src="img/3.jpg" width="200" height="150" /></a>
+
+		<a class="ejemplo" rel="galeria_1" href="img/4.jpg" title="Imagen 4 de 6"><img src="img/4.jpg" width="200" height="150" /></a>
+
+		<a class="ejemplo" rel="galeria_1" href="img/5.jpg" title="Imagen 5 de 6"><img src="img/5.jpg" width="200" height="150" /></a>
+
+		<a class="ejemplo" rel="galeria_1" href="img/6.jpg" title="Imagen 6 de 6"><img src="img/6.jpg" width="200" height="150" /></a>
+
+	</div>
+</div>
+</body>
+</html>

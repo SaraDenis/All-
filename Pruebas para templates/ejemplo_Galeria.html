@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Galeria</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.js"></script>
+
+<script type="text/javascript"> 
+$(document).ready(function(){
+	$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : true,
+				arrows    : true,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+});
+</script>
+<style type="text/css">
+.html, body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+.inicio {
+	width:700px;
+	height:100%;
+	padding:0px;
+	margin:0px auto 0px auto;
+}
+
+</style>
+</head>
+<body>
+<div class="inicio">
+	<div class="ejemplos">
+	<b>Galería de imágenes 1</b>
+	<br/><br/>
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/1.jpg" title="Imagen 1 de 3"><img src="img/1.jpg" width="200" height="150" /></a>
+		
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/2.jpg" title="Imagen 2 de 3"><img src="img/2.jpg" width="200" height="150" /></a>
+	
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/3.jpg" title="Imagen 3 de 3"><img src="img/3.jpg" width="200" height="150" /></a>
+
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/4.jpg" title="Imagen 4 de 6"><img src="img/4.jpg" width="200" height="150" /></a>
+
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/5.jpg" title="Imagen 5 de 6"><img src="img/5.jpg" width="200" height="150" /></a>
+
+		<a class="fancybox-thumbs" data-fancybox-group="thumb" href="img/6.jpg" title="Imagen 6 de 6"><img src="img/6.jpg" width="200" height="150" /></a>
+
+	</div>
+</div>
+</body>
+</html>

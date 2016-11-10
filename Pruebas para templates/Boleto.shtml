@@ -1,0 +1,20 @@
+<html>
+<body>
+	<div>
+			<p>Hola&nbsp;<label>[NOMBRE]:</label></p>
+		<p>Una vez m&aacute;s gracias por tu confianza en el evento. Es importante que lleves impreso este boleto y presentarlo en la mesa de registro el pr&oacute;ximo 10 de noviembre en el hotel Grand Fiesta Americana Quer&eacute;taro:</p>
+		<p><img src="https://s3-us-west-2.amazonaws.com/salesupfiles/041798/IMG041798-57C872EB2C6FE_BOLETO_WEB-01A.JPG" alt="SalesUp!" width="812" height="63" /></p>
+		<p><span style="font-family: arial, helvetica, sans-serif; color: #333399; font-size: 18px;"><strong><label>[NOMBRE]&nbsp;<label>[APELLIDOS] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;FOLIO:</label></label></strong></span></p>
+		<p>&nbsp;<img src="https://s3-us-west-2.amazonaws.com/salesupfiles/041798/IMG041798-580A423E647D0_BOLETO_CPV_QRO.JPG" alt="SalesUp!" width="814" height="215" /></p>
+		<p>&nbsp;</p>
+		<p>Si no has elegido tus dos Pl&aacute;ticas Especializadas, consulta el programa adjunto y env&iacute;anos un correo especificando las de tu agrado.</p>
+		<p>Nos vemos en Quer&eacute;taro.</p>
+		<p><label>[EJECUTIVO]</label></p>
+		<p><label>[EJECUTIVOTELEFONO]</label></p>
+		<p><a href="http://www.cumbreproventas.com">www.cumbreproventas.com</a></p>
+		<p><img src="https://s3-us-west-2.amazonaws.com/salesupfiles/041798/IMG041798-57C85C1D55036_LOGOCUMBREPROVENTAS1.PNG" alt="SalesUp!" width="180" height="139" /></p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+</body>
+</hmtl>
