@@ -13,12 +13,16 @@
             var desplazamientoActual = $(document).scrollTop();
             var controlArriba = $("#mos");
             console.log("Estoy en " , desplazamientoActual); 
-            if(desplazamientoActual > 400 && controlArriba.css("display") == "none"){
+            if ((screen.width<=425) && (screen.height<=897)) {
+              $("#mos").css("display", "none");
+            }
+            else if(desplazamientoActual > 400 && controlArriba.css("display") == "none"){
                 controlArriba.fadeIn(500);
             }
             if(desplazamientoActual < 400 && controlArriba.css("display") == "block"){
                 controlArriba.fadeOut(500);
             }
+            
         });
 
     });
