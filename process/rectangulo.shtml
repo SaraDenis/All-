@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rectangulo ñaa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<script>
+    $(function() {
+    $(document).on("scroll", function(){
+            var desplazamientoActual = $(document).scrollTop();
+            var controlArriba = $("#mos");
+            console.log("Estoy en " , desplazamientoActual); 
+            if(desplazamientoActual > 400 && controlArriba.css("display") == "none"){
+                controlArriba.fadeIn(500);
+            }
+            if(desplazamientoActual < 400 && controlArriba.css("display") == "block"){
+                controlArriba.fadeOut(500);
+            }
+        });
+
+    });
+  </script>
+  <style type="text/css">
+  p{
+        max-width: 800px;
+    }
+  </style>
+<body>
+
+<div id="mos" class="bg-primary" style="display:none;position: fixed; width: 100%;">
+  <center>
+    <p>Nos quedan 147 lugares, <strong>se te acaba el tiempo!</strong><button class="btn"  >Entra aqui</button>
+  </center>     
+</div>
+
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+<p>Lorem...</p>
+
+</body>
+</html>

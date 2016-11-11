@@ -34,6 +34,7 @@
     position: fixed;
     width: 100%;
     height: auto;
+    display: none;
   }
 .btn{
   border-radius: 0px;
@@ -49,22 +50,25 @@
 
 	</style>
   <script>
-    function myFunction() {
-    var x = document.getElementById('mos');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-        } else  {
-                x.style.display = 'none';
-                }
-    }
-    function mostrar(){
-     
-    }
+    $(function() {
+    $(document).on("scroll", function(){
+            var desplazamientoActual = $(document).scrollTop();
+            var controlArriba = $("#mos");
+            console.log("Estoy en " , desplazamientoActual); 
+            if(desplazamientoActual > 400 && controlArriba.css("display") == "none"){
+                controlArriba.fadeIn(500);
+            }
+            if(desplazamientoActual < 400 && controlArriba.css("display") == "block"){
+                controlArriba.fadeOut(500);
+            }
+        });
+
+    });
   </script>
 
 </head>
 <body>
-<div id="mos" class="banner">
+<div id="mos" class="bg-primary" style="display:none;position: fixed; width: 100%;">
   <center>
     <p>Nos quedan 147 lugares, <strong>se te acaba el tiempo!</strong><button class="btn"  >Entra aqui</button>
   </center>     
