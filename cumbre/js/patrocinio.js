@@ -40,13 +40,13 @@ function suscription(datos)
         TELEFONO:datos.TELEFONO,
         CORREO:datos.CORREO,
         EMPRESA:datos.EMPRESA,
-        IDORIGEN:config.id_origen_home_cumbre,
+        IDORIGEN:config.id_origen_Patrocinador_Cumbre,
         IDETIQUETA:config.id_etiqueta_Int_Patrocinio,
-        IDUSUARIO:config.id_usuario_cumbre,
+        IDUSUARIO:config.id_usuario_Patrocinador,
         COMENTARIOS:"Prepatrocinio: "+ datos.COMENTARIO,
         SP_VERSION:2
     };
-    console.log(form);
+    //console.log(form);
     var request= $.ajax(
     {
       method: "POST",
@@ -55,7 +55,7 @@ function suscription(datos)
     });
     request.done(function(res)
     {
-        console.log("correo enviado");
+        //console.log("correo enviado");
         window.location.href = 'info-done-patrocinadores.shtml';
         //alert( "success-" + res);
     });

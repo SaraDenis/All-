@@ -80,6 +80,7 @@ function suscribir(email,nombre,telefono,origen,etiqueta)
         if(origen==5387){window.location.href = 'http://cumbreproventas.com/info-done.shtml';}
         else if(origen==5259){window.location.href = 'http://cumbreproventas.com/info-done-GDL.shtml';}
         else if(origen==5257){window.location.href = 'http://cumbreproventas.com/info-done-MTY.shtml';}
+        else if(origen==7341){window.location.href = 'http://cumbreproventas.com/info-done-QRO.shtml';}//para Ken ramirez
         else if(origen==5258){window.location.href = 'http://cumbreproventas.com/info-done-QRO.shtml';}
         else if (origen==6140){window.location.href = 'http://cumbreproventas.com/info-done-REF.shtml';}
         else if (origen==6141){window.location.href = 'http://cumbreproventas.com/info-done-PV.shtml';}//para AB Pepe Villacis

@@ -76,7 +76,20 @@
           </div>
         </div>
       </div>
+      <div class="scroll-to-next-section hidden-sm hidden-xs">
+        <a href="#Evento" class="fa fa-angle-down"></a>
+      </div> 
     </div>
+
+<!--     <div class="banner">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="text-uppercase text-inverse">¡Se te acaba el tiempo!<a href="http://www.cumbreproventas.com/entrada-done-MTY.shtml">
+            <img src="images/QuedanLugares.png">
+          </a></h3>  
+        </div>
+      </div>
+    </div>  -->
 
     <div class="section" id="Evento">
       <div class="container">

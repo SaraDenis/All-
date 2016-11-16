@@ -15,6 +15,7 @@ var config={};
     /////////////////////////////////////////////////////////////////////////////////
     config.id_empresa_cumbre='41798'
     config.id_usuario_cumbre='59275';
+    config.id_usuario_Patrocinador='62308';
     config.id_origen_web_monterrey='5257';
     config.id_etiqueta_info_mty='1135';
 
@@ -23,7 +24,8 @@ var config={};
     config.id_origen_web_guadalajara='5259';
     config.id_origen_web_queretaro='5258';
     config.id_origen_web_referido='5388';
-    
+    config.id_origen_Patrocinador_Cumbre='7337';
+
     config.id_etiqueta_envio_mensaje='2153';
     config.id_etiqueta_llama_inmediato="2135";
     config.id_etiqueta_Int_Patrocinio='2134';

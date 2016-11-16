@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="congreso de ventas, capacitacion de ventas, capacitación para vendedores, profesionales en ventas, talleres y conferencias para vender más, tecnicas de negociacion, tecnicas de cierre, estrategias comerciales, estrategias de venta, planeacion, expertos en ventas, expertos en negociacion, coaching empresarial, coach de negocios">
+    <meta name="description" content="El congreso de SalesUp! diseñado para subir tus ventas.">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas Video</title>
+
+    <!--#include virtual="head.html" -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="images/logoHeader.png"></a>
+        </div>
+      </div>
+    </nav>
+
+<!-- Contacto -->
+    <div id="contact-box" class="text-center hidden-xs">
+      <a href="contacto.shtml" target="_blank">
+        <img src="images/CallCenter.png">
+        ¿Necesitas que te llamemos?
+      </a>
+    </div>
+    <div id="contact-box-mobile" class="hidden-lg hidden-md hidden-sm">
+        <a href="contacto.shtml" target="_blank" class="text-uppercase">
+            <img src="images/CallCenter.png"> ¿Necesitas que te llamemos?
+        </a>
+    </div>
+<!-- / Contacto -->
+
+    <div class="section" id="Evento">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary mb40">Nunca dejes de dar seguimiento</h2>
+        <div class="row vcenter">
+          <div class="col-md-8 col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9 mb40">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/18Zp65N0TS0?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h3><strong>Angélica Frías</strong></h3>
+            <h4>Directora de Cuentas Corporativas de <strong>SalesUp!<sup>®</sup></strong></h4>
+            <br>
+            <p>Hoy tenemos el valioso tip que nos comparte nuestra amiga Angélica Frías para siempre estar en la mente de nuestros clientes y es <strong>nunca dejar de dar seguimiento</strong>. No solo eso, cuando no encuentres a la persona que buscas conversa con quien te responda, podrás obtener información valiosa para romper el hielo en tu siguiente llamada.</p>           
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--#include virtual="entradas.html" -->  
+
+
+
+    <footer class="text-center">
+      <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados.</p>
+    </footer>
+<!--#include virtual="footer.html" -->
+  </body>
+</html>

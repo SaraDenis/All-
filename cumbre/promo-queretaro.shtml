@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="congreso de ventas, capacitacion de ventas, eventos de ventas en guadalajara, eventos de ventas en queretaro, eventos de ventas en monterrey, capacitación para vendedores, profesionales en ventas, talleres y conferencias para vender más, tecnicas de negociacion, tecnicas de cierre, estrategias comerciales, estrategias de venta, planeacion, expertos en ventas, expertos en negociacion, coaching empresarial, coach de negocios">
+    <meta name="description" content="El congreso de SalesUp! diseñado para subir tus ventas. Los líderes en ventas y coaching empresarial, comparten su experiencia durante un día de conferencias y talleres, en las cuidades más importantes de México.">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cumbre Pro Ventas</title>
+    <!--#include virtual="head.html" -->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="images/logoHeader.png"></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="section-inverse" style="padding:30px 0px;">
+      <div class="container text-center">
+        <h2 class="text-uppercase">Gana entradas gratis</h2>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+          <h3 class="text-secondary text-uppercase"><b>¡Ganar es muy fácil!</b></h3>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-check text-secondary"></i> <p>Sigue a Cumbre ProVentas en <a href="https://www.facebook.com/CumbreProVentas/" target="_blank">Facebook</a>.</p></li>
+            <li><i class="fa fa-check text-secondary"></i> <p>Comparte con nosotros vía inbox una razón, similar a un cierre de ventas, por la cual deberíamos darte a ti y a tu acompañante entradas para asistir al evento.</p></li>
+            <li><i class="fa fa-check text-secondary"></i> <p>Tienes desde el miércoles <b>26 de octubre</b> hasta el viernes<b> 28 de octubre de 2016</b> a las 12 de la noche.</p></li>
+          </ul>
+          <br>
+          <br>
+          <h3 class="text-secondary text-uppercase"><b>Jueces</b></h3>
+          <p>Los conferencistas de Cumbre ProVentas votarán por el cierre de ventas más original y los ganadores se darán a conocer el <b>miércoles 2 de noviembre</b> en el <a href="https://www.facebook.com/CumbreProVentas/" target="_blank">Facebook oficial de Cumbre ProVentas</a> a las 12 del día.</p>
+          <br>
+          <br>
+          <h3 class="text-secondary text-uppercase"><b>Premios</b></h3>
+          <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-trophy text-secondary"></i></div>
+                <p class="long-icon-comp"><b>1er. lugar</b></p>
+                <p class="long-icon-comp">2 entradas para asistir al evento el 10 de noviembre en el hotel Grand Fiesta Americana Querétaro.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-star text-secondary"></i></div>
+                <p class="long-icon-comp"><b>2do. lugar</b></p>
+                <p class="long-icon-comp">1 entrada gratis para asistir al evento el 10 de noviembre en el hotel Grand Fiesta Americana Querétaro.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-star text-secondary"></i></div>
+                <p class="long-icon-comp"><b>3er. lugar</b></p>
+                <p class="long-icon-comp">70% de descuento en la entrada para asistir al evento el 10 de noviembre en el hotel Grand Fiesta Americana Querétaro.</p>
+              </li> 
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-zebra">
+      <div class="container">
+        <div class="row vcenter">
+          <div class="col-md-8 col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9 mb40">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/alO6VX29Y4w?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="queretaro.shtml" class="text-secondary"><strong>Cumbre ProVentas Querétaro<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Grand Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+            </ul>
+            <a href="queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Más información</a>
+          </div>
+        </div>
+      </div>
+     <!--  <div class="container">
+        <p class="lead text-center mb40">El Congreso para los profesionales en ventas ahora en Querétaro</p>
+        <div class="row vcenter mb40">  
+          <div class="col-md-8 col-sm-7">
+            <img src="images/ciudades/Queretaro.jpg" alt="Queretaro" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <h3 class="text-uppercase mb40"><a href="queretaro.shtml" class="text-secondary"><strong>Querétaro<strong></strong></strong></a></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-calendar"></i><p>Noviembre 10, 2016</p></li>
+              <li><i class="fa fa-map-marker"></i><p><strong>Grand Fiesta Americana Querétaro</strong><br> Querétaro, Querétaro</p></li>
+            </ul>
+            <a href="queretaro.shtml" class="btn btn-lg btn-block btn-secondary-outline text-uppercase">Más información</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <footer class="text-center">
+            <p class="small">&copy; 2016 SalesUp!. Todos los derechos reservados.</p>
+            <p class="small"><a href="https://www.flickr.com/photos/ter-burg/9216004446/sizes" target="_blank">Foto</a> por Ter-Burg <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a> &vert; <a href="https://www.flickr.com/photos/gdsteam/12203588865/" target="_blank">Foto</a> por Gdsteam <a href="http://creativecommons.org/licenses/by/2.0/"><span class="fa fa-creative-commons"></span></a></p>
+    </footer>
+  </body>
+</html>

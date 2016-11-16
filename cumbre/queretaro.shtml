@@ -57,8 +57,9 @@
         </div>
         <div class="col-md-6 jumbo-info">
           <div>
-            <img class="img-responsive logo-jumbo-sedes hidden-xs mb40" src="images/logoJumboSedes.png" alt="cumbre ProVentas">
-            <h4 class="text-uppercase text-inverse mb40" style="margin-top:20px;">Recibe consejos, tips de ventas y descuentos</h4>
+            <img class="img-responsive logo-jumbo-sedes hidden-xs" src="images/logoJumboSedes2.png" alt="cumbre ProVentas">
+            <p class="text-uppercase mb40 text-inverse" style="margin-top:10px;"><span class="text-inverse">Querétaro &nbsp;|&nbsp; </span><span class="text-primary">Nov 10, 2016</span></p>
+            <h4 class="text-inverse mb20">Recibe tips de ventas y descuentos</h4>
             <form method="post" action="#" id="suscribir_form" class="form-horizontal">
               <div class="form-group">
                 <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
@@ -91,14 +92,10 @@
           </div>
         </div>
       </div>
-<!--       <div class="scroll-to-next-section">
+      <div class="scroll-to-next-section">
         <a href="#Evento" class="fa fa-angle-down"></a>
-      </div> -->
+      </div> 
     </div>
-
-
-<input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5258">
-              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1136">
 
 
 
@@ -121,10 +118,195 @@
       </div>
     </div>
 
-<!--#include virtual="conferencistas.html" --> 
+    <div class="section-square" id="Conferencistas">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-primary">Conferencistas</h2>
+        <p class="lead text-center mb40">Reunimos a las mentes más brillantes en negociación, cierre, planeación, marketing y aceleración comercial. ¡Conoce a los expositores!</p>
+        <div class="row">
 
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#VazquezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AliVazquez.jpg" alt="Ali Vazquez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lMaximoPotencial.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Ali Vázquez</p><p>Director</p><p><strong>Máximo Potencial</strong></p>
+            </div>
+          </div>
 
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#FriasProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AngelicaFrias.jpg" alt="Angelica Frias">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSalesUp.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Angélica Frías</p><p style="font-size:80%;">Directora de cuentas corporativas</p><p><strong>SalesUp!®</strong></p>
+            </div>
+          </div>
 
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#MandujanoProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/AnthonyMandujano.jpg" alt="Anthony Mandujano">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSalesUp.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Anthony Mandujano</p><p>Director comercial </p><p><strong>SalesUp!®</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#BanuelosProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/DiegoBanuelos.jpg" alt="Diego Bañuelos">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSalesUp.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Diego Bañuelos </p><p>Director de tecnología </p><p><strong>SalesUp!®</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#ZavalaProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/EduardoZavala.jpg" alt="Eduardo Zavala">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lRelacionate.png" alt="logo"> 
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Eduardo Zavala</p><p>Autor del <i>best seller</i></p><p><strong>Relaciónate y Vende</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#GordilloProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/EnriqueGordillo.jpg" alt="Enrique Gordillo">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lGordillo.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Enrique Gómez-G</p><p>Experto en mercadotecnia</p><p><strong>Conferencista</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#RodriguezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/FranciscoRodriguez.jpg" alt="Francisco Rodriguez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lSandler.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Francisco Rodríguez</p><p>Director y socio fundador</p><p><strong>Sandler Training&reg; Querétaro</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#SuarezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/IlianaSuarez.jpg" alt="Iliana Suarez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lBauhaus.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Iliana Suárez</p><p>Directora de marketing</p><p><strong>Bauhaus Media Production</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#PekerProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/PatricioPeker.jpg" alt="Patricio Peker">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lHuevos.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Patricio Peker</p><p>Autor del <i>best seller</i></p><p style="font-size:80%;"><strong>El Vendedor de los Huevos de Oro</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#VillacisProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/PepeVillacis.jpg" alt="Pepe Villacis">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lAction.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Pepe Villacís</p><p>Coach de negocios</p><p><strong>Action Coach®</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#DominguezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/SalvadorDominguez.jpg" alt="Salvador Dominguez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lColegio.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Salvador Domínguez</p><p>Coach de negocios</p><p><strong>Colegio de Ventas y Negocios</strong></p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 conf-module">
+            <div class="conf-image-profile">
+              <a href="#EstevezProfile" class="fancybox">
+                <img class="img-responsive conf" src="images/conferencistas/VeronicaEstevez.jpg" alt="Veronica Estevez">
+                <span class="fa fa-plus"></span>
+                <div class="conf-logo">
+                  <img class="img-responsive" src="images/logos/lGanarOpciones.png" alt="logo">
+                </div>
+              </a>
+            </div>
+            <div class="conf-info-profile">
+              <p>Verónica Estevez</p><p>Coach de negocios</p><p><strong>Ganar Opciones</strong></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <div class="section-square-inverse" id="Agenda">
       <div class="container">
@@ -144,96 +326,21 @@
           <li class="event">
             <div class="row">
               <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 8:30 - 9:40</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#HernandezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AllenHernandezXS.jpg" alt="Allen Hernandez">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Los 10 errores más grandes que se cometen en ventas</strong></h4>
-                <p class="small">Con <a href="#HernandezProfile" class="fancybox text-main">Allen Hernández</a></p>
-                <p class="text-muted">Los vendedores, organizaciones y equipos de ventas tienen que cambiar los viejos hábitos al vender para hacer frente al mundo cada vez más competitivo. Conoce los diez principios esenciales que se entienden mal o no se implementan y que tienen como resultado pérdidas millonarias por año.</p>
-              </div>
-            </div>
-          </li> 
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 9:40 - 10:30</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#LopezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AlbertoLopezXS.jpg" alt="Alberto Lopez">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Cómo prospectar exitosamente</strong></h4>
-                <p class="small">Con <a href="#LopezProfile" class="fancybox text-main">Alberto López</a></p>
-                <p class="text-muted">Descubre los elementos necesarios para incrementar las ventas de tu negocio en una conferencia patrocinada por Sandler Training&reg;, líder mundial en capacitación, coaching, consultoría en ventas y servicio al cliente.</p>
-              </div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 10:30 - 11:20</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#ZavalaProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/EduardoZavalaXS.jpg" alt="Eduardo Zavala">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Transformando vendedores en aliados estratégicos</strong></h4>
-                <p class="small">Con <a href="#ZavalaProfile" class="fancybox text-main">Eduardo Zavala</a></p>
-                <p class="text-muted">Para entender la importancia de salir de un círculo vicioso, carente de resultados, donde en ocasiones se encuentran los vendedores, hay que revisar la esencia de la actitud mental para poder revertirlo. Enfrentar retos, dar resultados en cualquier tipo de negocio, así como transformar a los vendedores para que los clientes los perciban como sus aliados estratégicos, son algunos de los puntos que aborda la ponencia.</p>
-              </div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p><span class="fa fa-clock-o"></span><strong> 11:20 - 12:20</strong></p>
+                <p><span class="fa fa-clock-o"></span><strong> 8:30 - 8:40</strong></p>
               </div>
               <div class="col-md-10 col-sm-9">
-                <p class="text-uppercase"><strong>Coffee Break</strong> - Visita a muestras comerciales</p>
+                <p class="text-uppercase"><strong>Bienvenida</strong></p>
               </div>
             </div>
-          </li>          
+          </li>
           <li class="event">
-            <div class="row mb40">
+            <div class="row">
               <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 12:20 - 13:20</strong> <span class="label label-primary">Plática a elección *</span></p>
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 8:40 - 9:50</strong> <span class="label label-secondary">Conferencia</span></p>
               </div>
               <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#VazquezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AliVazquezXS.jpg" alt="Ali Vazquez">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Ventas sin estrés</strong></h4>
-                <p class="small">Con <a href="#VazquezProfile" class="fancybox text-main">Ali Vázquez</a></p>
-                <p class="text-muted">Reducir el estrés en los equipos de ventas es un activo empresarial y una gran fuente de salud. El primer objetivo de esta plática es informarte cómo el estrés afecta las áreas de productividad, toma de decisiones, comunicación, trabajo en equipo y liderazgo. El segundo objetivo es que aprendas a dirigir tu atención de las voces mentales auto limitantes que nos generan estrés, esto, para un cierre de venta sin esfuerzo.</p>
-              </div>
-            </div>
-            <div class="row mb40">
-              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
-                <a href="#DominguezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/SalvadorDominguezXS.jpg" alt="Salvador Dominguez">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">La nueva dirección comercial</strong></h4>
-                <p class="small">Con <a href="#DominguezProfile" class="fancybox text-main">Salvador Domínguez</a></p>
-                <p class="text-muted">El objetivo del taller es que descubras las habilidades necesarias para ser el próximo Director Comercial de la empresa donde laboras. La estrategia y aptitudes para el cierre de negocios, pero sobre todo, el entrenamiento de ejecutivos calificados son detalles en los que profundizaremos.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
                 <a href="#BanuelosProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/DiegoBanuelosXS.jpg" alt="Diego Bañuelos">
+                  <img class="img-responsive mb20" src="images/conferencistas/DiegoBanuelosXS.jpg" alt="Diego Banuelos">
                 </a>
               </div>
               <div class="col-md-8 col-sm-6">
@@ -242,113 +349,28 @@
                 <p class="text-muted">No puede ganarse una guerra con un solo hombre. Se necesita un ejército, equipamiento, estrategias y tácticas de guerra. Lo mismo sucede con la comercialización. Si tu empresa busca crecer sus ventas, conoce cuáles son los pilares necesarios para formar un ejército comercial eficaz.</p>
               </div>
             </div>
-          </li>
+          </li> 
           <li class="event">
-            <div class="row mb40">
+            <div class="row">
               <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 13:20 - 14:20</strong> <span class="label label-primary">Plática a elección *</span></p>
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 9:50 - 10:50</strong> <span class="label label-secondary">Conferencia</span></p>
               </div>
               <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#HernandezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AllenHernandezXS.jpg" alt="Allen Hernandez">
+                <a href="#DominguezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/SalvadorDominguezXS.jpg" alt="Salvador Dominguez">
                 </a>
               </div>
               <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">El código del vendedor</strong></h4>
-                <p class="small">Con <a href="#HernandezProfile" class="fancybox text-main">Allen Hernández</a></p>
-                <p class="text-muted">Para tener éxito se requiere disciplina y dedicación, para ser disciplinado se tienen que aprender técnicas de comportamiento ideal, y para aprenderlas, es necesario saber qué tan bien o mal estamos en diferentes aspectos de la vida. Prepárate para la transformación de tus resultados y tu desempeño como vendedor.</p>
-              </div>
-            </div>
-            <div class="row mb40">
-              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
-                <a href="#SuarezProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/IlianaSuarezXS.jpg" alt="Iliana Suarez">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">¿Cómo darle la vuelta exitosamente a las objeciones?</strong></h4>
-                <p class="small">Con <a href="#SuarezProfile" class="fancybox text-main">Iliana Suárez</a></p>
-                <p class="text-muted">Ocho de cada diez personas asocian la palabra objeción a términos negativos, en esta plática aprenderás tres herramientas para identificar la ganancia oculta que siempre tienen las objeciones. Si te interesa obtener consejos prácticos para implementarlas hoy mismo en tus negociaciones, esta plática es para ti.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
-                <a href="#MandujanoProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AnthonyMandujanoXS.jpg" alt="Anthony Mandujano">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Precio: La principal palanca para incrementar la rentabilidad</strong></h4>
-                <p class="small">Con <a href="#MandujanoProfile" class="fancybox text-main">Anthony Mandujano</a></p>
-                <p class="text-muted">Existen cuatro factores que merman la capacidad de las empresas a ser rentables: impacto del precio, descuento vs. volumen, alineación de objetivos y fijación de precios. Conoce las recomendaciones para gestionar y ejecutar una correcta estrategia y gestión de precios.</p>
+                <h4><strong class="text-uppercase">Desarrollo de la inteligencia comercial en tu empresa</strong></h4>
+                <p class="small">Con <a href="#DominguezProfile" class="fancybox text-main">Salvador Domínguez</a></p>
+                <p class="text-muted">El posicionamiento de tu empresa depende de muchos factores, pero principalmente de la forma en la que se ensamblan las nuevas piezas de la inteligencia comercial. Para alcanzar el siguiente nivel de negocios se requiere una reestructuración y la adquisición de diversas habilidades.</p>
               </div>
             </div>
           </li>
           <li class="event">
             <div class="row">
               <div class="col-md-2 col-sm-3">
-                <p><span class="fa fa-clock-o"></span><strong> 14:20 - 15:20</strong></p>
-              </div>
-              <div class="col-md-10 col-sm-9">
-                <p class="text-uppercase"><strong>Tiempo para comida</strong></p>
-              </div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 15:20 - 16:30</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#PekerProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/PatricioPekerXS.jpg" alt="Patricio Peker">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Técnicas de influencia y persuasión que duplicarán tus ventas</strong></h4>
-                <p class="small">Con <a href="#PekerProfile" class="fancybox text-main">Patricio Peker</a></p>
-                <p class="text-muted">Potencializa tu fuerza de influencia positiva con procedimientos profesionales para lograr más deseo de compra, más cierres de ventas, más ventas y mejores negociaciones sin presión. Con las mejores técnicas aplicadas por las empresas, vendedores, negociadores y publicistas, nos enfocaremos en la influencia que ejercemos en otras personas.</p>
-              </div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 16:30 - 17:20</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#VillacisProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/PepeVillacisXS.jpg" alt="Pepe Villacis">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Cinco motores para el despegue de ventas y utilidades en tu negocio</strong></h4>
-                <p class="small">Con <a href="#VillacisProfile" class="fancybox text-main">Pepe Villacís</a></p>
-                <p class="text-muted">Uno de los grandes desafíos de las empresas, sin importar su tamaño, es contar con una gestión profesional, productiva y medible, en toda su función comercial (mercadotecnia, ventas y servicio al cliente). Esta metodología, simple y efectiva ha sido probada a nivel mundial por miles de empresas de todos los giros, y si se utiliza con convicción y con implementación paciente y consistente.</p>
-              </div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 17:20 - 18:10</strong> <span class="label label-secondary">Conferencia</span></p>
-              </div>
-              <div class="col-md-2 col-sm-3 hidden-xs">
-                <a href="#FriasProfile" class="fancybox">
-                  <img class="img-responsive mb20" src="images/conferencistas/AngelicaFriasXS.jpg" alt="Angelica Frias">
-                </a>
-              </div>
-              <div class="col-md-8 col-sm-6">
-                <h4><strong class="text-uppercase">Velocidad es igual a ventas</strong></h4>
-                <p class="small">Con <a href="#FriasProfile" class="fancybox text-main">Angélica Frías</a></p>
-                <p class="text-muted">La época en la que los consumidores reaccionaban en masa y tenían la paciencia de buscar, esperar respuesta y comprar, se terminó.  El cliente 2.0 exige y demanda que la fuerza comercial evolucione también ¿Estamos preparados para atenderlo? ¿Cuál puede ser la ventaja competitiva y diferencial para nuestras empresas?</p>
-              </div>
-            </div>
-          </li>        
-          <li class="event">
-            <div class="row">
-              <div class="col-md-2 col-sm-3">
-                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 18:10 - 19:00</strong> <span class="label label-secondary">Conferencia</span></p>
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 10:50 - 11:50</strong> <span class="label label-secondary">Conferencia</span></p>
               </div>
               <div class="col-md-2 col-sm-3 hidden-xs">
                 <a href="#GordilloProfile" class="fancybox">
@@ -365,10 +387,163 @@
           <li class="event">
             <div class="row">
               <div class="col-md-2 col-sm-3">
-                <p><span class="fa fa-clock-o"></span><strong> 19:00 - 19:15</strong></p>
+                <p><span class="fa fa-clock-o"></span><strong> 11:50 - 12:50</strong></p>
               </div>
               <div class="col-md-10 col-sm-9">
-                <p class="text-uppercase"><strong>Clausura del evento</strong></p>
+                <p class="text-uppercase"><strong>Coffee Break</strong> - Visita a muestras comerciales</p>
+              </div>
+            </div>
+          </li>          
+          <li class="event">
+            <div class="row mb40">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 12:50 - 13:50</strong> <span class="label label-primary">Plática a elección *</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#VazquezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AliVazquezXS.jpg" alt="Ali Vazquez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Ventas sin estrés</strong></h4>
+                <p class="small">Con <a href="#VazquezProfile" class="fancybox text-main">Ali Vázquez</a></p>
+                <p class="text-muted">Reducir el estrés en los equipos de ventas es un activo empresarial y una gran fuente de salud. El primer objetivo de esta plática es informarte cómo el estrés afecta las áreas de productividad, toma de decisiones, comunicación, trabajo en equipo y liderazgo. El segundo objetivo es que aprendas a dirigir tu atención de las voces mentales auto limitantes que nos generan estrés, esto, para un cierre de venta sin esfuerzo.</p>
+              </div>
+            </div>
+            <div class="row mb40">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#VillacisProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/PepeVillacisXS.jpg" alt="Pepe Villacis">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Cinco motores para el despegue de ventas y utilidades en tu negocio</strong></h4>
+                <p class="small">Con <a href="#VillacisProfile" class="fancybox text-main">Pepe Villacís</a></p>
+                <p class="text-muted">Uno de los grandes desafíos de las empresas, sin importar su tamaño, es contar con una gestión profesional, productiva y medible, en toda su función comercial (mercadotecnia, ventas y servicio al cliente). Esta metodología, simple y efectiva ha sido probada a nivel mundial por miles de empresas de todos los giros, y si se utiliza con convicción y con implementación paciente y consistente.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#SuarezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/IlianaSuarezXS.jpg" alt="Iliana Suarez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">¿Cómo darle la vuelta exitosamente a las objeciones?</strong></h4>
+                <p class="small">Con <a href="#SuarezProfile" class="fancybox text-main">Iliana Suárez</a></p>
+                <p class="text-muted">Ocho de cada diez personas asocian la palabra objeción a términos negativos, en esta plática aprenderás tres herramientas para identificar la ganancia oculta que siempre tienen las objeciones. Si te interesa obtener consejos prácticos para implementarlas hoy mismo en tus negociaciones, esta plática es para ti.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row mb40">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 13:50 - 14:50</strong> <span class="label label-primary">Plática a elección *</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+               <a href="#RodriguezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/FranciscoRodriguezXS.jpg" alt="Francisco Rodriguez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Cómo prospectar exitosamente</strong></h4>
+                <p class="small">Con <a href="#RodriguezProfile" class="fancybox text-main">Francisco Rodriguez</a></p>
+                <p class="text-muted">Descubre los elementos necesarios para incrementar las ventas de tu negocio en una conferencia patrocinada por Sandler Training&reg;, líder mundial en capacitación, coaching, consultoría en ventas y servicio al cliente.</p>
+              </div>
+            </div>
+            <div class="row mb40">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#MandujanoProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AnthonyMandujanoXS.jpg" alt="Anthony Mandujano">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Precio: La principal palanca para incrementar la rentabilidad</strong></h4>
+                <p class="small">Con <a href="#MandujanoProfile" class="fancybox text-main">Anthony Mandujano</a></p>
+                <p class="text-muted">Existen cuatro factores que merman la capacidad de las empresas a ser rentables: impacto del precio, descuento vs. volumen, alineación de objetivos y fijación de precios. Conoce las recomendaciones para gestionar y ejecutar una correcta estrategia y gestión de precios.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-3 hidden-xs">
+                <a href="#EstevezProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/VeronicaEstevezXS.jpg" alt="Veronica Estevez">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Todo comienza con un porqué</strong></h4>
+                <p class="small">Con <a href="#EstevezProfile" class="fancybox text-main">Verónica Estevez</a></p>
+                <p class="text-muted">¿Por qué vendes como lo haces?, ¿sabes cuál es tu propósito? Define tu propósito y el de los demás, sé un líder y mejora tus ventas. Conoce las formas más poderosas para comunicarte y mejorar el rendimiento de tu negocio.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p><span class="fa fa-clock-o"></span><strong> 14:50 - 15:50</strong></p>
+              </div>
+              <div class="col-md-10 col-sm-9">
+                <p class="text-uppercase"><strong>Tiempo para comida</strong></p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 15:50 - 17:05</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#ZavalaProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/EduardoZavalaXS.jpg" alt="Eduardo Zavala">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+               <h4><strong class="text-uppercase">Transformando vendedores en aliados estratégicos</strong></h4>
+                <p class="small">Con <a href="#ZavalaProfile" class="fancybox text-main">Eduardo Zavala</a></p>
+                <p class="text-muted">Para entender la importancia de salir de un círculo vicioso, carente de resultados, donde en ocasiones se encuentran los vendedores, hay que revisar la esencia de la actitud mental para poder revertirlo. Enfrentar retos, dar resultados en cualquier tipo de negocio, así como transformar a los vendedores para que los clientes los perciban como sus aliados estratégicos, son algunos de los puntos que aborda la ponencia.</p>
+              </div>
+            </div>
+          </li>
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 17:05 - 18:05</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                <a href="#FriasProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/AngelicaFriasXS.jpg" alt="Angelica Frias">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Velocidad es igual a ventas</strong></h4>
+                <p class="small">Con <a href="#FriasProfile" class="fancybox text-main">Angélica Frías</a></p>
+                <p class="text-muted">La época en la que los consumidores reaccionaban en masa y tenían la paciencia de buscar, esperar respuesta y comprar, se terminó.  El cliente 2.0 exige y demanda que la fuerza comercial evolucione también ¿Estamos preparados para atenderlo? ¿Cuál puede ser la ventaja competitiva y diferencial para nuestras empresas?</p>
+              </div>
+            </div>
+          </li>  
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p class="mb40"><span class="fa fa-clock-o"></span><strong> 18:05 - 19:05</strong> <span class="label label-secondary">Conferencia</span></p>
+              </div>
+              <div class="col-md-2 col-sm-3 hidden-xs">
+                 <a href="#PekerProfile" class="fancybox">
+                  <img class="img-responsive mb20" src="images/conferencistas/PatricioPekerXS.jpg" alt="Patricio Peker">
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <h4><strong class="text-uppercase">Técnicas de influencia y persuasión que duplicarán tus ventas</strong></h4>
+                <p class="small">Con <a href="#PekerProfile" class="fancybox text-main">Patricio Peker</a></p>
+                <p class="text-muted">Potencializa tu fuerza de influencia positiva con procedimientos profesionales para lograr más deseo de compra, más cierres de ventas, más ventas y mejores negociaciones sin presión. Con las mejores técnicas aplicadas por las empresas, vendedores, negociadores y publicistas, nos enfocaremos en la influencia que ejercemos en otras personas.</p>
+              </div>
+            </div>
+          </li>      
+          <li class="event">
+            <div class="row">
+              <div class="col-md-2 col-sm-3">
+                <p><span class="fa fa-clock-o"></span><strong> 19:05 - 19:20</strong></p>
+              </div>
+              <div class="col-md-10 col-sm-9">
+                <p class="text-uppercase"><strong>Rifa y clausura del evento</strong></p>
               </div>
             </div>
           </li>
@@ -436,7 +611,7 @@
       </div>
     </div>
 
-    <div class="section">
+<!--     <div class="section">
       <div class="container">
         <h2 class="text-uppercase text-center text-secondary">Otra sede</h2>
         <p class="lead text-center mb40">Cumbre Pro Ventas también se llevará a cabo en la ciudad de Monterrey</p>
@@ -454,7 +629,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="section-inverse" id="Entradas">
       <div class="container-fluid text-center">

@@ -56,7 +56,7 @@
                 <span style="display:none;" class="label label-danger" id="error_m_nombre">Ingresa tu nombre</span>
               </div>
               <div class="form-group">
-				        <label>E-mail</label>
+                <label>E-mail</label>
                 <input type="text" name="correo" placeholder="Correo" id="correoM" class="form-control" >
                 <span style="display:none;" class="label label-danger" id="error_m_email">El correo electrónico no es válido</span>
               </div>
@@ -77,7 +77,10 @@
           </div>
           <div class="col-md-5 col-md-offset-1 col-sm-6">
             <h3 class="text-secondary text-uppercase"><strong>Llámanos</strong></h2>
-            <p><span class="fa fa-phone"></span> +52 998-283-1240</p>
+            <p class="hidden-xs"><span class="fa fa-phone"></span> +52 (998) 283-1240</p>
+            <a href="tel:019982831240" role="button" class="btn btn-secondary-outline hidden-lg hidden-md hidden-sm mb40">
+              <span class="fa fa-phone"></span> 01 (998) 283-1240
+            </a>
             <br>
             <h3 class="text-secondary text-uppercase"><strong>Envíanos un correo</strong></h2>
             <p>info@cumbreproventas.com</p>

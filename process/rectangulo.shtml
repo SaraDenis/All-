@@ -6,27 +6,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="config-scroll.js"></script>
 </head>
-<script>
-    $(function() {
-    $(document).on("scroll", function(){
-            var desplazamientoActual = $(document).scrollTop();
-            var controlArriba = $("#mos");
-            console.log("Estoy en " , desplazamientoActual); 
-            if ((screen.width<=425) && (screen.height<=897)) {
-              $("#mos").css("display", "none");
-            }
-            else if(desplazamientoActual > 400 && controlArriba.css("display") == "none"){
-                controlArriba.fadeIn(500);
-            }
-            if(desplazamientoActual < 400 && controlArriba.css("display") == "block"){
-                controlArriba.fadeOut(500);
-            }
-            
-        });
-
-    });
-  </script>
   <style type="text/css">
   p{
         max-width: 800px;
@@ -34,7 +15,7 @@
   </style>
 <body>
 
-<div id="mos" class="bg-primary" style="display:none;position: fixed; width: 100%;">
+<div id="scrollBreakPoint" class="bg-primary" style="display:none;position: fixed; width: 100%;">
   <center>
     <p>Nos quedan 147 lugares, <strong>se te acaba el tiempo!</strong><button class="btn"  >Entra aqui</button>
   </center>     

@@ -10,10 +10,6 @@
     <title>Cumbre Pro Ventas</title>
     <!--#include virtual="head.html" -->
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" />
-
   </head>
 
   <body>
@@ -71,32 +67,18 @@
 
             <div class="row mb40" style="padding-top: 10px;">
               <div class="col-md-4 col-sm-4 col-xs-4">
-                <a href="#Gallery" class="text-inverse" style="text-decoration:none;"><p>Guadalajara</p></a>
-                <a href="#Gallery" class="text-primary" style="text-decoration:none;"><p><strong>Ver Galería</strong></p></a>
+                <a href="#GuadalajaraGallery" class="text-inverse" style="text-decoration:none;"><p>Guadalajara</p></a>
+                <a href="#GuadalajaraGallery" class="text-primary" style="text-decoration:none;"><p><strong>Ver Galería</strong></p></a>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-4">
-                <a href="monterrey.shtml" class="text-inverse" style="text-decoration:none;"><p>Monterrey</p></a>
-                <p class="text-primary"><strong>Oct 26, 2016</strong></p>
+                 <a href="#MonterreyGallery" class="text-inverse" style="text-decoration:none;"><p>Monterrey</p></a>
+                <a href="#MonterreyGallery" class="text-primary" style="text-decoration:none;"><p><strong>Ver Galería</strong></p></a>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-4">
                 <a href="queretaro.shtml" class="text-inverse" style="text-decoration:none;"><p>Querétaro</p></a>
                 <p class="text-primary"><strong>Nov 10, 2016</strong></p>
               </div>
             </div> 
-         
-<!--             <p>Recibe información de las conferencias</p>
-            <form class="form-inline" method="post" action="#" id="suscribir_form">
-              <div class="form-group">
-                <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
-                <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
-                <input type="hidden" class="form-control input-lg" id="nombre" name="nombre" value=".">
-                <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
-                <input type="hidden" class="form-control input-lg" id="telefono" name="telefono" value="">
-                <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5387">
-                <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1133">
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg">Recibir información</button>
-            </form> -->
           </div>
         </div>
       </div>
@@ -107,30 +89,29 @@
 
     <div class="jumbotron-form-inline">
       <div class="container">
-        <!-- <h3 class="text-inverse mb20">Recibe consejos, tips de ventas y descuentos</h3> -->
-        <h4 class="text-inverse text-uppercase">Recibe consejos, tips de ventas y descuentos</h4>
+        <h4 class="text-inverse text-uppercase">Conoce más sobre la Cumbre ProVentas 2017.<br> Además recibe tips y promociones</h4>
         <form class="form-inline" method="post" action="#" id="suscribir_form">
+          <div class="form-group">
+            <div class="input-group">
+              <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+              <input type="hidden" class="form-control input-lg" id="nombre" name="nombre" value=".">
+              <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+              <input type="hidden" class="form-control input-lg" id="telefono" name="telefono" value="">
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5387">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="2317">
 
-          <div class="form-group">
-<!--             <label class="text-inverse" for="InputName">Nombre*</label>   -->          
-            <input type="text" class="form-control input-lg" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
-            <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
-          </div>
-          <div class="form-group">
-<!--             <label class="text-inverse" for="email">Correo*</label> -->
-            <input type="text" class="form-control input-lg" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
-            <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>         
-          </div>
-          <div class="form-group">
-<!--             <label class="text-inverse" for="InputTelefono">Teléfono</label> -->
-            <input type="text" class="form-control input-lg" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
-          </div>
-          <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="5387">
-          <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="1133">          
-          <button type="submit" class="btn btn-primary btn-lg" style="margin-top:15px;">Recibir información</button>
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary btn-lg">Mantenerme informado</button>
+              </span>
+            </div>
+            <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+          </div>        
+          
         </form>
       </div>
     </div>
+
+
 
     <div class="section" id="Evento">
       <div class="container">
@@ -156,69 +137,102 @@
     <div class="section" id="Gallery">
       <div class="container">
         <h2 class="text-uppercase text-center text-secondary">Esto fue la Cumbre ProVentas</h2>
-        <p class="lead text-center mb40">Así vivimos la Cumbre ProVentas en Guadalajara</p>
-        <div class="row mb20">
-          <div class="col-md-8 col-sm-8 col-xs-12">
-            <div class="row mb20">
-              <div class="col-md-12 col-sm-12 col-xs-12"><img class="img-responsive" src="images/gallery1.jpg"></div>
+        <div id="GuadalajaraGallery"></div>
+        <br><br>
+        <h3 class="text-uppercase text-center text-main"><strong>Guadalajara</strong></h3>
+        <div class="row">
+          <div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL1.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb1.jpg" />
+                </a>
             </div>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6"><img class="img-responsive" src="images/gallery3.jpg"></div>
-              <div class="col-md-6 col-sm-6 col-xs-6"><img class="img-responsive" src="images/gallery4.jpg"></div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL2.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb2.jpg" />
+                </a>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-4 hidden-xs">
-            <img class="img-responsive" src="images/gallery2.jpg">
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL3.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb3.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL4.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb4.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL5.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb5.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL6.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb6.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL7.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb7.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryGDL8.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryGDLthumb8.jpg" />
+                </a>
+            </div>            
           </div>
         </div>
+        <div id="MonterreyGallery"></div>
+        <br><br>
+        <h3 class="text-uppercase text-center text-main"><strong>Monterrey</strong></h3>
         <div class="row">
-          <div class="col-md-4 col-sm-4 hidden-xs">
-            <img class="img-responsive" src="images/gallery5.jpg">
-          </div>
-          <div class="col-md-8 col-sm-8 col-xs-12">
-            <img class="img-responsive" src="images/gallery6.jpg">
+          <div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY1.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb1.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY2.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb2.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY3.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb3.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY4.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb4.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY5.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb5.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY6.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb6.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY7.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb7.jpg" />
+                </a>
+            </div>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="images/gallery/galleryMTY8.jpg">
+                    <img class="img-responsive" alt="" src="images/gallery/galleryMTYthumb8.jpg" />
+                </a>
+            </div>            
           </div>
         </div>
       </div>
     </div>
-<!-- galeria de ejemplo -->
-<script type="text/javascript"> 
-$(document).ready(function(){
-  $(".ejemplo").fancybox({
-    openEffect  : 'none',
-    closeEffect : 'none'
-  });
-});
-</script>
-<style type="text/css">
-.inicio {
-      padding: 5px;
-    margin-left: 359px;
-}
-
-
-</style>
-
-<div class="inicio">
-  <div class="ejemplos">
-  <b>Galería de imágenes 1</b>
-  <br/><br/>
-    <a class="ejemplo" rel="galeria_1" href="images/gallery1.jpg" title="Imagen 1 de 3"><img src="images/gallery1.jpg" width="400" height="350" /></a>
-    
-    <a class="ejemplo" rel="galeria_1" href="images/gallery2.jpg" title="Imagen 2 de 3"><img src="images/gallery2.jpg" width="400" height="350" /></a>
-  
-    <a class="ejemplo" rel="galeria_1" href="images/gallery3.jpg" title="Imagen 3 de 3"><img src="images/gallery3.jpg" width="400" height="350" /></a>
-
-    <a class="ejemplo" rel="galeria_1" href="images/gallery4.jpg" title="Imagen 4 de 6"><img src="images/gallery4.jpg" width="400" height="350" /></a>
-
-    <a class="ejemplo" rel="galeria_1" href="images/gallery5.jpg" title="Imagen 5 de 6"><img src="images/gallery5.jpg" width="400" height="350" /></a>
-
-    <a class="ejemplo" rel="galeria_1" href="images/gallery6.jpg" title="Imagen 6 de 6"><img src="images/gallery6.jpg" width="400" height="350" /></a>
-
-  </div>
-</div>
-<!-- fin de galeria de ejemplo-->
-
 
 <!--#include virtual="agenda.html" --> 
 
@@ -275,7 +289,7 @@ $(document).ready(function(){
         <h2 class="text-uppercase">Entradas</h2>
         <h3 class="mb40">Precio al público: <span class="text-primary"><strong>$2,990 MXN + IVA</strong></span></h3>
         <div class="row mb40">         
-          <div class="col-md-6 col-sm-6">
+<!--           <div class="col-md-6 col-sm-6">
             <div class="well">
               <h3 class="text-uppercase text-secondary"><strong>Monterrey</strong></h3>
               <p class="text-main mb40">Octubre 26, 2016</p>
@@ -288,8 +302,16 @@ $(document).ready(function(){
               <p class="text-main mb40">Noviembre 10, 2016</p>
               <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
             </div>
-          </div>        
+          </div>  -->
+          <div class="col-md-6 col-md-offset-3">
+            <div class="well">
+              <h3 class="text-uppercase text-secondary"><strong>Querétaro</strong></h3>
+              <p class="text-main mb40">Noviembre 10, 2016</p>
+              <a href="http://www.cumbreproventas.com/entrada-done-QRO.shtml" class="btn btn-lg btn-primary text-uppercase">Obtener entradas</a>
+            </div>
+          </div>       
         </div>
+
         <p><strong>Si eres cliente SalesUp!® y quieres un descuento, ¡agenda una llamada con tu ejecutivo!</strong></p>
         <a href="https://calendly.com/cumbre-proventasdesalesup/informacion-cumbre-proventas/" target="_blank" class="btn btn-lg btn-secondary-outline-inverse">Agenda una llamada</a>
       </div>
