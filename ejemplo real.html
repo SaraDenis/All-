@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+ <html>
+<head>
+  <style>
+  p { color:blue; margin:8px; }
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+  <input type="text" id="texto" value="some text"/>
+  <p id="uno"></p>
+<input type="text" id="input1" value="uno"/>
+<input type="text" id="input2" />
+<script>
+$("#texto").keyup(function () {
+      var value = $(this).val();
+      $("#uno").text(value);
+    }).keyup();
+
+$(document).ready(function () {
+    $("#input1").keyup(function () {
+        var value = $(this).val();
+        $("#input2").val(value);
+    });
+});
+
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+ 
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".grupo").keyup(function()
+        {
+            var importe=$(this).find("input[name=importe]").val();
+            var cantidad=$(this).find("input[name=cantidad]").val();
+            $(this).find("[class=total]").html((importe*cantidad)/2);
+ 
+            // calculamos el total de todos los grupos
+            var total=0;
+            $(".grupo .total").each(function(){
+                total=total+parseFloat($(this).html());
+            })
+            $(".total .total").html(total);
+        });
+    });
+    </script>
+</head>
+ 
+<body>
+ 
+<div class="grupo">
+    Primer grupo
+    <br>
+    <input type="text" name="importe" value="0" />
+    <input type="text" name="cantidad" value="0" />
+    <span class="total">0</span>
+</div>
+ 
+<div class="grupo">
+    Segundo grupo
+    <br>
+    <input type="text" name="importe" value="0" />
+    <input type="text" name="cantidad" value="0" />
+    <span class="total">0</span>
+</div>
+ 
+<div class="total">
+    <div class='text'>Suma Total:</div>
+    <div class="total">0</div>
+</div>
+</body>
+</html>

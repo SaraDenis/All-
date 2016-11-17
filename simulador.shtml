@@ -81,7 +81,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
 <!-- Simulador -->
     <div class="section-square-inverse" id="simulador">
       <div class="container">
-        <table class="table table-hover ">
+        <table id="Datos" class="table table-hover ">
           <tbody class="col-md-6">
             
             <tr>
@@ -151,7 +151,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
           </tbody>
         </table>
         
-        <table class="table table-hover ">
+        <table id="Resultados" class="table table-hover ">
           <tbody class="col-md-6">
 
             <tr>
@@ -226,79 +226,11 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
         </table>
 
         <div>
-          <label>Simulador - Resultados con SalesUp!</label>
+          <label>Simulador - Resultados con SalesUp!</label><br>
+          <button id="botonS" type="button" class="btn btn-primary" onclick="showSimulator()">cotizador Sales Up!</button>
         </div>
-
-        <table class="table table-hover ">
-          <tbody class="col-md-6">
-            
-            <tr>
-              <td class="warning">
-                <label>Datos</label>
-              </td><td class="warning"></td>
-            </tr>
-            <tr >
-            <td class="active ">
-              <label>Días laborales promedio al mes</label>
-            </td>
-            <td class="success ">
-              <input id="daySU" placeholder="días">
-            </td>
-            </tr>
-
-            <tr>
-            <td class="active">
-              <label>Tiempo promedio que te toma hacer una cotización</label>
-            </td>
-            <td class="success">
-              <input id="timeSU" placeholder="tiempo">
-            </td>
-            </tr>
-
-            <tr >
-            <td class="active ">
-              <label>Cotizaciones mensuales promedio de 1 vendedor</label>
-            </td>
-            <td class="success ">
-              <input id="quotesSU" placeholder="cotizaciones">
-            </td>
-            </tr>
-
-            <tr >
-            <td class="active ">
-              <label>Jornada laboral en hrs</label>
-            </td>
-            <td class="success ">
-              <input id="hoursSU" placeholder="hrs">
-            </td>
-            </tr>
-
-            <tr >
-            <td class="active ">
-              <label># de vendedores</label>
-            </td>
-            <td class="success ">
-              <input id="salesSU" placeholder="numero">
-            </td>
-            </tr>
-
-            <tr >
-            <td class="active ">
-              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
-            </td>
-            <td class="success ">
-              <input id="salarySU" placeholder="sueldo">
-            </td>
-            </tr>
-            <tr>
-              <td>
-                <button type="submit" onclick="ConSalesup()">aceptar</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
         
-        <table class="table table-hover ">
+        <table id="resultSU" style="display: none;" class="table table-hover ">
           <tbody class="col-md-6">
 
             <tr>
@@ -373,7 +305,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
         </table>
 
 
-        <table class="table table-hover">
+        <table id="comparison" style="display: none;" class="table table-hover">
           <tbody>
 
             <tr>
@@ -396,13 +328,13 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                 <label>Minutos dedicados diarios para realizar una cotización</label>
               </td>
               <td class="warning">
-                <input id="actual1">
+                <input disabled id="actual1">
               </td>
               <td class="warning">
-                <input id="conSU1">
+                <input disabled id="conSU1">
               </td>
               <td class="warning">
-                <input id="var1">
+                <input disabled id="var1">
               </td>
             </tr>
 
@@ -411,13 +343,13 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                 <label>Hrs al mes requeridas por tu fuerza de ventas para realizar cotizaciones</label>
               </td> 
               <td class="warning">
-                <input id="actual2">
+                <input disabled id="actual2">
               </td>
               <td class="warning">
-                <input id="conSU2">
+                <input disabled id="conSU2">
               </td>
               <td class="warning">
-                <input id="var2">
+                <input disabled id="var2">
               </td>
             </tr>
 
@@ -426,13 +358,13 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                 <label>Costo mensual promedio que tiene tu empresa por realizar cotizaciones</label>
               </td>
               <td class="warning">
-                <input id="actual3">
+                <input disabled id="actual3">
               </td>
               <td class="warning">
-                <input id="conSu3">
+                <input disabled id="conSU3">
               </td>
               <td class="warning">
-                <input id="var3">
+                <input disabled id="var3">
               </td>
             </tr>
 
@@ -441,13 +373,13 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                 <label>Número de días que requiere tu empresa para realizar cotizaciones</label>
               </td>
               <td class="warning">
-                <input id="actual4">
+                <input disabled id="actual4">
               </td>
               <td class="warning">
-                <input id="conSu4">
+                <input disabled id="conSU4">
               </td>
               <td class="warning">
-                <input id="var4">
+                <input disabled id="var4">
               </td>
             </tr>
 
@@ -456,20 +388,20 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
                 <label>Número de días que requiere un vendedor para realizar una cotización</label>
               </td>
               <td class="warning">
-                <input id="actual5">
+                <input disabled id="actual5">
               </td>
               <td class="warning">
-                <input id="conSU5">
+                <input disabled id="conSU5">
               </td>
               <td class="warning">
-                <input id="var5">
+                <input disabled id="var5">
               </td>
             </tr>
 
           </tbody>
         </table>
 
-        <table class="table table-hover">
+        <table id="gain" style="display: none;" class="table table-hover">
           <tbody class="col-md-8">
             
             <tr>
@@ -521,7 +453,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
         </table>
 
 
-        <div>
+        <div id="charts" style="display: none;">
           <label>Simulador - Resultados con SalesUp! Graficas</label>
         </div>
 
