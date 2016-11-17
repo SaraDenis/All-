@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" lang="es" content="incrementar ventas estrategias que hacer para aumentar las ventas vendedores exitosos innovación en ventas optimizar campañas facebook">
+    <meta name="description" content="¿Cómo convertir a tus vendedores en aliados?
+En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovación, habilidades y herramientas tecnológicas necesarias">
+    <link rel="icon" href="imagenes/favicon.ico">
+    <title>Transformando vendedores en aliados estrategicos</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/master.css" rel="stylesheet">
+    <script type="text/javascript" src="js/simulador.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="pull-left" style="margin-top: 7px; margin-left:7px;"><img src="http://www.salesup.com/images-salesup/SalesUp.png.pagespeed.ce.4PxYoYJVl_.png" style="height: 50px;"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-uppercase">
+            <li><a href="#Evento">Acerca del Evento</a></li>
+            <li><a href="#simulador">Acerca del experto</a></li>
+            <li><a href="#Razones">¿Por qué acudir?</a></li>
+            <li><a href="#Ubicacion">Ubicación</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div id="Evento" class="jumbotron monterrey" style="background: #000400;" >
+      <div class="row no-gutter">
+        <div class="col-md-6 jumbo-photo hidden-xs hidden-sm pull-left" style="background: #000400;">
+         <!-- <img class="img-responsive" src="imagenes/eduardozavala.png" alt="cumbre ProVentas"> -->
+        </div>
+       
+        <div class="col-md-6 jumbo-info">
+          <div>
+         <h1 class="text-inverse mb40">Transformando Vendedores en Aliados Estratégicos </h1>
+            <h4 class="text-uppercase text-inverse mb40">Regístrate ahora a esta plática gratuita</h4>
+            <form method="post" action="#" id="suscribir_form" class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
+                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="email">Correo*</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
+                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 text-inverse" for="InputTelefono">Teléfono</label>
+                <div class="col-sm-7">  
+                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
+                </div>
+              </div>
+              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="1061">
+              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="3628">
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-7">
+                   <button type="submit" class="btn btn-primary btn-lg">Registrar información</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- Simulador -->
+    <div class="section-square-inverse" id="simulador">
+      <div class="container">
+        <table class="table table-hover ">
+          <tbody class="col-md-6">
+            
+            <tr>
+              <td class="warning">
+                <label>Datos</label>
+              </td><td class="warning"></td>
+            </tr>
+            <tr >
+            <td class="active ">
+              <label>Días laborales promedio al mes</label>
+            </td>
+            <td class="success ">
+              <input id="day" placeholder="días">
+            </td>
+            </tr>
+
+            <tr>
+            <td class="active">
+              <label>Tiempo promedio que te toma hacer una cotización</label>
+            </td>
+            <td class="success">
+              <input id="time" placeholder="tiempo">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Cotizaciones mensuales promedio de 1 vendedor</label>
+            </td>
+            <td class="success ">
+              <input id="quotes" placeholder="cotizaciones">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Jornada laboral en hrs</label>
+            </td>
+            <td class="success ">
+              <input id="hours" placeholder="hrs">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label># de vendedores</label>
+            </td>
+            <td class="success ">
+              <input id="sales" placeholder="numero">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
+            </td>
+            <td class="success ">
+              <input id="salary" placeholder="sueldo">
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" onclick="SinSalesup()">aceptar</button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+        
+        <table class="table table-hover ">
+          <tbody class="col-md-6">
+
+            <tr>
+              <td class="danger">
+                <label>Resultados</label>
+              </td><td class="danger"></td>
+            </tr>
+            <tr>
+              <td class="warning">
+                <input id="Result1" disabled>
+              </td>
+              <td class="active">
+                <label>Cotizaciones se realizan al día</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result2" disabled>
+              </td>
+              <td class="active">
+                <label>minutos son los que se dedican diariamente para hacer cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result3" disabled>
+              </td>
+              <td class="active">
+                <label>del tiempo de un vendedor al día es dedicado para hacer una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result4" disabled>
+              </td>
+              <td class="active">
+                <label>hrs al mes son consumidas por tus vendedores para realizar una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result5" disabled>
+              </td>
+              <td class="active">
+                <label>Es el costo de realizar una cotización al mes x vendedor</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result6" disabled>
+              </td>
+              <td class="active">
+                <label>es el costo mensual promedio que tiene tu empresa para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result7" disabled>
+              </td>
+              <td class="active">
+                <label>son los días equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <div>
+          <label>Simulador - Resultados con SalesUp!</label>
+        </div>
+
+        <table class="table table-hover ">
+          <tbody class="col-md-6">
+            
+            <tr>
+              <td class="warning">
+                <label>Datos</label>
+              </td><td class="warning"></td>
+            </tr>
+            <tr >
+            <td class="active ">
+              <label>Días laborales promedio al mes</label>
+            </td>
+            <td class="success ">
+              <input id="daySU" placeholder="días">
+            </td>
+            </tr>
+
+            <tr>
+            <td class="active">
+              <label>Tiempo promedio que te toma hacer una cotización</label>
+            </td>
+            <td class="success">
+              <input id="timeSU" placeholder="tiempo">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Cotizaciones mensuales promedio de 1 vendedor</label>
+            </td>
+            <td class="success ">
+              <input id="quotesSU" placeholder="cotizaciones">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Jornada laboral en hrs</label>
+            </td>
+            <td class="success ">
+              <input id="hoursSU" placeholder="hrs">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label># de vendedores</label>
+            </td>
+            <td class="success ">
+              <input id="salesSU" placeholder="numero">
+            </td>
+            </tr>
+
+            <tr >
+            <td class="active ">
+              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
+            </td>
+            <td class="success ">
+              <input id="salarySU" placeholder="sueldo">
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" onclick="ConSalesup()">aceptar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table class="table table-hover ">
+          <tbody class="col-md-6">
+
+            <tr>
+              <td class="danger">
+                <label>Resultados</label>
+              </td><td class="danger"></td>
+            </tr>
+            <tr>
+              <td class="warning">
+                <input id="Result1SU" disabled>
+              </td>
+              <td class="active">
+                <label>Cotizaciones se realizan al día</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result2SU" disabled>
+              </td>
+              <td class="active">
+                <label>minutos son los que se dedican diariamente para hacer cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result3SU" disabled>
+              </td>
+              <td class="active">
+                <label>del tiempo de un vendedor al día es dedicado para hacer una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result4SU" disabled>
+              </td>
+              <td class="active">
+                <label>hrs al mes son consumidas por tus vendedores para realizar una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result5SU" disabled>
+              </td>
+              <td class="active">
+                <label>Es el costo de realizar una cotización al mes x vendedor</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result6SU" disabled>
+              </td>
+              <td class="active">
+                <label>es el costo mensual promedio que tiene tu empresa para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="warning">
+                <input id="Result7SU" disabled>
+              </td>
+              <td class="active">
+                <label>son los días equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+        <table class="table table-hover">
+          <tbody>
+
+            <tr>
+              <td class="danger">
+                <label>Comparacion</label>
+              </td>
+              <td class="danger">
+                <label>Actual</label>
+              </td>
+              <td class="danger">
+                <label>Con SalesUp!</label>
+              </td>
+              <td class="danger">
+                <label>Var%</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>Minutos dedicados diarios para realizar una cotización</label>
+              </td>
+              <td class="warning">
+                <input id="actual1">
+              </td>
+              <td class="warning">
+                <input id="conSU1">
+              </td>
+              <td class="warning">
+                <input id="var1">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>Hrs al mes requeridas por tu fuerza de ventas para realizar cotizaciones</label>
+              </td> 
+              <td class="warning">
+                <input id="actual2">
+              </td>
+              <td class="warning">
+                <input id="conSU2">
+              </td>
+              <td class="warning">
+                <input id="var2">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>Costo mensual promedio que tiene tu empresa por realizar cotizaciones</label>
+              </td>
+              <td class="warning">
+                <input id="actual3">
+              </td>
+              <td class="warning">
+                <input id="conSu3">
+              </td>
+              <td class="warning">
+                <input id="var3">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>Número de días que requiere tu empresa para realizar cotizaciones</label>
+              </td>
+              <td class="warning">
+                <input id="actual4">
+              </td>
+              <td class="warning">
+                <input id="conSu4">
+              </td>
+              <td class="warning">
+                <input id="var4">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>Número de días que requiere un vendedor para realizar una cotización</label>
+              </td>
+              <td class="warning">
+                <input id="actual5">
+              </td>
+              <td class="warning">
+                <input id="conSU5">
+              </td>
+              <td class="warning">
+                <input id="var5">
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <table class="table table-hover">
+          <tbody class="col-md-8">
+            
+            <tr>
+              <td class="active">
+                <label>Cotizaciones</label>
+              </td>
+              <td class="active">
+                <label>Sueldo Mensual</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>1</label>
+              </td>
+              <td class="active">
+                <label>2</label>
+              </td>
+              <td class="active">
+                <label>3</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>1</label>
+              </td>
+              <td class="active">
+                <label>2</label>
+              </td>
+              <td class="active">
+                <label>3</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="active">
+                <label>1</label>
+              </td>
+              <td class="active">
+                <label>2</label>
+              </td>
+              <td class="active">
+                <label>3</label>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+        <div>
+          <label>Simulador - Resultados con SalesUp! Graficas</label>
+        </div>
+
+
+      </div>
+    </div> 
+
+
+    <div class="section" id="Razones">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary mb40">¿Por qué acudir?</h2>  
+        <div class="row vcenter">
+          <div class="col-md-6 col-sm-6">
+            <img src="imagenes/RazonesT.jpg" alt="razones" class="img-responsive mb40">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <ul class="list-unstyled">
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
+                <p class="long-icon-comp"> Sé parte del círculo de ventas, disfruta sus beneficios y supera el miedo a relacionarte.</p>
+              </li>
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-user text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Prospecta</strong></p>
+                <p class="long-icon-comp"> Aprende a mantener una prospección activa.</p>
+              </li>   
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-wrench text-secondary" ></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
+                <p class="long-icon-comp"> Descubre las herramientas que te harán vender más.</p>
+              </li> 
+              <li class="mb40">
+                <div class="long-icon"><i class="fa fa-facebook text-secondary" style="padding: 18px 25px;"></i></div>
+                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
+                <p class="long-icon-comp"> Conoce la fórmula del éxito para optimizar tus campañas en Facebook.</p>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-square-inverse" id="Ubicacion">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-secondary mb40">Ubicación del evento</h2>
+        <div class="row vcenter mb40">
+           <div class="col-md-6 col-sm-7 mb40">
+            <div class="embed-responsive embed-responsive-16by9 map" id="canvas1">
+                <iframe id="map_canvas1" class="embed-responsive-item"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.2105424379089!2d-86.82136383955402!3d21.158710281061328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c295550eb18e9%3A0xfda9c20e60d9eadc!2sSalesUp*21!5e0!3m2!1ses!2smx!4v1474408240967" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-5">
+            <h3 class="text-uppercase mb40"><strong>Corporativo SalesUp!</strong></h3>
+            <ul class="list-unstyled mb40">
+              <li><i class="fa fa-map-marker"></i><p>Calle Robalo #72, Sm.3 Mz.8 Lt.1 <br> Cancún, QuintanaRoo</p></li>
+              <li><i class="fa fa-calendar"></i><p>Septiembre 29, 2016</p></li>
+              <li><i class="fa fa-clock-o"></i><p>10:00 a.m.</p></li>
+            </ul>
+            <a href="#" class="btn btn-lg btn-primary text-uppercase">Regístrate ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<footer class="text-center">
+  <p class="small">
+    ©2016 BFX Eficiencia Tecnológica S.A. de C.V. Todos los derechos reservados. 
+  </p>
+  <p class="small">
+    Conoce nuestras políticas sobre el manejo y protección de sus datos personales, consultando nuestro <a target="_blank" href="aviso-privacidad.shtml">Aviso de Privacidad.</a>
+  </p>
+</footer>
+    
+
+  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+       $('a[href^="#"]').on('click', function(event) {
+        var target = $( $(this).attr('href') );
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 800);
+        }
+      });
+      </script>
+<script type="text/javascript" src="js/googleMaps.js"></script>
+<script type="text/javascript" src="js/taller/config.js"></script>
+    <script type="text/javascript" src="js/taller/validacion.js"></script>
+    <script type="text/javascript" src="js/taller/suscripcion.js"></script>
+    <script type="text/javascript" src="https://norfipc.com/js/Chart.min.js"></script>
+</html>
