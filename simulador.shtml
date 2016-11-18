@@ -411,44 +411,34 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
               <td class="active">
                 <label>Sueldo Mensual</label>
               </td>
-            </tr>
-
-            <tr>
-              <td class="active">
-                <label>1</label>
-              </td>
-              <td class="active">
-                <label>2</label>
-              </td>
-              <td class="active">
-                <label>3</label>
+              <td>
+                <label>Total</label>
               </td>
             </tr>
 
             <tr>
               <td class="active">
-                <label>1</label>
+                <input disabled id="gain1">
               </td>
               <td class="active">
-                <label>2</label>
+                <input disabled id="salary1">
               </td>
               <td class="active">
-                <label>3</label>
+                <input disabled id="Tgain1">
               </td>
             </tr>
 
             <tr>
               <td class="active">
-                <label>1</label>
+                <input disabled id="gain2">
               </td>
               <td class="active">
-                <label>2</label>
+                <input disabled id="salary2">
               </td>
               <td class="active">
-                <label>3</label>
+                <input disabled id="Tgain2">
               </td>
             </tr>
-
           </tbody>
         </table>
 
