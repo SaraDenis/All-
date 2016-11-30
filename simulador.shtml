@@ -4,16 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" lang="es" content="incrementar ventas estrategias que hacer para aumentar las ventas vendedores exitosos innovación en ventas optimizar campañas facebook">
-    <meta name="description" content="¿Cómo convertir a tus vendedores en aliados?
-En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovación, habilidades y herramientas tecnológicas necesarias">
-    <link rel="icon" href="imagenes/favicon.ico">
+   
     <title>Transformando vendedores en aliados estrategicos</title>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/master.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" src="js/simulador.js"></script>
+    <script src="Chart.js"></script>
   </head>
 
   <body>
@@ -26,8 +23,6 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
           <ul class="nav navbar-nav navbar-right text-uppercase">
             <li><a href="#Evento">Acerca del Evento</a></li>
             <li><a href="#simulador">Acerca del experto</a></li>
-            <li><a href="#Razones">¿Por qué acudir?</a></li>
-            <li><a href="#Ubicacion">Ubicación</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -41,37 +36,8 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
        
         <div class="col-md-6 jumbo-info">
           <div>
-         <h1 class="text-inverse mb40">Transformando Vendedores en Aliados Estratégicos </h1>
-            <h4 class="text-uppercase text-inverse mb40">Regístrate ahora a esta plática gratuita</h4>
-            <form method="post" action="#" id="suscribir_form" class="form-horizontal">
-              <div class="form-group">
-                <label class="col-sm-2 text-inverse" for="InputName">Nombre*</label>
-                <div class="col-sm-7">
-                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" onkeypress="decolorar(this);">
-                   <span style="display:none;" class="label label-danger" id="error_nombre">Ingresa tu nombre</span>
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="col-sm-2 text-inverse" for="email">Correo*</label>
-                <div class="col-sm-7">  
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Correo electrónico" onkeypress="decolorar(this);">
-                  <span style="display:none;" class="label label-danger" id="error_email">El correo electrónico no es válido</span>
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="col-sm-2 text-inverse" for="InputTelefono">Teléfono</label>
-                <div class="col-sm-7">  
-                  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)">
-                </div>
-              </div>
-              <input type="hidden" class="form-control input-lg" id="origen" name="origen" value="1061">
-              <input type="hidden" class="form-control input-lg" id="etiqueta" name="etiqueta" value="3628">
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-7">
-                   <button type="submit" class="btn btn-primary btn-lg">Registrar información</button>
-                </div>
-              </div>
-            </form>
+         <h1 class="text-inverse mb40">Simulador Cotizador... </h1>
+            <h4 class="text-uppercase text-inverse mb40">Conoce el porcentaje de tus ventas...</h4>
           </div>
         </div>
 
@@ -96,6 +62,9 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
             <td class="success ">
               <input id="day" placeholder="días">
             </td>
+            <td class="warning">
+              <label>días</label>
+            </td>
             </tr>
 
             <tr>
@@ -104,6 +73,9 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
             </td>
             <td class="success">
               <input id="time" placeholder="tiempo">
+            </td>
+            <td class="warning">
+              <label>minutos</label>
             </td>
             </tr>
 
@@ -114,6 +86,9 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
             <td class="success ">
               <input id="quotes" placeholder="cotizaciones">
             </td>
+            <td class="warning">
+              <label>cotizaciones</label>
+            </td>
             </tr>
 
             <tr >
@@ -123,14 +98,20 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
             <td class="success ">
               <input id="hours" placeholder="hrs">
             </td>
+            <td class="warning">
+              <label>horas</label>
+            </td>
             </tr>
 
             <tr >
             <td class="active ">
-              <label># de vendedores</label>
+              <label>Numero de vendedores</label>
             </td>
             <td class="success ">
               <input id="sales" placeholder="numero">
+            </td>
+            <td class="warning">
+              <label>vendedores</label>
             </td>
             </tr>
 
@@ -141,22 +122,24 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
             <td class="success ">
               <input id="salary" placeholder="sueldo">
             </td>
+            <td class="warning">
+              <label>pesos</label>
+            </td>
             </tr>
-            <tr>
-              <td>
-                <button type="submit" onclick="SinSalesup()">aceptar</button>
-              </td>
-            </tr>
-
           </tbody>
         </table>
+
+        <div>
+          <label>Simulador - Resultados con SalesUp!</label><br>
+          <button id="botonS" type="button" class="btn btn-primary" onclick="showSimulator();">cotizador Sales Up!</button>
+        </div>
         
-        <table id="Resultados" class="table table-hover ">
+        <table id="Results" style="display: none;" class="table table-hover ">
           <tbody class="col-md-6">
 
             <tr>
               <td class="danger">
-                <label>Resultados</label>
+                <label>Resultados sin Sales Up!</label>
               </td><td class="danger"></td>
             </tr>
             <tr>
@@ -224,23 +207,18 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
 
           </tbody>
         </table>
-
-        <div>
-          <label>Simulador - Resultados con SalesUp!</label><br>
-          <button id="botonS" type="button" class="btn btn-primary" onclick="showSimulator()">cotizador Sales Up!</button>
-        </div>
         
         <table id="resultSU" style="display: none;" class="table table-hover ">
           <tbody class="col-md-6">
 
             <tr>
               <td class="danger">
-                <label>Resultados</label>
+                <label>Resultados con Sales Up!</label>
               </td><td class="danger"></td>
             </tr>
             <tr>
               <td class="warning">
-                <input id="Result1SU" disabled>
+                <input id="Result1SU" style="border:none;" disabled>
               </td>
               <td class="active">
                 <label>Cotizaciones se realizan al día</label>
@@ -443,72 +421,18 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
         </table>
 
 
-        <div id="charts" style="display: none;">
-          <label>Simulador - Resultados con SalesUp! Graficas</label>
+        <div id="graficas" style="display: none;">
+          <label>Simulador - Resultados con SalesUp! Graficas</label> 
+          <div id="canvas-holder">
+              <canvas id="chart-area" width="250" height="250"></canvas>
+          </div>
         </div>
-
-
+        <div id="canvas-holder">
+          <canvas id="chart-area3" width="250" height="250"></canvas>
+        </div>
+        
       </div>
     </div> 
-
-
-    <div class="section" id="Razones">
-      <div class="container">
-        <h2 class="text-uppercase text-center text-secondary mb40">¿Por qué acudir?</h2>  
-        <div class="row vcenter">
-          <div class="col-md-6 col-sm-6">
-            <img src="imagenes/RazonesT.jpg" alt="razones" class="img-responsive mb40">
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <ul class="list-unstyled">
-              <li class="mb40">
-                <div class="long-icon"><i class="fa fa-users text-secondary" ></i></div>
-                <p class="text-uppercase long-icon-comp"><strong>Relaciones públicas</strong></p>
-                <p class="long-icon-comp"> Sé parte del círculo de ventas, disfruta sus beneficios y supera el miedo a relacionarte.</p>
-              </li>
-              <li class="mb40">
-                <div class="long-icon"><i class="fa fa-user text-secondary" ></i></div>
-                <p class="text-uppercase long-icon-comp"><strong>Prospecta</strong></p>
-                <p class="long-icon-comp"> Aprende a mantener una prospección activa.</p>
-              </li>   
-              <li class="mb40">
-                <div class="long-icon"><i class="fa fa-wrench text-secondary" ></i></div>
-                <p class="text-uppercase long-icon-comp"><strong>Transforma tu negocio</strong></p>
-                <p class="long-icon-comp"> Descubre las herramientas que te harán vender más.</p>
-              </li> 
-              <li class="mb40">
-                <div class="long-icon"><i class="fa fa-facebook text-secondary" style="padding: 18px 25px;"></i></div>
-                <p class="text-uppercase long-icon-comp"><strong>Profesionalización</strong></p>
-                <p class="long-icon-comp"> Conoce la fórmula del éxito para optimizar tus campañas en Facebook.</p>
-              </li> 
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-square-inverse" id="Ubicacion">
-      <div class="container">
-        <h2 class="text-uppercase text-center text-secondary mb40">Ubicación del evento</h2>
-        <div class="row vcenter mb40">
-           <div class="col-md-6 col-sm-7 mb40">
-            <div class="embed-responsive embed-responsive-16by9 map" id="canvas1">
-                <iframe id="map_canvas1" class="embed-responsive-item"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.2105424379089!2d-86.82136383955402!3d21.158710281061328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c295550eb18e9%3A0xfda9c20e60d9eadc!2sSalesUp*21!5e0!3m2!1ses!2smx!4v1474408240967" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-5">
-            <h3 class="text-uppercase mb40"><strong>Corporativo SalesUp!</strong></h3>
-            <ul class="list-unstyled mb40">
-              <li><i class="fa fa-map-marker"></i><p>Calle Robalo #72, Sm.3 Mz.8 Lt.1 <br> Cancún, QuintanaRoo</p></li>
-              <li><i class="fa fa-calendar"></i><p>Septiembre 29, 2016</p></li>
-              <li><i class="fa fa-clock-o"></i><p>10:00 a.m.</p></li>
-            </ul>
-            <a href="#" class="btn btn-lg btn-primary text-uppercase">Regístrate ahora</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
 <footer class="text-center">
   <p class="small">
@@ -522,7 +446,7 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
 
   </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
        $('a[href^="#"]').on('click', function(event) {
@@ -535,9 +459,5 @@ En esta plática aprenderás a incorporar en tu estrategia de ventas, la innovac
         }
       });
       </script>
-<script type="text/javascript" src="js/googleMaps.js"></script>
-<script type="text/javascript" src="js/taller/config.js"></script>
-    <script type="text/javascript" src="js/taller/validacion.js"></script>
-    <script type="text/javascript" src="js/taller/suscripcion.js"></script>
     <script type="text/javascript" src="https://norfipc.com/js/Chart.min.js"></script>
 </html>

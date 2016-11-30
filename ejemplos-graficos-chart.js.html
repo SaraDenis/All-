@@ -10,16 +10,27 @@
 
 <script src="Chart.js"></script>
 <div id="canvas-holder">
-<canvas id="chart-area" width="300" height="300"></canvas>
+<canvas id="chart-area" width="100" height="100"></canvas>
 <canvas id="chart-area2" width="300" height="300"></canvas>
 <canvas id="chart-area3" width="600" height="300"></canvas>
-<canvas id="chart-area4" width="600" height="300"></canvas>
+<canvas id="chart-area4" width="600" height="300" style="width: 600; height: 430px;!important"></canvas>
 </div>
-<script>
-var pieData = [{value: 40,color:"#0b82e7",highlight: "#0c62ab",label: "Google Chrome"},
+<div id="lineas">
+<script>    
+var datos=8;
+var dato=6;
+var pieData = [
 				{
+					value: datos,
+					color:"#0b82e7",
+					
+					highlight: "#0c62ab",
+					label: "datos"
+				},
+		/*		{
 					value: 16,
 					color: "#e3e860",
+
 					highlight: "#a9ad47",
 					label: "Android"
 				},
@@ -34,35 +45,36 @@ var pieData = [{value: 40,color:"#0b82e7",highlight: "#0c62ab",label: "Google Ch
 					color: "#5ae85a",
 					highlight: "#42a642",
 					label: "Internet Explorer"
-				},
+				},*/
 				{
-					value: 8.6,
+					value: dato,
 					color: "#e965db",
 					highlight: "#a6429b",
-					label: "Safari"
+					label: "dato"
 				}
 			];
-
+	var la=50;
 	var barChartData = {
-		labels : ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"],
+		labels : ["Enero","Febrero"],
 		datasets : [
 			{
 				fillColor : "#6b9dfa",
 				strokeColor : "#ffffff",
 				highlightFill: "#1864f2",
 				highlightStroke: "#ffffff",
-				data : [90,30,10,80,15,5,15]
+				data : [la,90,30]
 			},
 			{
 				fillColor : "#e9e225",
 				strokeColor : "#ffffff",
 				highlightFill : "#ee7f49",
 				highlightStroke : "#ffffff",
-				data : [40,50,70,40,85,55,15]
+				data : [60,40,50]
 			}
 		]
 
 	}	
+	
 		var lineChartData = {
 			labels : ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"],
 			datasets : [
@@ -90,7 +102,7 @@ var pieData = [{value: 40,color:"#0b82e7",highlight: "#0c62ab",label: "Google Ch
 
 		}
 var ctx = document.getElementById("chart-area").getContext("2d");
-var ctx2 = document.getElementById("chart-area2").getContext("2d");
+var ctx2 = document.getElementById("chart-area2").getContext("2d"); 
 var ctx3 = document.getElementById("chart-area3").getContext("2d");
 var ctx4 = document.getElementById("chart-area4").getContext("2d");
 window.myPie = new Chart(ctx).Pie(pieData);	
@@ -98,5 +110,8 @@ window.myPie = new Chart(ctx2).Doughnut(pieData);
 window.myPie = new Chart(ctx3).Bar(barChartData, {responsive:true});
 window.myPie = new Chart(ctx4).Line(lineChartData, {responsive:true});
 </script>
+
+</div>
 </body>
+
 </html>

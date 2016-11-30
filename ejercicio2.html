@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 1</title>
+<style type="text/css">
+.tabla{
+	width: 100%;
+}
+.tabla th{
+	width: 20%;
+	background: #ccc;
+}
+
+</style>
+
+
+</head>
+<body>
+<form method="get" action="#">
+<div style="width: 50%; float: left;">
+
+<label rel="titulos" style="width:100%">Titulos: </label>
+	<textarea id="titulos" name="titulos"  cols="50" rows="2">No. Empleados|Nombre|Apellidos|Edad|Sexo</textarea>
+	
+</div>
+<div style="width: 50%; float: left;">
+
+<label  rel="contenido">Contenido de Tabla: </label>
+	<textarea id="contenido" name="contenido" cols="50" rows="2">1|Andres|Naguati Lara|28|M&&2|Sara|Nava Damian|35|F&&3|Misael|Agüero Garcia|58|M&&4|Noemi |Díaz Rosales|38|F</textarea>
+	
+</div>
+
+<div style="width: 50%; float: left;">
+
+<label  rel="contenido" style="width:100%">separador Titulos: </label>
+	<input type="text" id="separadorTitulos" name="separadorTitulos" value="|">
+	
+</div>
+<div style="width: 50%; float: left;">
+
+<label  style="width:100%">separador Filas: </label>
+	<input type="text" id="separadorFilas" name="separadorFilas" value="&&">
+	
+</div>
+<div style="width: 100%; float: left; text-align: right;">
+	<input id="actualizarTabla" type="button" name="actualizarTabla" value="Actualizar" onclick="creaTabla()">
+</div>
+</form>
+
+<div id="contenido">
+	<table class="tabla">
+		<thead id="encabezados">
+			
+		</thead>
+		<tbody id="cuerpoTabla"></tbody>
+	</table>
+
+
+</div>
+
+
+<script type="text/javascript">
+function creaTabla() {
+	var titulos="No. Empleados|Nombre|Apellidos|Edad|Sexo";
+	var heads=titulos.split("|");
+	var cadenaT="";
+	var info="1|Andres|Naguati Lara|28|M&&2|Sara|Nava Damian|35|F&&3|Misael|Agüero Garcia|58|M&&4|Noemi |Díaz Rosales|38|F";
+	var filas=info.split("&&");
+	var countHeads=heads.length;
+	var cadenaB="";
+
+	for (var i = 0; i < countHeads; i++) {
+		cadenaT+="<th>"+heads[i]+"</th>";
+	}
+	var countRows=filas.length;
+	for (var i = 0; i < countRows; i++) {
+		var tem=filas[i].split("|");
+		countHeads=tem.length;
+		cadenaB+="<tr>";
+		for (var j = 0; j < countHeads; j++) {
+			cadenaB+="<td>"+tem[j]+"</td>";
+		}
+		cadenaB+="</tr>";
+	}
+
+
+	document.getElementById("encabezados").innerHTML=cadenaT;
+	document.getElementById("cuerpoTabla").innerHTML=cadenaB;
+	// body...
+}
+//	creaTabla();
+
+
+</script>
+</body>
+</html>
