@@ -1,7 +1,7 @@
 function showSimulator(datos){
   $("#botonS").click(function(){
-    $("ResultadosSin").show();
-    $("resultSU").show();
+    $("#ResultadosSin").show();
+    $("#resultSU").show();
     $("#datosSU").show();
     $("#resultSU").show();
     $("#comparison").show();
@@ -21,10 +21,10 @@ function sinSalesup() {
   var result1, result2, result3, result4, result5, result6, result7;
   var timeSU = 2;
   var result1SU, result2SU, result3SU, result4SU, result5SU, result6SU, result7SU;
-
+  var res=jQuery("#Result1");
   /*Tabla de Resultados*/
   result1 = quotes/day;
-  jQuery("#Result1").val(result1.toFixed(1));
+  res.val(result1.toFixed(1));
   result2 = result1*time;
   jQuery("#Result2").val(result2.toFixed(1));
   result3 = (result2/(hours*60))*100;
@@ -106,7 +106,7 @@ function sinSalesup() {
   /*Para las graficas*/
   //result2 = result2.toFixed(1);
   //result2SU =result2SU.toFixed(1);
-var dato1=result2;
+var dato1=Math.round(result2);
     var dato2=result2SU;
     var pieData = [
                       {
@@ -125,12 +125,7 @@ var dato1=result2;
               var ctx = document.getElementById("chart-area").getContext("2d");
               window.myPie = new Chart(ctx).Pie(pieData); 
 
-
-}
-
-
-/*function bar(){
-    var la=50;
+              var la=50;
   var barChartData = {
     labels : ["Enero","Febrero"],
     datasets : [
@@ -153,4 +148,6 @@ var dato1=result2;
   }
   var ctx3 = document.getElementById("chart-area3").getContext("2d");
   window.myPie = new Chart(ctx3).Bar(barChartData);  
-}*/
+
+
+}

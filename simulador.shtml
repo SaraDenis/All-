@@ -47,7 +47,8 @@
 <!-- Simulador -->
     <div class="section-square-inverse" id="simulador">
       <div class="container">
-        <table id="Datos" class="table table-hover ">
+      <form action="#" id="formSimulador" method="post">
+       <table id="Datos" class="table table-hover ">
           <tbody class="col-md-6">
             
             <tr>
@@ -127,14 +128,16 @@
             </td>
             </tr>
           </tbody>
-        </table>
+        </table>  
+      </form>
 
         <div>
           <label>Simulador - Resultados con SalesUp!</label><br>
-          <button id="botonS" type="button" class="btn btn-primary" onclick="showSimulator();">cotizador Sales Up!</button>
+          <!--button id="botonS" type="button" class="btn btn-primary" onclick="showSimulator()">cotizador Sales Up!</button-->
+          <input type="submit" value="enviar" id="botonS" onclick="showSimulator()"/>
         </div>
         
-        <table id="Results" style="display: none;" class="table table-hover ">
+        <table id="ResultadosSin" style="display: none;" class="table table-hover ">
           <tbody class="col-md-6">
 
             <tr>
@@ -425,10 +428,8 @@
           <label>Simulador - Resultados con SalesUp! Graficas</label> 
           <div id="canvas-holder">
               <canvas id="chart-area" width="250" height="250"></canvas>
+              <canvas id="chart-area3" width="250" height="250"></canvas>
           </div>
-        </div>
-        <div id="canvas-holder">
-          <canvas id="chart-area3" width="250" height="250"></canvas>
         </div>
         
       </div>
@@ -449,6 +450,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
+    $(document).on("ready", function()
+    {
+      $("#botonS").bind("click",showSimulator );
+      $("#formSimulador").submit(function(e )
+      {
+        e.preventDefault();
+        $("#botonS").trigger("click");
+        showSimulator();
+      });
+    });
+
        $('a[href^="#"]').on('click', function(event) {
         var target = $( $(this).attr('href') );
         if( target.length ) {
