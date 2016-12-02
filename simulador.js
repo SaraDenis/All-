@@ -1,18 +1,14 @@
 function showSimulator(datos){
   $("#botonS").click(function(){
     $("#ResultadosSin").show();
-    $("#resultSU").show();
-    $("#datosSU").show();
-    $("#resultSU").show();
     $("#comparison").show();
     $("#gain").show();
-    $("#charts").show();
     $("#graficas").show();
     sinSalesup();      
     });
 }
 function sinSalesup() {
-  var day = document.getElementById("day").value;
+  var day = 22;
   var time = document.getElementById("time").value;
   var quotes = document.getElementById("quotes").value;
   var hours = document.getElementById("hours").value;
@@ -72,24 +68,24 @@ function sinSalesup() {
   /*Tabla de comparaciones finales*/
   var comparison1 = document.getElementById("Result2").value;
   var comparison2 = document.getElementById("Result2SU").value;
-  var Cvar1 = (comparison2/comparison1-1)*100;
+  var Cvar1 = (comparison2-comparison1);
   var comparison3 = document.getElementById("Result4").value;
   var comparison4 = document.getElementById("Result4SU").value;
   var Cvar2= (comparison4/comparison3-1)*100;
   var comparison5 = document.getElementById("Result6").value;
   var comparison6 = document.getElementById("Result6SU").value;
-  var Cvar3 = comparison6-comparison5;
+  var Cvar3 = comparison5-comparison6;
   var comparison7 = document.getElementById("Result7").value;
   var comparison8 = document.getElementById("Result7SU").value;
-  var Cvar4 = comparison7-comparison8;
+  var Cvar4 = (comparison8/comparison7-1)*100;
   var comparison9 = document.getElementById("actual5").value;
   var comparison10 = document.getElementById("conSU5").value;
   var Cvar5 = comparison9-comparison10;
 
-  jQuery("#var1").val(Cvar1.toFixed()+"%");
+  jQuery("#var1").val(Cvar1.toFixed());
   jQuery("#var2").val(Cvar2.toFixed()+"%");
   jQuery("#var3").val(Cvar3.toFixed(2));
-  jQuery("#var4").val(Cvar4.toFixed());
+  jQuery("#var4").val(Cvar4.toFixed()+"%");
   jQuery("#var5").val(Cvar5.toFixed(1));
 
   /*Tabla Cotizaciones finales*/
@@ -103,11 +99,8 @@ function sinSalesup() {
   var Tsalary2 = Rgain1-result6SU; 
   jQuery("#salary2").val(Tsalary2.toFixed(2));  
 
-  /*Para las graficas*/
-  //result2 = result2.toFixed(1);
-  //result2SU =result2SU.toFixed(1);
 var dato1=Math.round(result2);
-    var dato2=result2SU;
+    var dato2=Math.round(result2SU);
     var pieData = [
                       {
                         value: dato1,
@@ -125,23 +118,24 @@ var dato1=Math.round(result2);
               var ctx = document.getElementById("chart-area").getContext("2d");
               window.myPie = new Chart(ctx).Pie(pieData); 
 
-              var la=50;
+  var datoS=Math.round(result6);
+  var datoC=Math.round(result6SU);
   var barChartData = {
-    labels : ["Enero","Febrero"],
+    labels : ["Comparación"],
     datasets : [
       {
         fillColor : "#6b9dfa",
         strokeColor : "#ffffff",
         highlightFill: "#1864f2",
         highlightStroke: "#ffffff",
-        data : [la,90,30]
+        data : [datoS]
       },
       {
         fillColor : "#e9e225",
         strokeColor : "#ffffff",
         highlightFill : "#ee7f49",
         highlightStroke : "#ffffff",
-        data : [60,40,50]
+        data : [datoC]
       }
     ]
 
@@ -150,4 +144,23 @@ var dato1=Math.round(result2);
   window.myPie = new Chart(ctx3).Bar(barChartData);  
 
 
+  var cotizacion=Math.round(result6);
+  var mensual=Math.round(Tsalary);
+  var pieData = [
+          {
+            value: cotizacion,
+            color:"#0b82e7",
+            
+            highlight: "#af7115",
+            label: "Cotizaciones"
+          },
+          {
+            value: mensual,
+            color: "#e29a15",
+            highlight: "#af7115",
+            label: "sueldo mensual"
+          }
+        ];
+  var ctx2 = document.getElementById("chart-area2").getContext("2d"); 
+  window.myPie = new Chart(ctx2).Doughnut(pieData); 
 }

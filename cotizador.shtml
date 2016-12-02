@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en-US" class="css3transitions">
+<head>
+    <!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='104386174-45',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="YlipaweRTnAsWCIX2nbBvQ9cYsoXqcB-uU2upJo9Btw" />
+    <link rel="alternate" hreflang="es" href="http://www.salesup.com/" />
+    <link rel="icon" type="image/png" href="/imagenes/favicon.ico">
+    <title>CRM SalesUp! - Sistema de Administración de Ventas y Seguimiento de Prospectos</title>
+    <meta name="keywords" lang="es" content="machote cotizacion, formato cotizacion, cotizador, generar cotizaciones en linea, formato cotizacion ventas cotizador para exportar formato de cotizacion para clientes, cotizacion para clientes"/>
+    <meta name="description" content=""/>
+
+    <link rel='stylesheet' id='font-awesome-css' href='/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/Pricing.css">
+    <link rel="stylesheet" type="text/css" href="/css/LandingMaster.css">
+    <link type="text/css" rel="stylesheet" href="/css/tipsy.css">
+     <script type="text/javascript" src="js/simulador.js"></script>
+    <script src="Chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="navbar navbar-default navbar-fixed-top" id="menu">
+      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/images-salesup/SalesUp.png" alt="SalesUp" height="50"></a>
+      </div>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="nav navbar-nav navbar-right">
+            <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#queEsSalesUp">Qué es SalesUp!</a></li>
+            <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#administracionVentas">Software de ventas</a></li>
+            <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#beneficios">Beneficios</a></li>
+            <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#precio">Precio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="transparentBox"></div>
+  <section>
+      <div class="section_inverse" style="padding-bottom:0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="text-center mb40" style="font-weight:bold; color:#fff; font-size:2.3em;">El software para cotizar velozmente e incrementar tus ventas</h1>
+              <p class="text-center mb40" style="font-size:1.3em;">El sistema CRM recomendado por los expertos</p>
+            </div>
+          </div>
+          <div class="row vcenter">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <ul class="mb40">
+                <li><i class="fa fa-check"></i> <p>Aplica descuentos al instante</p></li>
+                <li><i class="fa fa-check"></i> <p>Administra la lista de productos</p></li>
+                <li><i class="fa fa-check"></i> <p>Asigna comisiones automáticamente a tus vendedores</p></li>
+                <li><i class="fa fa-check"></i> <p>Genera cotizaciones en un par de minutos con la imagen de tu empresa</p></li>
+              </ul>
+              <p class="mb40"><a class="btn btn-primary btn-lg" id="btnPrueba" role="button" href="pruebalo-signup.shtml?tk=boton-slider">Comienza tu mes gratis</a></p>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-6">
+              <img src="imagenes/LandingCotizador.png" alt="Cotiza en minutos">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+        <div class="scroll-to-next-section">
+        <a href="#queEsSalesUp" class="fa fa-angle-down"></a>
+        </div> -->
+      <div style="background-color:#F6F6F6;">
+        <div class="container">
+          <p class="text-muted text-center text-uppercase" style="margin: 10px 0px 0px;">Algunas de las empresas que confían en SalesUp! </p>
+          <div class="row">
+              <div class="col-xs-3 col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/ActionCoach.png"></div>
+              <div class="col-xs-3 col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/Contpaqi.png"></div>
+              <div class="col-xs-3 col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/FibraInn.png"></div>
+              <div class="col-xs-3 col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/Sandler.png"></div>
+              <div class="hidden-xs col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/Koomkin.png"></div>
+              <div class="hidden-xs col-sm-2 col-md-2"><img class="img-responsive" src="/images/empresas/Pasa.png"></div>
+          </div>
+        </div>
+      </div>
+   </section>
+
+    <section>
+    <div class="section zebra">
+      <div class="container text-center">
+        <h2>¿Cuanto pierdes en tus ventas sin SalesUp!<sup>®</sup> ?</h2>
+        
+<!-- Simulador -->
+    <div class="section-square-inverse" id="simulador">
+      <div class="container">
+        <div class="row">
+      <form action="#" id="formSimulador" method="post" class="form-inline">
+        <div class="form-group">
+          <label>Tiempo promedio que te toma hacer una cotización</label>
+          <input id="time" placeholder="tiempo">
+          <label>minutos</label>
+        </div>
+        <div class="form-group">
+          <label>Cotizaciones mensuales promedio de 1 vendedor</label>
+          <input id="quotes" placeholder="cotizaciones">
+          <label>cotizaciones</label>
+        </div>
+        <div class="form-group">
+          <label>Jornada laboral en hrs</label>
+          <input id="hours" placeholder="hrs">
+          <label>horas</label>
+        </div>
+        <div class="form-group">
+          <label>Numero de vendedores</label>
+          <input id="sales" placeholder="numero">
+          <label>vendedores</label>
+        </div>
+        <div class="form-group">
+          <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
+          <input id="salary" placeholder="20000">
+          <label>pesos</label>
+        </div>
+       <!-- <table id="Datos" class="table table-hover table-bordered table-striped">
+          <tbody>
+            <tr >
+            <td>
+              <label>Días laborales promedio al mes</label>
+            </td>
+            <td>
+              <input id="day" placeholder="días">
+            </td>
+            <td>
+              <label>días</label>
+            </td>
+            </tr>
+
+            <tr>
+            <td>
+              <label>Tiempo promedio que te toma hacer una cotización</label>
+            </td>
+            <td>
+              <input id="time" placeholder="tiempo">
+            </td>
+            <td>
+              <label>minutos</label>
+            </td>
+            </tr>
+
+            <tr >
+            <td>
+              <label>Cotizaciones mensuales promedio de 1 vendedor</label>
+            </td>
+            <td>
+              <input id="quotes" placeholder="cotizaciones">
+            </td>
+            <td>
+              <label>cotizaciones</label>
+            </td>
+            </tr>
+
+            <tr >
+            <td>
+              <label>Jornada laboral en hrs</label>
+            </td>
+            <td>
+              <input id="hours" placeholder="hrs">
+            </td>
+            <td>
+              <label>horas</label>
+            </td>
+            </tr>
+
+            <tr >
+            <td>
+              <label>Numero de vendedores</label>
+            </td>
+            <td>
+              <input id="sales" placeholder="numero">
+            </td>
+            <td>
+              <label>vendedores</label>
+            </td>
+            </tr>
+
+            <tr>
+            <td>
+              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
+            </td>
+            <td>
+              <input id="salary" placeholder="20000">
+            </td>
+            <td>
+              <label>pesos</label>
+            </td>
+            </tr>
+          </tbody>
+        </table> -->  
+      </form>
+  
+        <div>
+          <label>Simulador - Resultados con SalesUp!</label><br>
+          <input type="submit" value="enviar" id="botonS" onclick="showSimulator()"/>
+        </div>
+        
+        <table id="ResultadosSin" style="display: none;" class="table table-hover table-bordered table-striped">
+          <tbody>
+
+            <tr>
+              <td>
+                <label>Resultados sin SalesUp!</label>
+              </td>
+              <td>
+                <label>Resultados con SalesUp!</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input id="Result1" style="border:none; background-color:transparent;" disabled>
+              </td>
+              <td>
+                <input id="Result1SU" style="border:none; background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>Cotizaciones se realizan al día</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result2" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <input id="Result2SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>minutos son los que se dedican diariamente para hacer cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result3" style="border:none;background-color:transparent;" disabled>
+                
+              </td>
+              <td>
+                <input id="Result3SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>del tiempo de un vendedor al día es dedicado para hacer una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result4" style="border:none;background-color:transparent;" disabled>
+                
+              </td>
+              <td>
+                <input id="Result4SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>hrs al mes son consumidas por tus vendedores para realizar una cotización</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result5" style="border:none;background-color:transparent;" disabled>
+                
+              </td>
+              <td>
+                <input id="Result5SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>Es el costo de realizar una cotización al mes x vendedor</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result6" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                 <input id="Result6SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>es el costo mensual promedio que tiene tu empresa para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input id="Result7" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <input id="Result7SU" style="border:none;background-color:transparent;" disabled>
+              </td>
+              <td>
+                <label>son los días equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones</label>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <table id="comparison" style="display: none;" class="table table-hover table-bordered table-striped">
+          <tbody>
+
+            <tr>
+              <td>
+                <label>Comparacion</label>
+              </td>
+              <td>
+                <label>Actual</label>
+              </td>
+              <td>
+                <label>Con SalesUp!</label>
+              </td>
+              <td>
+                <label>Var%</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Minutos dedicados diarios para realizar una cotización</label>
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="actual1">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="conSU1">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="var1">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Hrs al mes requeridas por tu fuerza de ventas para realizar cotizaciones</label>
+              </td> 
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="actual2">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="conSU2">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="var2">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Costo mensual promedio que tiene tu empresa por realizar cotizaciones</label>
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="actual3">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="conSU3">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="var3">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Número de días que requiere tu empresa para realizar cotizaciones</label>
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="actual4">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="conSU4">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="var4">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Número de días que requiere un vendedor para realizar una cotización</label>
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="actual5">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="conSU5">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="var5">
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <table id="gain" style="display: none;" class="table table-hover table-bordered table-striped">
+          <tbody>
+            
+            <tr>
+              <td>
+                <label>Cotizaciones</label>
+              </td>
+              <td>
+                <label>Sueldo Mensual</label>
+              </td>
+              <td>
+                <label>Total</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="gain1">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="salary1">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="Tgain1">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="gain2">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="salary2">
+              </td>
+              <td>
+                <input style="border:none;background-color:transparent;" disabled id="Tgain2">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <div id="graficas" style="display: none;">
+          <label>Simulador - Resultados con SalesUp! Graficas</label> 
+          <div id="canvas-holder">
+              <canvas id="chart-area" width="250" height="250"></canvas>
+              <canvas id="chart-area2" width="300" height="300"></canvas>
+              <canvas id="chart-area3" width="250" height="250"></canvas>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div> 
+<!-- FIN simulador -->
+      </div>
+    </div>
+
+      <div class="section_square" id="queEsSalesUp">
+        <div class="container">
+          <h2 class="text-center">Cotizador SalesUp!<sup>®</sup> CRM: la velocidad de tu lado.</h2>
+          <div class="row vcenter">
+            <div class="col-md-7">
+              <div class="embed-responsive embed-responsive-16by9 mb40xs mb40sm">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3-qgACfZeHA?rel=0&amp;showinfo=0&amp;controls=1&amp;loop=1&amp;autoplay=1&amp;playlist=3-qgACfZeHA" disallowfullscreen=""></iframe>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <p style="color:#fff;">Tus clientes necesitan tener una pronta respuesta a sus solicitudes y una de las principales es enviar una cotización. El tiempo de respuesta es crucial debido a que esto puede decidir entre cerrar la venta o no. </p>
+              <br>
+              <p style="color:#fff;">Una herramienta que forma parte de SalesUp!<sup>®</sup> CRM y que te permitirá ofrecer una respuesta rápida a tu cliente de forma profesional es el cotizador. 
+              Concentra tus marcas y productos en catálogos, genera cotizaciones y respuestas prediseñadas en un instante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section zebra">
+      <div class="container text-center">
+        <h2>Lo que los usuarios de SalesUp!<sup>®</sup> CRM opinan</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img src="/images-salesup/Francisco-N.png" alt="Francisco Naif" class="img-circle">
+              <p><i class="fa fa-quote-left"></i> Nuestros vendedores están mas comprometidos consigo mismos; tienen una herramienta - así lo ven ya-, muy útil para que puedan producir más ingresos. <i class="fa fa-quote-right"></i></p>
+              <p class="small testimonialName"><b>Francisco Naif</b> <br>Gerente de Capacitación, COMEBI</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img src="/images-salesup/Armando.png" alt="José Contijoch" class="img-circle">
+              <p><i class="fa fa-quote-left"></i> Indiscutiblemente SalesUp! te ayuda a crecer tus ventas. A los tres meses de que lo implementé, mis ventas incrementaron un 20% y a los 8 meses un 40%. <i class="fa fa-quote-right"></i></p>
+              <p class="small testimonialName"><b>Armando Osuna</b><br>Director General, Quosis</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img src="/images-salesup/Lorena.png" alt="Lorena Armengual" class="img-circle">
+              <p><i class="fa fa-quote-left"></i> Hoy por hoy le preguntas a la gente de ventas y te dicen - <i>me encanta SalesUp!, es lo mejor que nos pudo haber pasado a la hora de hacer seguimientos. </i> <i class="fa fa-quote-right"></i></p>
+              <p lass="small testimonialName"><b>Lorena Armengual</b> <br>Directora, Celebración</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="section" id="administracionVentas">
+        <div class="container">
+          <div class="inner-tab">
+            <h2>Software de administración de ventas </h2>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#Velocidad" data-toggle="tab">Velocidad</a></li>
+              <li class=""><a href="#Profesional" data-toggle="tab">Profesional</a></li>
+            </ul>
+            <div class="tab-content panel">
+              <div class="tab-pane active" id="Velocidad">
+                <div class="row vcenter">
+                  <div class="col-md-6">
+                    <h3>Cotiza con mayor rapidez.</h3>
+                    <p>Con el cotizador de SalesUp!<sup>®</sup> cerrarás 3 veces más rápido las oportunidades de negocio si tus asesores cotizan en los primeros 10 minutos.
+                      Automáticamente podrás:</p>
+                    <ul>
+                      <li><i class="fa fa-check-circle"></i> <p>Aplicar descuentos.</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Asignar comisiones a vendedores.</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Adjuntar la cotización en un correo.</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Almacenar las cotizaciones en la ficha del contacto.</p></li>
+                    </ul>
+                    <a href="pruebalo-signup.shtml?tk=boton-pestanas" class="btn btn-primary btn-lg">Pruébalo Gratis</a>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/images-salesup/LandingCotizador1.png" class="img-responsive">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="Profesional">
+                <div class="row vcenter">
+                  <div class="col-md-6">
+                    <h3>¡Alcanza todos los objetivos de venta!</h3>
+                    <p>La imagen genera mayor confianza a los clientes y es de suma importancia cuidar este aspecto. Dale una buena impresión a tu prospecto al ser capaz de generar cotizaciones con una presentación profesional y con el logotipo de tu empresa.</p>
+                    <ul>
+                      <li><i class="fa fa-check-circle"></i> <p>Puedes crear el diseño de tu cotización y modificar fácilmente cuantas veces lo necesites.</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>La cotización se guarda en formato PDF y puedes incluirla en tu respuesta.</p></li>
+                    </ul>
+                    <a href="pruebalo-signup.shtml?tk=boton-pestanas" class="btn btn-primary btn-lg">Pruébalo Gratis</a>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/images-salesup/LandingCotizador2.png" class="img-responsive">
+                  </div>
+                </div>
+              </div>
+
+          </div> <!-- Cierra tab-content -->
+        </div> <!-- Cierra inner-tab -->
+      </div>
+    </div>
+
+     <div class="section zebra">
+      <div class="container">
+        <h2 class="text-center">SalesUp!<sup>®</sup> es un software que se integra con:</h2>
+        <div class="row">
+          <div class="hidden-xs col-sm-2 col-md-2"><img src="/images-salesup/html.png" alt="HTML" class="img-responsive"></div>
+          <div class="col-xs-3 col-sm-2 col-md-2"><img src="/images-salesup/snap-engage.png" alt="SNAP-ENGAGE" class="img-responsive"></div>
+          <div class="hidden-xs col-sm-2 col-md-2"><img src="/images-salesup/mail-chimp.png" alt="MAIL-CHIMP" class="img-responsive"></div>
+          <div class="col-xs-3 col-sm-2 col-md-2"><img src="/images-salesup/facebook.png" alt="FACEBOOK" class="img-responsive"></div>
+          <div class="col-xs-3 col-sm-2 col-md-2"><img src="/images-salesup/gmail.png" alt="GMAIL" class="img-responsive"></div>
+          <div class="col-xs-3 col-sm-2 col-md-2"><img src="/images-salesup/outlook.png" alt="OUTLOOK" class="img-responsive"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section" id="beneficios">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h2>3 Beneficios que obtendrás con <img src="/images-salesup/SalesUp.png"></h2>
+          </div>
+          <div class="col-md-3 mb40xs mb40sm">
+            <h4><i class="fa fa fa-user-plus"></i> SEGUIMIENTO</h5>
+            <p>Haz que tus ejecutivos ganen las ventas que pierden por falta de seguimiento usando recordatorios, correos automáticos y tareas.</p>
+          </div>
+          <div class="col-md-3 mb40xs mb40sm">
+            <h4><i class="fa fa fa-tachometer"></i> VELOCIDAD</h5>
+            <p>Tus vendedores cerrarán más ventas al enviar cotizaciones y correos más rápido que la competencia desde el CRM.</p>
+          </div>
+          <div class="col-md-3 mb40xs mb40sm">
+            <h4><i class="fa fa fa-graduation-cap"></i> CAPACITACIÓN</h5>
+            <p>Somos más que un software. En SalesUp!<sup>®</sup> compartimos estrategias comerciales y podrás profesionalizar a tus vendedores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sectionBar" style="margin-bottom:0px;">
+        <div class="container">
+          <p>Comprueba los beneficios por 30 días gratis <a href="pruebalo-signup.shtml?tk=cta-home" class="btn btn-primary btn-lg">Pruébalo Gratis</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="precio">
+      <div class="pricingBox">
+          <div class="container">
+              <div class="pricingBoxHeader">
+                <h2 style="font-weight:bold;">Conoce las versiones de SalesUp!<sup>®</sup> CRM</h2>
+                <p class="subtitle">Después de tu periodo de prueba podrás elegir la cuenta que mejor se adapte a tus necesidades</p>
+                <ul class="nav nav-pills" id="lista">
+                  <li><label>
+                    <input type="radio" name="inlineRadioOptions" id="trimestral" value="option1" onclick="trimestral(this);" class="nav-pills"> Trimestral
+                  </label></li>
+                  <li><label>
+                    <input type="radio" value="option2" name="inlineRadioOptions" id="semestral" onclick="semestral(this);" class=" active" checked=""> Semestral
+                  </label></li>
+                  <li><label>
+                    <input type="radio" name="inlineRadioOptions" id="anual" value="option3" onclick="anual(this);" class="nav-pills"> Anual
+                  </label></li>
+                </ul>
+              </div>
+              <div class="row" id="trimestre">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="plan">
+                      <h2>Básico</h2>
+                      <p class="planCaption">Seguimiento de ventas y gestión de clientes básica.</p>
+                      <div class="prices">
+                          <span id="basico"><h3><sup>$ </sup>135<sup> MXN</sup></h3></span>
+                          <span id="preciobasico" ><span class="line-through">$149</span> Ahorras el <strong>10%</strong></span>
+                          <p id="tri" class="small">Por usuario al mes, facturado semestralmente*</p>
+                      </div>
+                        <ul>
+                          <li>Registros ilimitados</li>
+                          <li>5 plantillas de venta precargadas <span class="badge" data-placement="top"  title="Ahorra tiempo al enviar mensajes a tus clientes con las plantillas de correo precargadas.">?</span></li>
+                          <li>Integración con sitio web y Facebook <span class="badge" data-placement="top" data-tooltip="tooltip" title="Recibe automáticamente los datos de clientes que llenan la forma de contacto en tu Fan page o Sitio Web.">?</span></li>
+                          <li>Pronóstico de ventas y reportes</li>
+                          <li>Agenda, recordatorios y tareas</li>
+                          <li>Campañas automáticas de correo</li>
+                          <li>Asistencia vía chat y correo</li>
+                          <li><u><a href="/artefactos/Tabla-Comparativa.pdf" target="_blank">Ver tabla comparativa completa</a></u></li>
+                        </ul>
+                      <div class="plan-cta">
+                          <a href="pruebalo-signup.shtml?tk=boton-basico" target="_blank" class="btn btn-block btn-info">Probar</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4" id="semestre" >
+                  <div class="plan bestPlan">
+                    <div class="ribbon"><span>Nuevo</span></div>
+                      <h2>Pro</h2>
+                      <p class="planCaption">Incrementa la velocidad de respuesta y cotiza en segundos.</p>
+                      <div class="prices">
+                        <a href=""></a>
+                          <span id="pro"><h3><sup>$ </sup>225<sup> MXN</sup></h3></span>
+                          <span id="preciopro"><span class="line-through">$249</span> Ahorras el <strong>10%</strong></span>
+                          <p class="small" id="semes">Por usuario al mes, facturado semestralmente*</p>
+                      </div>
+                        <ul>
+                          <li><strong>Todas las funciones de Básico +</strong></li>
+                          <li>Bandeja de correo inteligente <span class="badge" data-placement="top" data-tooltip="tooltip" title="Gestiona múltiples cuentas de correo, guarda conversasiones como seguimiento y clasifica automáticamente tu bandeja por prospectos, clientes y contactos.">?</span></li>
+                          <li>30 plantillas de venta precargadas</li>
+                          <li>Cotizador</li>
+                          <li>Catálogo de productos</li>
+                          <li>Multimoneda</li>
+                          <li>Atención vía telefónica</li>
+                          <li><u><a href="/artefactos/Tabla-Comparativa.pdf" target="_blank">Ver tabla comparativa completa</a></u></li>
+                        </ul>
+                      <div class="plan-cta">
+                        <a href="pruebalo-signup.shtml?tk=boton-pro" target="_blank" class="btn btn-block btn-default">Probar</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4" id="anual2">
+                  <div class="plan">
+                      <div class="ribbon"><span>Nuevo</span></div>
+                      <h2>Multicanal</h2>
+                      <p class="planCaption">Empresas con canales indirectos como distribuidores y franquicias.</p>
+                     <div class="prices">
+                        <span id="b2b"><h3><sup>$</sup>449<sup>MXN</sup></h3></span>
+                       <p class="small" id="semest">Por usuario al mes, facturado semestralmente*</p>
+                    </div>
+                      <ul>
+                          <li><strong>Todas las funciones de la Pro +</strong></li>
+                          <li>Canalización de prospectos <span class="badge" data-tooltip="tooltip" title="Asigna contactos de clientes potenciales a tus distribuidores o franquiciatarios.">?</span></li>
+                          <li>Estandarización de comunicación</li>
+                          <li>Distribución inteligente de contactos <span class="badge" data-tooltip="tooltip" title="SalesUp! asigna por ti los contactos potenciales a tus distribuidores y clientes de acuerdo a criterios como eficiencia o zona geográfica.">?</span></li>
+                          <li>Reporte de eficiencia de distribuidores</li>
+                          <li>Repositorio de archivos compartidos</li>
+                          <li>Atención de asesor personal</li>
+                          <li><u><a href="/artefactos/Tabla-Comparativa.pdf" target="_blank">Ver tabla comparativa completa</a></u></li>
+                      </ul>
+                      <div class="plan-cta">
+                        <a href="contacto.shtml" target="_blank" class="btn btn-block btn-info"> Contáctanos</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+                            <div>
+              <p class="small"><strong>* Las licencias solamente pueden ser adquiridas de manera trimestral, semestral y anual</strong></p>
+              <p  class="small">Los precios no incluyen Impuestos al Valor Agregado (IVA). | IVA solo aplica a empresas mexicanas. | Aceptamos también transferencias bancarias vía SPEI.</p>
+              </div>
+
+              <ul class="paymentOptions">
+                  <li><img src="images/AE.png"></li>
+                  <li><img src="images/PP.png"></li>
+                  <li><img src="images/VISA.png"></li>
+                  <li><img src="images/MC.png"></li>
+              </ul>
+          </div>
+        </div>
+		</div>
+
+
+    <div class="section_inverse">
+      <div class="container">
+        <h2>Conoce cómo directores y gerentes se han beneficiado con SalesUp!<sup>®</sup></h2>
+        <div class="row vcenter">
+            <div class="col-md-7">
+              <div class="embed-responsive embed-responsive-16by9 mb40xs mb40sm">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tJXPaR2vMaU?rel=0&amp;showinfo=0&amp;controls=1" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <p>Nuestros clientes aprovechan SalesUp!<sup>®</sup> al máximo para conocer sus números de prospección y registrar el histórico del cliente para poder darle una mejor atención. Además es un software seguro que ayuda a ahorrar tiempo y automatizar procesos.</p>
+              <br>
+              <p>SalesUp!<sup>®</sup> es para ejecutivos, gerentes y directores que quieren tener el control e incrementar sus ventas.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p class="text-center">©2016 BFX Eficiencia Tecnológica S.A. de C.V. Todos los derechos reservados.</p>
+        <p class="text-center">Conoce nuestras políticas sobre el manejo y protección de datos personales, consultando nuestro <a href="aviso-privacidad.shtml">Aviso de Privacidad.</a></p>
+      </div>
+    </div>
+  </section>
+   <script type="text/javascript">
+    $(document).on("ready", function()
+    {
+      $("#botonS").bind("click",showSimulator );
+      $("#formSimulador").submit(function(e )
+      {
+        e.preventDefault();
+        $("#botonS").trigger("click");
+        showSimulator();
+      });
+    });
+      </script>
+        <script type="text/javascript" src="https://norfipc.com/js/Chart.min.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.tipsy.js"></script>
+	<script defer="" type="text/javascript" src="/cookie.js"></script>
+	<script type="text/javascript" src="js/pricing.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     
+</body>
+</html>
