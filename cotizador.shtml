@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="css3transitions">
 <head>
-    <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='104386174-45',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
-
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +17,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <link rel="stylesheet" type="text/css" href="/css/LandingMaster.css">
     <link type="text/css" rel="stylesheet" href="/css/tipsy.css">
      <script type="text/javascript" src="js/simulador.js"></script>
+     <link rel="stylesheet" type="text/css" href="/master/css/master.css">
     <script src="Chart.js"></script>
 </head>
 
@@ -114,115 +100,48 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <div class="section-square-inverse" id="simulador">
       <div class="container">
         <div class="row">
-      <form action="#" id="formSimulador" method="post" class="form-inline">
-        <div class="form-group">
-          <label>Tiempo promedio que te toma hacer una cotización</label>
-          <input id="time" placeholder="tiempo">
-          <label>minutos</label>
-        </div>
-        <div class="form-group">
-          <label>Cotizaciones mensuales promedio de 1 vendedor</label>
-          <input id="quotes" placeholder="cotizaciones">
-          <label>cotizaciones</label>
-        </div>
-        <div class="form-group">
-          <label>Jornada laboral en hrs</label>
-          <input id="hours" placeholder="hrs">
-          <label>horas</label>
-        </div>
-        <div class="form-group">
-          <label>Numero de vendedores</label>
-          <input id="sales" placeholder="numero">
-          <label>vendedores</label>
-        </div>
-        <div class="form-group">
-          <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
-          <input id="salary" placeholder="20000">
-          <label>pesos</label>
-        </div>
-       <!-- <table id="Datos" class="table table-hover table-bordered table-striped">
-          <tbody>
-            <tr >
-            <td>
-              <label>Días laborales promedio al mes</label>
-            </td>
-            <td>
-              <input id="day" placeholder="días">
-            </td>
-            <td>
-              <label>días</label>
-            </td>
-            </tr>
-
-            <tr>
-            <td>
+          <div class="col-md-8">
+          <form action="#" id="formSimulador" method="post" class="form-horizontal">
+            <div class="input-group">
               <label>Tiempo promedio que te toma hacer una cotización</label>
-            </td>
-            <td>
-              <input id="time" placeholder="tiempo">
-            </td>
-            <td>
+              <div class="col-md-3">
+                <input class="form-control" id="times" onchange="sinSalesup()" onblur="sinSalesup()">
+              </div>
               <label>minutos</label>
-            </td>
-            </tr>
-
-            <tr >
-            <td>
+            </div>
+            <div class="input-group">
               <label>Cotizaciones mensuales promedio de 1 vendedor</label>
-            </td>
-            <td>
-              <input id="quotes" placeholder="cotizaciones">
-            </td>
-            <td>
+              <div class="col-md-3">
+                <input class="form-control" id="quotes" onchange="sinSalesup()" onblur="sinSalesup()">
+              </div>
               <label>cotizaciones</label>
-            </td>
-            </tr>
-
-            <tr >
-            <td>
+            </div>
+            <div class="input-group">
               <label>Jornada laboral en hrs</label>
-            </td>
-            <td>
-              <input id="hours" placeholder="hrs">
-            </td>
-            <td>
+              <div class="col-md-3">
+                <input class="form-control" id="hours" onchange="sinSalesup()" onblur="sinSalesup()">
+              </div>
               <label>horas</label>
-            </td>
-            </tr>
-
-            <tr >
-            <td>
+            </div>
+            <div class="input-group">
               <label>Numero de vendedores</label>
-            </td>
-            <td>
-              <input id="sales" placeholder="numero">
-            </td>
-            <td>
+              <div class="col-md-3">
+                <input class="form-control" id="sales" onchange="sinSalesup()" onblur="sinSalesup()">
+              </div>
               <label>vendedores</label>
-            </td>
-            </tr>
-
-            <tr>
-            <td>
-              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</label>
-            </td>
-            <td>
-              <input id="salary" placeholder="20000">
-            </td>
-            <td>
+            </div>
+            <div class="input-group">
+              <label>Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</lab3l>
+              <div class="col-md-3">
+                <input class="form-control" id="salary" onchange="sinSalesup()" onblur="sinSalesup()">
+              </div>
               <label>pesos</label>
-            </td>
-            </tr>
-          </tbody>
-        </table> -->  
-      </form>
-  
-        <div>
-          <label>Simulador - Resultados con SalesUp!</label><br>
-          <input type="submit" value="enviar" id="botonS" onclick="showSimulator()"/>
-        </div>
+            </div>
+          </form>
+          </div>
         
-        <table id="ResultadosSin" style="display: none;" class="table table-hover table-bordered table-striped">
+        <div class="col-md-4">
+        <table id="ResultadosSin" class="rwd_auto fontsize table table-hover table-bordered table-striped">
           <tbody>
 
             <tr>
@@ -235,10 +154,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
             </tr>
             <tr>
               <td>
-                <input id="Result1" style="border:none; background-color:transparent;" disabled>
+                <input value="1" id="Result1" style="border:none; background-color:transparent;" disabled>
               </td>
               <td>
-                <input id="Result1SU" style="border:none; background-color:transparent;" disabled>
+                <input value="1" id="Result1SU" style="border:none; background-color:transparent;" disabled>
               </td>
               <td>
                 <label>Cotizaciones se realizan al día</label>
@@ -247,10 +166,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result2" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result2" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
-                <input id="Result2SU" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result2SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>minutos son los que se dedican diariamente para hacer cotizaciones</label>
@@ -259,11 +178,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result3" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result3" style="border:none;background-color:transparent;" disabled>
                 
               </td>
               <td>
-                <input id="Result3SU" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result3SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>del tiempo de un vendedor al día es dedicado para hacer una cotización</label>
@@ -272,11 +191,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result4" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result4" style="border:none;background-color:transparent;" disabled>
                 
               </td>
               <td>
-                <input id="Result4SU" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result4SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>hrs al mes son consumidas por tus vendedores para realizar una cotización</label>
@@ -285,11 +204,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result5" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result5" style="border:none;background-color:transparent;" disabled>
                 
               </td>
               <td>
-                <input id="Result5SU" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result5SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>Es el costo de realizar una cotización al mes x vendedor</label>
@@ -298,10 +217,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result6" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result6" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
-                 <input id="Result6SU" style="border:none;background-color:transparent;" disabled>
+                 <input value="1" id="Result6SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>es el costo mensual promedio que tiene tu empresa para realizar cotizaciones</label>
@@ -310,10 +229,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
             <tr>
               <td>
-                <input id="Result7" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result7" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
-                <input id="Result7SU" style="border:none;background-color:transparent;" disabled>
+                <input value="1" id="Result7SU" style="border:none;background-color:transparent;" disabled>
               </td>
               <td>
                 <label>son los días equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones</label>
@@ -322,6 +241,12 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
           </tbody>
         </table>
+        </div>
+
+        <div>
+          <label>Simulador - Resultados con SalesUp!</label><br>
+          <input type="submit" value="Ver más..." id="botonS" onclick="showSimulator()"/>
+        </div>
 
         <table id="comparison" style="display: none;" class="table table-hover table-bordered table-striped">
           <tbody>
@@ -469,6 +394,36 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
               <canvas id="chart-area3" width="250" height="250"></canvas>
           </div>
         </div>
+
+ <!--        <div id="jplot">
+          <script type="text-javascript">
+            $(document).ready(function(){
+        plot5 = $.jqplot('chart5', [[[2,1], [null,2], [7,3], [10,4]]], {
+            captureRightClick: true,
+            seriesDefaults:{
+                renderer:$.jqplot.BarRenderer,
+                shadowAngle: 135,
+                rendererOptions: {
+                    barDirection: 'horizontal',
+                    highlightMouseDown: true   
+                },
+                pointLabels: {show: true, formatString: '%d'}
+            },
+            legend: {
+                show: true,
+                location: 'e',
+                placement: 'outside'
+            },
+            axes: {
+                yaxis: {
+                    renderer: $.jqplot.CategoryAxisRenderer
+                }
+            }
+        });
+    });
+          </script>
+        </div> -->
+
         </div>
       </div>
     </div> 

@@ -1,15 +1,16 @@
 function showSimulator(datos){
   $("#botonS").click(function(){
-    $("#ResultadosSin").show();
+   // $("#ResultadosSin").show();
     $("#comparison").show();
     $("#gain").show();
     $("#graficas").show();
     sinSalesup();      
     });
 }
+
 function sinSalesup() {
   var day = 22;
-  var time = document.getElementById("time").value;
+  var times = document.getElementById("times").value;
   var quotes = document.getElementById("quotes").value;
   var hours = document.getElementById("hours").value;
   var sales = document.getElementById("sales").value;
@@ -21,17 +22,17 @@ function sinSalesup() {
   /*Tabla de Resultados*/
   result1 = quotes/day;
   res.val(result1.toFixed(1));
-  result2 = result1*time;
+  result2 = result1*times;
   jQuery("#Result2").val(result2.toFixed(1));
   result3 = (result2/(hours*60))*100;
   jQuery("#Result3").val(result3.toFixed(0)+"%");
-  result4 = (time*quotes*sales)/60;
+  result4 = (times*quotes*sales)/60;
   jQuery("#Result4").val(result4.toFixed(1));
-  result5 = (salary/day/hours/60)*time;
+  result5 = (salary/day/hours/60)*times;
   jQuery("#Result5").val(result5.toFixed(1));
   result6 = result5*quotes*sales;
   jQuery("#Result6").val(result6.toFixed(1));
-  result7 = (time*quotes*sales)/60/8;
+  result7 = (times*quotes*sales)/60/8;
   jQuery("#Result7").val(result7.toFixed(1));
 
   /*Tabla de resultados con SU*/
@@ -55,7 +56,7 @@ function sinSalesup() {
   jQuery("#actual2").val(result4.toFixed(1));
   jQuery("#actual3").val(result6.toFixed(1));
   jQuery("#actual4").val(result7.toFixed(1));
-  var reActual5 = quotes*time/60/hours;
+  var reActual5 = quotes*times/60/hours;
   jQuery("#actual5").val(reActual5.toFixed(1));
 
   jQuery("#conSU1").val(result2SU.toFixed(1));

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3</title>
+	<style type="text/css">
+	table{
+		width: 80%;
+		border: solid 1px #ddd;
+	}
+	/*td{
+		width: 25%;
+	}*/
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	var cont=4;
+	var x=location.search.split("?");
+	if (x.length>=2) {
+		for (var i = x.length - 1; i >= 0; i--) {
+			var v = x[i].split("=");
+			if (v[0]=="elementos") {
+				cont=parseInt(""+v[1]);
+				break;
+			}
+		}
+	}
+
+	var encabezado="";
+	var cuerpo="";
+	document.write("<h1>Ordenando cosas en cajas</h1>");
+	document.write("<table>");
+	document.write("<thead><tr>");
+	for (var i =1; i <= cont; i++) {
+		encabezado+="<th>Titulo"+i+"</th>";
+		cuerpo+="<td><span id='producto"+i+"'>0</span></td>";
+	}
+	document.write(encabezado);
+	document.write("</tr></thead>");
+	document.write("<tbody><tr>");
+	document.write(cuerpo);
+	document.write("</tr></tbody>");
+	document.write("</table>");
+
+</script>
+
+<p>desarrollado por Sara</p>
+<script type="text/javascript">
+	function objetosPorOrdenar() {
+		for (var i = 99; i >= 0; i--) {
+			var temp=Math.floor((Math.random() * cont) + 1);
+
+			var incremento=parseInt(document.getElementById('producto'+temp).innerHTML);
+			document.getElementById('producto'+temp).innerHTML=incremento+1;
+		}
+		}
+		objetosPorOrdenar();
+
+		function errorWrite(){
+			document.write("<p>Esto es un error</p>");
+		}
+</script>
+</body>
+</html>
