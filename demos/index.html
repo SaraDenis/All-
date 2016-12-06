@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotizador</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<style type="text/css">
+	.divContenido{
+		border: 1px solid #aaa;
+		height: 47px;
+		padding: 6px 5px;
+		 font-size: 14px;
+	}
+	.inputDatos{
+		width: 50px;
+		text-align: right;
+		padding: 6px 12px;
+		 font-size: 14px;
+	}
+	.titulos{
+		background: #7030a0;
+		color: #fff;
+		text-align: center;
+		font-size: 18px;
+	    line-height: 1.33333;
+	    padding: 10px 16px;
+	}
+	.resultados .col-sm-12{
+		padding-left:0px;
+		padding-right:0px;
+	}
+</style>
+</head>
+<body>
+
+<div class="row">
+	<div class="col-sm-5">
+	<form action="graficas.html" method="get" id="enviaGraficas" >
+		<div class="col-sm-12 resultados" >
+		<div class="col-sm-12 titulos" >
+			Datos
+		</div>
+		<div class="col-sm-12"  style="display: none" >
+				<div class="col-sm-7 divContenido">D&iacute;as laborales promedio al mes</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="22" name="oDias" id="oDias" class="inputDatos " readonly="readonly"> </div>
+				<div class="col-sm-3 divContenido">Default</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Tiempo promedio que te toma hacer una cotizaci&oacute;n</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="25" id="oTiempo" name="oTiempo" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">min</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Cotizaciones mensuales promedio de 1 vendedor</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="20" id="oCotizaciones" name="oCotizaciones" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">Cotizaciones</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Jornada laboral en hrs</div>	
+				<div class="col-sm-2 divContenido"><input type="text" value="8" id="oJornadas" name="oJornadas" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">hrs</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido"># de vendedores</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="9" id="oVendedores" name="oVendedores" class="inputDatos"> </div>
+				<div class="col-sm-3 divContenido">Vendedores</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</div>	
+				<div class="col-sm-2 divContenido"> $<input type="text" value="20000" id="oSueldos" name="oSueldos" class="inputDatos"> </div>
+				<div class="col-sm-3 divContenido">pesos</div>	
+		</div>
+
+		</div>
+		<div class="col-sm-12" style="padding: 20px;text-align: center;">
+			<button class="btn btn-lg btn-warning col-sm-11" id="verGraficas" type="button">Simulador Cotizador SalesUp!</button>
+		</div>
+
+		<div class="col-sm-12 resultados"  style="display: none">
+		<div class="col-sm-12 titulos" >
+			Con SalesUp!
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">D&iacute;as laborales promedio al mes</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="22" name="sDias" id="sDias" class="inputDatos " readonly="readonly"> </div>
+				<div class="col-sm-3 divContenido">Default</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Tiempo promedio que te toma hacer una cotizaci&oacute;n</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="2" id="sTiempo" name="sTiempo" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">min</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Cotizaciones mensuales promedio de 1 vendedor</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="20" id="sCotizaciones" name="sCotizaciones" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">Cotizaciones</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Jornada laboral en hrs</div>	
+				<div class="col-sm-2 divContenido"><input type="text" value="8" id="sJornadas" name="sJornadas" class="inputDatos "> </div>
+				<div class="col-sm-3 divContenido">hrs</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido"># de vendedores</div>
+				<div class="col-sm-2 divContenido"><input type="text" value="9" id="sVendedores" name="sVendedores" class="inputDatos"> </div>
+				<div class="col-sm-3 divContenido">Vendedores</div>	
+		</div>
+		<div class="col-sm-12" >
+				<div class="col-sm-7 divContenido">Sueldo Promedio de un vendedor, incluyendo bonos y comisiones</div>	
+				<div class="col-sm-2 divContenido"> $<input type="text" value="20000" id="sSueldos" name="sSueldos" class="inputDatos"> </div>
+				<div class="col-sm-3 divContenido">pesos</div>	
+		</div>
+
+		</div>
+
+</form>
+	</div>
+
+	<div class="col-sm-7 ">
+	
+		<div class="col-sm-12 resultados" >
+		<div class="col-sm-12 titulos" >Resultados
+		</div>
+
+
+		
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="orCotizaciones">0,9</span> Cotizaciones se realizan al d&iacute;a
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="orMinutos">22,7</span>	minutos son los que se dedican diariamente para hacer cotizaciones
+			</div>
+		</div>
+			<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="orTiempo"> 5</span>%	del tiempo de un vendedor al d&iacute;a es dedicado para hacer una cotizaci&oacute;n
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="orHoras">75,0</span>	hrs al mes son consumidas por tus vendedores para realizar una cotizaci&oacute;n
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				$ <span id="orCosto">47,3</span> Es el costo de realizar una cotizaci&oacute;n al mes x vendedor
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				$ <span id="orCostoMensual">8.523</span> 	es el costo mensual promedio que tiene tu empresa para realizar cotizaciones
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="orDias">9,4</span>	son los d&iacute;as equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones
+			</div>
+		</div>
+
+
+	</div>
+<div  class="col-sm-12" style="height: 40px" >
+</div>
+<div  class="col-sm-12 resultados" >
+		<div class="col-sm-12 titulos" >Resultados con SalesUp!
+		</div>
+
+
+		
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="srCotizaciones">0,9</span> Cotizaciones se realizan al d&iacute;a
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="srMinutos">1.8</span>	minutos son los que se dedican diariamente para hacer cotizaciones
+			</div>
+		</div>
+			<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="srTiempo"> 0</span>%	del tiempo de un vendedor al d&iacute;a es dedicado para hacer una cotizaci&oacute;n
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="srHoras">6,0</span>	hrs al mes son consumidas por tus vendedores para realizar una cotizaci&oacute;n
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				$ <span id="srCosto">3,8</span> Es el costo de realizar una cotizaci&oacute;n al mes x vendedor
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				$ <span id="srCostoMensual">682</span> 	es el costo mensual promedio que tiene tu empresa para realizar cotizaciones
+			</div>
+		</div>
+		<div class="col-sm-12" >
+			<div class="col-sm-1 divContenido">* 
+			</div>
+			<div class="col-sm-11 divContenido">
+				<span id="srDias">0.8</span>	son los d&iacute;as equivalentes de tu fuerza de ventas que dedican para realizar cotizaciones
+			</div>
+		</div>
+
+
+	</div>
+
+
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/formulas.js"></script>
+
+<script type="text/javascript">
+var SU=window.SU||{};
+SU.fn=SU.fn||{};	
+$(document).ready(function (argument) {
+	$("input.inputDatos").bind("change",SU.fn.actualizaFormulas);
+		//llamado de la funcion con el comodin de los id de la tabla o=datos
+		SU.fn.calculaValores('o');
+		//llamado de la funcion con el comodin de los id de la tabla s=Salesup
+		SU.fn.calculaValores('s');
+		$("#verGraficas").bind("click",SU.fn.enviaFormulario);
+});
+
+SU.fn.enviaFormulario=function(){
+	var form=$(this).closest("form");
+	$("#enviaGraficas").submit();
+}
+
+SU.fn.actualizaFormulas=function(){
+	var valor=$(this).val();
+	if(valor){
+		//llamado de la funcion con el comodin de los id de la tabla o=datos
+		SU.fn.calculaValores('o');
+		//llamado de la funcion con el comodin de los id de la tabla s=Salesup
+		SU.fn.calculaValores('s');
+	}
+
+};
+/**
+ * 
+ * 
+ * 
+ * 
+ */
+SU.fn.calculaValores=function(id){
+	//Días laborales promedio al mes
+	var dias=$("#"+id+"Dias").val();
+	//
+	var tiempo=$("#"+id+"Tiempo").val();
+	var cotizaciones=$("#oCotizaciones").val();
+	var jornadas=$("#oJornadas").val();
+	var vendedores=$("#oVendedores").val();
+	var sueldos=$("#oSueldos").val();
+	$("#"+id+"rCotizaciones").html(SU.fn.calculaCotizaciones(dias,cotizaciones).toFixed(1));
+	$("#"+id+"rMinutos").html(SU.fn.calculaMinutos(parseFloat($("#"+id+"rCotizaciones").html()),tiempo).toFixed(1));
+	$("#"+id+"rTiempo").html(SU.fn.calculaTiempo(parseFloat($("#"+id+"rMinutos").html()),jornadas).toFixed(1));
+	$("#"+id+"rHoras").html(SU.fn.calculaHoras(tiempo,cotizaciones,vendedores).toFixed(1));
+	$("#"+id+"rCosto").html(SU.fn.calculaCosto(sueldos,dias,jornadas,tiempo).toFixed(1));
+	$("#"+id+"rCostoMensual").html(SU.fn.calculaCostoMensual(parseFloat($("#"+id+"rCosto").html()),cotizaciones,vendedores).toFixed(1));
+$("#"+id+"rDias").html(SU.fn.calculaDias(tiempo,cotizaciones,vendedores).toFixed(1));
+}
+
+</script>
+
+</body>
+</html>
