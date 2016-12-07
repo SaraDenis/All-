@@ -51,7 +51,7 @@
 		</div>
 		<div class="col-sm-12" >
 				<div class="col-sm-7 divContenido">Cotizaciones mensuales promedio de 1 vendedor</div>
-				<div class="col-sm-2 divContenido"><input type="text" value="20" id="oCotizaciones" name="oCotizaciones" class="inputDatos "> </div>
+				<div class="col-sm-2 divContenido"><input type="text" value="50" id="oCotizaciones" name="oCotizaciones" class="inputDatos "> </div>
 				<div class="col-sm-3 divContenido">Cotizaciones</div>	
 		</div>
 		<div class="col-sm-12" >
@@ -61,7 +61,7 @@
 		</div>
 		<div class="col-sm-12" >
 				<div class="col-sm-7 divContenido"># de vendedores</div>
-				<div class="col-sm-2 divContenido"><input type="text" value="9" id="oVendedores" name="oVendedores" class="inputDatos"> </div>
+				<div class="col-sm-2 divContenido"><input type="text" value="10" id="oVendedores" name="oVendedores" class="inputDatos"> </div>
 				<div class="col-sm-3 divContenido">Vendedores</div>	
 		</div>
 		<div class="col-sm-12" >
@@ -75,7 +75,7 @@
 			<button class="btn btn-lg btn-warning col-sm-11" id="verGraficas" type="button">Simulador Cotizador SalesUp!</button>
 		</div>
 
-		<div class="col-sm-12 resultados"  style="display: none">
+		<!-- <div class="col-sm-12 resultados"  style="display: none">
 		<div class="col-sm-12 titulos" >
 			Con SalesUp!
 		</div>
@@ -111,7 +111,7 @@
 		</div>
 
 		</div>
-
+ -->
 </form>
 	</div>
 
@@ -255,6 +255,7 @@ $(document).ready(function (argument) {
 		$("#verGraficas").bind("click",SU.fn.enviaFormulario);
 });
 
+//Función para obtener los datos y enviarlos
 SU.fn.enviaFormulario=function(){
 	var form=$(this).closest("form");
 	$("#enviaGraficas").submit();
@@ -271,27 +272,36 @@ SU.fn.actualizaFormulas=function(){
 
 };
 /**
- * 
- * 
- * 
- * 
+ * Función para todos los calculos  
  */
 SU.fn.calculaValores=function(id){
 	//Días laborales promedio al mes
-	var dias=$("#"+id+"Dias").val();
-	//
+	var dias=$("#oDias").val();
+	//Tiempo promedio que toma hacer una cotización
 	var tiempo=$("#"+id+"Tiempo").val();
+	//Cotizaciones mensuales promedio por 1 vendedor
 	var cotizaciones=$("#oCotizaciones").val();
+	//Jornada laboral en hrs
 	var jornadas=$("#oJornadas").val();
+	//Numero de vendedores
 	var vendedores=$("#oVendedores").val();
+	//Sueldo promedio de un vendedor
 	var sueldos=$("#oSueldos").val();
-	$("#"+id+"rCotizaciones").html(SU.fn.calculaCotizaciones(dias,cotizaciones).toFixed(1));
+
+	//Resultado de cotizaciones que se realizan al día
+	$("#orCotizaciones").html(SU.fn.calculaCotizaciones(dias,cotizaciones).toFixed(1));
+	//Resultado de minutos que dedican diariamente para hacer cotizaciones
 	$("#"+id+"rMinutos").html(SU.fn.calculaMinutos(parseFloat($("#"+id+"rCotizaciones").html()),tiempo).toFixed(1));
+	//Resultado del tiempo de un vendedor dedicado para hacer una cotizacion
 	$("#"+id+"rTiempo").html(SU.fn.calculaTiempo(parseFloat($("#"+id+"rMinutos").html()),jornadas).toFixed(1));
+	//Resultado de horas al mes consumidas por los vendedores para realizar una cotización.
 	$("#"+id+"rHoras").html(SU.fn.calculaHoras(tiempo,cotizaciones,vendedores).toFixed(1));
+	//Resultado del costo para realizar una cotización por mes
 	$("#"+id+"rCosto").html(SU.fn.calculaCosto(sueldos,dias,jornadas,tiempo).toFixed(1));
+	//Resultado del costo mensual promedio que tiene la empresa para realizar cotizaciones
 	$("#"+id+"rCostoMensual").html(SU.fn.calculaCostoMensual(parseFloat($("#"+id+"rCosto").html()),cotizaciones,vendedores).toFixed(1));
-$("#"+id+"rDias").html(SU.fn.calculaDias(tiempo,cotizaciones,vendedores).toFixed(1));
+	//Resultado de los días equivalentes a tu fuerza de ventas dedicados para realizar cotizaciones.
+	$("#"+id+"rDias").html(SU.fn.calculaDias(tiempo,cotizaciones,vendedores).toFixed(1));
 }
 
 </script>
