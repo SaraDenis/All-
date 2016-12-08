@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Graficasde desempeño</title>
+	<title>Graficas de desempeño</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <style type="text/css">
@@ -82,75 +82,70 @@ console.log(SU.vars);
 </script>
 </script>
 <div class="row">
-<div class="col-sm-7">
-<div class="col-sm-12">
-<div class="col-sm-6 titulos" >Comparaci&oacute;n
+	<div class="col-sm-7">
+		<div class="col-sm-12">
+			<div class="col-sm-6 titulos" >Comparaci&oacute;n</div>
+			<div class="col-sm-2 titulos" >Actual</div>
+			<div class="col-sm-2 titulos" >Con SalesUp!</div>
+			<div class="col-sm-2 titulos" >Var%</div>
 		</div>
-		<div class="col-sm-2 titulos" >Actual
+		<div class="col-sm-12">
+		<div class="col-sm-6">Minutos dedicados diarios para realizar una cotizaci&oacute;n</div>
+		<script type="text/javascript">
+		var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
+			var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
+			document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
+		</script>
 		</div>
-		<div class="col-sm-2 titulos" >Con SalesUp!
+		<div class="col-sm-12">
+		<div class="col-sm-6">Hrs al mes requeridas por tu fuerza de ventas para realizar cotizaciones</div>
+		<script type="text/javascript">
+		var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
+			var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
+			document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
+		</script>
 		</div>
-		<div class="col-sm-2 titulos" >Var%
+		<div class="col-sm-12">
+		<div class="col-sm-6">Costo mensual promedio que tiene tu empresa por realizar cotizaciones</div>
+		<script type="text/javascript">
+		var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
+			var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
+			document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
+		</script>
 		</div>
-		
-</div>
-<div class="col-sm-12">
-<div class="col-sm-6">Minutos dedicados diarios para realizar una cotizaci&oacute;n</div>
-<script type="text/javascript">
-var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
-	var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
-	document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
-</script>
-</div>
-<div class="col-sm-12">
-<div class="col-sm-6">Hrs al mes requeridas por tu fuerza de ventas para realizar cotizaciones</div>
-<script type="text/javascript">
-var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
-	var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
-	document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
-</script>
-</div>
-<div class="col-sm-12">
-<div class="col-sm-6">Costo mensual promedio que tiene tu empresa por realizar cotizaciones</div>
-<script type="text/javascript">
-var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
-	var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
-	document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
-</script>
-</div>
 
-<div class="col-sm-12">
-<div class="col-sm-6">
-N&uacute;mero de d&iacute;as que requiere tu empresa para realizar cotizaciones</div>
-<script type="text/javascript">
-var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
-	var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
-	document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
-</script>
-</div>
-<div class="col-sm-12">
-<div class="col-sm-6">
-N&uacute;mero de d&iacute;as que requiere un vendedor para realizar una cotizaci&oacute;n</div>
-<script type="text/javascript">
-var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
-	var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
-	document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
-	document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
-</script>
-</div>
-</div>
+		<div class="col-sm-12">
+		<div class="col-sm-6">
+		N&uacute;mero de d&iacute;as que requiere tu empresa para realizar cotizaciones</div>
+		<script type="text/javascript">
+		var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
+			var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
+			document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
+		</script>
+		</div>
+		<div class="col-sm-12">
+		<div class="col-sm-6">
+		N&uacute;mero de d&iacute;as que requiere un vendedor para realizar una cotizaci&oacute;n</div>
+		<script type="text/javascript">
+		var x1=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.oDias,SU.vars.oCotizaciones),SU.vars.oTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x1.toFixed(2)+'</span></div>');
+			var x2=SU.fn.calculaMinutos(SU.fn.calculaCotizaciones(SU.vars.sDias,SU.vars.oCotizaciones),SU.vars.sTiempo);
+			document.write('<div class="col-sm-2" ><span>'+x2.toFixed(2)+'</span></div>');
+			document.write('<div class="col-sm-2" ><span>'+(((x2/x1)-1)*100)+'</span></div>');
+		</script>
+		</div>
+			</div>
 
-<div class="col-sm-5">
-</div>
+		<div class="col-sm-5">
+		</div>
 </div>
 
 <div class="row">
