@@ -83,3 +83,7 @@ SU.fn.calculaCostoMensual=function(a,b,c){
 SU.fn.calculaDias=function(a,b,c){
 	return ((a*b*c)/60)/8; 
 }
+
+SU.fn.calculaDiasCotizacion=function(a,b,c){
+	return a*b/60/c;
+}
