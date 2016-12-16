@@ -1,0 +1,172 @@
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar.navbar-default{box-shadow: none;}
+
+.bs-callout {
+    padding: 0px 15px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
+
+.bs-callout p {
+    margin: inherit;
+}
+
+
+.navbar-default .navbar-brand {
+    padding-top: 10px;
+}
+.navbar-default .navbar-brand small{
+    font-size: 65%;
+    left: 73%;
+    position: relative;
+    top: -9px;
+}
+.navbar-brand img {height: 30px;}
+.prev.disabled, .first.disabled, .next.disabled, .last.disabled{display: none;} 
+
+.table.table-striped.table-hover{margin-top: 20px;}
+.transition{
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+}
+
+.modal{z-index:2002;}
+.modal-backdrop{z-index:2001;}
+
+table tr td, .va-middle {
+    vertical-align: middle !important;
+}
+
+.rojo{
+  color:red;
+}
+
+.SysAlerta{
+  position: absolute;
+  display: block;
+  width: calc(100% - 30px);
+  left: 15px;
+  top: -55px;
+  -webkit-animation-name: animatioSysALerta; 
+  -webkit-animation-duration: 6s; 
+  animation-name: animatioSysALerta;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes animatioSysALerta {
+    0%   {top: -55px;}
+    15%  {top: 50px;}
+    25%  {top: 50px;}
+    50%  {top: 50px;}
+    75%  {top: 50px;}
+    85%  {top: 50px;}
+    100% {top: -55px;}
+}
+
+@keyframes animatioSysALerta {
+    0%   {top: -55px;}
+    15%  {top: 50px;}
+    25%  {top: 50px;}
+    50%  {top: 50px;}
+    75%  {top: 50px;}
+    85%  {top: 50px;}
+    100% {top: -55px;}
+}
+
+.SysAlerta.sysAlertaPopUp{
+  top: -140px;
+  -webkit-animation-name: animacionAlertaPopUp; 
+  -webkit-animation-duration: 5s;
+  animation-name: animacionAlertaPopUp;
+  animation-duration: 5s; 
+}
+
+
+@-webkit-keyframes animacionAlertaPopUp {
+    0%   {top: -140px;}
+    15%  {top: 0px;}
+    25%  {top: 0px;}
+    50%  {top: 0px;}
+    75%  {top: 0px;}
+    85%  {top: 0px;}
+    100% {top: -140px;}
+}
+
+@keyframes animacionAlertaPopUp {
+    0%   {top: 0px;opacity: 0;}
+    15%  {top: 0px;opacity: 1;}
+    25%  {top: 0px;opacity: 1;}
+    50%  {top: 0px;opacity: 1;}
+    75%  {top: 0px;opacity: 1;}
+    85%  {top: 0px;opacity: 1;}
+    100% {top: -140px;opacity: 0;}
+}
+
+.graficaTabla .progress-bar{
+  color:#f3f2f2;
+}
+
+.Pointer, .pointer {
+  cursor: pointer;
+}
+
+
+.p15{padding: 15px;}
+.bold{font-weight: bold;}
+
+.progress.FondoBarrasCarteraUso{width:110px;}
+
+.FondoBarrasCarteraUso{
+  margin-bottom: 0px;
+  background-image: none;
+  background-color:#d9534f;
+}
+
+.graficaTabla em{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.popover{
+    z-index: 10000 !important;
+} 
+
+#ProgresoContrasena,#frmCamposAdicionales{display:none}
+.Rojo{color:#dc0f24}.Amarillo{color:#f37922}
+.Verde{color:#2fb22c}
+.Azul{color:#3a87ad}
+.BgRojo{background-color:#dc0f24}
+.BgAmarillo{background-color:#f37922}
+.BgVerde{background-color:#2fb22c}
+.BgAzul{background-color:#3a87ad}
+.w1{width:1%}
+.w10{width:10%}
+.w25{width:25%}
+.w50{width:50%}
+.w75{width:75%}
+.w100{width:100%}
+.Italic{font-style:italic}
+.Transition{transition:all .4s ease 0s;-moz-transition:all .4s ease 0s;-webkit-transition:all .4s ease 0s;-o-transition:all .4s ease 0s;-ms-transition:all .4s ease 0s}
+#passProgress{height:5px;border-radius:5px}
+#frmFormularioSignUp{position:relative}
+.boxMensajeVal{position:absolute;width:100%;bottom:0}
+#NivelPassword{font-size:16px;font-weight:700}
+.boxPsw{position:relative}
+span.infoPsw{border:0;cursor:pointer;margin:0;padding:0;position:absolute;right:23px;top:32px}
+#frmFormularioSignUp .form-group input,.form-group input#Contrasena_SingUp,.form-group input#RepContrasena_SingUp{padding:6px 12px}
+
+.nFila{font-weight:bold;text-align:center; width: 20px;}
+.table-responsive{margin-top: 10px;}

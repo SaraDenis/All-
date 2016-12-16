@@ -1,0 +1,1 @@
+CALL salesupblog.PA_OBTENER_ACCESO(:usuario, :clave);

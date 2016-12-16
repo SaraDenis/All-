@@ -1,0 +1,8 @@
+{
+  "type"            : "MySQL",
+  "connectionLimit" : "10",
+  "host"            : "blogmanager.cwm1zqiti2cg.us-west-2.rds.amazonaws.com",
+  "user"            : "salesupuser",
+  "password"        : "5a135uPi",
+  "database"        : "salesupblog"
+}

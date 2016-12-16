@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="alert alert-info well-sm"><i class="fa fa-lg fa-info-circle"></i> Crédito disponible: <span class="pull-right"><strong id="creditoDisponible">$ 0.00</strong></span></div>
+    <div class="row">
+        <form id="frmCalcularCostos">
+            <input type="hidden" id="nombreCompania">
+            <input type="hidden" name="tke" id="tke">
+            <input type="hidden" name="tipoProducto" id="tipoProducto">
+            <div class="form-group input-group-sm col-md-6">
+                <label for="operacion">Operación</label>
+                <select name="operacion" id="operacion" class="form-control"></select>
+            </div>
+            <div class="form-group input-group-sm col-md-6" id="boxProducto">
+                <label for="producto">Producto</label>
+                <select name="producto" id="producto" class="form-control"></select>
+            </div>
+            <div class="form-group input-group-sm col-md-6">
+                <label for="usuarios">Usuarios</label>
+                <input name="usuarios" class="form-control" id="usuarios" type="number" min="1" value="10">
+
+            </div>
+            <div class="form-group input-group-sm col-md-6" id="boxFrecuencia"> 
+                <label for="frecuencia">Frecuencia</label>
+                <select name="frecuencia" id="frecuencia" class="form-control">
+                    <option value="3">Trimestral</option>
+                    <option value="6">Semestral</option>
+                    <option value="12">Anual</option>
+                </select>
+            </div>
+        </form>
+        <div class="form-group col-md-6">
+            <label for="precioSinIvan">Precio público sin IVA</label>
+            <div class="input-group input-group-sm">
+              <div class="form-control text-right" id="precioSinIvan" readonly="readonly"></div>
+              <span class="input-group-addon">MXN</span>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="ajuste">Ajuste</label>
+            <div class="input-group input-group-sm">
+              <div class="form-control text-right" id="ajuste" readonly="readonly"></div>
+              <span class="input-group-addon">MXN</span>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="descuento">Descuento</label>
+            <div class="input-group input-group-sm">
+              <div class="form-control text-right" id="descuento" readonly="readonly"></div>
+              <span class="input-group-addon">MXN</span>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="totalCargar">Total a cargar</label>
+            <div class="input-group input-group-sm">
+              <div class="form-control text-right" id="totalCargar" readonly="readonly"></div>
+              <span class="input-group-addon">MXN</span>
+            </div>
+        </div>
+
+        <div class="form-group col-md-12">
+            <label for="nuevoCreditoDisponible">Nuevo crédito disponible</label>
+            <div class="input-group input-group-sm">
+              <div class="form-control text-right" id="nuevoCreditoDisponible" readonly="readonly"></div>
+              <span class="input-group-addon">MXN</span>
+            </div>
+            <span class="label label-danger"></span>
+        </div>
+    </div>
+</div>
+

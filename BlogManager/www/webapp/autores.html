@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+    <div class="panel-heading"> 
+        <h3 class="panel-title pull-left"><i class="fa fa-users"></i> Autores</h3>
+        <div class="pull-right">
+            <span class="btn btn-xs btn-default" onclick="autores.nuevoAutor();"><i class="fa fa-users"></i> Nuevo autor</span>
+        </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <div class="panel-body"> 
+        <form class="form-inline text-left" id="demosParametros" onsubmit="return false;">
+            <div class="form-group input-group-sm"> 
+                <label class="control-label" for="estado">Filtrar</label>
+                <select name="filtro" id="estado" class="form-control ">
+                    <option value="1">Expiran este mes</option>
+                </select>
+            </div>
+            <div class="form-group input-group-sm"> 
+                <input name="buscar" id="buscar" class="form-control" type="text" placeholder="Buscar">
+            </div>
+            <button type="button" class="btn btn-sm btn-primary" onclick="">Filtrar</button>
+        </form>
+        <div class="table-responsive" id="boxTablaDatos">Lista de autores</div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "port": "3000",
+  "sqldir": "/sql",
+  "require-auth": "yes",
+  "routes": [
+    {
+      "path": "/companias",
+      "verb": "get",
+      "query": "movimientos.sql"
+    },
+    {
+      "path": "/companias/:idcompania",
+      "verb": "get",
+      "query": "companias-detalle.sql"
+    },
+    {
+      "path": "/usuarios",
+      "verb": "get",
+      "query": "general.sql"
+    },
+     {
+      "path": "/login",
+      "verb": "get",
+      "query": "login.sql"
+    }
+  ]
+}

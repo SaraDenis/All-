@@ -1,0 +1,9 @@
+
+{
+  "tipo"     : "MSSQL",
+  "server"   : "operacion.grupobfx.com",
+  "database" : "BFX_OPERACION",
+  "user"     : "dbsp",
+  "password" : "Sales2015",
+  "port"     : 1433
+}
