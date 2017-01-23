@@ -1,0 +1,25 @@
+<html> 
+<head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.45/css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+</head> 
+<body> 
+
+    <div class='input-group date' id='divMiCalendario'>
+        <input type='text' id="txtFecha" class="form-control"/>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+        </span>
+    </div>
+       
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.45/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.es.min.js"></script>
+<script type="text/javascript">
+ $('#divMiCalendario').datetimepicker({
+      format: 'YYYY-MM-DD '       
+  });
+  $('#divMiCalendario').data("DateTimePicker").show();
+</script>
+</body>
+</html>
