@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en-US" class="css3transitions">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <title>Capacitación de ventas gratis | SalesUp!</title>
+    <meta name="keywords" lang="es" content="capacitación en ventas, capacitacion ventas gratis, capacitacion en linea, webinars de ventas"/>
+    <meta name="description" content="Regístrate a nuestras capacitaciones gratuitas para conocer cómo incrementar tus ventas."/> 
+
+<!--#include file="head.html"-->
+
+<link rel="stylesheet" href="./crm-online/imagenes/estilo.css" />
+
+</head>
+
+<!-- End of Header -->
+
+<body class="page header_1_body fixed_slider with_slider_page wpb-js-composer vc_responsive">
+<style type="text/css">
+    #blog.blogSalesUp .blog-article .media img {width:100%; padding-right: 20px;}
+    .nav-pills>li {width: 218px; text-align: center;}
+    .nav-pills>li>a {padding:15px;}
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #65326b;}
+    .moduleImage {width:100%;}
+    .moduleImage:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    outline: none
+}
+.panel {margin-bottom: 40px;}
+.panel-body{min-height: 185px;}
+
+</style>
+    <!-- Used for boxed layout -->
+
+
+    <!-- Start Top Navigation -->
+<!--#include file="navegacion_superior.html"-->
+    <!-- End of Top Navigation -->
+
+
+
+    <!-- Page Background used for background images -->
+    <div id="page-bg"></div>
+
+
+    <!-- Header BEGIN -->
+
+    <!--#include file="header.html"-->
+
+    <div class="top_wrapper   no-transparent">
+
+
+        <!-- .header -->
+
+
+        <!-- Page Head -->
+
+
+        <div class="header_page basic background_image" style="margin-top:2.5em;">
+            <div class="container">
+                <h1 style="color:#fff !important;">Capacitación en línea</h1>
+            </div>
+        </div>
+
+        <section class="content_portfolio layout-fullsize items-layout-boxed" id="content" style="font-size:14px;">
+            <div class="container">
+                 <!--#include file="selectable.html"-->
+            </div>
+        </section>
+         <!--#include file="selectable.html"-->
+        <a href="#" class="scrollup">Scroll</a>
+        <!-- Social Profiles -->
+
+
+        <!-- Footer -->
+    </div>
+
+
+<!--#include file="footer.html"-->
+    <script type="text/javascript">
+
+    $("#menu-menu-1 #recursos-item").addClass("current-menu-item current_page_item");
+
+    </script>
+
+</body>
+
+</html>
+
