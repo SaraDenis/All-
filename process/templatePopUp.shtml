@@ -1,0 +1,23 @@
+<div class="modalP">
+    <div id="popupP" class="ventanaP" {{#if fondo}}style="background-image:url('{{fondo}}') "{{/if}}>
+        <h2>{{titutlo}}</h2>
+        <br>
+        <p>{{descripcion}}</p>
+        <form id="frmDescargarFormato" class="borderedForm" method="post" action="#">
+            <input id="idempresa" name="idempresa" value="{{idempresa}}" type="hidden">
+            <input id="idusuario" name="idusuario" value="{{idusuario}}" type="hidden">
+            <input id="idorigen" name="idorigen" value="{{idorigen}}" type="hidden">
+            <div class="form-group" id="boxCorreo">
+                <label class="small">Correo*</label>
+                <input type="text" class="form-control obligatorio" id="email" name="email" placeholder="Correo electrónico" onkeypress="frmPopUp.decolorar(this);">
+                <span style="display:none;" class="label label-danger" id="error_email">correo no válido</span>
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="frmPopUp.validaEnvio(event)" class="btn btn-primary btn-lg">Descargar ahora</button>
+                <div id="alertForm" class="alert alert-danger fade" role="alert" style="position:absolute;">Los campos marcados son obligatorios</div>
+            </div>
+           
+        </form>
+        <p class="cerrarP" onclick="frmPopUp.cerrar();">x</p>
+    </div>
+</div>
